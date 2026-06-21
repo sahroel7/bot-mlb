@@ -336,40 +336,15 @@ def run_auto_scheduler():
     """Fungsi utama scheduler."""
     logger.info("Menginisialisasi Dynamic Auto Runner (Phase 4.1)...")
     
-    # 1. Jadwal Results Check (Jam 08:00)
+    # 1. Jadwal Results Check (Jam 08:00) - Tetap aktif untuk sinkronisasi hasil & akurasi
     scheduler.add_job(
         run_results_check,
         CronTrigger(hour=8, minute=0),
         id='daily_results'
     )
 
-    # 2. Jadwal Early Alert (Jam 09:00)
-    scheduler.add_job(
-        run_early_alert, 
-        CronTrigger(hour=9, minute=0),
-        id='early_alert'
-    )
-    
-    # 3. Jadwal Final Alert (Jam 15:00)
-    scheduler.add_job(
-        run_final_alert,
-        CronTrigger(hour=15, minute=0),
-        id='final_alert'
-    )
-    
-    # 4. Jadwal Line Movement Check (Setiap 30 menit)
-    scheduler.add_job(
-        job_line_movement_check,
-        IntervalTrigger(minutes=30),
-        id='line_movement_check'
-    )
-
-    # 5. Jadwal Check Waiting Markets (Setiap 1 jam)
-    scheduler.add_job(
-        job_check_waiting_markets,
-        IntervalTrigger(hours=1),
-        id='check_waiting_markets'
-    )
+    # Note: Automated alert schedulers (Early Alert, Final Alert, Line Movement, and Waiting Markets) 
+    # have been disabled to allow exclusive on-demand predictions via "/prediksi" command.
     
     scheduler.start()
     logger.info("Scheduler aktif (Background).")

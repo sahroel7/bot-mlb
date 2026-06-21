@@ -127,13 +127,20 @@ def get_fallback_odds_api_line(home_team, away_team):
         try:
             resp = requests.get(url, timeout=10)
             if resp.status_code == 200:
-                _ODDS_API_CACHE = resp.json()
-                print("[INFO] Menggunakan fallback data line dari The Odds API.")
+                data = resp.json()
+                if isinstance(data, list):
+                    _ODDS_API_CACHE = data
+                    print("[INFO] Menggunakan fallback data line dari The Odds API.")
+                else:
+                    _ODDS_API_CACHE = []
             else:
                 _ODDS_API_CACHE = []
         except:
             _ODDS_API_CACHE = []
             
+    if not isinstance(_ODDS_API_CACHE, list):
+        _ODDS_API_CACHE = []
+        
     for game in _ODDS_API_CACHE:
         g_home = game.get("home_team", "")
         g_away = game.get("away_team", "")

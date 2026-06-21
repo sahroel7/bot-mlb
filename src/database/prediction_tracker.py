@@ -152,18 +152,25 @@ def save_prediction(game_info, analysis_result, revision_reason=None):
 
         game_datetime_et = game_info.get('game_datetime_et')
 
+        from src.utils.date_formatter import format_game_display
+        try:
+            formatted_date = format_game_display(game_date, game_time_et_full)
+            game_time_wib = formatted_date['game_time_wib']
+        except Exception as e:
+            game_time_wib = None
+
         cursor.execute("""
             INSERT INTO predictions (
                 game_id, version, is_latest, revision_reason, previous_recommendation, daily_sequence,
-                game_date, game_time_et, game_datetime_et, home_team, away_team, venue,
+                game_date, game_time_et, game_time_wib, game_datetime_et, home_team, away_team, venue,
                 polymarket_line, line_range, bot_expected_runs, bot_recommendation, bot_confidence,
                 pitcher_home, pitcher_away, weather_summary, park_factor, key_factors, raw_stats, predicted_at,
                 layer_type, layer_sent_at, early_recommendation, early_expected_runs, early_confidence,
                 final_recommendation, final_expected_runs, final_confidence
-            ) VALUES (?, ?, 1, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            ) VALUES (?, ?, 1, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         """, (
             game_id, version, revision_reason, previous_recommendation, daily_sequence,
-            game_date, game_time_et_full, game_datetime_et, home_team, away_team, venue,
+            game_date, game_time_et_full, game_time_wib, game_datetime_et, home_team, away_team, venue,
             polymarket_line, line_range, bot_expected_runs, bot_recommendation, bot_confidence,
             pitcher_home, pitcher_away, weather_summary, park_factor, key_factors_json, raw_stats_json, predicted_at,
             layer_type, layer_sent_at, early_rec, early_exp, early_conf, final_rec, final_exp, final_conf

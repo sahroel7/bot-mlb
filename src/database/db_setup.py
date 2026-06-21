@@ -45,6 +45,7 @@ def initialize_database():
             previous_recommendation TEXT DEFAULT NULL,
             game_date TEXT,
             game_time_et TEXT,
+            game_time_wib TEXT DEFAULT NULL,
             home_team TEXT,
             away_team TEXT,
             venue TEXT,
@@ -61,6 +62,17 @@ def initialize_database():
             predicted_at TEXT,
             user_checked INTEGER DEFAULT 0,
             checked_at TEXT DEFAULT NULL,
+            daily_sequence INTEGER DEFAULT NULL,
+            layer_type TEXT DEFAULT NULL,
+            layer_sent_at TEXT DEFAULT NULL,
+            early_recommendation TEXT DEFAULT NULL,
+            early_expected_runs REAL DEFAULT NULL,
+            early_confidence TEXT DEFAULT NULL,
+            final_recommendation TEXT DEFAULT NULL,
+            final_expected_runs REAL DEFAULT NULL,
+            final_confidence TEXT DEFAULT NULL,
+            line_range TEXT DEFAULT NULL,
+            game_datetime_et TEXT DEFAULT NULL,
             UNIQUE(game_id, version)
         )
     """)
@@ -79,6 +91,12 @@ def initialize_database():
 
     try:
         cursor.execute("ALTER TABLE predictions ADD COLUMN checked_at TEXT DEFAULT NULL")
+    except sqlite3.OperationalError:
+        pass
+
+    # Tambahkan kolom game_time_wib jika belum ada
+    try:
+        cursor.execute("ALTER TABLE predictions ADD COLUMN game_time_wib TEXT DEFAULT NULL")
     except sqlite3.OperationalError:
         pass
 

@@ -153,29 +153,25 @@ def format_telegram_reasons(reasons_str):
 
 def format_prediction_detail(pred, show_revision_label=True):
     """Format LENGKAP untuk satu game."""
-    seq = pred.get('daily_sequence')
-    seq_str = f"#{seq}" if seq is not None else "#?"
-    
     # Handle revisi
     rev_str = "🔄 REVISI — " if show_revision_label and pred.get('version', 1) > 1 else ""
     
     away = pred.get('away_team', 'Unknown')
     home = pred.get('home_team', 'Unknown')
     
-    raw_date = pred.get('game_date', '')
+    from src.utils.date_formatter import format_game_display
     try:
-        dt = datetime.strptime(raw_date, "%Y-%m-%d")
-        day_en = dt.strftime("%A")
-        day_id = HARI_MAP.get(day_en, day_en)
-        date_str = f"{day_id}, {dt.strftime('%d %b %Y')} ET"
-    except:
-        date_str = raw_date
-        
-    et_time = pred.get('game_time_et', 'N/A')
+        formatted = format_game_display(pred.get('game_date', ''), pred.get('game_time_et', 'N/A'))
+        date_time_str = f"📅 {formatted['hari']}, {formatted['tanggal_et']} | ⏰ {formatted['jam_wib']} WIB"
+    except Exception as e:
+        raw_date = pred.get('game_date', '')
+        et_time = pred.get('game_time_et', 'N/A')
+        date_time_str = f"📅 {raw_date} | ⏰ {et_time}"
+    
     line_range = pred.get('line_range', pred.get('polymarket_line', '-'))
     
-    msg = f"{seq_str} {rev_str}🏟️ {away} @ {home}\n"
-    msg += f"📅 {date_str} | ⏰ {et_time}\n"
+    msg = f"{rev_str}🏟️ {away} @ {home}\n"
+    msg += f"{date_time_str}\n"
     msg += "────────────────────────────\n"
     msg += f"📊 Line Analisis : {pred.get('polymarket_line', '-')}\n"
     msg += f"📏 Rentang Line  : {line_range}\n"
@@ -201,9 +197,6 @@ def format_prediction_detail(pred, show_revision_label=True):
 
 def format_prediction_ringkas(pred, index=None):
     """Format SATU BARIS untuk ringkasan."""
-    seq = pred.get('daily_sequence')
-    seq_str = f"#{seq}" if seq is not None else "#?"
-    
     away_abbr = TEAM_SHORT_NAME.get(pred.get('away_team', '???'), pred.get('away_team', '???')[:12])
     home_abbr = TEAM_SHORT_NAME.get(pred.get('home_team', '???'), pred.get('home_team', '???')[:12])
     
@@ -220,7 +213,7 @@ def format_prediction_ringkas(pred, index=None):
     line = pred.get('polymarket_line', '-')
     et_time = pred.get('game_time_et', 'N/A')
     
-    return f"{seq_str} {away_abbr} @ {home_abbr} | {rec_label} {conf_emoji} | {line} | {et_time}"
+    return f"{away_abbr} @ {home_abbr} | {rec_label} {conf_emoji} | {line} | {et_time}"
 
 def build_game_keyboard(game_id, user_checked, away, home, game_date):
     """Membuat InlineKeyboardMarkup untuk game."""
@@ -313,67 +306,135 @@ async def _send_detailed_command(update: Update, target_date, label):
         
     await update.message.reply_text("Ketik /belum untuk detail yang belum dibeli")
 
-async def besok_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    """Handler untuk /besok - Prediksi kalender besok ET."""
+def get_target_date_for_tomorrow():
     et_tz = pytz.timezone('America/New_York')
     now_et = datetime.now(et_tz)
-    target_date = (now_et.date() + timedelta(days=1)).strftime("%Y-%m-%d")
+    today_et = now_et.date().strftime("%Y-%m-%d")
+    tomorrow_et = (now_et.date() + timedelta(days=1)).strftime("%Y-%m-%d")
+    
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    cursor.execute("SELECT COUNT(*) FROM predictions WHERE game_date = ? AND is_latest = 1", (tomorrow_et,))
+    count_tomorrow = cursor.fetchone()[0]
+    conn.close()
+    
+    if count_tomorrow > 0:
+        return tomorrow_et
+    else:
+        conn = get_db_connection()
+        cursor = conn.cursor()
+        cursor.execute("SELECT COUNT(*) FROM predictions WHERE game_date = ? AND is_latest = 1", (today_et,))
+        count_today = cursor.fetchone()[0]
+        conn.close()
+        if count_today > 0:
+            return today_et
+            
+    return tomorrow_et
+
+def get_target_date_for_today():
+    et_tz = pytz.timezone('America/New_York')
+    now_et = datetime.now(et_tz)
+    today_et = now_et.date().strftime("%Y-%m-%d")
+    tomorrow_et = (now_et.date() + timedelta(days=1)).strftime("%Y-%m-%d")
+    
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    cursor.execute("SELECT COUNT(*) FROM predictions WHERE game_date = ? AND is_latest = 1", (today_et,))
+    count_today = cursor.fetchone()[0]
+    conn.close()
+    
+    if count_today > 0:
+        return today_et
+    else:
+        conn = get_db_connection()
+        cursor = conn.cursor()
+        cursor.execute("SELECT COUNT(*) FROM predictions WHERE game_date = ? AND is_latest = 1", (tomorrow_et,))
+        count_tomorrow = cursor.fetchone()[0]
+        conn.close()
+        if count_tomorrow > 0:
+            return tomorrow_et
+            
+    return today_et
+
+async def besok_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    """Handler untuk /besok - Prediksi kalender besok ET."""
+    target_date = get_target_date_for_tomorrow()
     await _send_detailed_command(update, target_date, "Besok")
 
 async def hari_ini_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Handler untuk /hari_ini - Prediksi hari ini ET."""
-    et_tz = pytz.timezone('America/New_York')
-    target_date = datetime.now(et_tz).strftime("%Y-%m-%d")
+    target_date = get_target_date_for_today()
     await _send_detailed_command(update, target_date, "Hari Ini")
 
 async def belum_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Handler untuk /belum."""
     et_tz = pytz.timezone('America/New_York')
     now_et = datetime.now(et_tz)
-    target_date = (now_et.date() + timedelta(days=1)).strftime("%Y-%m-%d")
+    today_et = now_et.date().strftime("%Y-%m-%d")
     
-    all_preds = get_predictions_by_date(target_date, checked_status=None)
-    if not all_preds:
-        await update.message.reply_text(f"📭 Belum ada prediksi untuk {target_date} ET.")
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    
+    query = """
+        SELECT * FROM predictions 
+        WHERE user_checked = 0 AND is_latest = 1
+        AND game_date >= ?
+        AND bot_recommendation NOT LIKE '%SKIP%'
+        AND bot_recommendation NOT LIKE '%NO BET%'
+        ORDER BY game_date ASC, daily_sequence ASC
+    """
+    
+    cursor.execute(query, (today_et,))
+    rows = cursor.fetchall()
+    conn.close()
+    
+    if not rows:
+        await update.message.reply_text("✅ Semua game hari ini/besok sudah ditandai!")
         return
         
-    valid_preds = [p for p in all_preds if "SKIP" not in p.get('bot_recommendation', '')]
-    belum_preds = [p for p in valid_preds if p.get('user_checked') == 0]
+    from itertools import groupby
+    rows_dict = [dict(row) for row in rows]
     
-    if not belum_preds:
-        await update.message.reply_text("✅ Semua game besok sudah ditandai!")
-        return
-
-    try:
-        dt = datetime.strptime(target_date, "%Y-%m-%d")
-        day_en = dt.strftime("%A")
-        day_id = HARI_MAP.get(day_en, day_en)
-        date_label = f"{day_id}, {dt.strftime('%d %b %Y')} ET"
-    except:
-        date_label = f"{target_date} ET"
+    response_msg = ""
+    for date_val, group in groupby(rows_dict, key=lambda x: x['game_date']):
+        group_list = list(group)
         
-    msg = f"📋 *Belum Dibeli — {date_label}*\n"
-    msg += "━━━━━━━━━━━━━━━━━━━━━━━━\n"
-    msg += f"Total belum dibeli: {len(belum_preds)} dari {len(valid_preds)} prediksi\n\n"
-    
-    for d in belum_preds:
-        seq = f"#{d['daily_sequence']}" if d.get('daily_sequence') else "#?"
-        away = TEAM_SHORT_NAME.get(d.get('away_team', '???'), d.get('away_team', '???')[:12])
-        home = TEAM_SHORT_NAME.get(d.get('home_team', '???'), d.get('home_team', '???')[:12])
-        matchup = f"{away} @ {home}"
+        try:
+            dt = datetime.strptime(date_val, "%Y-%m-%d")
+            day_en = dt.strftime("%A")
+            day_id = HARI_MAP.get(day_en, day_en)
+            date_label = f"{day_id}, {dt.strftime('%d %b %Y')} ET"
+        except:
+            date_label = f"{date_val} ET"
+            
+        response_msg += f"📋 *Belum Dibeli — {date_label}*\n"
+        response_msg += "━━━━━━━━━━━━━━━━━━━━━━━━\n"
+        response_msg += f"Total belum dibeli: {len(group_list)} pertandingan\n\n"
         
-        rec = d.get('bot_recommendation', '').replace(' ✅', '').strip()
-        conf = d.get('bot_confidence', '').replace(' 🔥', '').replace(' ⚡', '').strip()
-        conf_emoji = "🔥" if "HIGH" in conf else "⚡" if "MEDIUM" in conf else ""
+        for d in group_list:
+            away = TEAM_SHORT_NAME.get(d.get('away_team', '???'), d.get('away_team', '???')[:12])
+            home = TEAM_SHORT_NAME.get(d.get('home_team', '???'), d.get('home_team', '???')[:12])
+            matchup = f"{away} @ {home}"
+            
+            rec = d.get('bot_recommendation', '').replace(' ✅', '').strip()
+            conf = d.get('bot_confidence', '').replace(' 🔥', '').replace(' ⚡', '').strip()
+            conf_emoji = "🔥" if "HIGH" in conf else "⚡" if "MEDIUM" in conf else ""
+            line = d.get('polymarket_line', '-')
+            
+            # Format WIB time
+            from src.utils.date_formatter import format_game_display
+            try:
+                formatted = format_game_display(d['game_date'], d['game_time_et'])
+                time_str = f"{formatted['jam_wib']} WIB"
+            except:
+                time_str = d.get('game_time_et', 'N/A')
+                
+            response_msg += f"`{matchup:<25}` {rec:<5} {conf_emoji:<2} | L:{line} | {time_str}\n"
+            
+        response_msg += "━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
         
-        line = d.get('polymarket_line', '-')
-        
-        msg += f"`{seq:<3} {matchup:<25}` {rec:<5} {conf_emoji:<2} | {line}\n"
-        
-    msg += "━━━━━━━━━━━━━━━━━━━━━━━━\n"
-    msg += "Ketik /besok untuk semua prediksi"
-    
-    await update.message.reply_text(msg, parse_mode=ParseMode.MARKDOWN)
+    response_msg += "Ketik /besok untuk semua prediksi"
+    await update.message.reply_text(response_msg, parse_mode=ParseMode.MARKDOWN)
 
 async def sudah_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Handler untuk /sudah - Menampilkan game yang sudah ditandai 'Sudah Dibeli'."""
@@ -419,7 +480,6 @@ async def sudah_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
         response_msg += f"Total dibeli: {len(group_list)} pertandingan\n\n"
 
         for d in group_list:
-            seq = f"#{d['daily_sequence']}" if d.get('daily_sequence') else "#?"
             away = TEAM_SHORT_NAME.get(d.get('away_team', '???'), d.get('away_team', '???')[:12])
             home = TEAM_SHORT_NAME.get(d.get('home_team', '???'), d.get('home_team', '???')[:12])
             matchup = f"{away} @ {home}"
@@ -432,7 +492,7 @@ async def sudah_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 except:
                     pass
 
-            response_msg += f"`{seq:<3} {matchup:<25}` ✅ {checked_dt}\n"
+            response_msg += f"`{matchup:<25}` ✅ {checked_dt}\n"
 
         response_msg += "━━━━━━━━━━━━━━━━━━━━━━━━\n\n"
 
@@ -444,55 +504,108 @@ async def akurasi_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     conn = get_db_connection()
     cursor = conn.cursor()
     
-    query = """
+    # Query untuk performa EARLY
+    cursor.execute("""
         SELECT 
-            p.layer_type,
-            COUNT(DISTINCT p.game_id) as total,
+            COUNT(p.game_id) as total,
+            SUM(CASE WHEN (p.early_recommendation LIKE '%OVER%' AND r.went_over = 1) 
+                       OR (p.early_recommendation LIKE '%UNDER%' AND r.went_over = 0) THEN 1 ELSE 0 END) as benar
+        FROM predictions p
+        INNER JOIN results r ON p.game_id = r.game_id
+        WHERE p.is_latest = 1
+        AND (p.early_recommendation LIKE '%OVER%' OR p.early_recommendation LIKE '%UNDER%')
+        AND r.went_over IS NOT NULL
+        AND r.actual_total_runs > 0
+    """)
+    early_row = cursor.fetchone()
+    
+    # Query untuk performa FINAL
+    cursor.execute("""
+        SELECT 
+            COUNT(p.game_id) as total,
+            SUM(CASE WHEN (p.final_recommendation LIKE '%OVER%' AND r.went_over = 1) 
+                       OR (p.final_recommendation LIKE '%UNDER%' AND r.went_over = 0) THEN 1 ELSE 0 END) as benar
+        FROM predictions p
+        INNER JOIN results r ON p.game_id = r.game_id
+        WHERE p.is_latest = 1
+        AND (p.final_recommendation LIKE '%OVER%' OR p.final_recommendation LIKE '%UNDER%')
+        AND r.went_over IS NOT NULL
+        AND r.actual_total_runs > 0
+    """)
+    final_row = cursor.fetchone()
+    
+    # Query untuk performa MANUAL
+    cursor.execute("""
+        SELECT 
+            COUNT(p.game_id) as total,
             SUM(CASE WHEN r.is_correct = 1 THEN 1 ELSE 0 END) as benar
         FROM predictions p
         INNER JOIN results r ON p.game_id = r.game_id
         WHERE p.is_latest = 1
+        AND UPPER(p.layer_type) = 'MANUAL'
+        AND p.bot_recommendation NOT LIKE '%SKIP%'
+        AND p.bot_recommendation NOT LIKE '%NO BET%'
         AND r.is_correct IS NOT NULL
         AND r.actual_total_runs > 0
-        GROUP BY p.layer_type
-        ORDER BY p.layer_type
-    """
-    
-    cursor.execute(query)
-    rows = cursor.fetchall()
+    """)
+    manual_row = cursor.fetchone()
     conn.close()
     
-    if not rows:
+    early_total = early_row['total'] or 0
+    early_benar = early_row['benar'] or 0
+    early_pct = (early_benar / early_total * 100) if early_total > 0 else 0
+    
+    final_total = final_row['total'] or 0
+    final_benar = final_row['benar'] or 0
+    final_pct = (final_benar / final_total * 100) if final_total > 0 else 0
+    
+    manual_total = manual_row['total'] or 0
+    manual_benar = manual_row['benar'] or 0
+    manual_pct = (manual_benar / manual_total * 100) if manual_total > 0 else 0
+    
+    # Hitung keseluruhan (Overall) berdasarkan prediksi akhir (is_latest=1) yang dimainkan
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    cursor.execute("""
+        SELECT 
+            COUNT(p.game_id) as total,
+            SUM(CASE WHEN r.is_correct = 1 THEN 1 ELSE 0 END) as benar
+        FROM predictions p
+        INNER JOIN results r ON p.game_id = r.game_id
+        WHERE p.is_latest = 1
+        AND p.bot_recommendation NOT LIKE '%SKIP%'
+        AND p.bot_recommendation NOT LIKE '%NO BET%'
+        AND r.is_correct IS NOT NULL
+        AND r.actual_total_runs > 0
+    """)
+    overall_row = cursor.fetchone()
+    conn.close()
+    
+    overall_total = overall_row['total'] or 0
+    overall_benar = overall_row['benar'] or 0
+    overall_pct = (overall_benar / overall_total * 100) if overall_total > 0 else 0
+
+    if early_total == 0 and final_total == 0 and manual_total == 0:
         await update.message.reply_text("📭 Belum ada data akurasi yang cukup.")
         return
-        
+
     msg = "📊 *Statistik Akurasi Bot MLB*\n"
     msg += "━━━━━━━━━━━━━━━━━━━━━━━━\n"
-    
-    total_all = 0
-    benar_all = 0
-    
-    for r in rows:
-        layer = (r['layer_type'] or "UNKNOWN").upper()
-        total = r['total']
-        benar = r['benar'] or 0
-        pct = (benar/total*100) if total > 0 else 0
-        
-        emoji = "🔔" if layer == "EARLY" else "✅" if layer == "FINAL" else "🔄"
-        msg += f"{emoji} {layer:<7} : {pct:.1f}% ({benar}/{total} game)\n"
-        
-        total_all += total
-        benar_all += benar
-        
-    pct_all = (benar_all/total_all*100) if total_all > 0 else 0
+    msg += f"🔔 EARLY   : {early_pct:.1f}% ({early_benar}/{early_total} game)\n"
+    msg += f"✅ FINAL   : {final_pct:.1f}% ({final_benar}/{final_total} game)\n"
+    msg += f"🔄 MANUAL  : {manual_pct:.1f}% ({manual_benar}/{manual_total} game)\n"
     msg += "━━━━━━━━━━━━━━━━━━━━━━━━\n"
-    msg += f"📈 OVERALL: {pct_all:.1f}% ({benar_all}/{total_all} game valid)\n\n"
+    msg += f"📈 OVERALL : {overall_pct:.1f}% ({overall_benar}/{overall_total} game valid)\n\n"
     msg += "⚠️ *Catatan:* Hanya menghitung game dengan skor aktual yang valid (bukan 0-0)"
     
     await update.message.reply_text(msg, parse_mode=ParseMode.MARKDOWN)
 
 async def histori_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Handler untuk /histori - Menampilkan hasil prediksi terakhir."""
+    et_tz = pytz.timezone('America/New_York')
+    now_et = datetime.now(et_tz)
+    seven_days_ago_et = (now_et.date() - timedelta(days=7)).strftime("%Y-%m-%d")
+
     conn = get_db_connection()
     cursor = conn.cursor()
     cursor.execute("""
@@ -508,11 +621,11 @@ async def histori_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
         FROM predictions p
         LEFT JOIN results r ON p.game_id = r.game_id
         WHERE p.is_latest = 1
-        AND p.game_date >= date('now', 'localtime', '-7 days')
+        AND p.game_date >= ?
         AND p.bot_recommendation NOT LIKE '%SKIP%'
         AND p.bot_recommendation NOT LIKE '%NO BET%'
         ORDER BY p.game_date DESC, p.game_time_et ASC
-    """)
+    """, (seven_days_ago_et,))
     rows = cursor.fetchall()
     conn.close()
 
@@ -530,7 +643,6 @@ async def histori_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     for date_val, group in groupby(rows_dict, key=lambda x: x['game_date']):
         try:
-            from datetime import datetime
             dt = datetime.strptime(date_val, "%Y-%m-%d")
             day_en = dt.strftime("%A")
             day_id = HARI_MAP.get(day_en, day_en)
@@ -541,8 +653,8 @@ async def histori_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
         msg += f"━━━ {date_label} ━━━\n"
         
         for r in group:
-            away = r['away_team'][:8]
-            home = r['home_team'][:8]
+            away = TEAM_SHORT_NAME.get(r.get('away_team', '???'), r.get('away_team', '???')[:12])
+            home = TEAM_SHORT_NAME.get(r.get('home_team', '???'), r.get('home_team', '???')[:12])
             line = r['polymarket_line']
             actual = r['actual_total_runs']
             rec = r['bot_recommendation'].replace(' ✅', '').replace(' ❌', '').strip()
@@ -571,25 +683,48 @@ async def histori_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     win_rate = (total_benar / total_valid * 100) if total_valid > 0 else 0
     msg += f"Win Rate Periode: {win_rate:.1f}% ({total_benar}/{total_valid})\n"
     
-    await update.message.reply_text(msg, parse_mode=ParseMode.MARKDOWN)
+    # Pecah pesan jika melebihi batas 4096 karakter Telegram
+    chunks = []
+    current_chunk = []
+    current_length = 0
+    for line in msg.split('\n'):
+        if current_length + len(line) + 1 > 4000:
+            chunks.append('\n'.join(current_chunk))
+            current_chunk = [line]
+            current_length = len(line)
+        else:
+            current_chunk.append(line)
+            current_length += len(line) + 1
+    if current_chunk:
+        chunks.append('\n'.join(current_chunk))
+        
+    for chunk in chunks:
+        if chunk.strip():
+            await update.message.reply_text(chunk, parse_mode=ParseMode.MARKDOWN)
+            await asyncio.sleep(0.3)
 
 async def top_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Handler untuk /top - 5 Prediksi HIGH confidence terkuat besok."""
-    et_tz = pytz.timezone('America/New_York')
-    tomorrow_et = (datetime.now(et_tz) + timedelta(days=1)).strftime("%Y-%m-%d")
-    
-    preds = get_predictions_by_date(tomorrow_et)
+    target_date = get_target_date_for_tomorrow()
+    preds = get_predictions_by_date(target_date)
     
     top_preds = [p for p in preds if "HIGH" in p.get('bot_confidence', '') and "SKIP" not in p.get('bot_recommendation', '')]
-    top_preds.sort(key=lambda p: abs(p.get('bot_expected_runs', 0) - p.get('polymarket_line', 0)), reverse=True)
+    top_preds.sort(key=lambda p: abs((p.get('bot_expected_runs') or 0.0) - (p.get('polymarket_line') or 0.0)), reverse=True)
     top_preds = top_preds[:5]
 
+    try:
+        dt = datetime.strptime(target_date, "%Y-%m-%d")
+        day_en = dt.strftime("%A")
+        day_id = HARI_MAP.get(day_en, day_en)
+        date_label = f"{day_id}, {dt.strftime('%d %b %Y')}"
+    except:
+        date_label = f"{target_date}"
+
     if not top_preds:
-        await update.message.reply_text(f"🔥 Tidak ada prediksi HIGH confidence untuk besok ({tomorrow_et} ET).")
+        await update.message.reply_text(f"🔥 Tidak ada prediksi HIGH confidence untuk {date_label} (ET).")
         return
 
-    date_str = datetime.strptime(tomorrow_et, "%Y-%m-%d").strftime("%d %b %Y")
-    await update.message.reply_text(f"🔥 *TOP 5 HIGH CONFIDENCE — Besok {date_str} (ET)*", parse_mode=ParseMode.MARKDOWN)
+    await update.message.reply_text(f"🔥 *TOP 5 HIGH CONFIDENCE — {date_label} (ET)*", parse_mode=ParseMode.MARKDOWN)
     
     for pred in top_preds:
         msg = format_prediction_detail(pred, show_revision_label=False)
@@ -687,9 +822,17 @@ async def revisi_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
             conf_str = f"✅ Tetap {d['v2_conf']}" if d['v1_conf'] == d['v2_conf'] else f"{d['v1_conf']} → {d['v2_conf']} ⚠️ BERUBAH"
             line_str = f"✅ Tetap {d['v2_line']}" if d['v1_line'] == d['v2_line'] else f"{d['v1_line']} → {d['v2_line']}"
             
+            from src.utils.date_formatter import format_game_display
+            try:
+                formatted = format_game_display(d.get('game_date', ''), d.get('game_time_et', 'N/A'))
+                date_time_str = f"📅 {formatted['hari']}, {formatted['tanggal_et']} | ⏰ {formatted['jam_wib']} WIB"
+            except Exception as e:
+                date_time_str = f"📅 {d.get('game_date', '')} | ⏰ {d.get('game_time_et', 'N/A')}"
+                
             display_date = d['game_date']
-            msg = f"{seq} 🔄 REVISI {time_str}{display_date}\n"
+            msg = f"🔄 REVISI {time_str}\n"
             msg += f"🏟️ {d['away_team']} @ {d['home_team']}\n"
+            msg += f"{date_time_str}\n"
             msg += "────────────────────────────\n"
             msg += "📊 PERUBAHAN:\n"
             msg += f"  Line      : {line_str}\n"
@@ -908,7 +1051,6 @@ async def handle_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
         game_id = data.replace("check_", "") if is_checking else data.replace("uncheck_", "")
         
         new_status = 1 if is_checking else 0
-        from datetime import datetime
         now_str = datetime.now().isoformat() if is_checking else None
         
         conn = get_db_connection()

@@ -157,7 +157,7 @@ HARI_MAP = {
 def _build_game_message(data):
     """Membangun teks pesan dan markup untuk satu game."""
     matchup = f"{data['away']} @ {data['home']}"
-    seq_str = f"#{data['seq']} " if data['seq'] else ""
+    seq_str = ""
     
     layer_label = ""
     if data.get('layer_type') == 'early':
@@ -167,21 +167,21 @@ def _build_game_message(data):
     elif data.get('layer_type') == 'revision' or data.get('version', 1) > 1:
         layer_label = "🔄 REVISI — "
     
-    # Prioritaskan game_date_wib (WIB Date)
-    raw_date = data.get('game_date_wib') or data.get('game_date_et') or data['time']
+    from src.utils.date_formatter import format_game_display
     try:
-        dt = datetime.strptime(raw_date, "%Y-%m-%d")
-        day_en = dt.strftime("%A")
-        day_id = HARI_MAP.get(day_en, day_en)
-        date_str = f"{day_id}, {dt.strftime('%d %b %Y')}"
-    except:
-        date_str = raw_date
+        g_date = data.get('game_date_et') or data.get('time')
+        g_time = data.get('game_time_et', 'N/A')
+        formatted = format_game_display(g_date, g_time)
+        date_time_str = f"📅 {formatted['hari']}, {formatted['tanggal_et']} | ⏰ {formatted['jam_wib']} WIB"
+    except Exception as e:
+        raw_date = data.get('game_date_et') or data['time']
+        wib_time = data.get('game_time_wib', 'N/A')
+        date_time_str = f"📅 {raw_date} | ⏰ {wib_time}"
         
-    wib_time = data.get('game_time_wib', 'N/A')
     line_range = data.get('line_range', data['line'])
     
     msg = f"{seq_str}{layer_label}🏟️ *{matchup}*\n"
-    msg += f"📅 {date_str} | ⏰ {wib_time}\n"
+    msg += f"{date_time_str}\n"
     msg += f"────────────────────────────\n"
     msg += f"📊 Line Analisis : *{data['line']}*\n"
     msg += f"📏 Rentang Line  : *{line_range}*\n"

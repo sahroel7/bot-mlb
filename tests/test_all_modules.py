@@ -131,20 +131,20 @@ def test_run_calculator(dummy_game_data):
     assert "UNDER" in rec
 
 def test_polymarket_parsing():
-    """Validasi parsing data dari Polymarket Gamma API."""
-    with patch('src.collectors.polymarket.get_mlb_ou_markets') as mock_markets:
-        mock_markets.return_value = [{
-            "id": "m1",
-            "title": "Total Runs: New York Yankees vs Boston Red Sox",
-            "question": "Will there be over 8.5 runs in the New York Yankees vs Boston Red Sox game?",
-            "outcomes": ["Yes", "No"],
-            "clobTokenIds": ["t1", "t2"]
-        }]
+    """Validasi prioritas data line dari Bullpen CLI."""
+    with patch('src.collectors.bullpen_collector.get_ou_line') as mock_bullpen:
+        mock_bullpen.return_value = {
+            'line': 8.5,
+            'over_price': 55.0,
+            'under_price': 45.0,
+            'game_time_et': '7:05 PM',
+            'game_date_et': '2026-06-20',
+            'line_range': '8.0 - 9.0',
+            'market_id': 'm1',
+            'source': 'Bullpen CLI'
+        }
         
-        with patch('requests.get') as mock_clob:
-            mock_clob.return_value.json.return_value = {"price": "0.55"}
-            mock_clob.return_value.status_code = 200
-            
-            line_info = get_ou_line("New York Yankees", "Boston Red Sox")
-            assert line_info['line'] == 8.5
-            assert "Yes" in line_info['odds']
+        line_info = get_ou_line("New York Yankees", "Boston Red Sox")
+        assert line_info is not None
+        assert line_info['line'] == 8.5
+        assert line_info['source'] == 'Bullpen CLI'
