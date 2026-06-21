@@ -1,0 +1,1050 @@
+{
+  "query": "MLB total runs",
+  "events": [
+    {
+      "id": "243999",
+      "provider": "Polymarket",
+      "slug": "mlb-2026-regular-season-win-totals",
+      "title": "MLB: 2026 Regular Season Win Totals",
+      "description": null,
+      "image_url": null,
+      "category": null,
+      "tags": [],
+      "volume": 80570.42415099998,
+      "volume_24h": 58.82,
+      "liquidity": 47523.38867,
+      "start_date": null,
+      "end_date": null,
+      "markets": [
+        {
+          "id": "2026-mlb-win-totals-new-york-yankees",
+          "question": "Will the New York Yankees win more than 86.5 games in the 2026 MLB Regular Season?",
+          "slug": "2026-mlb-win-totals-new-york-yankees",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "O 86.5",
+              "probability": 0.865,
+              "price": 0.865
+            },
+            {
+              "id": "1",
+              "name": "U 86.5",
+              "probability": 0.135,
+              "price": 0.135
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "72768808179950629834157739799446268854529498678694513261488483095034282247503",
+            "12558792452519868016797579525601214785706565022735783110711914787293080859981"
+          ],
+          "spread": 0.25
+        },
+        {
+          "id": "2026-mlb-win-totals-boston-red-sox",
+          "question": "Will the Boston Red Sox win more than 85.5 games in the 2026 MLB Regular Season?",
+          "slug": "2026-mlb-win-totals-boston-red-sox",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "O 85.5",
+              "probability": 0.215,
+              "price": 0.215
+            },
+            {
+              "id": "1",
+              "name": "U 85.5",
+              "probability": 0.785,
+              "price": 0.785
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "58584070613680720758073136874799727862706686783658484263946349636150935402094",
+            "82572446777097452347143587868690162497711222705933771204482515703511542132009"
+          ],
+          "spread": 0.13
+        },
+        {
+          "id": "2026-mlb-win-totals-toronto-blue-jays",
+          "question": "Will the Toronto Blue Jays win more than 84.5 games in the 2026 MLB Regular Season?",
+          "slug": "2026-mlb-win-totals-toronto-blue-jays",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "O 84.5",
+              "probability": 0.3,
+              "price": 0.3
+            },
+            {
+              "id": "1",
+              "name": "U 84.5",
+              "probability": 0.7,
+              "price": 0.7
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "113842950547759164335905971347305449332590683896072448386304221966055360452656",
+            "27262569803583845234765727566245675711011581643560459855070264363649019870148"
+          ],
+          "spread": 0.08
+        },
+        {
+          "id": "2026-mlb-win-totals-baltimore-orioles",
+          "question": "Will the Baltimore Orioles win more than 84.5 games in the 2026 MLB Regular Season?",
+          "slug": "2026-mlb-win-totals-baltimore-orioles",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "O 84.5",
+              "probability": 0.21,
+              "price": 0.21
+            },
+            {
+              "id": "1",
+              "name": "U 84.5",
+              "probability": 0.79,
+              "price": 0.79
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "62094642086083423025726613034916281825088008492205401784767587623701690588534",
+            "70153730672820189686361914726819358776621338728717111277368258193337481749202"
+          ],
+          "spread": 0.16
+        },
+        {
+          "id": "2026-mlb-win-totals-tampa-bay-rays",
+          "question": "Will the Tampa Bay Rays win more than 78.5 games in the 2026 MLB Regular Season?",
+          "slug": "2026-mlb-win-totals-tampa-bay-rays",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "O 78.5",
+              "probability": 0.86,
+              "price": 0.86
+            },
+            {
+              "id": "1",
+              "name": "U 78.5",
+              "probability": 0.14,
+              "price": 0.14
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "78869329247641136049195405026338310923143132844606631457103367768412415278621",
+            "48298854184543387620414365895249098848213001960772423694027833762235951496088"
+          ],
+          "spread": 0.06
+        },
+        {
+          "id": "2026-mlb-win-totals-detroit-tigers",
+          "question": "Will the Detroit Tigers win more than 85.5 games in the 2026 MLB Regular Season?",
+          "slug": "2026-mlb-win-totals-detroit-tigers",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "O 85.5",
+              "probability": 0.0955,
+              "price": 0.0955
+            },
+            {
+              "id": "1",
+              "name": "U 85.5",
+              "probability": 0.9045,
+              "price": 0.9045
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "84963072416392016759857174604549454812157678585206381417129405677720411732940",
+            "23689599356668671991377114417668246363470219508835029601406289330887428655303"
+          ],
+          "spread": 0.169
+        },
+        {
+          "id": "2026-mlb-win-totals-kansas-city-royals",
+          "question": "Will the Kansas City Royals win more than 81.5 games in the 2026 MLB Regular Season?",
+          "slug": "2026-mlb-win-totals-kansas-city-royals",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "O 81.5",
+              "probability": 0.135,
+              "price": 0.135
+            },
+            {
+              "id": "1",
+              "name": "U 81.5",
+              "probability": 0.865,
+              "price": 0.865
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "22437512175288380848704113286102533766790337997504099896639188489588860506833",
+            "103603123099101422054726658114072400388738921985938935293604949567559471014608"
+          ],
+          "spread": 0.11
+        },
+        {
+          "id": "2026-mlb-win-totals-minnesota-twins",
+          "question": "Will the Minnesota Twins win more than 80.5 games in the 2026 MLB Regular Season?",
+          "slug": "2026-mlb-win-totals-minnesota-twins",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "O 80.5",
+              "probability": 0.27,
+              "price": 0.27
+            },
+            {
+              "id": "1",
+              "name": "U 80.5",
+              "probability": 0.73,
+              "price": 0.73
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "20489004172715301909461086927620898389137861684996682739250239593865432535426",
+            "23645232077608355936384662216296140031090258355997016705773704483358108834512"
+          ],
+          "spread": 0.24
+        },
+        {
+          "id": "2026-mlb-win-totals-cleveland-guardians",
+          "question": "Will the Cleveland Guardians win more than 75.5 games in the 2026 MLB Regular Season?",
+          "slug": "2026-mlb-win-totals-cleveland-guardians",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "O 75.5",
+              "probability": 0.9105,
+              "price": 0.9105
+            },
+            {
+              "id": "1",
+              "name": "U 75.5",
+              "probability": 0.0895,
+              "price": 0.0895
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "70467590093749359896126592115517256662937369553668759613421630867902069866158",
+            "46810094454748080336089961246310835119829581093041862191592161700973017986727"
+          ],
+          "spread": 0.161
+        },
+        {
+          "id": "2026-mlb-win-totals-chicago-white-sox",
+          "question": "Will the Chicago White Sox win more than 67.5 games in the 2026 MLB Regular Season?",
+          "slug": "2026-mlb-win-totals-chicago-white-sox",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "O 67.5",
+              "probability": 0.898,
+              "price": 0.898
+            },
+            {
+              "id": "1",
+              "name": "U 67.5",
+              "probability": 0.102,
+              "price": 0.102
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "114722727593897962625507765035452253188332881064243111959453629455654767580471",
+            "2933864930727803186693158350005666182990560208410812827428426408064741290953"
+          ],
+          "spread": 0.15
+        },
+        {
+          "id": "2026-mlb-win-totals-seattle-mariners",
+          "question": "Will the Seattle Mariners win more than 88.5 games in the 2026 MLB Regular Season?",
+          "slug": "2026-mlb-win-totals-seattle-mariners",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "O 88.5",
+              "probability": 0.515,
+              "price": 0.515
+            },
+            {
+              "id": "1",
+              "name": "U 88.5",
+              "probability": 0.485,
+              "price": 0.485
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "85918589901677286362334906071743033273994312124714946976982240559358877413891",
+            "70206205783957535818659968515601828833889773901301057432274363383920324320282"
+          ],
+          "spread": 0.11
+        },
+        {
+          "id": "2026-mlb-win-totals-texas-rangers",
+          "question": "Will the Texas Rangers win more than 80.5 games in the 2026 MLB Regular Season?",
+          "slug": "2026-mlb-win-totals-texas-rangers",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "O 80.5",
+              "probability": 0.525,
+              "price": 0.525
+            },
+            {
+              "id": "1",
+              "name": "U 80.5",
+              "probability": 0.475,
+              "price": 0.475
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "542065785869386405909536806995486140835324278402226952947456882408654721303",
+            "101418331971367596264045814554624226287779891602671666833653855909193388171577"
+          ],
+          "spread": 0.05
+        },
+        {
+          "id": "2026-mlb-win-totals-houston-astros",
+          "question": "Will the Houston Astros win more than 80.5 games in the 2026 MLB Regular Season?",
+          "slug": "2026-mlb-win-totals-houston-astros",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "O 80.5",
+              "probability": 0.475,
+              "price": 0.475
+            },
+            {
+              "id": "1",
+              "name": "U 80.5",
+              "probability": 0.525,
+              "price": 0.525
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "28942555632255623598849817685785541687799802996875632536454129209267189588949",
+            "97222881305846871744220940055423933836935804112970129052832167608985432590348"
+          ],
+          "spread": 0.21
+        },
+        {
+          "id": "2026-mlb-win-totals-athletics",
+          "question": "Will the Athletics win more than 78.5 games in the 2026 MLB Regular Season?",
+          "slug": "2026-mlb-win-totals-athletics",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "O 78.5",
+              "probability": 0.27,
+              "price": 0.27
+            },
+            {
+              "id": "1",
+              "name": "U 78.5",
+              "probability": 0.73,
+              "price": 0.73
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "36166436969666441725128717906625818096952877070769470789444757456314306806823",
+            "69862794684521101147126219953494050781525754408009477469197524540593979130825"
+          ],
+          "spread": 0.1
+        },
+        {
+          "id": "2026-mlb-win-totals-los-angeles-angels",
+          "question": "Will the Los Angeles Angels win more than 72.5 games in the 2026 MLB Regular Season?",
+          "slug": "2026-mlb-win-totals-los-angeles-angels",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "O 72.5",
+              "probability": 0.245,
+              "price": 0.245
+            },
+            {
+              "id": "1",
+              "name": "U 72.5",
+              "probability": 0.755,
+              "price": 0.755
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "59734554715485120727790681411145130197020799033181441738761877363947428105075",
+            "27764984146118687362138502093931353118117496190882879248834571722081707719325"
+          ],
+          "spread": 0.33
+        },
+        {
+          "id": "2026-mlb-win-totals-atlanta-braves",
+          "question": "Will the Atlanta Braves win more than 90.5 games in the 2026 MLB Regular Season?",
+          "slug": "2026-mlb-win-totals-atlanta-braves",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "O 90.5",
+              "probability": 0.84,
+              "price": 0.84
+            },
+            {
+              "id": "1",
+              "name": "U 90.5",
+              "probability": 0.16,
+              "price": 0.16
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "41884765271351964109147580637216642444402847195910536694762108518540505942625",
+            "38142050917506986176971575104952882033689221254657985766574414070900173959932"
+          ],
+          "spread": 0.24
+        },
+        {
+          "id": "2026-mlb-win-totals-new-york-mets",
+          "question": "Will the New York Mets win more than 89.5 games in the 2026 MLB Regular Season?",
+          "slug": "2026-mlb-win-totals-new-york-mets",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "O 89.5",
+              "probability": 0.0445,
+              "price": 0.0445
+            },
+            {
+              "id": "1",
+              "name": "U 89.5",
+              "probability": 0.9555,
+              "price": 0.9555
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "68117538087675393207349708116203308328581668767708917208793437793798968472224",
+            "13354512709081452855177681079515268554336608368302847714703639316085875088984"
+          ],
+          "spread": 0.067
+        },
+        {
+          "id": "2026-mlb-win-totals-philadelphia-phillies",
+          "question": "Will the Philadelphia Phillies win more than 87.5 games in the 2026 MLB Regular Season?",
+          "slug": "2026-mlb-win-totals-philadelphia-phillies",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "O 87.5",
+              "probability": 0.26,
+              "price": 0.26
+            },
+            {
+              "id": "1",
+              "name": "U 87.5",
+              "probability": 0.74,
+              "price": 0.74
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "102122509675124983668972307340656500373120981589075027183074547722256612472573",
+            "55296317526816052717074526198454332720497183469538992799254134902187904717279"
+          ],
+          "spread": 0.32
+        },
+        {
+          "id": "2026-mlb-win-totals-miami-marlins",
+          "question": "Will the Miami Marlins win more than 74.5 games in the 2026 MLB Regular Season?",
+          "slug": "2026-mlb-win-totals-miami-marlins",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "O 74.5",
+              "probability": 0.545,
+              "price": 0.545
+            },
+            {
+              "id": "1",
+              "name": "U 74.5",
+              "probability": 0.455,
+              "price": 0.455
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "110999049481964130927725066865774194382696185427673132448427154316693805880604",
+            "54958701394350701047656443550698724314805272206754676206245911988798350755921"
+          ],
+          "spread": 0.23
+        },
+        {
+          "id": "2026-mlb-win-totals-washington-nationals",
+          "question": "Will the Washington Nationals win more than 68.5 games in the 2026 MLB Regular Season?",
+          "slug": "2026-mlb-win-totals-washington-nationals",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "O 68.5",
+              "probability": 0.9045,
+              "price": 0.9045
+            },
+            {
+              "id": "1",
+              "name": "U 68.5",
+              "probability": 0.0955,
+              "price": 0.0955
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "17400277199344711450756222877403207190639122851142639704442340081848406921708",
+            "77857017036385689698932322887154321155135819676318635439138110671985902896982"
+          ],
+          "spread": 0.169
+        },
+        {
+          "id": "2026-mlb-win-totals-chicago-cubs",
+          "question": "Will the Chicago Cubs win more than 86.5 games in the 2026 MLB Regular Season?",
+          "slug": "2026-mlb-win-totals-chicago-cubs",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "O 86.5",
+              "probability": 0.43,
+              "price": 0.43
+            },
+            {
+              "id": "1",
+              "name": "U 86.5",
+              "probability": 0.57,
+              "price": 0.57
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "15198634114100843186102138023926743912146612378657930882180692916990170571518",
+            "18231086478196988677956961990297315144156645265752451913576841273128180275504"
+          ],
+          "spread": 0.2
+        },
+        {
+          "id": "2026-mlb-win-totals-pittsburgh-pirates",
+          "question": "Will the Pittsburgh Pirates win more than 83.5 games in the 2026 MLB Regular Season?",
+          "slug": "2026-mlb-win-totals-pittsburgh-pirates",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "O 83.5",
+              "probability": 0.515,
+              "price": 0.515
+            },
+            {
+              "id": "1",
+              "name": "U 83.5",
+              "probability": 0.485,
+              "price": 0.485
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "28346289064898048929921245399294499456502528841635686582616954699762299838119",
+            "62437750884876035584925963201141557051936370812228557643834078580145546356427"
+          ],
+          "spread": 0.11
+        },
+        {
+          "id": "2026-mlb-win-totals-milwaukee-brewers",
+          "question": "Will the Milwaukee Brewers win more than 82.5 games in the 2026 MLB Regular Season?",
+          "slug": "2026-mlb-win-totals-milwaukee-brewers",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "O 82.5",
+              "probability": 0.9445,
+              "price": 0.9445
+            },
+            {
+              "id": "1",
+              "name": "U 82.5",
+              "probability": 0.0555,
+              "price": 0.0555
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "40280493445435807790911440405832976542923682930655526464909059741473399123325",
+            "59359598533742967000807494589099615240353324850153530311702431446377455409468"
+          ],
+          "spread": 0.107
+        },
+        {
+          "id": "2026-mlb-win-totals-cincinnati-reds",
+          "question": "Will the Cincinnati Reds win more than 78.5 games in the 2026 MLB Regular Season?",
+          "slug": "2026-mlb-win-totals-cincinnati-reds",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "O 78.5",
+              "probability": 0.33,
+              "price": 0.33
+            },
+            {
+              "id": "1",
+              "name": "U 78.5",
+              "probability": 0.67,
+              "price": 0.67
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "88230672179110603991689571709073383260070231071355780040152831827651289258954",
+            "22338273154189019169507340639367096616269424703772807053286284116837325363951"
+          ],
+          "spread": 0.24
+        },
+        {
+          "id": "2026-mlb-win-totals-st-louis-cardinals",
+          "question": "Will the St. Louis Cardinals win more than 75.5 games in the 2026 MLB Regular Season?",
+          "slug": "2026-mlb-win-totals-st-louis-cardinals",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "O 75.5",
+              "probability": 0.84,
+              "price": 0.84
+            },
+            {
+              "id": "1",
+              "name": "U 75.5",
+              "probability": 0.16,
+              "price": 0.16
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "89494505818710461614906834354109100243129091788734534625896598940327285648620",
+            "47529223441480093131631058306846626789581562163143480302091695835959461414105"
+          ],
+          "spread": 0.22
+        },
+        {
+          "id": "2026-mlb-win-totals-los-angeles-dodgers",
+          "question": "Will the Los Angeles Dodgers win more than 99.5 games in the 2026 MLB Regular Season?",
+          "slug": "2026-mlb-win-totals-los-angeles-dodgers",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "O 99.5",
+              "probability": 0.645,
+              "price": 0.645
+            },
+            {
+              "id": "1",
+              "name": "U 99.5",
+              "probability": 0.355,
+              "price": 0.355
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "45255485836393152923228355262486459503160209689800227024398820470083633104477",
+            "36135304295227292053884804491974524831544993339378703830363916638247217939680"
+          ],
+          "spread": 0.17
+        },
+        {
+          "id": "2026-mlb-win-totals-san-francisco-giants",
+          "question": "Will the San Francisco Giants win more than 82.5 games in the 2026 MLB Regular Season?",
+          "slug": "2026-mlb-win-totals-san-francisco-giants",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "O 82.5",
+              "probability": 0.12,
+              "price": 0.12
+            },
+            {
+              "id": "1",
+              "name": "U 82.5",
+              "probability": 0.88,
+              "price": 0.88
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "51804578407341997493575268212997765110936506069711601444210688513746511053814",
+            "27266625632920831723909485784496549898265773546270871416163390363995594306587"
+          ],
+          "spread": 0.218
+        },
+        {
+          "id": "2026-mlb-win-totals-arizona-diamondbacks",
+          "question": "Will the Arizona Diamondbacks win more than 81.5 games in the 2026 MLB Regular Season?",
+          "slug": "2026-mlb-win-totals-arizona-diamondbacks",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "O 81.5",
+              "probability": 0.605,
+              "price": 0.605
+            },
+            {
+              "id": "1",
+              "name": "U 81.5",
+              "probability": 0.395,
+              "price": 0.395
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "86365701072349952000253669153737939361652001470272925200891507830387098181296",
+            "20881755696435997014274298125259907142820203571550595472041722819103941073823"
+          ],
+          "spread": 0.17
+        },
+        {
+          "id": "2026-mlb-win-totals-san-diego-padres",
+          "question": "Will the San Diego Padres win more than 80.5 games in the 2026 MLB Regular Season?",
+          "slug": "2026-mlb-win-totals-san-diego-padres",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "O 80.5",
+              "probability": 0.615,
+              "price": 0.615
+            },
+            {
+              "id": "1",
+              "name": "U 80.5",
+              "probability": 0.385,
+              "price": 0.385
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "58592150553523197315983813474831120700963786983064403961623464231577335615218",
+            "21723503764117663772788893289794440960523794312939018259484511094097574529453"
+          ],
+          "spread": 0.07
+        },
+        {
+          "id": "2026-mlb-win-totals-colorado-rockies",
+          "question": "Will the Colorado Rockies win more than 65.5 games in the 2026 MLB Regular Season?",
+          "slug": "2026-mlb-win-totals-colorado-rockies",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "O 65.5",
+              "probability": 0.34,
+              "price": 0.34
+            },
+            {
+              "id": "1",
+              "name": "U 65.5",
+              "probability": 0.66,
+              "price": 0.66
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "22317161182217366155533364771151168974268051169576638875891030473337394775682",
+            "93416956098240498031697257650817677709119709842568690537676106668203918563956"
+          ],
+          "spread": 0.18
+        }
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "name": "mlb",
+      "pseudonym": "Vigilant-Sunset",
+      "wallet": "0xeb5113201726ab27ccbfdf7fcb7c7e1065cc733c"
+    },
+    {
+      "name": "NL-MLB",
+      "pseudonym": "Flimsy-Labour",
+      "wallet": "0x95087ea18d3bbc4958ca1ac23bbd24f8bdd43b4b"
+    },
+    {
+      "name": "atlis-mlb",
+      "pseudonym": "Well-Informed-Bowtie",
+      "wallet": "0x085524866b0f9304b4b6ae699392087dcf5555d6"
+    },
+    {
+      "name": "Computron-MLB",
+      "pseudonym": "Creative-Landmine",
+      "wallet": "0xadf3c0389e8904b8454b5602ed5e4cddfac4101f"
+    },
+    {
+      "name": "mlb.base",
+      "pseudonym": "Honored-Faithful",
+      "wallet": "0x73c9f905ea62d1a3027e77f555e1257c43f121f0"
+    },
+    {
+      "name": "MLB-793",
+      "pseudonym": null,
+      "wallet": "0x52d55e27cc0f3cc75cb890318d4ae0a88a1ceaa9"
+    },
+    {
+      "name": "Mlb-532",
+      "pseudonym": "Ordinary-Bachelor",
+      "wallet": "0x844c2cc18409da5dcc9ceecc4e96db7aeed26161"
+    }
+  ],
+  "has_more": false
+}

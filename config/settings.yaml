@@ -1,0 +1,63 @@
+# Konfigurasi Pusat MLB Polymarket AI Bot
+
+# --- THRESHOLDS REKOMENDASI ---
+confidence_thresholds:
+  high_gap: 1.5
+  medium_gap: 0.5
+
+# Minimal gap untuk rekomendasi OVER/UNDER (Jika di bawah ini, bot akan SKIP)
+min_recommendation_gap: 0.5
+
+# --- STREAK & OFFENSE SETTINGS ---
+streak_definitions:
+  hot_ba: 0.280
+  cold_ba: 0.230
+  
+offense_thresholds:
+  wrc_plus_high: 110
+  ops_high: 0.800
+  ops_low: 0.700
+  bb_pct_high: 10.0
+  risp_high: 0.280
+  risp_low: 0.220
+
+# --- PITCHER SETTINGS ---
+pitcher_thresholds:
+  era_high: 4.5
+  era_low: 3.2
+  whip_high: 1.4
+  whip_low: 1.1
+  k9_high: 9.5
+  bb9_high: 3.5
+  hr9_high: 1.3
+  
+bullpen_thresholds:
+  era_weak: 4.5
+  era_solid: 3.5
+
+# --- ENVIRONMENT SETTINGS ---
+weather_thresholds:
+  wind_strong_mph: 10
+  temp_hot_f: 85
+  temp_cold_f: 50
+  humidity_high: 80
+  precip_high: 50
+
+park_thresholds:
+  hitters_park_min: 105
+  pitchers_park_max: 95
+  coors_field_id: 115
+
+# --- SYSTEM SETTINGS ---
+api_settings:
+  # Jeda antar request (detik) untuk mematuhi Crawl Politeness
+  delay_seconds: 1.0
+  fangraphs_delay_seconds: 2.0
+  max_retries: 3
+  
+automation:
+  # Jadwal eksekusi utama (Format 24 Jam ET)
+  daily_analysis_hour: 12
+  daily_analysis_minute: 0
+  # Interval cek pergerakan Polymarket (Menit)
+  line_movement_interval_minutes: 30

@@ -1,0 +1,5859 @@
+{
+  "query": "Mariners vs Nationals",
+  "events": [
+    {
+      "id": "569217",
+      "provider": "Polymarket",
+      "slug": "mlb-sea-wsh-2026-06-13",
+      "title": "Seattle Mariners vs. Washington Nationals",
+      "description": null,
+      "image_url": null,
+      "category": null,
+      "tags": [],
+      "volume": 667796.930561998,
+      "volume_24h": 591089.896892,
+      "liquidity": 0.0,
+      "start_date": null,
+      "end_date": null,
+      "markets": [
+        {
+          "id": "mlb-sea-wsh-2026-06-13",
+          "question": "Seattle Mariners vs. Washington Nationals",
+          "slug": "mlb-sea-wsh-2026-06-13",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Seattle Mariners",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Washington Nationals",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "88802367044839204314590039850910079888439040973772586272051604079962830903328",
+            "112849020169014304965770344730056454754392133712022089538342883975545270995384"
+          ],
+          "spread": 0.001
+        },
+        {
+          "id": "mlb-sea-wsh-2026-06-13-nrfi",
+          "question": "Will there be a run scored in the first inning?: Seattle Mariners vs. Washington Nationals",
+          "slug": "mlb-sea-wsh-2026-06-13-nrfi",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Yes",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "No",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "13820732291068753944242251175199002156462001232024050883363818683284500241692",
+            "14796760698755348368593100951355827795311674754984818993131872797938605088048"
+          ],
+          "spread": 0.01
+        },
+        {
+          "id": "mlb-sea-wsh-2026-06-13-spread-away-1pt5",
+          "question": "Spread: Seattle Mariners (-1.5)",
+          "slug": "mlb-sea-wsh-2026-06-13-spread-away-1pt5",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Seattle Mariners",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Washington Nationals",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "48472594049631567126515385587013133594279132618359091767471430460923238040038",
+            "41258402335469985060376711031865366630312161661113646063854890022795946109894"
+          ],
+          "spread": 0.001
+        },
+        {
+          "id": "mlb-sea-wsh-2026-06-13-total-9pt5",
+          "question": "Seattle Mariners vs. Washington Nationals: O/U 9.5",
+          "slug": "mlb-sea-wsh-2026-06-13-total-9pt5",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Over",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Under",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "59709196779185402156197078076865138653401978018652340837667599066963870837873",
+            "82500004809169386679158724956834945158699071171641730620635365555648030756990"
+          ],
+          "spread": 0.01
+        },
+        {
+          "id": "mlb-sea-wsh-2026-06-13-f5-total-5pt5",
+          "question": "Seattle Mariners vs. Washington Nationals: 1st 5 Innings O/U 5.5",
+          "slug": "mlb-sea-wsh-2026-06-13-f5-total-5pt5",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Over",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Under",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "82471433091601900423117536896023624577310102319265310225102848748113523959725",
+            "40298477886752944901758593270978385205767973792132672714021153569939038860341"
+          ],
+          "spread": 0.001
+        },
+        {
+          "id": "mlb-sea-wsh-2026-06-13-f5-total-6pt5",
+          "question": "Seattle Mariners vs. Washington Nationals: 1st 5 Innings O/U 6.5",
+          "slug": "mlb-sea-wsh-2026-06-13-f5-total-6pt5",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Over",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Under",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "25473678325466455243895676489399751051236659495785101514669062925997989871033",
+            "88310901926341745119451851359680875973754316577283016039279236408231483975955"
+          ],
+          "spread": 0.01
+        },
+        {
+          "id": "mlb-sea-wsh-2026-06-13-extra-innings",
+          "question": "Will the game go to extra innings?: Seattle Mariners vs. Washington Nationals",
+          "slug": "mlb-sea-wsh-2026-06-13-extra-innings",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Yes",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "No",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "39302039803821206430386150737637960370657276627755776821368513609188615600389",
+            "33693245118770972280835290372408277184055678597369755217594638644567924180567"
+          ],
+          "spread": 0.01
+        },
+        {
+          "id": "mlb-sea-wsh-2026-06-13-f5-spread-away-1pt5",
+          "question": "1st 5 Innings Spread: Seattle Mariners (-1.5)",
+          "slug": "mlb-sea-wsh-2026-06-13-f5-spread-away-1pt5",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Seattle Mariners",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Washington Nationals",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "6347806334993142291055333368218542027843435340685628653082157973702170804637",
+            "59134455830923403977281437185506419966323250046244027076426063503040970312895"
+          ],
+          "spread": 0.01
+        },
+        {
+          "id": "mlb-sea-wsh-2026-06-13-f5-spread-home-1pt5",
+          "question": "1st 5 Innings Spread: Washington Nationals (-1.5)",
+          "slug": "mlb-sea-wsh-2026-06-13-f5-spread-home-1pt5",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Washington Nationals",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Seattle Mariners",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "69947158848453316797323798144168358933017069948765172441900216525687288595934",
+            "99104481222509378582917186613320536371052739139625870701410974836966394390854"
+          ],
+          "spread": 0.01
+        },
+        {
+          "id": "mlb-sea-wsh-2026-06-13-f5-spread-away-2pt5",
+          "question": "1st 5 Innings Spread: Seattle Mariners (-2.5)",
+          "slug": "mlb-sea-wsh-2026-06-13-f5-spread-away-2pt5",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Seattle Mariners",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Washington Nationals",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "110090756046577462583283128681189378051777512558870677490809853493647202650634",
+            "88184203055229824525127867879359106956918477108758730566370001636660193483312"
+          ],
+          "spread": 0.01
+        },
+        {
+          "id": "mlb-sea-wsh-2026-06-13-f5-spread-home-2pt5",
+          "question": "1st 5 Innings Spread: Washington Nationals (-2.5)",
+          "slug": "mlb-sea-wsh-2026-06-13-f5-spread-home-2pt5",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Washington Nationals",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Seattle Mariners",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "76955242671610002788113294542712361839017178803443875480042282011435872039036",
+            "29543517477038660080667540596532832560042550031893574201779133000372967116336"
+          ],
+          "spread": 0.98
+        },
+        {
+          "id": "mlb-sea-wsh-2026-06-13-f5-total-2pt5",
+          "question": "Seattle Mariners vs. Washington Nationals: 1st 5 Innings O/U 2.5",
+          "slug": "mlb-sea-wsh-2026-06-13-f5-total-2pt5",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Over",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Under",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "80320250678742637729697966896757033802914601953173634301115395933294630556927",
+            "54917579370450671603797280848496314608317740521126947814396586897549805647694"
+          ],
+          "spread": 0.001
+        },
+        {
+          "id": "mlb-sea-wsh-2026-06-13-f5-total-3pt5",
+          "question": "Seattle Mariners vs. Washington Nationals: 1st 5 Innings O/U 3.5",
+          "slug": "mlb-sea-wsh-2026-06-13-f5-total-3pt5",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Over",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Under",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "48736028934949383880914590522250579026687480234288072572641788703446636205391",
+            "39375209821083109128034310372343957754132232796984935605801954223627127841051"
+          ],
+          "spread": 0.001
+        },
+        {
+          "id": "mlb-sea-wsh-2026-06-13-f5-total-4pt5",
+          "question": "Seattle Mariners vs. Washington Nationals: 1st 5 Innings O/U 4.5",
+          "slug": "mlb-sea-wsh-2026-06-13-f5-total-4pt5",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Over",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Under",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "38856001401391450376290424073337798747156987178187186646333349669822424251369",
+            "88964158537441853113326273311360197873546477851394809718250158344715825058977"
+          ],
+          "spread": 0.009
+        },
+        {
+          "id": "mlb-sea-wsh-2026-06-13-spread-away-4pt5",
+          "question": "Spread: Seattle Mariners (-4.5)",
+          "slug": "mlb-sea-wsh-2026-06-13-spread-away-4pt5",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Seattle Mariners",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Washington Nationals",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "72255708354381733867817571329131040835710404429113441316374343077304102728662",
+            "88988971565775411915991292976266015235902711475577441980966955328522636875048"
+          ],
+          "spread": 0.01
+        },
+        {
+          "id": "mlb-sea-wsh-2026-06-13-spread-away-2pt5",
+          "question": "Spread: Seattle Mariners (-2.5)",
+          "slug": "mlb-sea-wsh-2026-06-13-spread-away-2pt5",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Seattle Mariners",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Washington Nationals",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "26245066336081329069918350446523370207468087743228840520549267052336510534549",
+            "52194593409002520239304813563953077269430912136653549243416624006956044660660"
+          ],
+          "spread": 0.001
+        },
+        {
+          "id": "mlb-sea-wsh-2026-06-13-spread-away-3pt5",
+          "question": "Spread: Seattle Mariners (-3.5)",
+          "slug": "mlb-sea-wsh-2026-06-13-spread-away-3pt5",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Seattle Mariners",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Washington Nationals",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "67657436823648392440498780068227474978967534081332436484639900110297892279046",
+            "107247376814057585540065626686065931193757393605504326205237328986447424660598"
+          ],
+          "spread": 0.001
+        },
+        {
+          "id": "mlb-sea-wsh-2026-06-13-spread-home-1pt5",
+          "question": "Spread: Washington Nationals (-1.5)",
+          "slug": "mlb-sea-wsh-2026-06-13-spread-home-1pt5",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Washington Nationals",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Seattle Mariners",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "13558812823952867653509118909969251768699623546530684148469453064859102345029",
+            "37464891719823423223673339720927291396279851873182281531821380026060162642530"
+          ],
+          "spread": 0.01
+        },
+        {
+          "id": "mlb-sea-wsh-2026-06-13-spread-home-2pt5",
+          "question": "Spread: Washington Nationals (-2.5)",
+          "slug": "mlb-sea-wsh-2026-06-13-spread-home-2pt5",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Washington Nationals",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Seattle Mariners",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "17441004385058910571200023071764046645008639248261764755781698930548765238340",
+            "96053977498172687758232739732404080159278436462492177018228866199513871994641"
+          ],
+          "spread": 0.001
+        },
+        {
+          "id": "mlb-sea-wsh-2026-06-13-spread-home-3pt5",
+          "question": "Spread: Washington Nationals (-3.5)",
+          "slug": "mlb-sea-wsh-2026-06-13-spread-home-3pt5",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Washington Nationals",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Seattle Mariners",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "21909666633762163513216339383152270089970281846909289526672452563729092539538",
+            "104948247470937585269694908229090369092700486264256426827773157849561158128428"
+          ],
+          "spread": 0.01
+        },
+        {
+          "id": "mlb-sea-wsh-2026-06-13-total-8pt5",
+          "question": "Seattle Mariners vs. Washington Nationals: O/U 8.5",
+          "slug": "mlb-sea-wsh-2026-06-13-total-8pt5",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Over",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Under",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "84450754359508542160560487251927878063915049608183747807765424874057268669083",
+            "103576228347933457223320039845163689715167089251850598986783099626957666852524"
+          ],
+          "spread": 0.03
+        },
+        {
+          "id": "mlb-sea-wsh-2026-06-13-total-10pt5",
+          "question": "Seattle Mariners vs. Washington Nationals: O/U 10.5",
+          "slug": "mlb-sea-wsh-2026-06-13-total-10pt5",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Over",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Under",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "37619145812596702332828996363211941084290248450562020796722395408595258666425",
+            "3886611549298700943123219825129635060063937048615066634105335480692331294162"
+          ],
+          "spread": 0.01
+        },
+        {
+          "id": "mlb-sea-wsh-2026-06-13-total-11pt5",
+          "question": "Seattle Mariners vs. Washington Nationals: O/U 11.5",
+          "slug": "mlb-sea-wsh-2026-06-13-total-11pt5",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Over",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Under",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "37190763740866309740699360278995132981048490045085345415308239440000538647624",
+            "41799049963543989085945864252479577123225330808032042545331304248043187865636"
+          ],
+          "spread": 0.01
+        },
+        {
+          "id": "mlb-sea-wsh-2026-06-13-total-5pt5",
+          "question": "Seattle Mariners vs. Washington Nationals: O/U 5.5",
+          "slug": "mlb-sea-wsh-2026-06-13-total-5pt5",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Over",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Under",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "60660468384536898134979664513198588887890505559607911663749236190848899725646",
+            "39668107539162935646473804357565847939590715001499401974844369336353002562114"
+          ],
+          "spread": 0.001
+        },
+        {
+          "id": "mlb-sea-wsh-2026-06-13-total-6pt5",
+          "question": "Seattle Mariners vs. Washington Nationals: O/U 6.5",
+          "slug": "mlb-sea-wsh-2026-06-13-total-6pt5",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Over",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Under",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "45127431082318281067535664789142848205486014760567995337758419475323995635724",
+            "1229368424089422593258666376232132712884832772344182185822445160327352894356"
+          ],
+          "spread": 0.009
+        },
+        {
+          "id": "mlb-sea-wsh-2026-06-13-total-7pt5",
+          "question": "Seattle Mariners vs. Washington Nationals: O/U 7.5",
+          "slug": "mlb-sea-wsh-2026-06-13-total-7pt5",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Over",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Under",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "94667381669966675525601160844282500624410661680092149341579361361727305859353",
+            "37416666347331907698804985627215955656574104718194517005891099310826655616959"
+          ],
+          "spread": 0.01
+        }
+      ]
+    },
+    {
+      "id": "572657",
+      "provider": "Polymarket",
+      "slug": "mlb-sea-wsh-2026-06-14",
+      "title": "Seattle Mariners vs. Washington Nationals",
+      "description": null,
+      "image_url": null,
+      "category": null,
+      "tags": [],
+      "volume": 51914.54149700003,
+      "volume_24h": 51872.51598499999,
+      "liquidity": 794359.1426,
+      "start_date": null,
+      "end_date": null,
+      "markets": [
+        {
+          "id": "mlb-sea-wsh-2026-06-14",
+          "question": "Seattle Mariners vs. Washington Nationals",
+          "slug": "mlb-sea-wsh-2026-06-14",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Seattle Mariners",
+              "probability": 0.545,
+              "price": 0.545
+            },
+            {
+              "id": "1",
+              "name": "Washington Nationals",
+              "probability": 0.455,
+              "price": 0.455
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "90856090170447931286579773878825428833294901774711716398832939176409901730500",
+            "76763874941287171430262514703936368021827027849207059562374192028710103201209"
+          ],
+          "spread": 0.01
+        },
+        {
+          "id": "mlb-sea-wsh-2026-06-14-nrfi",
+          "question": "Will there be a run scored in the first inning?: Seattle Mariners vs. Washington Nationals",
+          "slug": "mlb-sea-wsh-2026-06-14-nrfi",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Yes",
+              "probability": 0.565,
+              "price": 0.565
+            },
+            {
+              "id": "1",
+              "name": "No",
+              "probability": 0.435,
+              "price": 0.435
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "97264628824336932936583755346650848648402687187234431180973179921041912959142",
+            "47448910727676448369967029133550329191060349247816425408489242343273693781986"
+          ],
+          "spread": 0.03
+        },
+        {
+          "id": "mlb-sea-wsh-2026-06-14-spread-away-1pt5",
+          "question": "Spread: Seattle Mariners (-1.5)",
+          "slug": "mlb-sea-wsh-2026-06-14-spread-away-1pt5",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Seattle Mariners",
+              "probability": 0.455,
+              "price": 0.455
+            },
+            {
+              "id": "1",
+              "name": "Washington Nationals",
+              "probability": 0.545,
+              "price": 0.545
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "99386114821511722181653235787025588678527844140314099935682924132583317925956",
+            "112564064800029756865907526701573315282114305626979626294709640846935610921943"
+          ],
+          "spread": 0.01
+        },
+        {
+          "id": "mlb-sea-wsh-2026-06-14-total-9pt5",
+          "question": "Seattle Mariners vs. Washington Nationals: O/U 9.5",
+          "slug": "mlb-sea-wsh-2026-06-14-total-9pt5",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Over",
+              "probability": 0.545,
+              "price": 0.545
+            },
+            {
+              "id": "1",
+              "name": "Under",
+              "probability": 0.455,
+              "price": 0.455
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "4432943221103135136563937604538142052921179392183939909878942781639639759594",
+            "9940374700740800477272485723620856694239857414166478497653184758633938024795"
+          ],
+          "spread": 0.01
+        },
+        {
+          "id": "mlb-sea-wsh-2026-06-14-f5-spread-home-1pt5",
+          "question": "1st 5 Innings Spread: Washington Nationals (-1.5)",
+          "slug": "mlb-sea-wsh-2026-06-14-f5-spread-home-1pt5",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Washington Nationals",
+              "probability": 0.175,
+              "price": 0.175
+            },
+            {
+              "id": "1",
+              "name": "Seattle Mariners",
+              "probability": 0.825,
+              "price": 0.825
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "9967380153358876232981594635700017789765818873318002418891606794270484686240",
+            "74750116360747452247381452750750818921408471141319898055696163952293799201871"
+          ],
+          "spread": 0.27
+        },
+        {
+          "id": "mlb-sea-wsh-2026-06-14-f5-spread-away-2pt5",
+          "question": "1st 5 Innings Spread: Seattle Mariners (-2.5)",
+          "slug": "mlb-sea-wsh-2026-06-14-f5-spread-away-2pt5",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Seattle Mariners",
+              "probability": 0.195,
+              "price": 0.195
+            },
+            {
+              "id": "1",
+              "name": "Washington Nationals",
+              "probability": 0.805,
+              "price": 0.805
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "75323659316238182176380203060847114638913168558275524106649900817355287529411",
+            "58431906233485573926154408972711350080932133554655761963082533524977896029528"
+          ],
+          "spread": 0.35
+        },
+        {
+          "id": "mlb-sea-wsh-2026-06-14-f5-spread-home-2pt5",
+          "question": "1st 5 Innings Spread: Washington Nationals (-2.5)",
+          "slug": "mlb-sea-wsh-2026-06-14-f5-spread-home-2pt5",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Washington Nationals",
+              "probability": 0.505,
+              "price": 0.505
+            },
+            {
+              "id": "1",
+              "name": "Seattle Mariners",
+              "probability": 0.495,
+              "price": 0.495
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "10627940298327788034186181500646374198091646784375314676892934508020241460864",
+            "17700058877735131337747925152052966265766940993879960651534255350378343316261"
+          ],
+          "spread": 0.87
+        },
+        {
+          "id": "mlb-sea-wsh-2026-06-14-f5-total-2pt5",
+          "question": "Seattle Mariners vs. Washington Nationals: 1st 5 Innings O/U 2.5",
+          "slug": "mlb-sea-wsh-2026-06-14-f5-total-2pt5",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Over",
+              "probability": 0.505,
+              "price": 0.505
+            },
+            {
+              "id": "1",
+              "name": "Under",
+              "probability": 0.495,
+              "price": 0.495
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "89427727941720572267088628028781536431603891681821345365168349426639478423996",
+            "78220811239533473340042879676305308543728786809685878337161648141258932567957"
+          ],
+          "spread": 0.87
+        },
+        {
+          "id": "mlb-sea-wsh-2026-06-14-f5-total-4pt5",
+          "question": "Seattle Mariners vs. Washington Nationals: 1st 5 Innings O/U 4.5",
+          "slug": "mlb-sea-wsh-2026-06-14-f5-total-4pt5",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Over",
+              "probability": 0.55,
+              "price": 0.55
+            },
+            {
+              "id": "1",
+              "name": "Under",
+              "probability": 0.45,
+              "price": 0.45
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "88974887952725028845930838419584207744590609334224104521409465181368538059953",
+            "56038002684209898002263370383148383827553294438792740996350235089526326479885"
+          ],
+          "spread": 0.84
+        },
+        {
+          "id": "mlb-sea-wsh-2026-06-14-f5-total-5pt5",
+          "question": "Seattle Mariners vs. Washington Nationals: 1st 5 Innings O/U 5.5",
+          "slug": "mlb-sea-wsh-2026-06-14-f5-total-5pt5",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Over",
+              "probability": 0.5,
+              "price": 0.5
+            },
+            {
+              "id": "1",
+              "name": "Under",
+              "probability": 0.5,
+              "price": 0.5
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "83752456548442682818718670730427321353759143423109145006349099710286900789011",
+            "96897463738147815158327587192671101199576175124432372790830423485896710631066"
+          ],
+          "spread": 0.88
+        },
+        {
+          "id": "mlb-sea-wsh-2026-06-14-extra-innings",
+          "question": "Will the game go to extra innings?: Seattle Mariners vs. Washington Nationals",
+          "slug": "mlb-sea-wsh-2026-06-14-extra-innings",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Yes",
+              "probability": 0.49,
+              "price": 0.49
+            },
+            {
+              "id": "1",
+              "name": "No",
+              "probability": 0.51,
+              "price": 0.51
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "73737406659707487522395476217939504124284190875661339174749463911888957801607",
+            "69563282217705077141607278795024983981872659371231717851740064941680279416554"
+          ],
+          "spread": 0.9
+        },
+        {
+          "id": "mlb-sea-wsh-2026-06-14-total-6pt5",
+          "question": "Seattle Mariners vs. Washington Nationals: O/U 6.5",
+          "slug": "mlb-sea-wsh-2026-06-14-total-6pt5",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Over",
+              "probability": 0.8,
+              "price": 0.8
+            },
+            {
+              "id": "1",
+              "name": "Under",
+              "probability": 0.2,
+              "price": 0.2
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "19327565614220745426295408883441295798680380339783595495979271820211759483491",
+            "12026182017915135452844593708593890059777529210356804715704263143113679951689"
+          ],
+          "spread": 0.02
+        },
+        {
+          "id": "mlb-sea-wsh-2026-06-14-total-7pt5",
+          "question": "Seattle Mariners vs. Washington Nationals: O/U 7.5",
+          "slug": "mlb-sea-wsh-2026-06-14-total-7pt5",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Over",
+              "probability": 0.71,
+              "price": 0.71
+            },
+            {
+              "id": "1",
+              "name": "Under",
+              "probability": 0.29,
+              "price": 0.29
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "57745999947116601507125209169690703801315091767698722196523557260271547436946",
+            "111008332411986043695335082979017943447037896801097599916854920734191207343800"
+          ],
+          "spread": 0.02
+        },
+        {
+          "id": "mlb-sea-wsh-2026-06-14-total-11pt5",
+          "question": "Seattle Mariners vs. Washington Nationals: O/U 11.5",
+          "slug": "mlb-sea-wsh-2026-06-14-total-11pt5",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Over",
+              "probability": 0.375,
+              "price": 0.375
+            },
+            {
+              "id": "1",
+              "name": "Under",
+              "probability": 0.625,
+              "price": 0.625
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "93471611612431791420714655052546893748016630092628159435141759664618849036045",
+            "31802295112656315233313535612017459246352405458192251386876505231869375139298"
+          ],
+          "spread": 0.01
+        },
+        {
+          "id": "mlb-sea-wsh-2026-06-14-total-12pt5",
+          "question": "Seattle Mariners vs. Washington Nationals: O/U 12.5",
+          "slug": "mlb-sea-wsh-2026-06-14-total-12pt5",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Over",
+              "probability": 0.31,
+              "price": 0.31
+            },
+            {
+              "id": "1",
+              "name": "Under",
+              "probability": 0.69,
+              "price": 0.69
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "77488050506407566379253850092587911566813058147741411128594985968091113326263",
+            "49262379048301999710534359431645307031285337236449958739685773481563105048630"
+          ],
+          "spread": 0.02
+        },
+        {
+          "id": "mlb-sea-wsh-2026-06-14-f5-spread-away-1pt5",
+          "question": "1st 5 Innings Spread: Seattle Mariners (-1.5)",
+          "slug": "mlb-sea-wsh-2026-06-14-f5-spread-away-1pt5",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Seattle Mariners",
+              "probability": 0.505,
+              "price": 0.505
+            },
+            {
+              "id": "1",
+              "name": "Washington Nationals",
+              "probability": 0.495,
+              "price": 0.495
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "20589420284180096323505743775607478959405197526738485950869154435438497756593",
+            "45120976073368104904969614659160311403961939347585739080409490390152875740789"
+          ],
+          "spread": 0.89
+        },
+        {
+          "id": "mlb-sea-wsh-2026-06-14-f5-total-3pt5",
+          "question": "Seattle Mariners vs. Washington Nationals: 1st 5 Innings O/U 3.5",
+          "slug": "mlb-sea-wsh-2026-06-14-f5-total-3pt5",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Over",
+              "probability": 0.51,
+              "price": 0.51
+            },
+            {
+              "id": "1",
+              "name": "Under",
+              "probability": 0.49,
+              "price": 0.49
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "17721205237696897360025590282489669663056518593322167145536118165016179203036",
+            "111842600997413471034835891050708246908161549405557169654240880588420725923925"
+          ],
+          "spread": 0.86
+        },
+        {
+          "id": "mlb-sea-wsh-2026-06-14-f5-total-6pt5",
+          "question": "Seattle Mariners vs. Washington Nationals: 1st 5 Innings O/U 6.5",
+          "slug": "mlb-sea-wsh-2026-06-14-f5-total-6pt5",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Over",
+              "probability": 0.475,
+              "price": 0.475
+            },
+            {
+              "id": "1",
+              "name": "Under",
+              "probability": 0.525,
+              "price": 0.525
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "94069216714751069854810453355898940112644200712555849836495907054332732288610",
+            "62552602163044929991373681071177582324068578913845949960693760480406996918206"
+          ],
+          "spread": 0.91
+        },
+        {
+          "id": "mlb-sea-wsh-2026-06-14-total-10pt5",
+          "question": "Seattle Mariners vs. Washington Nationals: O/U 10.5",
+          "slug": "mlb-sea-wsh-2026-06-14-total-10pt5",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Over",
+              "probability": 0.475,
+              "price": 0.475
+            },
+            {
+              "id": "1",
+              "name": "Under",
+              "probability": 0.525,
+              "price": 0.525
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "65021809921234751971377569863612630659258402707639803222547649412442238393034",
+            "79520428340299242318199760624902279934294205031292056624936726380725843817776"
+          ],
+          "spread": 0.01
+        },
+        {
+          "id": "mlb-sea-wsh-2026-06-14-total-8pt5",
+          "question": "Seattle Mariners vs. Washington Nationals: O/U 8.5",
+          "slug": "mlb-sea-wsh-2026-06-14-total-8pt5",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Over",
+              "probability": 0.645,
+              "price": 0.645
+            },
+            {
+              "id": "1",
+              "name": "Under",
+              "probability": 0.355,
+              "price": 0.355
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "52809380301787604840102773695832326042425525918426172975853306767219156702585",
+            "63848449924967925753087796966817000094273284575919222802395598686301434983378"
+          ],
+          "spread": 0.01
+        },
+        {
+          "id": "mlb-sea-wsh-2026-06-14-spread-home-3pt5",
+          "question": "Spread: Washington Nationals (-3.5)",
+          "slug": "mlb-sea-wsh-2026-06-14-spread-home-3pt5",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Washington Nationals",
+              "probability": 0.15,
+              "price": 0.15
+            },
+            {
+              "id": "1",
+              "name": "Seattle Mariners",
+              "probability": 0.85,
+              "price": 0.85
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "38674512465520848539584867413504101696935581520881268216225230253624968683787",
+            "25911047298443151594512308342563418743909787148441562518157319531110688206092"
+          ],
+          "spread": 0.04
+        },
+        {
+          "id": "mlb-sea-wsh-2026-06-14-spread-home-2pt5",
+          "question": "Spread: Washington Nationals (-2.5)",
+          "slug": "mlb-sea-wsh-2026-06-14-spread-home-2pt5",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Washington Nationals",
+              "probability": 0.21,
+              "price": 0.21
+            },
+            {
+              "id": "1",
+              "name": "Seattle Mariners",
+              "probability": 0.79,
+              "price": 0.79
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "47368635551783437919735951729174481241503290478285022476401534410519077442046",
+            "44029793270510458461810597418980061576162522474926754444406470923688947248316"
+          ],
+          "spread": 0.04
+        },
+        {
+          "id": "mlb-sea-wsh-2026-06-14-spread-home-1pt5",
+          "question": "Spread: Washington Nationals (-1.5)",
+          "slug": "mlb-sea-wsh-2026-06-14-spread-home-1pt5",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Washington Nationals",
+              "probability": 0.29,
+              "price": 0.29
+            },
+            {
+              "id": "1",
+              "name": "Seattle Mariners",
+              "probability": 0.71,
+              "price": 0.71
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "26124325462427415114763071779477722255167698806638746375983912943773014960107",
+            "40701637789929049653103059005577456184514167098705944705465938354849027430651"
+          ],
+          "spread": 0.02
+        },
+        {
+          "id": "mlb-sea-wsh-2026-06-14-spread-away-2pt5",
+          "question": "Spread: Seattle Mariners (-2.5)",
+          "slug": "mlb-sea-wsh-2026-06-14-spread-away-2pt5",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Seattle Mariners",
+              "probability": 0.35,
+              "price": 0.35
+            },
+            {
+              "id": "1",
+              "name": "Washington Nationals",
+              "probability": 0.65,
+              "price": 0.65
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "7877677816145942548999765573755261231018364154621084420348500000659891200820",
+            "10975931841698194770006567989419106832837671021333018881593870978850482579342"
+          ],
+          "spread": 0.02
+        },
+        {
+          "id": "mlb-sea-wsh-2026-06-14-spread-away-3pt5",
+          "question": "Spread: Seattle Mariners (-3.5)",
+          "slug": "mlb-sea-wsh-2026-06-14-spread-away-3pt5",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Seattle Mariners",
+              "probability": 0.275,
+              "price": 0.275
+            },
+            {
+              "id": "1",
+              "name": "Washington Nationals",
+              "probability": 0.725,
+              "price": 0.725
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "17511433906881403797050372983546116709558790025411841829364579916951008141753",
+            "52872989608654898264550923430274364777325812608798910068198060592767552334180"
+          ],
+          "spread": 0.01
+        },
+        {
+          "id": "mlb-sea-wsh-2026-06-14-spread-away-4pt5",
+          "question": "Spread: Seattle Mariners (-4.5)",
+          "slug": "mlb-sea-wsh-2026-06-14-spread-away-4pt5",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Seattle Mariners",
+              "probability": 0.215,
+              "price": 0.215
+            },
+            {
+              "id": "1",
+              "name": "Washington Nationals",
+              "probability": 0.785,
+              "price": 0.785
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "84520290862070250006965171779794494247249497377294787121631160190608830121231",
+            "47483752811236293798218073920601511269440183781461036548012629180441950236541"
+          ],
+          "spread": 0.03
+        }
+      ]
+    },
+    {
+      "id": "901731",
+      "provider": "Polymarket",
+      "slug": "mlb-dailies-2023-04-21",
+      "title": "MLB: 2023-04-21",
+      "description": null,
+      "image_url": null,
+      "category": null,
+      "tags": [],
+      "volume": 0.0,
+      "volume_24h": 0.0,
+      "liquidity": 0.0,
+      "start_date": null,
+      "end_date": null,
+      "markets": [
+        {
+          "id": "mlb-chc-lad-2023-04-21",
+          "question": "MLB: Chicago Cubs vs. Los Angeles Dodgers 2023-04-21",
+          "slug": "mlb-chc-lad-2023-04-21",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Cubs",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Dodgers",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "16527425118330910272141962893796720585538937745999117377522629560907519608661",
+            "87038078503420749049574977529540198852652702282438592503823585800159735305142"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-pit-cin-2023-04-21",
+          "question": "MLB: Pittsburgh Pirates vs. Cincinnati Reds 2023-04-21",
+          "slug": "mlb-pit-cin-2023-04-21",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Pirates",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Reds",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "27737050360529085742232793922137985533337134664045150666117367756766926599942",
+            "8675007038110330787977361340608550472294398875006343043874423420862283651888"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-tb-cws-2023-04-21",
+          "question": "MLB: Tampa Bay Rays vs. Chicago White Sox 2023-04-21",
+          "slug": "mlb-tb-cws-2023-04-21",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Rays",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "White Sox",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "8621870666974578150643636759123409555285210416177410950238661264975406151604",
+            "61447432407576477915857354934114513314650812051331620881961148452906729825550"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-nyy-tor-2023-04-21",
+          "question": "MLB: New York Yankees vs. Toronto Blue Jays 2023-04-21",
+          "slug": "mlb-nyy-tor-2023-04-21",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Yankees",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Blue Jays",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "1815491245286942430698341876073096277412731655559552433792451348248218417951",
+            "72037804423741625115612615034130848828683293251624934227445008362020947790547"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-phi-col-2023-04-21",
+          "question": "MLB: Philadelphia Phillies vs. Colorado Rockies 2023-04-21",
+          "slug": "mlb-phi-col-2023-04-21",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Phillies",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Rockies",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "15903447458873939231334965123120833925076124485109372170326314188326644064440",
+            "23690826247289006548995144773705032000318912246110639499232277037186409429471"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-bal-det-2023-04-21",
+          "question": "MLB: Baltimore Orioles vs. Detroit Tigers 2023-04-21",
+          "slug": "mlb-bal-det-2023-04-21",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Orioles",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Tigers",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "82771068775584352362208150139304773805639208811309231042904584809669236914114",
+            "95763850538576559049520546343124183541460573177235482369207974098788453881232"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-cle-mia-2023-04-21",
+          "question": "MLB: Cleveland Guardians vs. Miami Marlins 2023-04-21",
+          "slug": "mlb-cle-mia-2023-04-21",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Guardians",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Marlins",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "44121635834937812134326261144432836174287761646944968085010077770310207756607",
+            "62176408163208743328347913728594926279367677477259852082792526762383297585339"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-atl-hou-2023-04-21",
+          "question": "MLB: Atlanta Braves vs. Houston Astros 2023-04-21",
+          "slug": "mlb-atl-hou-2023-04-21",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Braves",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Astros",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "57880479773254391989378114459041646889472220446598107623938060438739804188969",
+            "55584508094793914867417513683774967967456323565846169802723929191558209748448"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-tex-oak-2023-04-21",
+          "question": "MLB: Texas Rangers vs. Oakland Athletics 2023-04-21",
+          "slug": "mlb-tex-oak-2023-04-21",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Rangers",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Athletics",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "103912353320387035336304105987145113490725333048665461053386482606771455325333",
+            "39896502266436175271770343166121447813185408674478016309314524509861709265576"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-mil-bos-2023-04-21",
+          "question": "MLB: Milwaukee Brewers vs. Boston Red Sox 2023-04-21",
+          "slug": "mlb-mil-bos-2023-04-21",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Brewers",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Red Sox",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "19680854512967236158497275089314260117005457569887979811470639657517917960369",
+            "87785946101047281176099894081116422563709523811701357492261655634716847431762"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-min-wsh-2023-04-21",
+          "question": "MLB: Minnesota Twins vs. Washington Nationals 2023-04-21",
+          "slug": "mlb-min-wsh-2023-04-21",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Twins",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Nationals",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "56888216418203528741730915365096172178062590303874582838631194578213484864904",
+            "113462458249198692565767290511108051528045442832789992085789191956815560127156"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-laa-kc-2023-04-21",
+          "question": "MLB: Los Angeles Angels vs. Kansas City Royals 2023-04-21",
+          "slug": "mlb-laa-kc-2023-04-21",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Angels",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Royals",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "13056853075543123156296321314358017398756282222439831338806681784271618832990",
+            "3794331591756579709971634536440934651178174681004752111750987569189717689845"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-ari-sd-2023-04-21",
+          "question": "MLB: Arizona Diamondbacks vs. San Diego Padres 2023-04-21",
+          "slug": "mlb-ari-sd-2023-04-21",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Diamondbacks",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Padres",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "2960673007951446803662733426184459802653671422148862205653565365796702816099",
+            "82207101224873355182357506979923687145545869669211933684765576459249649971734"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-sea-stl-2023-04-21",
+          "question": "MLB: Seattle Mariners vs. St. Louis Cardinals 2023-04-21",
+          "slug": "mlb-sea-stl-2023-04-21",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Mariners",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Cardinals",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "83985300028573408475295332649974477148028184812753961305967949802006965455929",
+            "6266847125962281814963715175021101325847639592155386090559567271974218219820"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-sf-nym-2023-04-21",
+          "question": "MLB: San Francisco Giants vs. New York Mets 2023-04-21",
+          "slug": "mlb-sf-nym-2023-04-21",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Giants",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Mets",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "9790621329783778846083368577960063271780193751554853739417456184855804493082",
+            "37074155322327438515761650095580244331879307358030428278984490655012553024341"
+          ],
+          "spread": 1.0
+        }
+      ]
+    },
+    {
+      "id": "901654",
+      "provider": "Polymarket",
+      "slug": "mlb-dailies-2023-04-15",
+      "title": "MLB: 2023-04-15",
+      "description": null,
+      "image_url": null,
+      "category": null,
+      "tags": [],
+      "volume": 2098.87,
+      "volume_24h": 0.0,
+      "liquidity": 0.0,
+      "start_date": null,
+      "end_date": null,
+      "markets": [
+        {
+          "id": "mlb-nyy-min-2023-04-15",
+          "question": "MLB: New York Yankees vs. Minnesota Twins 2023-04-15",
+          "slug": "mlb-nyy-min-2023-04-15",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Yankees",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Twins",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "43952506644253156891519963342830105202568121604592675876765459268397610534994",
+            "107722954339030509781413224972468521040136189183920916397511053498455701105898"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-det-sf-2023-04-15",
+          "question": "MLB: Detroit Tigers vs. San Francisco Giants 2023-04-15",
+          "slug": "mlb-det-sf-2023-04-15",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Tigers",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Giants",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "68227145637720574172360961833726166556690530916293858324186991396252713024133",
+            "48409446438396026315399365710472214743503784245872421182307456646620042872554"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-cws-bal-2023-04-15",
+          "question": "MLB: Chicago White Sox vs. Baltimore Orioles 2023-04-15",
+          "slug": "mlb-cws-bal-2023-04-15",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "White Sox",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Orioles",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "21602672866749314873462897009499179047965992445515445746157422681659136737919",
+            "19439380359656713984996517859700343465483696711974499487883400844945540702849"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-stl-pit-2023-04-15",
+          "question": "MLB: St. Louis Cardinals vs. Pittsburgh Pirates 2023-04-15",
+          "slug": "mlb-stl-pit-2023-04-15",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Cardinals",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Pirates",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "49641328385497608471418094092859685802564520358597627686388726027469389611718",
+            "46342307577463965787229350872724407007814778156394573823061435994995084497886"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-tor-tb-2023-04-15",
+          "question": "MLB: Toronto Blue Jays vs. Tampa Bay Rays 2023-04-15",
+          "slug": "mlb-tor-tb-2023-04-15",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Blue Jays",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Rays",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "66272740202171987992817521936641507519066208953370837605525005070108897416236",
+            "83331845924073741249227818289036366461650424967321168265611741954021141545973"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-wsh-cle-2023-04-15",
+          "question": "MLB: Washington Nationals vs. Cleveland Guardians 2023-04-15",
+          "slug": "mlb-wsh-cle-2023-04-15",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Nationals",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Guardians",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "103895345921107081015983049280521919798884486459442053137687042299920661541067",
+            "16982804951728256691201933758324118240520158745335611368033440110307733354661"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-sd-mil-2023-04-15",
+          "question": "MLB: San Diego Padres vs. Milwaukee Brewers 2023-04-15",
+          "slug": "mlb-sd-mil-2023-04-15",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Padres",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Brewers",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "86421164478138052821132612160007862858167986153048672478240015975402069910674",
+            "3819285245561321879972349404126158191925756262955104906246454332276868429155"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-oak-nym-2023-04-15",
+          "question": "MLB: Oakland Athletics vs. New York Mets 2023-04-15",
+          "slug": "mlb-oak-nym-2023-04-15",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Athletics",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Mets",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "17895376249173432765249059899505953293825490056150086180064326181481531943951",
+            "17121791999138736248801644601346878697454459991166960314689248344380848373898"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-bos-laa-2023-04-15",
+          "question": "MLB: Boston Red Sox vs. Los Angeles Angels 2023-04-15",
+          "slug": "mlb-bos-laa-2023-04-15",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Red Sox",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Angels",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "22873284601626692258451240311160196156379652416785049176162608550183316128943",
+            "43645468984231656349368021478408061144820199174403445047077377589403739396412"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-kc-atl-2023-04-15",
+          "question": "MLB: Kansas City Royals vs. Atlanta Braves 2023-04-15",
+          "slug": "mlb-kc-atl-2023-04-15",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Royals",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Braves",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "97835205863086370498803633544905239131966027051603851347282654849018472916107",
+            "111094417835993783506729339393497399819040331952143613137998332462291880125973"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-mia-ari-2023-04-15",
+          "question": "MLB: Miami Marlins vs. Arizona Diamondbacks 2023-04-15",
+          "slug": "mlb-mia-ari-2023-04-15",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Marlins",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Diamondbacks",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "61265638195799716982429232427470340502883589849316945810105877272435342729096",
+            "15117844794815995168428503378557564545516261194520089865392885622354231489475"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-cin-phi-2023-04-15",
+          "question": "MLB: Cincinnati Reds vs. Philadelphia Phillies 2023-04-15",
+          "slug": "mlb-cin-phi-2023-04-15",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Reds",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Phillies",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "114870715382622574496831607914003888382684042105501141706330859205711408498050",
+            "65006933024246878420492485874374128779329671372103568146302935665910600809899"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-hou-tex-2023-04-15",
+          "question": "MLB: Houston Astros vs. Texas Rangers 2023-04-15",
+          "slug": "mlb-hou-tex-2023-04-15",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Astros",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Rangers",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "109169650947166217694639390435839284718525912163189281533606856487841541672804",
+            "74068183258062341052598119026954587745487642189703644881136150454309098218499"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-lad-chc-2023-04-15",
+          "question": "MLB: Los Angeles Dodgers vs. Chicago Cubs 2023-04-15",
+          "slug": "mlb-lad-chc-2023-04-15",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Dodgers",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Cubs",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "112013150618164002456191650532253881563001320386192361074234055994919056774776",
+            "81559666668543624909155457420505547634399718763207909818419042057699195405920"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-sea-col-2023-04-15",
+          "question": "MLB: Seattle Mariners vs. Colorado Rockies 2023-04-15",
+          "slug": "mlb-sea-col-2023-04-15",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Mariners",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Rockies",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "108993644029066572920738588867272634644380508802140215235161244161299843030974",
+            "60470711651993778521135715104895557787634835967658249501337240859832774966650"
+          ],
+          "spread": 1.0
+        }
+      ]
+    },
+    {
+      "id": "901650",
+      "provider": "Polymarket",
+      "slug": "mlb-dailies-2023-04-14",
+      "title": "MLB: 2023-04-14",
+      "description": null,
+      "image_url": null,
+      "category": null,
+      "tags": [],
+      "volume": 100.0,
+      "volume_24h": 0.0,
+      "liquidity": 0.0,
+      "start_date": null,
+      "end_date": null,
+      "markets": [
+        {
+          "id": "mlb-mia-ari-2023-04-14",
+          "question": "MLB: Miami Marlins vs. Arizona Diamondbacks 2023-04-14",
+          "slug": "mlb-mia-ari-2023-04-14",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Marlins",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Diamondbacks",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "59562714201218599770731113236647890166663920387525407842154958034535166967912",
+            "113841790704128634634595643484527080836321050681384235189922562754875630335157"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-cin-phi-2023-04-14",
+          "question": "MLB: Cincinnati Reds vs. Philadelphia Phillies 2023-04-14",
+          "slug": "mlb-cin-phi-2023-04-14",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Reds",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Phillies",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "35705109645172342185758587765959670021569166416112965494507475235877116154055",
+            "108397671873535790255644401637566782601940091232530557613301527172685541149136"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-det-sf-2023-04-14",
+          "question": "MLB: Detroit Tigers vs. San Francisco Giants 2023-04-14",
+          "slug": "mlb-det-sf-2023-04-14",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Tigers",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Giants",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "72889974147222908941906250312713385346374530672190810206667112619786638061692",
+            "105106581134710867261784679101019729344593654434080037682350851247114746672164"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-wsh-cle-2023-04-14",
+          "question": "MLB: Washington Nationals vs. Cleveland Guardians 2023-04-14",
+          "slug": "mlb-wsh-cle-2023-04-14",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Nationals",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Guardians",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "55128081679007294512368688898106973688155718240538588233948924347643153443639",
+            "42251722042931718473423290911864923596192578214064323551489918991911080217975"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-nyy-min-2023-04-14",
+          "question": "MLB: New York Yankees vs. Minnesota Twins 2023-04-14",
+          "slug": "mlb-nyy-min-2023-04-14",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Yankees",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Twins",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "88134101867977274863093688827226839611470857526689115242712442131657364062100",
+            "34875054181035764068855017222407566262127005704125278645512073772409134983475"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-tor-tb-2023-04-14",
+          "question": "MLB: Toronto Blue Jays vs. Tampa Bay Rays 2023-04-14",
+          "slug": "mlb-tor-tb-2023-04-14",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Blue Jays",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Rays",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "16183298659393077397878671093457597023389146068628596408858353384312226598409",
+            "64682487340953779207643666394322051826904012841915580630713937745677279680919"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-bos-laa-2023-04-14",
+          "question": "MLB: Boston Red Sox vs. Los Angeles Angels 2023-04-14",
+          "slug": "mlb-bos-laa-2023-04-14",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Red Sox",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Angels",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "95037618793992005947341142629922755544818153360347422577561661030912627965013",
+            "94896193763569613315955648919465812435102911059074745297177064309368995249309"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-cws-bal-2023-04-14",
+          "question": "MLB: Chicago White Sox vs. Baltimore Orioles 2023-04-14",
+          "slug": "mlb-cws-bal-2023-04-14",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "White Sox",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Orioles",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "102368382374576380976711597130213418063287381289669194502794926981423421390696",
+            "49546386526448727037711239833423529348857851548852527997239711773128585603087"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-hou-tex-2023-04-14",
+          "question": "MLB: Houston Astros vs. Texas Rangers 2023-04-14",
+          "slug": "mlb-hou-tex-2023-04-14",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Astros",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Rangers",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "27795752901451362667125071086301898439529203325218237845088800377182134505895",
+            "14012574822928145101448766185832756598014682366717849478107727156604644737023"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-kc-atl-2023-04-14",
+          "question": "MLB: Kansas City Royals vs. Atlanta Braves 2023-04-14",
+          "slug": "mlb-kc-atl-2023-04-14",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Royals",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Braves",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "64124004622441911446733902538748743008318861685029880380959094214339620312431",
+            "8163764892600706616755075101086925504824815889163609182926526833277712273271"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-stl-pit-2023-04-14",
+          "question": "MLB: St. Louis Cardinals vs. Pittsburgh Pirates 2023-04-14",
+          "slug": "mlb-stl-pit-2023-04-14",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Cardinals",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Pirates",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "51815049161520833626870050856402529984950291134467171048647934973938770503012",
+            "97449386702412317379416989804236238735564826820195880240053419342812272067158"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-sd-mil-2023-04-14",
+          "question": "MLB: San Diego Padres vs. Milwaukee Brewers 2023-04-14",
+          "slug": "mlb-sd-mil-2023-04-14",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Padres",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Brewers",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "55446513938087569772900229519187908413628459790047852146634519937691520174545",
+            "31326238561402260635672570738231481473139655977095532972215290339754141461074"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-oak-nym-2023-04-14",
+          "question": "MLB: Oakland Athletics vs. New York Mets 2023-04-14",
+          "slug": "mlb-oak-nym-2023-04-14",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Athletics",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Mets",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "63509582280338545537395857510347230812718772140511068523358671131416327031938",
+            "14654446529734918017202137693719836001357627949724310503453515676231326351497"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-lad-chc-2023-04-14",
+          "question": "MLB: Los Angeles Dodgers vs. Chicago Cubs 2023-04-14",
+          "slug": "mlb-lad-chc-2023-04-14",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Dodgers",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Cubs",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "44775879229429084582592019239507129651263864138406845623225937793217242994131",
+            "93058163030032235235798788079192875965542588023548132322816386600243141298045"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-sea-col-2023-04-14",
+          "question": "MLB: Seattle Mariners vs. Colorado Rockies 2023-04-14",
+          "slug": "mlb-sea-col-2023-04-14",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Mariners",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Rockies",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "90715159415549637888892857955964351867224651463974316642673120611012263367904",
+            "89230274876719925623805950134795597037502957496472353520217047782288717581913"
+          ],
+          "spread": 1.0
+        }
+      ]
+    },
+    {
+      "id": "901854",
+      "provider": "Polymarket",
+      "slug": "mlb-dailies-2023-05-14",
+      "title": "MLB: 2023-05-14",
+      "description": null,
+      "image_url": null,
+      "category": null,
+      "tags": [],
+      "volume": 0.0,
+      "volume_24h": 0.0,
+      "liquidity": 0.0,
+      "start_date": null,
+      "end_date": null,
+      "markets": [
+        {
+          "id": "mlb-wsh-nym-2023-05-14",
+          "question": "MLB: Washington Nationals vs. New York Mets 2023-05-14",
+          "slug": "mlb-wsh-nym-2023-05-14",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Nationals",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Mets",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "73985726304952402702942636461054586115698428792279873852278641372553714671273",
+            "24346585157695255229199888404093096453948327579305350738274869414424574093101"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-cle-laa-2023-05-14",
+          "question": "MLB: Cleveland Guardians vs. Los Angeles Angels 2023-05-14",
+          "slug": "mlb-cle-laa-2023-05-14",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Guardians",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Angels",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "87819864422233488638307999852063798588321050674630217626675012362691943449859",
+            "6787044800559666077536320714457872267994668651412730066983690752445736667664"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-nyy-tb-2023-05-14",
+          "question": "MLB: New York Yankees vs. Tampa Bay Rays 2023-05-14",
+          "slug": "mlb-nyy-tb-2023-05-14",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Yankees",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Rays",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "19356031878535326688134402864099837267163741326902463321626412258587897351980",
+            "49897131647969604062624299925763231084413404724277510080560247523301450507315"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-bal-pit-2023-05-14",
+          "question": "MLB: Baltimore Orioles vs. Pittsburgh Pirates 2023-05-14",
+          "slug": "mlb-bal-pit-2023-05-14",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Orioles",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Pirates",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "86689176416752501515980128129032994831031888812851537381100898610706224818073",
+            "15666941832417061916588624744429696943868040747305879951382539524753155707182"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-tor-atl-2023-05-14",
+          "question": "MLB: Toronto Blue Jays vs. Atlanta Braves 2023-05-14",
+          "slug": "mlb-tor-atl-2023-05-14",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Blue Jays",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Braves",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "84426659583761774663489008412845773812439797496178957260326030481959861643752",
+            "67317094307217213978810172615541906138621974097619587153497214828697189081422"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-det-sea-2023-05-14",
+          "question": "MLB: Detroit Tigers vs. Seattle Mariners 2023-05-14",
+          "slug": "mlb-det-sea-2023-05-14",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Tigers",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Mariners",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "79641564966690063278587318827919112773871178652861492655139528873273267621291",
+            "104203908921365831370199564261689449797996703617193358287190039538685952187788"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-mia-cin-2023-05-14",
+          "question": "MLB: Miami Marlins vs. Cincinnati Reds 2023-05-14",
+          "slug": "mlb-mia-cin-2023-05-14",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Marlins",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Reds",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "89542974258128105150855597826609715815192705707149716791093007863888220542785",
+            "100230826937905897809019155375360400011377219729746503995424780318110257834274"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-mil-kc-2023-05-14",
+          "question": "MLB: Milwaukee Brewers vs. Kansas City Royals 2023-05-14",
+          "slug": "mlb-mil-kc-2023-05-14",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Brewers",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Royals",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "13952050842063303082334475666108454714445917701226559037283614347510356641283",
+            "46166668174588614721552072751567489569881050841048677198715817932656836347746"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-min-chc-2023-05-14",
+          "question": "MLB: Minnesota Twins vs. Chicago Cubs 2023-05-14",
+          "slug": "mlb-min-chc-2023-05-14",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Twins",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Cubs",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "14093790597480456129155682049590396214410800039984989869270719442209018186842",
+            "98951261016841948171248805223638467102832289420457165666425257453023838055952"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-cws-hou-2023-05-14",
+          "question": "MLB: Chicago White Sox vs. Houston Astros 2023-05-14",
+          "slug": "mlb-cws-hou-2023-05-14",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "White Sox",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Astros",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "110679768384601675526133159318461285222971593136437682918156401695782129648485",
+            "58258118988123379050536832811668652320651327779407018321655222148595814924097"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-col-phi-2023-05-14",
+          "question": "MLB: Colorado Rockies vs. Philadelphia Phillies 2023-05-14",
+          "slug": "mlb-col-phi-2023-05-14",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Rockies",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Phillies",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "115227189257814315660406002000233724888812924204622089046475630103468900537958",
+            "62566894144960478759629872062759292571304963939065123473852542845852157311377"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-oak-tex-2023-05-14",
+          "question": "MLB: Oakland Athletics vs. Texas Rangers 2023-05-14",
+          "slug": "mlb-oak-tex-2023-05-14",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Athletics",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Rangers",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "109868153374614173258526982741886622196288899897712657529695873842223727547522",
+            "67056895765043917928071089196334631766274131101359033273192583230390501832365"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-lad-sd-2023-05-14",
+          "question": "MLB: Los Angeles Dodgers vs. San Diego Padres 2023-05-14",
+          "slug": "mlb-lad-sd-2023-05-14",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Dodgers",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Padres",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "18130562784322501725745071785323816622904606012492812470111370126123987682435",
+            "89254774884287259959706061461422290621423126263216324407608971703172036411435"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-ari-sf-2023-05-14",
+          "question": "MLB: Arizona Diamondbacks vs. San Francisco Giants 2023-05-14",
+          "slug": "mlb-ari-sf-2023-05-14",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Diamondbacks",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Giants",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "48402725700947431728370275577707456257831876219621055685049957823908465111832",
+            "112668300674582177024275463450421008543834192556537058870818759599096347347560"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-bos-stl-2023-05-14",
+          "question": "MLB: Boston Red Sox vs. St. Louis Cardinals 2023-05-14",
+          "slug": "mlb-bos-stl-2023-05-14",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Red Sox",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Cardinals",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "112753953047976215042302544619816443062941410565750100943317153737457487670556",
+            "91883277533395399171142432353525306861747516838975699825851838873636290610431"
+          ],
+          "spread": 1.0
+        }
+      ]
+    },
+    {
+      "id": "901771",
+      "provider": "Polymarket",
+      "slug": "mlb-dailies-2023-04-30",
+      "title": "MLB: 2023-04-30",
+      "description": null,
+      "image_url": null,
+      "category": null,
+      "tags": [],
+      "volume": 0.0,
+      "volume_24h": 0.0,
+      "liquidity": 0.0,
+      "start_date": null,
+      "end_date": null,
+      "markets": [
+        {
+          "id": "mlb-hou-phi-2023-04-30",
+          "question": "MLB: Houston Astros vs. Philadelphia Phillies 2023-04-30",
+          "slug": "mlb-hou-phi-2023-04-30",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Astros",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Phillies",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "32635327182170836702802268343577070437841730038359637585373350609709451115813",
+            "57224625280817728001606268674056012257597172205666115238464025461900983026207"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-mia-chc-2023-04-30",
+          "question": "MLB: Miami Marlins vs. Chicago Cubs 2023-04-30",
+          "slug": "mlb-mia-chc-2023-04-30",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Marlins",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Cubs",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "114933626245273190001522487689420735254279934625029025573578473516907753915314",
+            "67306168493026714113087498292245190912405466309949557421717847879476779666685"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-bos-cle-2023-04-30",
+          "question": "MLB: Boston Red Sox vs. Cleveland Guardians 2023-04-30",
+          "slug": "mlb-bos-cle-2023-04-30",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Red Sox",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Guardians",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "93451433406096307344555931530607743290353976988899590266305220198521095365620",
+            "97063394792834261603871903143847100712099716869650934641045868173359688442375"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-wsh-pit-2023-04-30",
+          "question": "MLB: Washington Nationals vs. Pittsburgh Pirates 2023-04-30",
+          "slug": "mlb-wsh-pit-2023-04-30",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Nationals",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Pirates",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "56185049464917414884144414091276924689565270067753797782465806415008812919918",
+            "63164192184913436991578953818066430432045225525447455173481182910458050707502"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-tor-sea-2023-04-30",
+          "question": "MLB: Toronto Blue Jays vs. Seattle Mariners 2023-04-30",
+          "slug": "mlb-tor-sea-2023-04-30",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Blue Jays",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Mariners",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "9323054814145878966974059372887014892151116587022958116360847578928633488841",
+            "110637108629893955925336825551560514207808454029142893241544746994349550072844"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-nym-atl-2023-04-30",
+          "question": "MLB: New York Mets vs. Atlanta Braves 2023-04-30",
+          "slug": "mlb-nym-atl-2023-04-30",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Mets",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Braves",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "81280073424898085067471326538787657528037430792730785585235104340041593335887",
+            "62023093143235365214175111051286659129928114948759686519216903738225431028115"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-det-bal-2023-04-30",
+          "question": "MLB: Detroit Tigers vs. Baltimore Orioles 2023-04-30",
+          "slug": "mlb-det-bal-2023-04-30",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Tigers",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Orioles",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "18162253999337120097887184473102554662615404832994894588661802102880990503895",
+            "13495294655612546601698607115825941974161094765993603479430978256530128265235"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-mil-laa-2023-04-30",
+          "question": "MLB: Milwaukee Brewers vs. Los Angeles Angels 2023-04-30",
+          "slug": "mlb-mil-laa-2023-04-30",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Brewers",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Angels",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "22126174197334987664050031709826712527205230915695824730120974074631547505521",
+            "104173693412000142768796521803591816019397809310977435199914682286352953846823"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-min-kc-2023-04-30",
+          "question": "MLB: Minnesota Twins vs. Kansas City Royals 2023-04-30",
+          "slug": "mlb-min-kc-2023-04-30",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Twins",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Royals",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "56044219486285294031259412998651915179651762997401124271911408839105004358808",
+            "79425562667575805683620796669576685669289217183708489052822345226124668343122"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-cws-tb-2023-04-30",
+          "question": "MLB: Chicago White Sox vs. Tampa Bay Rays 2023-04-30",
+          "slug": "mlb-cws-tb-2023-04-30",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "White Sox",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Rays",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "104569248261358524152598991025805437604019344665849707881669666396328867325440",
+            "34138560987307160033149526512975195804810258511421704178106159331853693675827"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-tex-nyy-2023-04-30",
+          "question": "MLB: Texas Rangers vs. New York Yankees 2023-04-30",
+          "slug": "mlb-tex-nyy-2023-04-30",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Rangers",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Yankees",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "98672314537370789205176304374819901852859281296262394318829260691542918487632",
+            "78650444456795319380810976036426100180210912984375880590015199239875752023746"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-col-ari-2023-04-30",
+          "question": "MLB: Colorado Rockies vs. Arizona Diamondbacks 2023-04-30",
+          "slug": "mlb-col-ari-2023-04-30",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Rockies",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Diamondbacks",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "114338013643989308983017907407893742296439322770209962911128564974224437124137",
+            "7862346467069418907777480652218384396361325119783747851545088205692096014310"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-sd-sf-2023-04-30",
+          "question": "MLB: San Diego Padres vs. San Francisco Giants 2023-04-30",
+          "slug": "mlb-sd-sf-2023-04-30",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Padres",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Giants",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "59610339650631054316007690907643654038295612102905465688091275505262365797347",
+            "113947938300251443113755789423521532566302918890964903037464764550499626039588"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-oak-cin-2023-04-30",
+          "question": "MLB: Oakland Athletics vs. Cincinnati Reds 2023-04-30",
+          "slug": "mlb-oak-cin-2023-04-30",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Athletics",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Reds",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "28929403509046395478691528560609298816481955144433729209644835979713463081122",
+            "26837233422774441724252032348566852202993447006088134680630636002716728703060"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-lad-stl-2023-04-30",
+          "question": "MLB: Los Angeles Dodgers vs. St. Louis Cardinals 2023-04-30",
+          "slug": "mlb-lad-stl-2023-04-30",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Dodgers",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Cardinals",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "36197367589377331738445811279373527042759458528196657917762459308091224703987",
+            "114853767263083414029610223836929473692263735507616661387921710977058517667428"
+          ],
+          "spread": 1.0
+        }
+      ]
+    },
+    {
+      "id": "901850",
+      "provider": "Polymarket",
+      "slug": "mlb-dailies-2023-05-13",
+      "title": "MLB: 2023-05-13",
+      "description": null,
+      "image_url": null,
+      "category": null,
+      "tags": [],
+      "volume": 0.0,
+      "volume_24h": 0.0,
+      "liquidity": 0.0,
+      "start_date": null,
+      "end_date": null,
+      "markets": [
+        {
+          "id": "mlb-mia-cin-2023-05-13",
+          "question": "MLB: Miami Marlins vs. Cincinnati Reds 2023-05-13",
+          "slug": "mlb-mia-cin-2023-05-13",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Marlins",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Reds",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "66313911349516970593425329885980690293112894582524184072942646694711049801781",
+            "17613018050380384511346846821362407962672890476712232262410177218154602843328"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-nyy-tb-2023-05-13",
+          "question": "MLB: New York Yankees vs. Tampa Bay Rays 2023-05-13",
+          "slug": "mlb-nyy-tb-2023-05-13",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Yankees",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Rays",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "27072434072232992292573760389500113973133803606680024387990211357738401864461",
+            "2892359542810444552285947998742317317132469566454716993952908821480379144438"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-det-sea-2023-05-13",
+          "question": "MLB: Detroit Tigers vs. Seattle Mariners 2023-05-13",
+          "slug": "mlb-det-sea-2023-05-13",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Tigers",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Mariners",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "69053370794671938727254857791932277958034375030767703277068987129788580664277",
+            "96337698866510323704603604800785518692380274323961058302343411949218326880491"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-min-chc-2023-05-13",
+          "question": "MLB: Minnesota Twins vs. Chicago Cubs 2023-05-13",
+          "slug": "mlb-min-chc-2023-05-13",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Twins",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Cubs",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "21555023041689409764342337066958123951952817369616638948137104931112270150844",
+            "11058024505271765665741612716621771490087939941023973842315007555863756133137"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-tor-atl-2023-05-13",
+          "question": "MLB: Toronto Blue Jays vs. Atlanta Braves 2023-05-13",
+          "slug": "mlb-tor-atl-2023-05-13",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Blue Jays",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Braves",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "107253243781449211286495215556536797161540192184326663440781288410182559208529",
+            "47705327706235771942484481836545117799314778192024871446819391651875768065685"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-wsh-nym-2023-05-13",
+          "question": "MLB: Washington Nationals vs. New York Mets 2023-05-13",
+          "slug": "mlb-wsh-nym-2023-05-13",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Nationals",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Mets",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "80583961786440246546151483244932253573391988156416993673382398308734637922069",
+            "56538216238961323114260277579681904029646844117348746762306332041912911056131"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-oak-tex-2023-05-13",
+          "question": "MLB: Oakland Athletics vs. Texas Rangers 2023-05-13",
+          "slug": "mlb-oak-tex-2023-05-13",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Athletics",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Rangers",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "56786984195916738033406469465619997628978875206527574029834597307865024221168",
+            "2424322899422554254838073680829116232375675115141783367578385465670425114395"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-bos-stl-2023-05-13",
+          "question": "MLB: Boston Red Sox vs. St. Louis Cardinals 2023-05-13",
+          "slug": "mlb-bos-stl-2023-05-13",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Red Sox",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Cardinals",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "37944649304072923539536604830917739327133051012678005379589236825804670230624",
+            "104061223161367497764709467404889703173047813813285303138380947556293107474656"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-cle-laa-2023-05-13",
+          "question": "MLB: Cleveland Guardians vs. Los Angeles Angels 2023-05-13",
+          "slug": "mlb-cle-laa-2023-05-13",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Guardians",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Angels",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "23059320023163303865992732584186475770181683864158544754009164508832191034565",
+            "82146907390672373141643574277479674154302327879899025552892287525029407959660"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-bal-pit-2023-05-13",
+          "question": "MLB: Baltimore Orioles vs. Pittsburgh Pirates 2023-05-13",
+          "slug": "mlb-bal-pit-2023-05-13",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Orioles",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Pirates",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "57234118475494197578598000278901631960751803587095558764637295566621277123217",
+            "3810241450957398067615378083221785681491868759879853953336786378434902303738"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-mil-kc-2023-05-13",
+          "question": "MLB: Milwaukee Brewers vs. Kansas City Royals 2023-05-13",
+          "slug": "mlb-mil-kc-2023-05-13",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Brewers",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Royals",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "59064674565545765416876822244117720132358417839714832735313672072622671919427",
+            "106071175325352740781983113086214690541679548401404594791496479264337382101931"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-lad-sd-2023-05-13",
+          "question": "MLB: Los Angeles Dodgers vs. San Diego Padres 2023-05-13",
+          "slug": "mlb-lad-sd-2023-05-13",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Dodgers",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Padres",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "76310532018463939912632484590116961474131963646183616813232074001243075360975",
+            "15098610810725456999586377656634032676588258217938171015053493159181238285360"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-ari-sf-2023-05-13",
+          "question": "MLB: Arizona Diamondbacks vs. San Francisco Giants 2023-05-13",
+          "slug": "mlb-ari-sf-2023-05-13",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Diamondbacks",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Giants",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "22359103290983736572711610874520959757970841448658492765299045380444525733083",
+            "101124918242115223973512179178240124437427252397731927951501070543159317988095"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-col-phi-2023-05-13",
+          "question": "MLB: Colorado Rockies vs. Philadelphia Phillies 2023-05-13",
+          "slug": "mlb-col-phi-2023-05-13",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Rockies",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Phillies",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "65548229872116305787071766902374076125658496245635484114364187077161062222791",
+            "107412563285392224316956643332074705780530747996576000794126677479083044856982"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-cws-hou-2023-05-13",
+          "question": "MLB: Chicago White Sox vs. Houston Astros 2023-05-13",
+          "slug": "mlb-cws-hou-2023-05-13",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "White Sox",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Astros",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "100999288791585533205574612591332212843456642084972950089964628050470752273176",
+            "89888434931474694945126824748019255723561199865863992668879888522128739473139"
+          ],
+          "spread": 1.0
+        }
+      ]
+    },
+    {
+      "id": "901688",
+      "provider": "Polymarket",
+      "slug": "mlb-dailies-2023-04-19",
+      "title": "MLB: 2023-04-19",
+      "description": null,
+      "image_url": null,
+      "category": null,
+      "tags": [],
+      "volume": 0.0,
+      "volume_24h": 0.0,
+      "liquidity": 0.0,
+      "start_date": null,
+      "end_date": null,
+      "markets": [
+        {
+          "id": "mlb-mia-sf-2023-04-19",
+          "question": "MLB: Miami Marlins vs. San Francisco Giants 2023-04-19",
+          "slug": "mlb-mia-sf-2023-04-19",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Marlins",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Giants",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "30942781829769825227734605447763752608285599085238458405346764346712539031641",
+            "96312902734220125710879180375308671513711663785262029348248352218294209330004"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-cin-tb-2023-04-19",
+          "question": "MLB: Cincinnati Reds vs. Tampa Bay Rays 2023-04-19",
+          "slug": "mlb-cin-tb-2023-04-19",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Reds",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Rays",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "6509038758395413861654765722916863795980621155728502146786762810909689050437",
+            "67885831561992027175777723165997510008473974897465995590847966551320375630610"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-det-cle-2023-04-19",
+          "question": "MLB: Detroit Tigers vs. Cleveland Guardians 2023-04-19",
+          "slug": "mlb-det-cle-2023-04-19",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Tigers",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Guardians",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "110067776779300594004283593642335104905716179140095807090849070304211198171444",
+            "69162252900568132810829424659465518372573492581459306459489470998159872127492"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-stl-ari-2023-04-19",
+          "question": "MLB: St. Louis Cardinals vs. Arizona Diamondbacks 2023-04-19",
+          "slug": "mlb-stl-ari-2023-04-19",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Cardinals",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Diamondbacks",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "72131292752291894310476845675493345004672109784151974411343610223806595647792",
+            "90763125571034881762338051532637405449831353635161414386155576544534964215524"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-cws-phi-2023-04-19",
+          "question": "MLB: Chicago White Sox vs. Philadelphia Phillies 2023-04-19",
+          "slug": "mlb-cws-phi-2023-04-19",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "White Sox",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Phillies",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "24314885050093088822497651792515586678305134635375665751731242768463564355341",
+            "12506326096423709445980237084937283563387184519999690645908117916782412258699"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-kc-tex-2023-04-19",
+          "question": "MLB: Kansas City Royals vs. Texas Rangers 2023-04-19",
+          "slug": "mlb-kc-tex-2023-04-19",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Royals",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Rangers",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "114653456621028547003394242190439045113129418981562694933173845975304049841751",
+            "91229069137534503558960609799710578099014013900144234525420597333130165004191"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-col-pit-2023-04-19",
+          "question": "MLB: Colorado Rockies vs. Pittsburgh Pirates 2023-04-19",
+          "slug": "mlb-col-pit-2023-04-19",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Rockies",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Pirates",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "95897659460921554903330275390602424657469212218600744322909838317245454288164",
+            "30614956165195823957981026118844818037655396645834136711812361137711741434911"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-lad-nym-2023-04-19",
+          "question": "MLB: Los Angeles Dodgers vs. New York Mets 2023-04-19",
+          "slug": "mlb-lad-nym-2023-04-19",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Dodgers",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Mets",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "99677531353077600410743905086005212386124071556569589632461538415331996484203",
+            "25818538863546703746972206298693559703095840692702310697752374479921976324929"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-oak-chc-2023-04-19",
+          "question": "MLB: Oakland Athletics vs. Chicago Cubs 2023-04-19",
+          "slug": "mlb-oak-chc-2023-04-19",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Athletics",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Cubs",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "89820292436291602682570926146154562784593572919104983300337997380749687027324",
+            "46756112672958950311740901638391160138128119792413500558741749524342046559590"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-sea-mil-2023-04-19",
+          "question": "MLB: Seattle Mariners vs. Milwaukee Brewers 2023-04-19",
+          "slug": "mlb-sea-mil-2023-04-19",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Mariners",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Brewers",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "85745744157245506469448905132077312087567662466656128218696326580076212810515",
+            "70881423815727436595885627226450591991606177708066083840425035493589663564658"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-sd-atl-2023-04-19",
+          "question": "MLB: San Diego Padres vs. Atlanta Braves 2023-04-19",
+          "slug": "mlb-sd-atl-2023-04-19",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Padres",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Braves",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "45960581562646586908690106594429903860890954451867129238657132337043175598653",
+            "13462815690302546789727158273435932317349692965663214057181985443946790087231"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-wsh-bal-2023-04-19",
+          "question": "MLB: Washington Nationals vs. Baltimore Orioles 2023-04-19",
+          "slug": "mlb-wsh-bal-2023-04-19",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Nationals",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Orioles",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "93435145702948469844893950439024242463172167292476184884948449919004375854290",
+            "46435464425125403873260187113094934499258315296267788427494051179622447332746"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-nyy-laa-2023-04-19",
+          "question": "MLB: New York Yankees vs. Los Angeles Angels 2023-04-19",
+          "slug": "mlb-nyy-laa-2023-04-19",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Yankees",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Angels",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "53301214784701642095952462210743091497890908858134388746778821859757429410829",
+            "104809123827926134031102728276977473629112678138879858564714157839126735020765"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-bos-min-2023-04-19",
+          "question": "MLB: Boston Red Sox vs. Minnesota Twins 2023-04-19",
+          "slug": "mlb-bos-min-2023-04-19",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Red Sox",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Twins",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "40659870003117765953411470493528533031569782780502605668294051461140972532598",
+            "27503140677700412888141549349895977798535419864110401475069883970840010437589"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-hou-tor-2023-04-19",
+          "question": "MLB: Houston Astros vs. Toronto Blue Jays 2023-04-19",
+          "slug": "mlb-hou-tor-2023-04-19",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Astros",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Blue Jays",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "33188457212842538939587261846297730392721590178858090183074342617712039206936",
+            "70101369809159511080130803569117158967490494761329475514168026505011542093187"
+          ],
+          "spread": 1.0
+        }
+      ]
+    },
+    {
+      "id": "901827",
+      "provider": "Polymarket",
+      "slug": "mlb-dailies-2023-05-10",
+      "title": "MLB: 2023-05-10",
+      "description": null,
+      "image_url": null,
+      "category": null,
+      "tags": [],
+      "volume": 0.0,
+      "volume_24h": 0.0,
+      "liquidity": 0.0,
+      "start_date": null,
+      "end_date": null,
+      "markets": [
+        {
+          "id": "mlb-chc-stl-2023-05-10",
+          "question": "MLB: Chicago Cubs vs. St. Louis Cardinals 2023-05-10",
+          "slug": "mlb-chc-stl-2023-05-10",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Cubs",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Cardinals",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "106822252664443145345981606168398050566830626822630735805654012916725523109394",
+            "55527162959467745984764495490154088941038773854617576829412615849016720805667"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-kc-cws-2023-05-10",
+          "question": "MLB: Kansas City Royals vs. Chicago White Sox 2023-05-10",
+          "slug": "mlb-kc-cws-2023-05-10",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Royals",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "White Sox",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "67353277025009875549421245010022835366077347069445628673392596945470414136567",
+            "39095496921359938660484861751242819484342694748404855552202222198961253714602"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-min-sd-2023-05-10",
+          "question": "MLB: Minnesota Twins vs. San Diego Padres 2023-05-10",
+          "slug": "mlb-min-sd-2023-05-10",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Twins",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Padres",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "45460656120334460622333956385224330547131131939579249617257784122128857173336",
+            "113610294000186666002096534812218612836012324375772270134097107599466969888262"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-pit-col-2023-05-10",
+          "question": "MLB: Pittsburgh Pirates vs. Colorado Rockies 2023-05-10",
+          "slug": "mlb-pit-col-2023-05-10",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Pirates",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Rockies",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "63830016479667304725647267278226421183760053578342100478880682507002372044176",
+            "50459307107524039944230934281699749871793881831254318365646726238842560957958"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-nyy-oak-2023-05-10",
+          "question": "MLB: New York Yankees vs. Oakland Athletics 2023-05-10",
+          "slug": "mlb-nyy-oak-2023-05-10",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Yankees",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Athletics",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "69015985224920576044211537924228296546298180729728217466753919042993642294391",
+            "25498932117785008528100245118783046874982220509988793739951947141971813883491"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-cle-det-2023-05-10",
+          "question": "MLB: Cleveland Guardians vs. Detroit Tigers 2023-05-10",
+          "slug": "mlb-cle-det-2023-05-10",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Guardians",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Tigers",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "85324688865855918535837930640949644525092376374927065434211426435152930199516",
+            "8314480998842631434818469420769391399100194739446827663548292560628249890323"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-mil-lad-2023-05-10",
+          "question": "MLB: Milwaukee Brewers vs. Los Angeles Dodgers 2023-05-10",
+          "slug": "mlb-mil-lad-2023-05-10",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Brewers",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Dodgers",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "47965203744402054513020182049603797447164507109622874794060131675585932651083",
+            "61658006810514404342534010121851326179821587818050957347096344283602067199885"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-ari-mia-2023-05-10",
+          "question": "MLB: Arizona Diamondbacks vs. Miami Marlins 2023-05-10",
+          "slug": "mlb-ari-mia-2023-05-10",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Diamondbacks",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Marlins",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "21906824173328579397612458099452589840387108064702740599266700449313588431991",
+            "39543566628711870652174431931916234519311885145028120306411142052575590587585"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-sea-tex-2023-05-10",
+          "question": "MLB: Seattle Mariners vs. Texas Rangers 2023-05-10",
+          "slug": "mlb-sea-tex-2023-05-10",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Mariners",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Rangers",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "102495053591040327869837551326828077097695254640334768550208201844884513975279",
+            "81998647079510124609005761942791435088855854703133097354479251960692302547549"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-sf-wsh-2023-05-10",
+          "question": "MLB: San Francisco Giants vs. Washington Nationals 2023-05-10",
+          "slug": "mlb-sf-wsh-2023-05-10",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Giants",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Nationals",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "112811899591755905629337524611647176083563735784403403414885756246635827965181",
+            "2040747352855464454825312485408149307599118554648671375014938197772765953538"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-phi-tor-2023-05-10",
+          "question": "MLB: Philadelphia Phillies vs. Toronto Blue Jays 2023-05-10",
+          "slug": "mlb-phi-tor-2023-05-10",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Phillies",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Blue Jays",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "22681410547091715272836248465732285615309652607239907725922442521290413946773",
+            "15548773288552499571325034838856884907586801530549399159023214697444775901830"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-laa-hou-2023-05-10",
+          "question": "MLB: Los Angeles Angels vs. Houston Astros 2023-05-10",
+          "slug": "mlb-laa-hou-2023-05-10",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Angels",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Astros",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "13167338778446649887638340860237710547635763877684042727297878985977889687598",
+            "17782901384453681361001977193758557680340110908294623167862840419858976213108"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-bal-tb-2023-05-10",
+          "question": "MLB: Baltimore Orioles vs. Tampa Bay Rays 2023-05-10",
+          "slug": "mlb-bal-tb-2023-05-10",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Orioles",
+              "probability": 1.0,
+              "price": 1.0
+            },
+            {
+              "id": "1",
+              "name": "Rays",
+              "probability": 0.0,
+              "price": 0.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "105703886650645997418955802570314532012133640056489099036714372035072231036440",
+            "11247532662706364491773676460300140689187821345879045256948355802999836722713"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-cin-nym-2023-05-10",
+          "question": "MLB: Cincinnati Reds vs. New York Mets 2023-05-10",
+          "slug": "mlb-cin-nym-2023-05-10",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Reds",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Mets",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "108108551552404254900431807580406046475725656256013105181608611558080406976345",
+            "104210530027897164141122346265834990919863087615248423931072285539663180494386"
+          ],
+          "spread": 1.0
+        },
+        {
+          "id": "mlb-atl-bos-2023-05-10",
+          "question": "MLB: Atlanta Braves vs. Boston Red Sox 2023-05-10",
+          "slug": "mlb-atl-bos-2023-05-10",
+          "outcomes": [
+            {
+              "id": "0",
+              "name": "Braves",
+              "probability": 0.0,
+              "price": 0.0
+            },
+            {
+              "id": "1",
+              "name": "Red Sox",
+              "probability": 1.0,
+              "price": 1.0
+            }
+          ],
+          "market_type": "Binary",
+          "volume": 0.0,
+          "volume_24h": 0.0,
+          "liquidity": 0.0,
+          "closed": false,
+          "resolved": false,
+          "enable_order_book": true,
+          "enable_neg_risk": false,
+          "neg_risk_augmented": false,
+          "token_ids": [
+            "40015210772599635655615864935264107585494734767990885002555498143291647727707",
+            "110146048004020292374970805864987473446902433414959150670759573317328263985938"
+          ],
+          "spread": 1.0
+        }
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "name": "mariners",
+      "pseudonym": "Sticky-Helicopter",
+      "wallet": "0xcce694e01f25d96bccfa573009101b600cb5da1d"
+    }
+  ],
+  "has_more": false
+}

@@ -1,0 +1,10 @@
+# Konfigurasi Auto Runner untuk MLB Polymarket AI Bot
+
+# Jadwal Analisis Harian (Jam dan Menit, format 24 jam)
+# Secara default disetel ke jam 22:00
+daily_analysis_hour: 22
+daily_analysis_minute: 0
+
+# Interval untuk pengecekan pergerakan line Polymarket (dalam menit)
+# Disetel ke 30 menit sesuai dengan standar Phase 4
+line_movement_interval_minutes: 30

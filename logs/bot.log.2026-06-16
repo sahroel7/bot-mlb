@@ -1,0 +1,1088 @@
+[2026-06-16 00:06:17] [ERROR] [telegram_bot] Gagal update tombol/pesan: Timed out
+[2026-06-16 00:21:47] [INFO] [auto_runner] Bot berhasil dimatikan.
+[2026-06-16 00:22:10] [INFO] [auto_runner] Menginisialisasi Dynamic Auto Runner (Phase 4.1)...
+[2026-06-16 00:22:10] [INFO] [auto_runner] Scheduler aktif (Background).
+[2026-06-16 00:22:12] [INFO] [telegram_bot] Starting Telegram Bot Listener...
+[2026-06-16 00:30:12] [INFO] [auto_runner] Bot berhasil dimatikan.
+[2026-06-16 00:30:39] [INFO] [auto_runner] Menginisialisasi Dynamic Auto Runner (Phase 4.1)...
+[2026-06-16 00:30:39] [INFO] [auto_runner] Scheduler aktif (Background).
+[2026-06-16 00:30:40] [INFO] [telegram_bot] Starting Telegram Bot Listener...
+[2026-06-16 01:00:39] [INFO] [auto_runner] === CHECKING POLYMARKET LINE MOVEMENT ===
+[2026-06-16 01:30:39] [INFO] [auto_runner] === CHECKING POLYMARKET LINE MOVEMENT ===
+[2026-06-16 01:30:39] [INFO] [auto_runner] === CHECKING WAITING MARKETS ===
+[2026-06-16 01:30:40] [INFO] [auto_runner] Mengecek market untuk Toronto Blue Jays @ Boston Red Sox (ID: 824750)
+[2026-06-16 01:30:40] [INFO] [bullpen_collector] [Bullpen] Mengambil data market harian dari Bullpen CLI...
+[2026-06-16 01:31:07] [INFO] [auto_runner] Mengecek market untuk Chicago White Sox @ New York Yankees (ID: 823535)
+[2026-06-16 01:31:07] [INFO] [auto_runner] Market ditemukan untuk 823535! Menjalankan analisis...
+[2026-06-16 01:31:12] [INFO] [main] [34m[0/4] Memproses hasil pertandingan kemarin...
+[2026-06-16 01:31:12] [INFO] [result_fetcher] [INFO] Menemukan 12 game tertunda. Mengambil skor...
+[2026-06-16 01:31:30] [INFO] [main] [36m  📊 Tidak ada prediksi kemarin untuk diupdate
+
+[2026-06-16 01:31:30] [INFO] [main] [34m[1/4] Mengambil jadwal pertandingan MLB...
+[2026-06-16 01:31:35] [INFO] [main] [32mDitemukan 1 pertandingan.
+
+[2026-06-16 01:31:35] [INFO] [main] [34m[2/4] Menganalisis pasar Polymarket & Statistik...
+[2026-06-16 01:31:35] [INFO] [main] [33m  (1/1) Menganalisis: Chicago White Sox @ New York Yankees...
+[2026-06-16 01:31:57] [INFO] [main] 
+[33m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+[33m┃  Chicago White Sox @ New York Yankees | 2026-06-16  ┃
+[33m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 📊 Bullpen.fi O/U Line  : [36m7.5
+┃ 🎯 Bot Expected Runs    : [35m7.83
+┃ 📈 Recommendation       : [33mNO BET / SKIP ⚠️
+┃ 🔥 Confidence           : [37mLOW ⚠️
+┃ 📡 Sumber odds          : [37mThe Odds API (fallback)
+[33m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ [1m📋 KEY FACTORS:[0m
+┃  ⚾ ERA/FIP elit (2.45): -0.5 run
+┃  • WHIP rendah (1.05): -0.3 run
+┃  ⚾ Bullpen solid (ERA 3.32): -0.2 run
+┃  ⚾ ERA/FIP elit (2.41): -0.5 run
+┃  • Disiplin tinggi (BB% 11.29): +0.2 run (ekspo
+┃  ⚾ Home Momentum (NEUTRAL Offense, PEAK Pitcher
+┃
+┃  ⚖️ Faktor saling menyeimbangkan.
+┃     Tidak ada edge yang cukup kuat.
+[33m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[2026-06-16 01:31:58] [INFO] [main] 💾 Prediksi disimpan
+[2026-06-16 01:31:58] [INFO] [main] [3/4] Menghasilkan Daily Summary...
+[2026-06-16 01:31:58] [INFO] [main] ============================================================
+[2026-06-16 01:31:58] [INFO] [main] 
+GAME                      | LINE   | PROJ   | REC        | CONF
+---------------------------------------------------------------
+Chicago White Sox @ New Y | 7.5    | 7.83   | NO BET / SKIP ⚠️ | LOW ⚠️
+[2026-06-16 01:31:58] [INFO] [main] ============================================================
+[2026-06-16 01:31:59] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
+[2026-06-16 01:32:02] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
+[2026-06-16 01:32:02] [INFO] [main] [4/4] Analisis Selesai! Gunakan data ini dengan bijak.
+[2026-06-16 01:32:02] [INFO] [auto_runner] Mengecek market untuk San Francisco Giants @ Atlanta Braves (ID: 824912)
+[2026-06-16 01:32:02] [INFO] [auto_runner] Market ditemukan untuk 824912! Menjalankan analisis...
+[2026-06-16 01:32:06] [INFO] [main] [34m[0/4] Memproses hasil pertandingan kemarin...
+[2026-06-16 01:32:06] [INFO] [result_fetcher] [INFO] Menemukan 13 game tertunda. Mengambil skor...
+[2026-06-16 01:32:19] [INFO] [main] [36m  📊 Tidak ada prediksi kemarin untuk diupdate
+
+[2026-06-16 01:32:19] [INFO] [main] [34m[1/4] Mengambil jadwal pertandingan MLB...
+[2026-06-16 01:32:21] [INFO] [main] [32mDitemukan 1 pertandingan.
+
+[2026-06-16 01:32:21] [INFO] [main] [34m[2/4] Menganalisis pasar Polymarket & Statistik...
+[2026-06-16 01:32:21] [INFO] [main] [33m  (1/1) Menganalisis: San Francisco Giants @ Atlanta Braves...
+[2026-06-16 01:32:37] [INFO] [main] 
+[32m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+[32m┃  San Francisco Giants @ Atlanta Braves | 2026-06-16  ┃
+[32m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 📊 Bullpen.fi O/U Line  : [36m8.5
+┃ 🎯 Bot Expected Runs    : [35m10.78
+┃ 📈 Recommendation       : [32mOVER ✅
+┃ 🔥 Confidence           : [31m[1mHIGH 🔥
+┃ 📡 Sumber odds          : [37mThe Odds API (fallback)
+[32m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ [1m📋 KEY FACTORS:[0m
+┃  • Kontrol buruk (BB/9 3.92): +0.3 run
+┃  ⚾ Bullpen solid (ERA 3.29): -0.2 run
+┃  ⚾ ERA/FIP tinggi (5.54): +0.5 run
+┃  • WHIP tinggi (1.54): +0.3 run
+┃  ⚾ Bullpen lemah (ERA 4.52): +0.4 run
+┃  💪 Efisien RISP (0.285): +0.2 run
+┃  • Kelembaban/Hujan (93% / 21%): +0.2 run (grip
+[32m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[2026-06-16 01:32:37] [INFO] [main] 💾 Prediksi disimpan
+[2026-06-16 01:32:37] [INFO] [alert_system] [Alert System] Mengirim HIGH confidence alert untuk game 824912...
+[2026-06-16 01:32:38] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
+[2026-06-16 01:32:38] [WARNING] [discord_sender] [Discord] Webhook URL belum disetel di .env. Skip pengiriman.
+[2026-06-16 01:32:39] [INFO] [alert_system] [Alert System] Berhasil mengirim alert.
+[2026-06-16 01:32:39] [INFO] [main] [3/4] Menghasilkan Daily Summary...
+[2026-06-16 01:32:39] [INFO] [main] ============================================================
+[2026-06-16 01:32:39] [INFO] [main] 
+GAME                      | LINE   | PROJ   | REC        | CONF
+---------------------------------------------------------------
+[31m[1mSan Francisco Giants @ At | 8.5    | 10.78  | OVER ✅     | HIGH 🔥
+[2026-06-16 01:32:39] [INFO] [main] ============================================================
+[2026-06-16 01:32:40] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
+[2026-06-16 01:32:43] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
+[2026-06-16 01:32:46] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
+[2026-06-16 01:32:46] [INFO] [main] [4/4] Analisis Selesai! Gunakan data ini dengan bijak.
+[2026-06-16 01:32:46] [INFO] [auto_runner] Mengecek market untuk Cleveland Guardians @ Milwaukee Brewers (ID: 823775)
+[2026-06-16 01:32:46] [INFO] [auto_runner] Market ditemukan untuk 823775! Menjalankan analisis...
+[2026-06-16 01:32:49] [INFO] [main] [34m[0/4] Memproses hasil pertandingan kemarin...
+[2026-06-16 01:32:49] [INFO] [result_fetcher] [INFO] Menemukan 14 game tertunda. Mengambil skor...
+[2026-06-16 01:33:03] [INFO] [main] [36m  📊 Tidak ada prediksi kemarin untuk diupdate
+
+[2026-06-16 01:33:03] [INFO] [main] [34m[1/4] Mengambil jadwal pertandingan MLB...
+[2026-06-16 01:33:05] [INFO] [main] [32mDitemukan 1 pertandingan.
+
+[2026-06-16 01:33:05] [INFO] [main] [34m[2/4] Menganalisis pasar Polymarket & Statistik...
+[2026-06-16 01:33:05] [INFO] [main] [33m  (1/1) Menganalisis: Cleveland Guardians @ Milwaukee Brewers...
+[2026-06-16 01:33:20] [INFO] [main] 
+[32m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+[32m┃  Cleveland Guardians @ Milwaukee Brewers | 2026-06-16  ┃
+[32m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 📊 Bullpen.fi O/U Line  : [36m8.5
+┃ 🎯 Bot Expected Runs    : [35m11.68
+┃ 📈 Recommendation       : [32mOVER ✅
+┃ 🔥 Confidence           : [31m[1mHIGH 🔥
+┃ 📡 Sumber odds          : [37mThe Odds API (fallback)
+[32m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ [1m📋 KEY FACTORS:[0m
+┃  ⚾ ERA/FIP tinggi (6.38): +0.5 run
+┃  • WHIP tinggi (1.58): +0.3 run
+┃  • Kontrol buruk (BB/9 4.42): +0.3 run
+┃  • Inning pendek (rata-rata 4.4 IP): +0.2 run (
+┃  ⚾ Bullpen solid (ERA 3.45): -0.2 run
+┃  ⚾ ERA/FIP tinggi (4.83): +0.5 run
+┃  • WHIP tinggi (1.44): +0.3 run
+┃  • Disiplin tinggi (BB% 11.0): +0.2 run (ekspos
+┃  💪 Offense lemah (OPS 0.689): -0.3 run
+┃  • Disiplin tinggi (BB% 10.27): +0.2 run (ekspo
+┃  💪 Efisien RISP (0.281): +0.2 run
+┃  ⚾ Home Momentum (NEUTRAL Offense, STRUGGLING P
+[32m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[2026-06-16 01:33:20] [INFO] [main] 💾 Prediksi disimpan
+[2026-06-16 01:33:20] [INFO] [alert_system] [Alert System] Mengirim HIGH confidence alert untuk game 823775...
+[2026-06-16 01:33:21] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
+[2026-06-16 01:33:21] [WARNING] [discord_sender] [Discord] Webhook URL belum disetel di .env. Skip pengiriman.
+[2026-06-16 01:33:21] [INFO] [alert_system] [Alert System] Berhasil mengirim alert.
+[2026-06-16 01:33:21] [INFO] [main] [3/4] Menghasilkan Daily Summary...
+[2026-06-16 01:33:21] [INFO] [main] ============================================================
+[2026-06-16 01:33:21] [INFO] [main] 
+GAME                      | LINE   | PROJ   | REC        | CONF
+---------------------------------------------------------------
+[31m[1mCleveland Guardians @ Mil | 8.5    | 11.68  | OVER ✅     | HIGH 🔥
+[2026-06-16 01:33:21] [INFO] [main] ============================================================
+[2026-06-16 01:33:23] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
+[2026-06-16 01:33:26] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
+[2026-06-16 01:33:29] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
+[2026-06-16 01:33:29] [INFO] [main] [4/4] Analisis Selesai! Gunakan data ini dengan bijak.
+[2026-06-16 01:33:29] [INFO] [auto_runner] Mengecek market untuk Baltimore Orioles @ Seattle Mariners (ID: 823128)
+[2026-06-16 02:00:39] [INFO] [auto_runner] === CHECKING POLYMARKET LINE MOVEMENT ===
+[2026-06-16 02:30:39] [INFO] [auto_runner] === CHECKING POLYMARKET LINE MOVEMENT ===
+[2026-06-16 02:30:39] [INFO] [auto_runner] === CHECKING WAITING MARKETS ===
+[2026-06-16 02:30:39] [INFO] [auto_runner] Mengecek market untuk Toronto Blue Jays @ Boston Red Sox (ID: 824750)
+[2026-06-16 02:30:39] [INFO] [bullpen_collector] [Bullpen] Mengambil data market harian dari Bullpen CLI...
+[2026-06-16 02:30:48] [INFO] [auto_runner] Mengecek market untuk Baltimore Orioles @ Seattle Mariners (ID: 823128)
+[2026-06-16 02:30:48] [INFO] [auto_runner] Market ditemukan untuk 823128! Menjalankan analisis...
+[2026-06-16 02:30:51] [INFO] [main] [34m[0/4] Memproses hasil pertandingan kemarin...
+[2026-06-16 02:30:51] [INFO] [result_fetcher] [INFO] Menemukan 15 game tertunda. Mengambil skor...
+[2026-06-16 02:30:53] [INFO] [result_fetcher] [INFO] Game 823452 dibatalkan/ditunda. Status: Void.
+[2026-06-16 02:30:54] [INFO] [result_fetcher] [INFO] Game 822724 dibatalkan/ditunda. Status: Void.
+[2026-06-16 02:30:55] [INFO] [result_fetcher] [INFO] Game 824505 dibatalkan/ditunda. Status: Void.
+[2026-06-16 02:30:59] [INFO] [result_fetcher] [INFO] Game 824666 dibatalkan/ditunda. Status: Void.
+[2026-06-16 02:31:03] [INFO] [result_fetcher] [INFO] Game 823046 dibatalkan/ditunda. Status: Void.
+[2026-06-16 02:31:04] [INFO] [result_fetcher] [INFO] Game 822887 dibatalkan/ditunda. Status: Void.
+[2026-06-16 02:31:09] [INFO] [result_fetcher] [DB] Performa harian 2026-06-15 diupdate: 0.0% WR (0W - 0L)
+[2026-06-16 02:31:09] [INFO] [main] [36m  📊 Hasil kemarin: 0/4 prediksi benar (0.0%)
+
+[2026-06-16 02:31:09] [INFO] [main] [34m[1/4] Mengambil jadwal pertandingan MLB...
+[2026-06-16 02:31:11] [INFO] [main] [32mDitemukan 1 pertandingan.
+
+[2026-06-16 02:31:11] [INFO] [main] [34m[2/4] Menganalisis pasar Polymarket & Statistik...
+[2026-06-16 02:31:11] [INFO] [main] [33m  (1/1) Menganalisis: Baltimore Orioles @ Seattle Mariners...
+[2026-06-16 02:31:31] [INFO] [main] 
+[32m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+[32m┃  Baltimore Orioles @ Seattle Mariners | 2026-06-17  ┃
+[32m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 📊 Bullpen.fi O/U Line  : [36m7.5
+┃ 🎯 Bot Expected Runs    : [35m8.28
+┃ 📈 Recommendation       : [32mOVER ✅
+┃ 🔥 Confidence           : [33m[1mMEDIUM ⚡
+┃ 📡 Sumber odds          : [37mBullpen CLI
+[32m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ [1m📋 KEY FACTORS:[0m
+┃  • WHIP rendah (1.08): -0.3 run
+┃  ⚾ ERA/FIP elit (3.04): -0.5 run
+┃  • Inning pendek (rata-rata 4.7 IP): +0.2 run (
+┃  ⚾ Bullpen lemah (ERA 4.59): +0.4 run
+┃  • Disiplin tinggi (BB% 10.16): +0.2 run (ekspo
+┃  • Kelembaban/Hujan (81% / 1%): +0.2 run (grip 
+┃  ⚾ Pitcher's Park (PF 91): -0.9 run
+[32m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[2026-06-16 02:31:31] [INFO] [main] 💾 Prediksi disimpan
+[2026-06-16 02:31:31] [INFO] [main] [3/4] Menghasilkan Daily Summary...
+[2026-06-16 02:31:31] [INFO] [main] ============================================================
+[2026-06-16 02:31:31] [INFO] [main] 
+GAME                      | LINE   | PROJ   | REC        | CONF
+---------------------------------------------------------------
+Baltimore Orioles @ Seatt | 7.5    | 8.28   | OVER ✅     | MEDIUM ⚡
+[2026-06-16 02:31:31] [INFO] [main] ============================================================
+[2026-06-16 02:31:32] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
+[2026-06-16 02:31:35] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
+[2026-06-16 02:31:39] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
+[2026-06-16 02:31:39] [INFO] [main] [4/4] Analisis Selesai! Gunakan data ini dengan bijak.
+[2026-06-16 03:00:39] [INFO] [auto_runner] === CHECKING POLYMARKET LINE MOVEMENT ===
+[2026-06-16 03:30:39] [INFO] [auto_runner] === CHECKING POLYMARKET LINE MOVEMENT ===
+[2026-06-16 03:30:39] [INFO] [auto_runner] === CHECKING WAITING MARKETS ===
+[2026-06-16 03:30:39] [INFO] [auto_runner] Mengecek market untuk Toronto Blue Jays @ Boston Red Sox (ID: 824750)
+[2026-06-16 03:30:39] [INFO] [bullpen_collector] [Bullpen] Mengambil data market harian dari Bullpen CLI...
+[2026-06-16 03:30:49] [INFO] [auto_runner] Market ditemukan untuk 824750! Menjalankan analisis...
+[2026-06-16 03:30:53] [INFO] [main] [34m[0/4] Memproses hasil pertandingan kemarin...
+[2026-06-16 03:30:53] [INFO] [result_fetcher] [INFO] Menemukan 10 game tertunda. Mengambil skor...
+[2026-06-16 03:30:54] [INFO] [result_fetcher] [INFO] Game 824181 dibatalkan/ditunda. Status: Void.
+[2026-06-16 03:31:04] [INFO] [result_fetcher] [DB] Performa harian 2026-06-15 diupdate: 0.0% WR (0W - 0L)
+[2026-06-16 03:31:04] [INFO] [main] [36m  📊 Hasil kemarin: 0/4 prediksi benar (0.0%)
+
+[2026-06-16 03:31:04] [INFO] [main] [34m[1/4] Mengambil jadwal pertandingan MLB...
+[2026-06-16 03:31:06] [INFO] [main] [32mDitemukan 1 pertandingan.
+
+[2026-06-16 03:31:06] [INFO] [main] [34m[2/4] Menganalisis pasar Polymarket & Statistik...
+[2026-06-16 03:31:06] [INFO] [main] [33m  (1/1) Menganalisis: Toronto Blue Jays @ Boston Red Sox...
+[2026-06-16 03:31:19] [INFO] [main] 
+[33m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+[33m┃  Toronto Blue Jays @ Boston Red Sox | 2026-06-16  ┃
+[33m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 📊 Bullpen.fi O/U Line  : [36m8.5
+┃ 🎯 Bot Expected Runs    : [35m8.35
+┃ 📈 Recommendation       : [33mNO BET / SKIP ⚠️
+┃ 🔥 Confidence           : [37mLOW ⚠️
+┃ 📡 Sumber odds          : [37mBullpen CLI
+[33m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ [1m📋 KEY FACTORS:[0m
+┃  ⚾ ERA/FIP elit (2.7): -0.5 run
+┃  • WHIP rendah (1.05): -0.3 run
+┃  • Data pitcher tidak tersedia, menggunakan bas
+┃  💪 Offense lemah (OPS 0.698): -0.3 run
+┃  🏟️ Hitter's Park (PF 109): +0.9 run
+┃
+┃  ⚖️ Faktor saling menyeimbangkan.
+┃     Tidak ada edge yang cukup kuat.
+[33m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[2026-06-16 03:31:19] [INFO] [main] 💾 Prediksi disimpan
+[2026-06-16 03:31:19] [INFO] [main] [3/4] Menghasilkan Daily Summary...
+[2026-06-16 03:31:19] [INFO] [main] ============================================================
+[2026-06-16 03:31:19] [INFO] [main] 
+GAME                      | LINE   | PROJ   | REC        | CONF
+---------------------------------------------------------------
+Toronto Blue Jays @ Bosto | 8.5    | 8.35   | NO BET / SKIP ⚠️ | LOW ⚠️
+[2026-06-16 03:31:19] [INFO] [main] ============================================================
+[2026-06-16 03:31:20] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
+[2026-06-16 03:31:23] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
+[2026-06-16 03:31:23] [INFO] [main] [4/4] Analisis Selesai! Gunakan data ini dengan bijak.
+[2026-06-16 04:00:39] [INFO] [auto_runner] === CHECKING POLYMARKET LINE MOVEMENT ===
+[2026-06-16 04:30:39] [INFO] [auto_runner] === CHECKING POLYMARKET LINE MOVEMENT ===
+[2026-06-16 04:30:39] [INFO] [auto_runner] === CHECKING WAITING MARKETS ===
+[2026-06-16 04:30:39] [INFO] [auto_runner] Tidak ada game di antrean waiting_markets.
+[2026-06-16 05:00:39] [INFO] [auto_runner] === CHECKING POLYMARKET LINE MOVEMENT ===
+[2026-06-16 05:30:39] [INFO] [auto_runner] === CHECKING POLYMARKET LINE MOVEMENT ===
+[2026-06-16 05:30:39] [INFO] [auto_runner] === CHECKING WAITING MARKETS ===
+[2026-06-16 05:30:39] [INFO] [auto_runner] Tidak ada game di antrean waiting_markets.
+[2026-06-16 06:00:39] [INFO] [auto_runner] === CHECKING POLYMARKET LINE MOVEMENT ===
+[2026-06-16 07:00:39] [INFO] [auto_runner] === CHECKING POLYMARKET LINE MOVEMENT ===
+[2026-06-16 07:30:39] [INFO] [auto_runner] === CHECKING POLYMARKET LINE MOVEMENT ===
+[2026-06-16 07:30:39] [INFO] [auto_runner] === CHECKING WAITING MARKETS ===
+[2026-06-16 07:30:40] [INFO] [auto_runner] Tidak ada game di antrean waiting_markets.
+[2026-06-16 08:00:00] [INFO] [auto_runner] === MENJALANKAN SCHEDULED RESULTS CHECK ===
+[2026-06-16 08:00:01] [INFO] [result_fetcher] [INFO] Menemukan 10 game tertunda. Mengambil skor...
+[2026-06-16 08:00:07] [INFO] [result_fetcher] [INFO] Game 825071 dibatalkan/ditunda. Status: Void.
+[2026-06-16 08:00:09] [INFO] [result_fetcher] [INFO] Game 823938 dibatalkan/ditunda. Status: Void.
+[2026-06-16 08:00:10] [INFO] [result_fetcher] [INFO] Game 824993 dibatalkan/ditunda. Status: Void.
+[2026-06-16 08:00:18] [INFO] [result_fetcher] [DB] Performa harian 2026-06-15 diupdate: 0.0% WR (0W - 0L)
+[2026-06-16 08:00:18] [INFO] [auto_runner] Mengirim laporan harian untuk 2026-06-15...
+[2026-06-16 08:00:20] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
+[2026-06-16 08:00:20] [INFO] [auto_runner] 3 hasil pertandingan baru berhasil diupdate.
+[2026-06-16 08:00:39] [INFO] [auto_runner] === CHECKING POLYMARKET LINE MOVEMENT ===
+[2026-06-16 08:30:39] [INFO] [auto_runner] === CHECKING POLYMARKET LINE MOVEMENT ===
+[2026-06-16 08:30:39] [INFO] [auto_runner] === CHECKING WAITING MARKETS ===
+[2026-06-16 08:30:39] [INFO] [auto_runner] Tidak ada game di antrean waiting_markets.
+[2026-06-16 09:00:00] [INFO] [auto_runner] === MENJALANKAN EARLY ALERT (09:00 WIB) UNTUK BESOK ===
+[2026-06-16 09:00:09] [INFO] [main] [34m[0/4] Memproses hasil pertandingan kemarin...
+[2026-06-16 09:00:09] [INFO] [result_fetcher] [INFO] Menemukan 7 game tertunda. Mengambil skor...
+[2026-06-16 09:00:17] [INFO] [main] [36m  📊 Hasil kemarin: 0/7 prediksi benar (0.0%)
+
+[2026-06-16 09:00:17] [INFO] [main] [34m[1/4] Mengambil jadwal pertandingan MLB...
+[2026-06-16 09:00:18] [INFO] [main] [32mDitemukan 15 pertandingan.
+
+[2026-06-16 09:00:18] [INFO] [main] [34m[2/4] Menganalisis pasar Polymarket & Statistik...
+[2026-06-16 09:00:18] [INFO] [main] [33m  (1/15) Menganalisis: Miami Marlins @ Philadelphia Phillies...
+[2026-06-16 09:00:19] [INFO] [bullpen_collector] [Bullpen] Mengambil data market harian dari Bullpen CLI...
+[2026-06-16 09:00:39] [INFO] [auto_runner] === CHECKING POLYMARKET LINE MOVEMENT ===
+[2026-06-16 09:01:14] [INFO] [main] 
+[32m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+[32m┃  Miami Marlins @ Philadelphia Phillies | 2026-06-16  ┃
+[32m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 📊 Bullpen.fi O/U Line  : [36m8.5
+┃ 🎯 Bot Expected Runs    : [35m9.05
+┃ 📈 Recommendation       : [32mOVER ✅
+┃ 🔥 Confidence           : [33m[1mMEDIUM ⚡
+┃ 📡 Sumber odds          : [37mBullpen CLI
+[32m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ [1m📋 KEY FACTORS:[0m
+┃  ⚾ ERA/FIP elit (1.86): -0.5 run
+┃  • Kontrol buruk (BB/9 4.47): +0.3 run
+┃  • Inning pendek (rata-rata 1.7 IP): +0.2 run (
+┃  💪 Offense lemah (OPS 0.684): -0.3 run
+┃  🏟️ Hitter's Park (PF 107): +0.7 run
+[32m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[2026-06-16 09:01:14] [INFO] [main] [33m  (2/15) Menganalisis: Kansas City Royals @ Washington Nationals...
+[2026-06-16 09:01:30] [INFO] [main] 
+[33m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+[33m┃  Kansas City Royals @ Washington Nationals | 2026-06-16  ┃
+[33m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 📊 Bullpen.fi O/U Line  : [36m8.5
+┃ 🎯 Bot Expected Runs    : [35m8.73
+┃ 📈 Recommendation       : [33mNO BET / SKIP ⚠️
+┃ 🔥 Confidence           : [37mLOW ⚠️
+┃ 📡 Sumber odds          : [37mBullpen CLI
+[33m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ [1m📋 KEY FACTORS:[0m
+┃  • WHIP rendah (1.09): -0.3 run
+┃  ⚾ Bullpen lemah (ERA 4.64): +0.4 run
+┃  💪 Offense lemah (OPS 0.693): -0.3 run
+┃  ⚾ Away Momentum (NEUTRAL Offense, PEAK Pitcher
+┃
+┃  ⚖️ Faktor saling menyeimbangkan.
+┃     Tidak ada edge yang cukup kuat.
+[33m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[2026-06-16 09:01:30] [INFO] [main] [33m  (3/15) Menganalisis: Toronto Blue Jays @ Boston Red Sox...
+[2026-06-16 09:01:44] [INFO] [main] 
+[33m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+[33m┃  Toronto Blue Jays @ Boston Red Sox | 2026-06-16  ┃
+[33m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 📊 Bullpen.fi O/U Line  : [36m8.5
+┃ 🎯 Bot Expected Runs    : [35m8.35
+┃ 📈 Recommendation       : [33mNO BET / SKIP ⚠️
+┃ 🔥 Confidence           : [37mLOW ⚠️
+┃ 📡 Sumber odds          : [37mBullpen CLI
+[33m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ [1m📋 KEY FACTORS:[0m
+┃  ⚾ ERA/FIP elit (2.7): -0.5 run
+┃  • WHIP rendah (1.05): -0.3 run
+┃  • Data pitcher tidak tersedia, menggunakan bas
+┃  💪 Offense lemah (OPS 0.698): -0.3 run
+┃  🏟️ Hitter's Park (PF 109): +0.9 run
+┃
+┃  ⚖️ Faktor saling menyeimbangkan.
+┃     Tidak ada edge yang cukup kuat.
+[33m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[2026-06-16 09:01:44] [INFO] [main] 💾 Prediksi disimpan
+[2026-06-16 09:01:44] [INFO] [main] [33m  (4/15) Menganalisis: Chicago White Sox @ New York Yankees...
+[2026-06-16 09:01:59] [INFO] [main] 
+[36m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+[36m┃  Chicago White Sox @ New York Yankees | 2026-06-16  ┃
+[36m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 📊 Bullpen.fi O/U Line  : [36m8.5
+┃ 🎯 Bot Expected Runs    : [35m7.83
+┃ 📈 Recommendation       : [36mUNDER ✅
+┃ 🔥 Confidence           : [33m[1mMEDIUM ⚡
+┃ 📡 Sumber odds          : [37mBullpen CLI
+[36m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ [1m📋 KEY FACTORS:[0m
+┃  ⚾ ERA/FIP elit (2.45): -0.5 run
+┃  • WHIP rendah (1.05): -0.3 run
+┃  ⚾ Bullpen solid (ERA 3.32): -0.2 run
+┃  ⚾ ERA/FIP elit (2.41): -0.5 run
+┃  • Disiplin tinggi (BB% 11.29): +0.2 run (ekspo
+┃  ⚾ Home Momentum (NEUTRAL Offense, PEAK Pitcher
+[36m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[2026-06-16 09:02:00] [INFO] [main] 💾 Prediksi disimpan
+[2026-06-16 09:02:00] [INFO] [main] [33m  (5/15) Menganalisis: New York Mets @ Cincinnati Reds...
+[2026-06-16 09:02:15] [INFO] [main] 
+[32m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+[32m┃  New York Mets @ Cincinnati Reds | 2026-06-16  ┃
+[32m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 📊 Bullpen.fi O/U Line  : [36m8.5
+┃ 🎯 Bot Expected Runs    : [35m12.65
+┃ 📈 Recommendation       : [32mOVER ✅
+┃ 🔥 Confidence           : [31m[1mHIGH 🔥
+┃ 📡 Sumber odds          : [37mBullpen CLI
+[32m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ [1m📋 KEY FACTORS:[0m
+┃  ⚾ ERA/FIP tinggi (5.61): +0.5 run
+┃  • WHIP tinggi (1.64): +0.3 run
+┃  • Inning pendek (rata-rata 3.7 IP): +0.2 run (
+┃  ⚾ Bullpen lemah (ERA 4.62): +0.4 run
+┃  ⚾ ERA/FIP tinggi (9.0): +0.5 run
+┃  • WHIP tinggi (1.95): +0.3 run
+┃  • Kontrol buruk (BB/9 5.85): +0.3 run
+┃  • Inning pendek (rata-rata 4.4 IP): +0.2 run (
+┃  • Disiplin tinggi (BB% 10.23): +0.2 run (ekspo
+┃  💪 Offense lemah (OPS 0.665): -0.3 run
+┃  💪 Buruk RISP (0.215): -0.2 run
+┃  ⚾ Home Momentum (NEUTRAL Offense, STRUGGLING P
+┃  • Kelembaban/Hujan (83% / 31%): +0.2 run (grip
+┃  🏟️ Hitter's Park (PF 111): +1.1 run
+[32m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[2026-06-16 09:02:15] [INFO] [main] [33m  (6/15) Menganalisis: San Francisco Giants @ Atlanta Braves...
+[2026-06-16 09:02:30] [INFO] [main] 
+[32m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+[32m┃  San Francisco Giants @ Atlanta Braves | 2026-06-16  ┃
+[32m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 📊 Bullpen.fi O/U Line  : [36m8.5
+┃ 🎯 Bot Expected Runs    : [35m10.78
+┃ 📈 Recommendation       : [32mOVER ✅
+┃ 🔥 Confidence           : [31m[1mHIGH 🔥
+┃ 📡 Sumber odds          : [37mBullpen CLI
+[32m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ [1m📋 KEY FACTORS:[0m
+┃  • Kontrol buruk (BB/9 3.92): +0.3 run
+┃  ⚾ Bullpen solid (ERA 3.29): -0.2 run
+┃  ⚾ ERA/FIP tinggi (5.54): +0.5 run
+┃  • WHIP tinggi (1.54): +0.3 run
+┃  ⚾ Bullpen lemah (ERA 4.52): +0.4 run
+┃  💪 Efisien RISP (0.285): +0.2 run
+┃  • Kelembaban/Hujan (87% / 13%): +0.2 run (grip
+[32m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[2026-06-16 09:02:30] [INFO] [main] 💾 Prediksi disimpan
+[2026-06-16 09:02:30] [INFO] [main] [33m  (7/15) Menganalisis: Cleveland Guardians @ Milwaukee Brewers...
+[2026-06-16 09:02:46] [INFO] [main] 
+[32m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+[32m┃  Cleveland Guardians @ Milwaukee Brewers | 2026-06-16  ┃
+[32m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 📊 Bullpen.fi O/U Line  : [36m8.5
+┃ 🎯 Bot Expected Runs    : [35m11.68
+┃ 📈 Recommendation       : [32mOVER ✅
+┃ 🔥 Confidence           : [31m[1mHIGH 🔥
+┃ 📡 Sumber odds          : [37mBullpen CLI
+[32m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ [1m📋 KEY FACTORS:[0m
+┃  ⚾ ERA/FIP tinggi (6.38): +0.5 run
+┃  • WHIP tinggi (1.58): +0.3 run
+┃  • Kontrol buruk (BB/9 4.42): +0.3 run
+┃  • Inning pendek (rata-rata 4.4 IP): +0.2 run (
+┃  ⚾ Bullpen solid (ERA 3.45): -0.2 run
+┃  ⚾ ERA/FIP tinggi (4.83): +0.5 run
+┃  • WHIP tinggi (1.44): +0.3 run
+┃  • Disiplin tinggi (BB% 11.0): +0.2 run (ekspos
+┃  💪 Offense lemah (OPS 0.689): -0.3 run
+┃  • Disiplin tinggi (BB% 10.27): +0.2 run (ekspo
+┃  💪 Efisien RISP (0.281): +0.2 run
+┃  ⚾ Home Momentum (NEUTRAL Offense, STRUGGLING P
+[32m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[2026-06-16 09:02:46] [INFO] [main] 💾 Prediksi disimpan
+[2026-06-16 09:02:46] [INFO] [main] [33m  (8/15) Menganalisis: San Diego Padres @ St. Louis Cardinals...
+[2026-06-16 09:03:02] [INFO] [main] 
+[33m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+[33m┃  San Diego Padres @ St. Louis Cardinals | 2026-06-16  ┃
+[33m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 📊 Bullpen.fi O/U Line  : [36m8.5
+┃ 🎯 Bot Expected Runs    : [35m8.71
+┃ 📈 Recommendation       : [33mNO BET / SKIP ⚠️
+┃ 🔥 Confidence           : [37mLOW ⚠️
+┃ 📡 Sumber odds          : [37mBullpen CLI
+[33m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ [1m📋 KEY FACTORS:[0m
+┃  • Kontrol buruk (BB/9 3.57): +0.3 run
+┃  💪 Offense lemah (OPS 0.652): -0.3 run
+┃
+┃  ⚖️ Faktor saling menyeimbangkan.
+┃     Tidak ada edge yang cukup kuat.
+[33m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[2026-06-16 09:03:03] [INFO] [main] 💾 Prediksi disimpan
+[2026-06-16 09:03:03] [INFO] [main] [33m  (9/15) Menganalisis: Colorado Rockies @ Chicago Cubs...
+[2026-06-16 09:03:19] [INFO] [main] 
+[32m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+[32m┃  Colorado Rockies @ Chicago Cubs | 2026-06-17  ┃
+[32m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 📊 Bullpen.fi O/U Line  : [36m8.5
+┃ 🎯 Bot Expected Runs    : [35m11.13
+┃ 📈 Recommendation       : [32mOVER ✅
+┃ 🔥 Confidence           : [31m[1mHIGH 🔥
+┃ 📡 Sumber odds          : [37mBullpen CLI
+[32m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ [1m📋 KEY FACTORS:[0m
+┃  ⚾ ERA/FIP tinggi (4.86): +0.5 run
+┃  • WHIP tinggi (1.41): +0.3 run
+┃  ⚾ ERA/FIP tinggi (5.2): +0.5 run
+┃  • Inning pendek (rata-rata 4.0 IP): +0.2 run (
+┃  ⚾ Bullpen lemah (ERA 5.61): +0.4 run
+┃  • Disiplin tinggi (BB% 10.74): +0.2 run (ekspo
+[32m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[2026-06-16 09:03:19] [INFO] [main] [33m  (10/15) Menganalisis: Minnesota Twins @ Texas Rangers...
+[2026-06-16 09:03:35] [INFO] [main] 
+[32m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+[32m┃  Minnesota Twins @ Texas Rangers | 2026-06-17  ┃
+[32m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 📊 Bullpen.fi O/U Line  : [36m8.5
+┃ 🎯 Bot Expected Runs    : [35m9.9
+┃ 📈 Recommendation       : [32mOVER ✅
+┃ 🔥 Confidence           : [33m[1mMEDIUM ⚡
+┃ 📡 Sumber odds          : [37mBullpen CLI
+[32m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ [1m📋 KEY FACTORS:[0m
+┃  • Kontrol buruk (BB/9 3.84): +0.3 run
+┃  • Inning pendek (rata-rata 4.7 IP): +0.2 run (
+┃  ⚾ ERA/FIP tinggi (5.2): +0.5 run
+┃  ⚾ Bullpen lemah (ERA 4.84): +0.4 run
+┃  💪 Offense lemah (OPS 0.699): -0.3 run
+[32m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[2026-06-16 09:03:36] [INFO] [main] 💾 Prediksi disimpan
+[2026-06-16 09:03:36] [INFO] [main] [33m  (11/15) Menganalisis: Detroit Tigers @ Houston Astros...
+[2026-06-16 09:03:50] [INFO] [main] 
+[33m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+[33m┃  Detroit Tigers @ Houston Astros | 2026-06-17  ┃
+[33m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 📊 Bullpen.fi O/U Line  : [36m8.5
+┃ 🎯 Bot Expected Runs    : [35m8.71
+┃ 📈 Recommendation       : [33mNO BET / SKIP ⚠️
+┃ 🔥 Confidence           : [37mLOW ⚠️
+┃ 📡 Sumber odds          : [37mBullpen CLI
+[33m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ [1m📋 KEY FACTORS:[0m
+┃  ⚾ ERA/FIP elit (0.84): -0.5 run
+┃  • WHIP rendah (1.03): -0.3 run
+┃  • Kontrol buruk (BB/9 5.06): +0.3 run
+┃  ⚾ Bullpen lemah (ERA 4.94): +0.4 run
+┃  • Data cuaca tidak tersedia.
+┃
+┃  ⚖️ Faktor saling menyeimbangkan.
+┃     Tidak ada edge yang cukup kuat.
+[33m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[2026-06-16 09:03:51] [INFO] [main] [33m  (12/15) Menganalisis: Los Angeles Angels @ Arizona Diamondbacks...
+[2026-06-16 09:04:06] [INFO] [main] 
+[32m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+[32m┃  Los Angeles Angels @ Arizona Diamondbacks | 2026-06-17  ┃
+[32m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 📊 Bullpen.fi O/U Line  : [36m8.5
+┃ 🎯 Bot Expected Runs    : [35m11.01
+┃ 📈 Recommendation       : [32mOVER ✅
+┃ 🔥 Confidence           : [31m[1mHIGH 🔥
+┃ 📡 Sumber odds          : [37mBullpen CLI
+[32m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ [1m📋 KEY FACTORS:[0m
+┃  ⚾ ERA/FIP tinggi (5.46): +0.5 run
+┃  • WHIP tinggi (1.45): +0.3 run
+┃  • Kontrol buruk (BB/9 3.78): +0.3 run
+┃  • Inning pendek (rata-rata 4.7 IP): +0.2 run (
+┃  • WHIP rendah (1.05): -0.3 run
+┃  • Inning pendek (rata-rata 4.8 IP): +0.2 run (
+┃  ⚾ Bullpen lemah (ERA 4.63): +0.4 run
+┃  💪 Offense lemah (OPS 0.691): -0.3 run
+┃  ⚾ Home Momentum (NEUTRAL Offense, STRUGGLING P
+┃  ⚾ Away Momentum (NEUTRAL Offense, STRUGGLING P
+┃  🌡️ Suhu panas (89.6°F): +0.3 run (udara tipis)
+[32m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[2026-06-16 09:04:06] [INFO] [main] [33m  (13/15) Menganalisis: Pittsburgh Pirates @ Athletics...
+[2026-06-16 09:04:21] [INFO] [main] 
+[33m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+[33m┃  Pittsburgh Pirates @ Athletics | 2026-06-17   ┃
+[33m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 📊 Bullpen.fi O/U Line  : [36m10.5
+┃ 🎯 Bot Expected Runs    : [35m10.78
+┃ 📈 Recommendation       : [33mNO BET / SKIP ⚠️
+┃ 🔥 Confidence           : [37mLOW ⚠️
+┃ 📡 Sumber odds          : [37mBullpen CLI
+[33m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ [1m📋 KEY FACTORS:[0m
+┃  ⚾ ERA/FIP tinggi (6.25): +0.5 run
+┃  • Inning pendek (rata-rata 1.4 IP): +0.2 run (
+┃  ⚾ Bullpen lemah (ERA 4.84): +0.4 run
+┃  ⚾ ERA/FIP tinggi (5.14): +0.5 run
+┃  ⚾ Home Momentum (NEUTRAL Offense, STRUGGLING P
+┃  ⚾ Away Momentum (NEUTRAL Offense, PEAK Pitcher
+┃  • Data cuaca tidak tersedia.
+┃
+┃  ⚖️ Faktor saling menyeimbangkan.
+┃     Tidak ada edge yang cukup kuat.
+[33m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[2026-06-16 09:04:21] [INFO] [main] [33m  (14/15) Menganalisis: Baltimore Orioles @ Seattle Mariners...
+[2026-06-16 09:04:37] [INFO] [main] 
+[32m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+[32m┃  Baltimore Orioles @ Seattle Mariners | 2026-06-17  ┃
+[32m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 📊 Bullpen.fi O/U Line  : [36m7.5
+┃ 🎯 Bot Expected Runs    : [35m8.08
+┃ 📈 Recommendation       : [32mOVER ✅
+┃ 🔥 Confidence           : [33m[1mMEDIUM ⚡
+┃ 📡 Sumber odds          : [37mBullpen CLI
+[32m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ [1m📋 KEY FACTORS:[0m
+┃  • WHIP rendah (1.08): -0.3 run
+┃  ⚾ ERA/FIP elit (3.04): -0.5 run
+┃  • Inning pendek (rata-rata 4.7 IP): +0.2 run (
+┃  ⚾ Bullpen lemah (ERA 4.59): +0.4 run
+┃  • Disiplin tinggi (BB% 10.16): +0.2 run (ekspo
+┃  ⚾ Pitcher's Park (PF 91): -0.9 run
+[32m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[2026-06-16 09:04:37] [INFO] [main] 💾 Prediksi disimpan
+[2026-06-16 09:04:37] [INFO] [main] [33m  (15/15) Menganalisis: Tampa Bay Rays @ Los Angeles Dodgers...
+[2026-06-16 09:04:52] [INFO] [main] 
+[36m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+[36m┃  Tampa Bay Rays @ Los Angeles Dodgers | 2026-06-17  ┃
+[36m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 📊 Bullpen.fi O/U Line  : [36m8.5
+┃ 🎯 Bot Expected Runs    : [35m7.55
+┃ 📈 Recommendation       : [36mUNDER ✅
+┃ 🔥 Confidence           : [33m[1mMEDIUM ⚡
+┃ 📡 Sumber odds          : [37mBullpen CLI
+[36m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ [1m📋 KEY FACTORS:[0m
+┃  ⚾ ERA/FIP elit (2.95): -0.5 run
+┃  • WHIP rendah (1.05): -0.3 run
+┃  ⚾ Bullpen solid (ERA 3.37): -0.2 run
+┃  ⚾ ERA/FIP elit (2.71): -0.5 run
+┃  • WHIP rendah (0.88): -0.3 run
+┃  • Disiplin tinggi (BB% 10.65): +0.2 run (ekspo
+┃  ⚾ Home Momentum (NEUTRAL Offense, PEAK Pitcher
+┃  • Data cuaca tidak tersedia.
+[36m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[2026-06-16 09:04:52] [INFO] [main] [3/4] Menghasilkan Daily Summary...
+[2026-06-16 09:04:52] [INFO] [main] ============================================================
+[2026-06-16 09:04:52] [INFO] [main] 
+GAME                      | LINE   | PROJ   | REC        | CONF
+---------------------------------------------------------------
+Miami Marlins @ Philadelp | 8.5    | 9.05   | OVER ✅     | MEDIUM ⚡
+Kansas City Royals @ Wash | 8.5    | 8.73   | NO BET / SKIP ⚠️ | LOW ⚠️
+Toronto Blue Jays @ Bosto | 8.5    | 8.35   | NO BET / SKIP ⚠️ | LOW ⚠️
+Chicago White Sox @ New Y | 8.5    | 7.83   | UNDER ✅    | MEDIUM ⚡
+[31m[1mNew York Mets @ Cincinnat | 8.5    | 12.65  | OVER ✅     | HIGH 🔥
+[31m[1mSan Francisco Giants @ At | 8.5    | 10.78  | OVER ✅     | HIGH 🔥
+[31m[1mCleveland Guardians @ Mil | 8.5    | 11.68  | OVER ✅     | HIGH 🔥
+San Diego Padres @ St. Lo | 8.5    | 8.71   | NO BET / SKIP ⚠️ | LOW ⚠️
+[31m[1mColorado Rockies @ Chicag | 8.5    | 11.13  | OVER ✅     | HIGH 🔥
+Minnesota Twins @ Texas R | 8.5    | 9.9    | OVER ✅     | MEDIUM ⚡
+Detroit Tigers @ Houston  | 8.5    | 8.71   | NO BET / SKIP ⚠️ | LOW ⚠️
+[31m[1mLos Angeles Angels @ Ariz | 8.5    | 11.01  | OVER ✅     | HIGH 🔥
+Pittsburgh Pirates @ Athl | 10.5   | 10.78  | NO BET / SKIP ⚠️ | LOW ⚠️
+Baltimore Orioles @ Seatt | 7.5    | 8.08   | OVER ✅     | MEDIUM ⚡
+Tampa Bay Rays @ Los Ange | 8.5    | 7.55   | UNDER ✅    | MEDIUM ⚡
+[2026-06-16 09:04:52] [INFO] [main] ============================================================
+[2026-06-16 09:04:53] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
+[2026-06-16 09:04:56] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
+[2026-06-16 09:04:59] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
+[2026-06-16 09:05:03] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
+[2026-06-16 09:05:06] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
+[2026-06-16 09:05:09] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
+[2026-06-16 09:05:12] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
+[2026-06-16 09:05:15] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
+[2026-06-16 09:05:18] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
+[2026-06-16 09:05:21] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
+[2026-06-16 09:05:24] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
+[2026-06-16 09:05:27] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
+[2026-06-16 09:05:27] [INFO] [main] [4/4] Analisis Selesai! Gunakan data ini dengan bijak.
+[2026-06-16 09:30:39] [INFO] [auto_runner] === CHECKING POLYMARKET LINE MOVEMENT ===
+[2026-06-16 09:30:39] [INFO] [auto_runner] === CHECKING WAITING MARKETS ===
+[2026-06-16 09:30:39] [INFO] [auto_runner] Tidak ada game di antrean waiting_markets.
+[2026-06-16 10:00:40] [INFO] [auto_runner] === CHECKING POLYMARKET LINE MOVEMENT ===
+[2026-06-16 10:30:39] [INFO] [auto_runner] === CHECKING POLYMARKET LINE MOVEMENT ===
+[2026-06-16 10:30:39] [INFO] [auto_runner] === CHECKING WAITING MARKETS ===
+[2026-06-16 10:30:40] [INFO] [auto_runner] Tidak ada game di antrean waiting_markets.
+[2026-06-16 11:00:39] [INFO] [auto_runner] === CHECKING POLYMARKET LINE MOVEMENT ===
+[2026-06-16 11:09:49] [INFO] [auto_runner] Bot berhasil dimatikan.
+[2026-06-16 11:12:14] [INFO] [auto_runner] Menginisialisasi Dynamic Auto Runner (Phase 4.1)...
+[2026-06-16 11:12:14] [INFO] [auto_runner] Scheduler aktif (Background).
+[2026-06-16 11:12:17] [INFO] [telegram_bot] Starting Telegram Bot Listener...
+[2026-06-16 11:12:25] [ERROR] [telegram_bot] Gagal update tombol/pesan: Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+[2026-06-16 11:42:14] [INFO] [auto_runner] === CHECKING POLYMARKET LINE MOVEMENT ===
+[2026-06-16 12:12:14] [INFO] [auto_runner] === CHECKING POLYMARKET LINE MOVEMENT ===
+[2026-06-16 12:12:14] [INFO] [auto_runner] === CHECKING WAITING MARKETS ===
+[2026-06-16 12:12:15] [INFO] [auto_runner] Tidak ada game di antrean waiting_markets.
+[2026-06-16 12:42:14] [INFO] [auto_runner] === CHECKING POLYMARKET LINE MOVEMENT ===
+[2026-06-16 12:51:46] [ERROR] [telegram_bot] Gagal update tombol/pesan: Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+[2026-06-16 13:12:14] [INFO] [auto_runner] === CHECKING POLYMARKET LINE MOVEMENT ===
+[2026-06-16 13:12:14] [INFO] [auto_runner] === CHECKING WAITING MARKETS ===
+[2026-06-16 13:12:14] [INFO] [auto_runner] Tidak ada game di antrean waiting_markets.
+[2026-06-16 13:42:14] [INFO] [auto_runner] === CHECKING POLYMARKET LINE MOVEMENT ===
+[2026-06-16 14:12:14] [INFO] [auto_runner] === CHECKING POLYMARKET LINE MOVEMENT ===
+[2026-06-16 14:12:14] [INFO] [auto_runner] === CHECKING WAITING MARKETS ===
+[2026-06-16 14:12:14] [INFO] [auto_runner] Tidak ada game di antrean waiting_markets.
+[2026-06-16 14:42:14] [INFO] [auto_runner] === CHECKING POLYMARKET LINE MOVEMENT ===
+[2026-06-16 15:00:00] [INFO] [auto_runner] === MENJALANKAN FINAL ALERT (15:00 WIB) UNTUK HARI INI ===
+[2026-06-16 15:00:08] [INFO] [main] [34m[0/4] Memproses hasil pertandingan kemarin...
+[2026-06-16 15:00:08] [INFO] [result_fetcher] [INFO] Menemukan 7 game tertunda. Mengambil skor...
+[2026-06-16 15:00:16] [INFO] [main] [36m  📊 Hasil kemarin: 0/7 prediksi benar (0.0%)
+
+[2026-06-16 15:00:16] [INFO] [main] [34m[1/4] Mengambil jadwal pertandingan MLB...
+[2026-06-16 15:00:17] [INFO] [main] [32mDitemukan 15 pertandingan.
+
+[2026-06-16 15:00:17] [INFO] [main] [34m[2/4] Menganalisis pasar Polymarket & Statistik...
+[2026-06-16 15:00:17] [INFO] [main] [33m  (1/15) Menganalisis: Miami Marlins @ Philadelphia Phillies...
+[2026-06-16 15:00:17] [INFO] [bullpen_collector] [Bullpen] Mengambil data market harian dari Bullpen CLI...
+[2026-06-16 15:00:56] [INFO] [main] 
+[32m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+[32m┃  Miami Marlins @ Philadelphia Phillies | 2026-06-16  ┃
+[32m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 📊 Bullpen.fi O/U Line  : [36m8.5
+┃ 🎯 Bot Expected Runs    : [35m9.05
+┃ 📈 Recommendation       : [32mOVER ✅
+┃ 🔥 Confidence           : [33m[1mMEDIUM ⚡
+┃ 📡 Sumber odds          : [37mBullpen CLI
+[32m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ [1m📋 KEY FACTORS:[0m
+┃  ⚾ ERA/FIP elit (1.86): -0.5 run
+┃  • Kontrol buruk (BB/9 4.47): +0.3 run
+┃  • Inning pendek (rata-rata 1.7 IP): +0.2 run (
+┃  💪 Offense lemah (OPS 0.684): -0.3 run
+┃  🏟️ Hitter's Park (PF 107): +0.7 run
+[32m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[2026-06-16 15:00:56] [INFO] [main] [33m  (2/15) Menganalisis: Kansas City Royals @ Washington Nationals...
+[2026-06-16 15:01:11] [INFO] [main] 
+[33m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+[33m┃  Kansas City Royals @ Washington Nationals | 2026-06-16  ┃
+[33m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 📊 Bullpen.fi O/U Line  : [36m8.5
+┃ 🎯 Bot Expected Runs    : [35m8.73
+┃ 📈 Recommendation       : [33mNO BET / SKIP ⚠️
+┃ 🔥 Confidence           : [37mLOW ⚠️
+┃ 📡 Sumber odds          : [37mBullpen CLI
+[33m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ [1m📋 KEY FACTORS:[0m
+┃  • WHIP rendah (1.09): -0.3 run
+┃  ⚾ Bullpen lemah (ERA 4.64): +0.4 run
+┃  💪 Offense lemah (OPS 0.693): -0.3 run
+┃  ⚾ Away Momentum (NEUTRAL Offense, PEAK Pitcher
+┃
+┃  ⚖️ Faktor saling menyeimbangkan.
+┃     Tidak ada edge yang cukup kuat.
+[33m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[2026-06-16 15:01:12] [INFO] [main] [33m  (3/15) Menganalisis: Toronto Blue Jays @ Boston Red Sox...
+[2026-06-16 15:01:25] [INFO] [main] 
+[33m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+[33m┃  Toronto Blue Jays @ Boston Red Sox | 2026-06-16  ┃
+[33m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 📊 Bullpen.fi O/U Line  : [36m8.5
+┃ 🎯 Bot Expected Runs    : [35m8.35
+┃ 📈 Recommendation       : [33mNO BET / SKIP ⚠️
+┃ 🔥 Confidence           : [37mLOW ⚠️
+┃ 📡 Sumber odds          : [37mBullpen CLI
+[33m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ [1m📋 KEY FACTORS:[0m
+┃  ⚾ ERA/FIP elit (2.7): -0.5 run
+┃  • WHIP rendah (1.05): -0.3 run
+┃  • Data pitcher tidak tersedia, menggunakan bas
+┃  💪 Offense lemah (OPS 0.698): -0.3 run
+┃  🏟️ Hitter's Park (PF 109): +0.9 run
+┃
+┃  ⚖️ Faktor saling menyeimbangkan.
+┃     Tidak ada edge yang cukup kuat.
+[33m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[2026-06-16 15:01:26] [INFO] [main] 💾 Prediksi disimpan
+[2026-06-16 15:01:26] [INFO] [main] [33m  (4/15) Menganalisis: Chicago White Sox @ New York Yankees...
+[2026-06-16 15:01:44] [INFO] [main] 
+[36m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+[36m┃  Chicago White Sox @ New York Yankees | 2026-06-16  ┃
+[36m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 📊 Bullpen.fi O/U Line  : [36m8.5
+┃ 🎯 Bot Expected Runs    : [35m7.83
+┃ 📈 Recommendation       : [36mUNDER ✅
+┃ 🔥 Confidence           : [33m[1mMEDIUM ⚡
+┃ 📡 Sumber odds          : [37mBullpen CLI
+[36m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ [1m📋 KEY FACTORS:[0m
+┃  ⚾ ERA/FIP elit (2.45): -0.5 run
+┃  • WHIP rendah (1.05): -0.3 run
+┃  ⚾ Bullpen solid (ERA 3.32): -0.2 run
+┃  ⚾ ERA/FIP elit (2.41): -0.5 run
+┃  • Disiplin tinggi (BB% 11.29): +0.2 run (ekspo
+┃  ⚾ Home Momentum (NEUTRAL Offense, PEAK Pitcher
+[36m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[2026-06-16 15:01:44] [INFO] [main] 💾 Prediksi disimpan
+[2026-06-16 15:01:44] [INFO] [main] [33m  (5/15) Menganalisis: New York Mets @ Cincinnati Reds...
+[2026-06-16 15:02:02] [INFO] [main] 
+[32m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+[32m┃  New York Mets @ Cincinnati Reds | 2026-06-16  ┃
+[32m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 📊 Bullpen.fi O/U Line  : [36m8.5
+┃ 🎯 Bot Expected Runs    : [35m12.65
+┃ 📈 Recommendation       : [32mOVER ✅
+┃ 🔥 Confidence           : [31m[1mHIGH 🔥
+┃ 📡 Sumber odds          : [37mBullpen CLI
+[32m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ [1m📋 KEY FACTORS:[0m
+┃  ⚾ ERA/FIP tinggi (5.61): +0.5 run
+┃  • WHIP tinggi (1.64): +0.3 run
+┃  • Inning pendek (rata-rata 3.7 IP): +0.2 run (
+┃  ⚾ Bullpen lemah (ERA 4.61): +0.4 run
+┃  ⚾ ERA/FIP tinggi (9.0): +0.5 run
+┃  • WHIP tinggi (1.95): +0.3 run
+┃  • Kontrol buruk (BB/9 5.85): +0.3 run
+┃  • Inning pendek (rata-rata 4.4 IP): +0.2 run (
+┃  • Disiplin tinggi (BB% 10.23): +0.2 run (ekspo
+┃  💪 Offense lemah (OPS 0.664): -0.3 run
+┃  💪 Buruk RISP (0.218): -0.2 run
+┃  ⚾ Home Momentum (NEUTRAL Offense, STRUGGLING P
+┃  • Kelembaban/Hujan (82% / 29%): +0.2 run (grip
+┃  🏟️ Hitter's Park (PF 111): +1.1 run
+[32m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[2026-06-16 15:02:03] [INFO] [main] [33m  (6/15) Menganalisis: San Francisco Giants @ Atlanta Braves...
+[2026-06-16 15:02:18] [INFO] [main] 
+[32m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+[32m┃  San Francisco Giants @ Atlanta Braves | 2026-06-16  ┃
+[32m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 📊 Bullpen.fi O/U Line  : [36m8.5
+┃ 🎯 Bot Expected Runs    : [35m10.78
+┃ 📈 Recommendation       : [32mOVER ✅
+┃ 🔥 Confidence           : [31m[1mHIGH 🔥
+┃ 📡 Sumber odds          : [37mBullpen CLI
+[32m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ [1m📋 KEY FACTORS:[0m
+┃  • Kontrol buruk (BB/9 3.92): +0.3 run
+┃  ⚾ Bullpen solid (ERA 3.29): -0.2 run
+┃  ⚾ ERA/FIP tinggi (5.54): +0.5 run
+┃  • WHIP tinggi (1.54): +0.3 run
+┃  ⚾ Bullpen lemah (ERA 4.52): +0.4 run
+┃  💪 Efisien RISP (0.285): +0.2 run
+┃  • Kelembaban/Hujan (93% / 6%): +0.2 run (grip 
+[32m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[2026-06-16 15:02:18] [INFO] [main] 💾 Prediksi disimpan
+[2026-06-16 15:02:18] [INFO] [main] [33m  (7/15) Menganalisis: Cleveland Guardians @ Milwaukee Brewers...
+[2026-06-16 15:02:33] [INFO] [main] 
+[32m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+[32m┃  Cleveland Guardians @ Milwaukee Brewers | 2026-06-16  ┃
+[32m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 📊 Bullpen.fi O/U Line  : [36m8.5
+┃ 🎯 Bot Expected Runs    : [35m11.68
+┃ 📈 Recommendation       : [32mOVER ✅
+┃ 🔥 Confidence           : [31m[1mHIGH 🔥
+┃ 📡 Sumber odds          : [37mBullpen CLI
+[32m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ [1m📋 KEY FACTORS:[0m
+┃  ⚾ ERA/FIP tinggi (6.38): +0.5 run
+┃  • WHIP tinggi (1.58): +0.3 run
+┃  • Kontrol buruk (BB/9 4.42): +0.3 run
+┃  • Inning pendek (rata-rata 4.4 IP): +0.2 run (
+┃  ⚾ Bullpen solid (ERA 3.45): -0.2 run
+┃  ⚾ ERA/FIP tinggi (4.83): +0.5 run
+┃  • WHIP tinggi (1.44): +0.3 run
+┃  • Disiplin tinggi (BB% 11.0): +0.2 run (ekspos
+┃  💪 Offense lemah (OPS 0.689): -0.3 run
+┃  • Disiplin tinggi (BB% 10.27): +0.2 run (ekspo
+┃  💪 Efisien RISP (0.281): +0.2 run
+┃  ⚾ Home Momentum (NEUTRAL Offense, STRUGGLING P
+[32m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[2026-06-16 15:02:34] [INFO] [main] 💾 Prediksi disimpan
+[2026-06-16 15:02:34] [INFO] [main] [33m  (8/15) Menganalisis: San Diego Padres @ St. Louis Cardinals...
+[2026-06-16 15:02:50] [INFO] [main] 
+[33m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+[33m┃  San Diego Padres @ St. Louis Cardinals | 2026-06-16  ┃
+[33m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 📊 Bullpen.fi O/U Line  : [36m8.5
+┃ 🎯 Bot Expected Runs    : [35m8.71
+┃ 📈 Recommendation       : [33mNO BET / SKIP ⚠️
+┃ 🔥 Confidence           : [37mLOW ⚠️
+┃ 📡 Sumber odds          : [37mBullpen CLI
+[33m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ [1m📋 KEY FACTORS:[0m
+┃  • Kontrol buruk (BB/9 3.57): +0.3 run
+┃  💪 Offense lemah (OPS 0.652): -0.3 run
+┃
+┃  ⚖️ Faktor saling menyeimbangkan.
+┃     Tidak ada edge yang cukup kuat.
+[33m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[2026-06-16 15:02:50] [INFO] [main] 💾 Prediksi disimpan
+[2026-06-16 15:02:50] [INFO] [main] [33m  (9/15) Menganalisis: Colorado Rockies @ Chicago Cubs...
+[2026-06-16 15:03:05] [INFO] [main] 
+[32m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+[32m┃  Colorado Rockies @ Chicago Cubs | 2026-06-17  ┃
+[32m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 📊 Bullpen.fi O/U Line  : [36m8.5
+┃ 🎯 Bot Expected Runs    : [35m11.17
+┃ 📈 Recommendation       : [32mOVER ✅
+┃ 🔥 Confidence           : [31m[1mHIGH 🔥
+┃ 📡 Sumber odds          : [37mBullpen CLI
+[32m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ [1m📋 KEY FACTORS:[0m
+┃  ⚾ ERA/FIP tinggi (4.86): +0.5 run
+┃  • WHIP tinggi (1.41): +0.3 run
+┃  ⚾ ERA/FIP tinggi (5.2): +0.5 run
+┃  • Inning pendek (rata-rata 4.0 IP): +0.2 run (
+┃  ⚾ Bullpen lemah (ERA 5.63): +0.4 run
+┃  • Disiplin tinggi (BB% 10.92): +0.2 run (ekspo
+[32m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[2026-06-16 15:03:05] [INFO] [main] [33m  (10/15) Menganalisis: Minnesota Twins @ Texas Rangers...
+[2026-06-16 15:03:21] [INFO] [main] 
+[32m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+[32m┃  Minnesota Twins @ Texas Rangers | 2026-06-17  ┃
+[32m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 📊 Bullpen.fi O/U Line  : [36m8.5
+┃ 🎯 Bot Expected Runs    : [35m9.9
+┃ 📈 Recommendation       : [32mOVER ✅
+┃ 🔥 Confidence           : [33m[1mMEDIUM ⚡
+┃ 📡 Sumber odds          : [37mBullpen CLI
+[32m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ [1m📋 KEY FACTORS:[0m
+┃  • Kontrol buruk (BB/9 3.84): +0.3 run
+┃  • Inning pendek (rata-rata 4.7 IP): +0.2 run (
+┃  ⚾ ERA/FIP tinggi (5.2): +0.5 run
+┃  ⚾ Bullpen lemah (ERA 4.82): +0.4 run
+┃  💪 Offense lemah (OPS 0.699): -0.3 run
+[32m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[2026-06-16 15:03:21] [INFO] [main] 💾 Prediksi disimpan
+[2026-06-16 15:03:21] [INFO] [main] [33m  (11/15) Menganalisis: Detroit Tigers @ Houston Astros...
+[2026-06-16 15:03:36] [INFO] [main] 
+[33m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+[33m┃  Detroit Tigers @ Houston Astros | 2026-06-17  ┃
+[33m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 📊 Bullpen.fi O/U Line  : [36m8.5
+┃ 🎯 Bot Expected Runs    : [35m8.73
+┃ 📈 Recommendation       : [33mNO BET / SKIP ⚠️
+┃ 🔥 Confidence           : [37mLOW ⚠️
+┃ 📡 Sumber odds          : [37mBullpen CLI
+[33m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ [1m📋 KEY FACTORS:[0m
+┃  ⚾ ERA/FIP elit (0.84): -0.5 run
+┃  • WHIP rendah (1.03): -0.3 run
+┃  • Kontrol buruk (BB/9 5.06): +0.3 run
+┃  ⚾ Bullpen lemah (ERA 4.95): +0.4 run
+┃  • Data cuaca tidak tersedia.
+┃
+┃  ⚖️ Faktor saling menyeimbangkan.
+┃     Tidak ada edge yang cukup kuat.
+[33m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[2026-06-16 15:03:37] [INFO] [main] [33m  (12/15) Menganalisis: Los Angeles Angels @ Arizona Diamondbacks...
+[2026-06-16 15:03:53] [INFO] [main] 
+[32m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+[32m┃  Los Angeles Angels @ Arizona Diamondbacks | 2026-06-17  ┃
+[32m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 📊 Bullpen.fi O/U Line  : [36m8.5
+┃ 🎯 Bot Expected Runs    : [35m11.04
+┃ 📈 Recommendation       : [32mOVER ✅
+┃ 🔥 Confidence           : [31m[1mHIGH 🔥
+┃ 📡 Sumber odds          : [37mBullpen CLI
+[32m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ [1m📋 KEY FACTORS:[0m
+┃  ⚾ ERA/FIP tinggi (5.46): +0.5 run
+┃  • WHIP tinggi (1.45): +0.3 run
+┃  • Kontrol buruk (BB/9 3.78): +0.3 run
+┃  • Inning pendek (rata-rata 4.7 IP): +0.2 run (
+┃  • WHIP rendah (1.05): -0.3 run
+┃  • Inning pendek (rata-rata 4.8 IP): +0.2 run (
+┃  ⚾ Bullpen lemah (ERA 4.61): +0.4 run
+┃  💪 Offense lemah (OPS 0.692): -0.3 run
+┃  ⚾ Home Momentum (NEUTRAL Offense, STRUGGLING P
+┃  ⚾ Away Momentum (NEUTRAL Offense, STRUGGLING P
+┃  🌡️ Suhu panas (91.2°F): +0.3 run (udara tipis)
+[32m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[2026-06-16 15:03:53] [INFO] [main] [33m  (13/15) Menganalisis: Pittsburgh Pirates @ Athletics...
+[2026-06-16 15:04:09] [INFO] [main] 
+[32m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+[32m┃  Pittsburgh Pirates @ Athletics | 2026-06-17   ┃
+[32m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 📊 Bullpen.fi O/U Line  : [36m8.5
+┃ 🎯 Bot Expected Runs    : [35m10.87
+┃ 📈 Recommendation       : [32mOVER ✅
+┃ 🔥 Confidence           : [31m[1mHIGH 🔥
+┃ 📡 Sumber odds          : [37mBullpen CLI
+[32m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ [1m📋 KEY FACTORS:[0m
+┃  ⚾ ERA/FIP tinggi (6.25): +0.5 run
+┃  • Inning pendek (rata-rata 1.4 IP): +0.2 run (
+┃  ⚾ Bullpen lemah (ERA 4.8): +0.4 run
+┃  ⚾ ERA/FIP tinggi (5.14): +0.5 run
+┃  ⚾ Home Momentum (NEUTRAL Offense, STRUGGLING P
+┃  ⚾ Away Momentum (NEUTRAL Offense, PEAK Pitcher
+┃  • Data cuaca tidak tersedia.
+[32m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[2026-06-16 15:04:09] [INFO] [main] [33m  (14/15) Menganalisis: Baltimore Orioles @ Seattle Mariners...
+[2026-06-16 15:04:31] [INFO] [main] 
+[33m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+[33m┃  Baltimore Orioles @ Seattle Mariners | 2026-06-17  ┃
+[33m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 📊 Bullpen.fi O/U Line  : [36m8.5
+┃ 🎯 Bot Expected Runs    : [35m8.28
+┃ 📈 Recommendation       : [33mNO BET / SKIP ⚠️
+┃ 🔥 Confidence           : [37mLOW ⚠️
+┃ 📡 Sumber odds          : [37mBullpen CLI
+[33m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ [1m📋 KEY FACTORS:[0m
+┃  • WHIP rendah (1.08): -0.3 run
+┃  ⚾ ERA/FIP elit (3.04): -0.5 run
+┃  • Inning pendek (rata-rata 4.7 IP): +0.2 run (
+┃  ⚾ Bullpen lemah (ERA 4.59): +0.4 run
+┃  • Disiplin tinggi (BB% 10.16): +0.2 run (ekspo
+┃  • Kelembaban/Hujan (81% / 0%): +0.2 run (grip 
+┃  ⚾ Pitcher's Park (PF 91): -0.9 run
+┃
+┃  ⚖️ Faktor saling menyeimbangkan.
+┃     Tidak ada edge yang cukup kuat.
+[33m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[2026-06-16 15:04:31] [INFO] [main] 💾 Prediksi disimpan
+[2026-06-16 15:04:31] [INFO] [main] [33m  (15/15) Menganalisis: Tampa Bay Rays @ Los Angeles Dodgers...
+[2026-06-16 15:04:47] [INFO] [main] 
+[36m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+[36m┃  Tampa Bay Rays @ Los Angeles Dodgers | 2026-06-17  ┃
+[36m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 📊 Bullpen.fi O/U Line  : [36m8.5
+┃ 🎯 Bot Expected Runs    : [35m7.53
+┃ 📈 Recommendation       : [36mUNDER ✅
+┃ 🔥 Confidence           : [33m[1mMEDIUM ⚡
+┃ 📡 Sumber odds          : [37mBullpen CLI
+[36m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ [1m📋 KEY FACTORS:[0m
+┃  ⚾ ERA/FIP elit (2.95): -0.5 run
+┃  • WHIP rendah (1.05): -0.3 run
+┃  ⚾ Bullpen solid (ERA 3.36): -0.2 run
+┃  ⚾ ERA/FIP elit (2.71): -0.5 run
+┃  • WHIP rendah (0.88): -0.3 run
+┃  • Disiplin tinggi (BB% 10.59): +0.2 run (ekspo
+┃  ⚾ Home Momentum (NEUTRAL Offense, PEAK Pitcher
+┃  • Data cuaca tidak tersedia.
+[36m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[2026-06-16 15:04:47] [INFO] [main] [3/4] Menghasilkan Daily Summary...
+[2026-06-16 15:04:47] [INFO] [main] ============================================================
+[2026-06-16 15:04:47] [INFO] [main] 
+GAME                      | LINE   | PROJ   | REC        | CONF
+---------------------------------------------------------------
+Miami Marlins @ Philadelp | 8.5    | 9.05   | OVER ✅     | MEDIUM ⚡
+Kansas City Royals @ Wash | 8.5    | 8.73   | NO BET / SKIP ⚠️ | LOW ⚠️
+Toronto Blue Jays @ Bosto | 8.5    | 8.35   | NO BET / SKIP ⚠️ | LOW ⚠️
+Chicago White Sox @ New Y | 8.5    | 7.83   | UNDER ✅    | MEDIUM ⚡
+[31m[1mNew York Mets @ Cincinnat | 8.5    | 12.65  | OVER ✅     | HIGH 🔥
+[31m[1mSan Francisco Giants @ At | 8.5    | 10.78  | OVER ✅     | HIGH 🔥
+[31m[1mCleveland Guardians @ Mil | 8.5    | 11.68  | OVER ✅     | HIGH 🔥
+San Diego Padres @ St. Lo | 8.5    | 8.71   | NO BET / SKIP ⚠️ | LOW ⚠️
+[31m[1mColorado Rockies @ Chicag | 8.5    | 11.17  | OVER ✅     | HIGH 🔥
+Minnesota Twins @ Texas R | 8.5    | 9.9    | OVER ✅     | MEDIUM ⚡
+Detroit Tigers @ Houston  | 8.5    | 8.73   | NO BET / SKIP ⚠️ | LOW ⚠️
+[31m[1mLos Angeles Angels @ Ariz | 8.5    | 11.04  | OVER ✅     | HIGH 🔥
+[31m[1mPittsburgh Pirates @ Athl | 8.5    | 10.87  | OVER ✅     | HIGH 🔥
+Baltimore Orioles @ Seatt | 8.5    | 8.28   | NO BET / SKIP ⚠️ | LOW ⚠️
+Tampa Bay Rays @ Los Ange | 8.5    | 7.53   | UNDER ✅    | MEDIUM ⚡
+[2026-06-16 15:04:47] [INFO] [main] ============================================================
+[2026-06-16 15:04:48] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
+[2026-06-16 15:04:51] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
+[2026-06-16 15:04:54] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
+[2026-06-16 15:04:57] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
+[2026-06-16 15:05:00] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
+[2026-06-16 15:05:03] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
+[2026-06-16 15:05:07] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
+[2026-06-16 15:05:10] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
+[2026-06-16 15:05:13] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
+[2026-06-16 15:05:16] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
+[2026-06-16 15:05:20] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
+[2026-06-16 15:05:23] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
+[2026-06-16 15:05:23] [INFO] [main] [4/4] Analisis Selesai! Gunakan data ini dengan bijak.
+[2026-06-16 15:05:23] [INFO] [auto_runner] === SCHEDULING DYNAMIC REVISIONS ===
+[2026-06-16 15:05:23] [ERROR] [auto_runner] Gagal parsing waktu untuk game 824750: time data '2026-06-16 6:45 PM ET' does not match format '%Y-%m-%d %H:%M:%S'
+[2026-06-16 15:05:23] [ERROR] [auto_runner] Gagal parsing waktu untuk game 823535: time data '2026-06-16 7:05 PM ET' does not match format '%Y-%m-%d %H:%M:%S'
+[2026-06-16 15:05:23] [ERROR] [auto_runner] Gagal parsing waktu untuk game 824912: time data '2026-06-16 7:15 PM ET' does not match format '%Y-%m-%d %H:%M:%S'
+[2026-06-16 15:05:23] [ERROR] [auto_runner] Gagal parsing waktu untuk game 823775: time data '2026-06-16 7:40 PM ET' does not match format '%Y-%m-%d %H:%M:%S'
+[2026-06-16 15:05:23] [ERROR] [auto_runner] Gagal parsing waktu untuk game 823045: time data '2026-06-16 7:45 PM ET' does not match format '%Y-%m-%d %H:%M:%S'
+[2026-06-16 15:05:23] [ERROR] [auto_runner] Gagal parsing waktu untuk game 822888: time data '2026-06-16 8:05 PM ET' does not match format '%Y-%m-%d %H:%M:%S'
+[2026-06-16 15:05:23] [ERROR] [auto_runner] Gagal parsing waktu untuk game 823128: time data '2026-06-16 9:40 PM ET' does not match format '%Y-%m-%d %H:%M:%S'
+[2026-06-16 15:12:14] [INFO] [auto_runner] === CHECKING POLYMARKET LINE MOVEMENT ===
+[2026-06-16 15:12:14] [INFO] [auto_runner] === CHECKING WAITING MARKETS ===
+[2026-06-16 15:12:14] [INFO] [auto_runner] Tidak ada game di antrean waiting_markets.
+[2026-06-16 15:42:14] [INFO] [auto_runner] === CHECKING POLYMARKET LINE MOVEMENT ===
+[2026-06-16 16:00:09] [INFO] [auto_runner] Menginisialisasi Dynamic Auto Runner (Phase 4.1)...
+[2026-06-16 16:00:09] [INFO] [auto_runner] Scheduler aktif (Background).
+[2026-06-16 16:00:16] [INFO] [telegram_bot] Starting Telegram Bot Listener...
+[2026-06-16 16:00:29] [INFO] [auto_runner] Bot berhasil dimatikan.
+[2026-06-16 16:00:49] [INFO] [auto_runner] Menginisialisasi Dynamic Auto Runner (Phase 4.1)...
+[2026-06-16 16:00:49] [INFO] [auto_runner] Scheduler aktif (Background).
+[2026-06-16 16:00:50] [INFO] [telegram_bot] Starting Telegram Bot Listener...
+[2026-06-16 16:30:49] [INFO] [auto_runner] === CHECKING POLYMARKET LINE MOVEMENT ===
+[2026-06-16 17:30:50] [INFO] [auto_runner] === CHECKING POLYMARKET LINE MOVEMENT ===
+[2026-06-16 18:11:31] [INFO] [auto_runner] Bot berhasil dimatikan.
+[2026-06-16 18:15:27] [INFO] [auto_runner] Menginisialisasi Dynamic Auto Runner (Phase 4.1)...
+[2026-06-16 18:15:27] [INFO] [auto_runner] Scheduler aktif (Background).
+[2026-06-16 18:15:32] [INFO] [telegram_bot] Starting Telegram Bot Listener...
+[2026-06-16 18:15:47] [INFO] [bullpen_collector] [Bullpen] Mengambil data market harian dari Bullpen CLI...
+[2026-06-16 18:45:27] [INFO] [auto_runner] === CHECKING POLYMARKET LINE MOVEMENT ===
+[2026-06-16 19:15:27] [INFO] [auto_runner] === CHECKING POLYMARKET LINE MOVEMENT ===
+[2026-06-16 19:15:27] [INFO] [auto_runner] === CHECKING WAITING MARKETS ===
+[2026-06-16 19:15:27] [INFO] [auto_runner] Tidak ada game di antrean waiting_markets.
+[2026-06-16 19:45:27] [INFO] [auto_runner] === CHECKING POLYMARKET LINE MOVEMENT ===
+[2026-06-16 20:15:27] [INFO] [auto_runner] === CHECKING POLYMARKET LINE MOVEMENT ===
+[2026-06-16 20:15:27] [INFO] [auto_runner] === CHECKING WAITING MARKETS ===
+[2026-06-16 20:15:27] [INFO] [auto_runner] Tidak ada game di antrean waiting_markets.
+[2026-06-16 20:45:27] [INFO] [auto_runner] === CHECKING POLYMARKET LINE MOVEMENT ===
+[2026-06-16 21:04:13] [INFO] [bullpen_collector] [Bullpen] Mengambil data market harian dari Bullpen CLI...
+[2026-06-16 21:15:27] [INFO] [auto_runner] === CHECKING POLYMARKET LINE MOVEMENT ===
+[2026-06-16 21:15:27] [INFO] [auto_runner] === CHECKING WAITING MARKETS ===
+[2026-06-16 21:15:29] [INFO] [auto_runner] Tidak ada game di antrean waiting_markets.
+[2026-06-16 21:45:27] [INFO] [auto_runner] === CHECKING POLYMARKET LINE MOVEMENT ===
+[2026-06-16 22:15:27] [INFO] [auto_runner] === CHECKING POLYMARKET LINE MOVEMENT ===
+[2026-06-16 22:15:27] [INFO] [auto_runner] === CHECKING WAITING MARKETS ===
+[2026-06-16 22:15:29] [INFO] [auto_runner] Tidak ada game di antrean waiting_markets.
+[2026-06-16 22:45:27] [INFO] [auto_runner] === CHECKING POLYMARKET LINE MOVEMENT ===
+[2026-06-16 23:15:27] [INFO] [auto_runner] === CHECKING POLYMARKET LINE MOVEMENT ===
+[2026-06-16 23:15:27] [INFO] [auto_runner] === CHECKING WAITING MARKETS ===
+[2026-06-16 23:15:27] [INFO] [auto_runner] Tidak ada game di antrean waiting_markets.
+[2026-06-16 23:45:27] [INFO] [auto_runner] === CHECKING POLYMARKET LINE MOVEMENT ===

@@ -1,0 +1,10 @@
+# Dependensi Ekstra untuk Visualisasi Dashboard
+# ⚠️ PENTING: File ini bersifat ADDITIVE. Pastikan Anda sudah
+# menginstal requirements.txt terlebih dahulu.
+#
+# Hanya instal file ini di komputer lokal/device di mana Anda ingin 
+# membuka antarmuka visual menggunakan 'streamlit run dashboard/app.py'.
+# Server yang hanya menjalankan bot 24/7 tidak membutuhkan library ini.
+
+streamlit==1.32.0
+plotly==5.18.0
