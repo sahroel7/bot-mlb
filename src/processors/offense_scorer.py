@@ -44,13 +44,21 @@ def calculate_offense_score(team_offense_stats, opposing_pitcher_stats):
             score += mod
             reasons.append(f"Matchup buruk: Tim K% tinggi ({team_k_pct}) vs Pitcher K/9 tinggi ({pitcher_k9}): {mod} run")
 
-    # 3. BB% (Disiplin/Sabar)
+    # 3. BB% (Disiplin/Sabar) - Seimbang
     bb_pct = team_offense_stats.get("bb_pct")
     if bb_pct:
-        if float(bb_pct) > 10.0:
-            mod = 0.2
-            score += mod
-            reasons.append(f"Disiplin tinggi (BB% {bb_pct}): +{mod} run (eksposur baserunner)")
+        try:
+            bb_val = float(bb_pct)
+            if bb_val > 10.0:
+                mod = 0.2
+                score += mod
+                reasons.append(f"Disiplin tinggi (BB% {bb_val}): +{mod} run (eksposur baserunner)")
+            elif bb_val < 7.0:
+                mod = -0.2
+                score += mod
+                reasons.append(f"Disiplin rendah (BB% {bb_val}): {mod} run")
+        except (ValueError, TypeError):
+            pass
 
     # Limitasi score antara -1.0 sampai +1.0
     score = max(min(score, 1.0), -1.0)

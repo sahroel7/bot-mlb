@@ -3,7 +3,7 @@
 # Script untuk menjalankan MLB Bot dengan auto-restart jika crash.
 
 VENV_PATH="./venv/bin/python3"
-BOT_SCRIPT="src/scheduler/auto_runner.py"
+BOT_SCRIPT="run_bot.py"
 
 echo "━" * 60
 echo "🚀 MLB AI Bot Stable Runner Started"

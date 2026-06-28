@@ -605,6 +605,30 @@ async def histori_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     et_tz = pytz.timezone('America/New_York')
     now_et = datetime.now(et_tz)
     seven_days_ago_et = (now_et.date() - timedelta(days=7)).strftime("%Y-%m-%d")
+    today_et = now_et.date().strftime("%Y-%m-%d")
+
+    # Sistem Hybrid: Cek jika ada game pending dalam 7 hari terakhir, tarik skor on-demand
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    cursor.execute("""
+        SELECT COUNT(*) 
+        FROM predictions p
+        LEFT JOIN results r ON p.game_id = r.game_id
+        WHERE p.is_latest = 1
+        AND p.game_date >= ?
+        AND p.game_date <= ?
+        AND (r.id IS NULL OR r.actual_total_runs = 0)
+    """, (seven_days_ago_et, today_et))
+    pending_count = cursor.fetchone()[0]
+    conn.close()
+
+    if pending_count > 0:
+        logger.info(f"[Histori] Menemukan {pending_count} game tertunda. Menjalankan penarikan skor on-demand...")
+        try:
+            from src.database.result_fetcher import process_yesterdays_results
+            process_yesterdays_results()
+        except Exception as e:
+            logger.error(f"Gagal menarik skor secara on-demand: {e}")
 
     conn = get_db_connection()
     cursor = conn.cursor()
@@ -622,8 +646,6 @@ async def histori_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
         LEFT JOIN results r ON p.game_id = r.game_id
         WHERE p.is_latest = 1
         AND p.game_date >= ?
-        AND p.bot_recommendation NOT LIKE '%SKIP%'
-        AND p.bot_recommendation NOT LIKE '%NO BET%'
         ORDER BY p.game_date DESC, p.game_time_et ASC
     """, (seven_days_ago_et,))
     rows = cursor.fetchall()
@@ -635,12 +657,26 @@ async def histori_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     from itertools import groupby
     
-    msg = "📋 *Histori Prediksi — 7 Hari Terakhir*\n\n"
-    
     rows_dict = [dict(r) for r in rows]
     total_valid = 0
     total_benar = 0
 
+    # Stable sort rows_dict chronologically by game_time_et
+    def get_time_key(r):
+        try:
+            time_str = r.get('game_time_et') or '12:00 AM'
+            time_str = time_str.replace(' ET', '').strip()
+            return datetime.strptime(time_str, "%I:%M %p").time()
+        except:
+            return datetime.min.time()
+
+    rows_dict.sort(key=get_time_key)
+    # Then sort by game_date DESC (stable sort preserves chronological time order within the same date)
+    rows_dict.sort(key=lambda x: x['game_date'], reverse=True)
+
+    chunks = []
+    
+    # Group by game_date
     for date_val, group in groupby(rows_dict, key=lambda x: x['game_date']):
         try:
             dt = datetime.strptime(date_val, "%Y-%m-%d")
@@ -650,54 +686,59 @@ async def histori_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
         except:
             date_label = f"{date_val} ET"
 
-        msg += f"━━━ {date_label} ━━━\n"
+        date_msg = f"━━━ {date_label} ━━━\n"
         
         for r in group:
             away = TEAM_SHORT_NAME.get(r.get('away_team', '???'), r.get('away_team', '???')[:12])
             home = TEAM_SHORT_NAME.get(r.get('home_team', '???'), r.get('home_team', '???')[:12])
             line = r['polymarket_line']
             actual = r['actual_total_runs']
-            rec = r['bot_recommendation'].replace(' ✅', '').replace(' ❌', '').strip()
+            raw_rec = r['bot_recommendation'] or ''
             
-            if r['is_correct'] == 1:
+            is_skip = "SKIP" in raw_rec.upper() or "NO BET" in raw_rec.upper()
+            
+            # Clean recommendation string
+            if is_skip:
+                rec = "SKIP"
+            else:
+                rec = raw_rec.replace(' ✅', '').replace(' ❌', '').strip()
+                
+            # Default values
+            actual_str = str(actual) if actual is not None else "menunggu hasil"
+            
+            if is_skip:
+                status = "⚠️"
+                if actual == 0:
+                    actual_str = "Batal/Tunda"
+            elif r['is_correct'] == 1:
                 status = "✅"
-                res_emoji = "✅"
                 total_valid += 1
                 total_benar += 1
             elif r['is_correct'] == 0:
                 status = "❌"
-                res_emoji = "❌"
                 total_valid += 1
+            elif actual == 0:
+                status = "➖"
+                actual_str = "Batal/Tunda"
+            elif actual is not None and abs(actual - line) < 0.01:
+                status = "🔄"
             else:
                 status = "⏳"
-                res_emoji = ""
+                actual_str = "menunggu hasil"
                 
-            actual_str = actual if actual is not None else "menunggu hasil"
-            if res_emoji:
-                msg += f"`{status} {away} @ {home}` | L:{line} | S:{actual_str} | {rec} {res_emoji}\n"
-            else:
-                msg += f"`{status} {away} @ {home}` | L:{line} | S:{actual_str} | {rec}\n"
-                
-        msg += "\n"
+            date_msg += f"`{status} {away} @ {home}` | L:{line} | S:{actual_str} | {rec}\n"
+            
+        chunks.append(date_msg)
+
+    if chunks:
+        # Prepend header to the very first chunk
+        chunks[0] = "📋 *Histori Prediksi — 7 Hari Terakhir*\n\n" + chunks[0]
         
-    win_rate = (total_benar / total_valid * 100) if total_valid > 0 else 0
-    msg += f"Win Rate Periode: {win_rate:.1f}% ({total_benar}/{total_valid})\n"
-    
-    # Pecah pesan jika melebihi batas 4096 karakter Telegram
-    chunks = []
-    current_chunk = []
-    current_length = 0
-    for line in msg.split('\n'):
-        if current_length + len(line) + 1 > 4000:
-            chunks.append('\n'.join(current_chunk))
-            current_chunk = [line]
-            current_length = len(line)
-        else:
-            current_chunk.append(line)
-            current_length += len(line) + 1
-    if current_chunk:
-        chunks.append('\n'.join(current_chunk))
-        
+        # Append Win Rate to the very last chunk
+        win_rate = (total_benar / total_valid * 100) if total_valid > 0 else 0
+        summary = f"\n📈 *Win Rate Periode: {win_rate:.1f}%* ({total_benar}/{total_valid})"
+        chunks[-1] += summary
+
     for chunk in chunks:
         if chunk.strip():
             await update.message.reply_text(chunk, parse_mode=ParseMode.MARKDOWN)
@@ -881,12 +922,12 @@ async def game_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 async def prediksi_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Handler untuk /prediksi - Menganalisis ulang semua game mendatang secara on-demand."""
-    await update.message.reply_text("⏳ *Sedang mengambil data terbaru dari Polymarket...*\nProses analisis dimulai. Hasil akan dikirimkan satu per satu.", parse_mode=ParseMode.MARKDOWN)
+    await update.message.reply_text("⏳ *Sedang mengambil data terbaru dari Polymarket...*\nProses analisis dimulai untuk semua game aktif. Hasil akan dikirimkan satu per satu.", parse_mode=ParseMode.MARKDOWN)
     
     try:
         games = get_upcoming_games()
         if not games:
-            await update.message.reply_text("📭 Tidak ada jadwal pertandingan mendatang untuk dianalisis.")
+            await update.message.reply_text("📭 Tidak ada pasar pertandingan aktif di Polymarket untuk dianalisis.")
             return
 
         now_utc = datetime.now(pytz.UTC)
@@ -899,8 +940,11 @@ async def prediksi_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
             except:
                 upcoming_games.append(g)
 
+        # Sort kronologis: urutkan dari waktu paling awal
+        upcoming_games.sort(key=lambda x: x.get('game_time', ''))
+
         if not upcoming_games:
-            await update.message.reply_text("📭 Semua pertandingan hari ini sudah dimulai.")
+            await update.message.reply_text("📭 Semua pertandingan aktif hari ini sudah dimulai.")
             return
 
         analyzed_count = 0
@@ -909,7 +953,7 @@ async def prediksi_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
             away_team = game['away_team']
             game_id = str(game['game_id'])
 
-            market_info = get_ou_line(home_team, away_team)
+            market_info = get_ou_line(home_team, away_team, game.get('game_date_et'))
             if not market_info: continue
 
             try:
@@ -944,6 +988,8 @@ async def prediksi_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 game_info['game_date'] = market_info.get('game_date_et')
                 game_info['line_range'] = market_info.get('line_range', '-')
                 game_info['raw_stats'] = game_full_data
+                game_info['home_pitcher'] = pitchers['home']['name'] if (pitchers.get('home') and isinstance(pitchers['home'], dict) and pitchers['home'].get('name')) else 'Unknown'
+                game_info['away_pitcher'] = pitchers['away']['name'] if (pitchers.get('away') and isinstance(pitchers['away'], dict) and pitchers['away'].get('name')) else 'Unknown'
 
                 save_prediction(game_info, analysis)
                 
@@ -963,7 +1009,12 @@ async def prediksi_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
         if analyzed_count == 0:
             await update.message.reply_text("📭 Tidak ada data market baru yang ditemukan untuk dianalisis.")
         else:
-            await update.message.reply_text(f"✅ Analisis selesai. {analyzed_count} pertandingan diperbarui.")
+            try:
+                from src.scheduler.auto_runner import schedule_revision_analysis
+                schedule_revision_analysis()
+            except Exception as sched_err:
+                logger.error(f"Gagal menjadwalkan revisi dinamis setelah /prediksi: {sched_err}")
+            await update.message.reply_text(f"✅ Analisis selesai. {analyzed_count} pertandingan diperbarui dan jadwal revisi T-2 jam aktif.")
 
     except Exception as e:
         logger.error(f"Error pada /prediksi: {e}")

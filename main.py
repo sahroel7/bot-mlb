@@ -147,7 +147,7 @@ def run_analysis(args):
             logger.info(f"{Fore.YELLOW}  ({idx}/{len(games)}) Menganalisis: {away_team} @ {home_team}...")
             
             # a. Cari Line Polymarket (atau Fallback)
-            market_info = get_ou_line(home_team, away_team)
+            market_info = get_ou_line(home_team, away_team, game.get('game_date_et'))
             if not market_info:
                 logger.warning(f"{Fore.BLACK}{Style.BRIGHT}  [WAITING] {away_team} @ {home_team}: Tidak ada odds yang tersedia.")
                 

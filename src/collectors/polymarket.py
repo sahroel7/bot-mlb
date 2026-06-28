@@ -168,14 +168,14 @@ def get_fallback_odds_api_line(home_team, away_team):
                                 }
     return None
 
-def get_ou_line(home_team, away_team):
+def get_ou_line(home_team, away_team, game_date_et=None):
     """
     Mencari angka Over/Under line untuk pertandingan tertentu.
     Prioritas: Bullpen CLI -> The Odds API (Fallback)
     """
     # 1. Prioritas Utama: Bullpen CLI
     from src.collectors.bullpen_collector import get_ou_line as get_bullpen_line
-    bullpen_data = get_bullpen_line(away_team, home_team)
+    bullpen_data = get_bullpen_line(away_team, home_team, game_date_et)
     if bullpen_data:
         bullpen_data['source'] = 'Bullpen CLI'
         return bullpen_data

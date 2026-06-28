@@ -30,7 +30,7 @@ def save_prediction(game_info, analysis_result, revision_reason=None):
         game_id = str(game_info.get('game_id'))
         
         # Prioritaskan ET date agar sinkron dengan Polymarket
-        game_date = game_info.get('game_date_et') or game_info.get('game_time', '')[:10]
+        game_date = game_info.get('game_date_et') or game_info.get('game_date') or game_info.get('game_time', '')[:10]
         
         home_team = game_info.get('home_team', '')
         away_team = game_info.get('away_team', '')
@@ -75,7 +75,7 @@ def save_prediction(game_info, analysis_result, revision_reason=None):
                    early_recommendation, early_expected_runs, early_confidence,
                    final_recommendation, final_expected_runs, final_confidence,
                    line_range, game_id, game_time_et
-            FROM predictions WHERE game_id = ? AND is_latest = 1
+            FROM predictions WHERE game_id = ? ORDER BY version DESC LIMIT 1
         """, (game_id,))
         existing = cursor.fetchone()
         
@@ -89,7 +89,7 @@ def save_prediction(game_info, analysis_result, revision_reason=None):
                 FROM predictions 
                 WHERE home_team = ? AND away_team = ? AND game_date = ? 
                 AND (game_time_et = ? OR game_time_et IS NULL OR ? IS NULL)
-                AND is_latest = 1
+                ORDER BY version DESC LIMIT 1
             """, (home_team, away_team, game_date, game_time_et_full, game_time_et_full))
             existing = cursor.fetchone()
             if existing:

@@ -261,7 +261,7 @@ def get_mlb_ou_markets():
         logger.error(f"[Bullpen Error] {e}")
         return []
 
-def get_ou_line(away_team, home_team):
+def get_ou_line(away_team, home_team, game_date_et=None):
     """
     Mengambil line O/U spesifik untuk sebuah matchup.
     """
@@ -270,6 +270,9 @@ def get_ou_line(away_team, home_team):
     h_official = get_official_team_name(home_team)
     
     matches = [m for m in markets if m['away_team'] == a_official and m['home_team'] == h_official]
+    if game_date_et:
+        matches = [m for m in matches if m['game_date_et'] == game_date_et]
+        
     if not matches: return None
     
     # Pilih yang harganya paling seimbang

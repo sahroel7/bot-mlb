@@ -16,14 +16,19 @@ def detect_offensive_streak(last_10_games):
     if not last_10_games or len(last_10_games) < 7:
         return {"type": "NEUTRAL", "momentum": "FLAT", "score": 0.0}
 
-    # Ekstraksi Batting Average per game (Abaikan game tanpa data)
+    # Ekstraksi Batting Average per game riil: hits / atBats (Abaikan game tanpa data)
     ba_history = []
     for g in last_10_games:
-        ba = g.get("stat", {}).get("avg")
+        stat = g.get("stat", {})
+        hits = stat.get("hits")
+        ab = stat.get("atBats")
         try:
-            if ba and ba != ".---":
-                ba_history.append(float(ba))
-        except ValueError:
+            if hits is not None and ab is not None:
+                hits = int(hits)
+                ab = int(ab)
+                if ab > 0:
+                    ba_history.append(hits / ab)
+        except (ValueError, TypeError):
             pass
 
     if len(ba_history) < 7:

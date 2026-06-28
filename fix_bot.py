@@ -740,12 +740,12 @@ async def game_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 async def prediksi_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Handler untuk /prediksi - Menganalisis ulang semua game mendatang secara on-demand."""
-    await update.message.reply_text("⏳ *Sedang mengambil data terbaru dari Polymarket...*\\nProses analisis dimulai. Hasil akan dikirimkan satu per satu.", parse_mode=ParseMode.MARKDOWN)
+    await update.message.reply_text("⏳ *Sedang mengambil data terbaru dari Polymarket...*\nProses analisis dimulai untuk semua game aktif. Hasil akan dikirimkan satu per satu.", parse_mode=ParseMode.MARKDOWN)
     
     try:
         games = get_upcoming_games()
         if not games:
-            await update.message.reply_text("📭 Tidak ada jadwal pertandingan mendatang untuk dianalisis.")
+            await update.message.reply_text("📭 Tidak ada pasar pertandingan aktif di Polymarket untuk dianalisis.")
             return
 
         now_utc = datetime.now(pytz.UTC)
@@ -758,8 +758,11 @@ async def prediksi_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
             except:
                 upcoming_games.append(g)
 
+        # Sort kronologis: urutkan dari waktu paling awal
+        upcoming_games.sort(key=lambda x: x.get('game_time', ''))
+
         if not upcoming_games:
-            await update.message.reply_text("📭 Semua pertandingan hari ini sudah dimulai.")
+            await update.message.reply_text("📭 Semua pertandingan aktif hari ini sudah dimulai.")
             return
 
         analyzed_count = 0
@@ -768,7 +771,7 @@ async def prediksi_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
             away_team = game['away_team']
             game_id = str(game['game_id'])
 
-            market_info = get_ou_line(home_team, away_team)
+            market_info = get_ou_line(home_team, away_team, game.get('game_date_et'))
             if not market_info: continue
 
             try:
@@ -822,7 +825,13 @@ async def prediksi_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
         if analyzed_count == 0:
             await update.message.reply_text("📭 Tidak ada data market baru yang ditemukan untuk dianalisis.")
         else:
-            await update.message.reply_text(f"✅ Analisis selesai. {analyzed_count} pertandingan diperbarui.")
+            try:
+                from src.scheduler.auto_runner import schedule_revision_analysis
+                schedule_revision_analysis()
+                await update.message.reply_text(f"✅ Analisis selesai. {analyzed_count} pertandingan diperbarui dan jadwal cek revisi (T-2 jam) diaktifkan.")
+            except Exception as sched_err:
+                logger.error(f"Gagal menjadwalkan revisi: {sched_err}")
+                await update.message.reply_text(f"✅ Analisis selesai. {analyzed_count} pertandingan diperbarui (gagal mengaktifkan jadwal revisi).")
 
     except Exception as e:
         logger.error(f"Error pada /prediksi: {e}")

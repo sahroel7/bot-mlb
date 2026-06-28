@@ -109,8 +109,11 @@ def get_pitcher_last_3_starts(pitcher_id):
         
         last_3 = []
         if "stats" in data and data["stats"]:
-            # Game log biasanya urut dari yang paling baru
-            logs = data["stats"][0]["splits"][:3]
+            # splits dikembalikan secara kronologis (dari awal musim ke terbaru).
+            # Ambil 3 split terakhir (pertandingan terbaru) dan balik urutannya (terbaru ke terlama).
+            recent_splits = data["stats"][0]["splits"][-3:]
+            recent_splits.reverse()
+            logs = recent_splits
             
             for log in logs:
                 stat = log["stat"]
@@ -136,17 +139,14 @@ def get_bullpen_era(team_id):
     Returns:
         float: Nilai ERA bullpen.
     """
-    # Mengambil stats team dengan group pitching, stat type season
-    url = f"{MLB_API_BASE_URL}/teams/{team_id}/stats?stats=season&group=pitching"
+    # Mengambil stats team relief pitching (RP) secara spesifik dengan parameter pitchingRole
+    url = f"{MLB_API_BASE_URL}/teams/{team_id}/stats?stats=season&group=pitching&pitchingRole=RP"
     
     try:
         response = requests.get(url, timeout=10)
         response.raise_for_status()
         data = response.json()
         
-        # API MLB Stats untuk 'relief' ERA spesifik terkadang perlu filtrasi manual 
-        # atau endpoint yang lebih kompleks. Sebagai MVP, kita ambil ERA pitching tim 
-        # jika data relief tidak langsung tersedia secara sederhana.
         if "stats" in data and data["stats"]:
             team_stats = data["stats"][0]["splits"][0]["stat"]
             return team_stats.get("era")

@@ -217,6 +217,36 @@ def update_daily_performance(date_str):
     finally:
         conn.close()
 
+def resolve_game_pk(game_id, game_date, home_team, away_team):
+    """
+    Jika game_id berbentuk angka (746830), kembalikan langsung.
+    Jika berbentuk string (MAR_PHI_2026-06-18_0540AM), cari gamePk dari schedule API.
+    """
+    g_id_str = str(game_id)
+    if g_id_str.isdigit():
+        return int(g_id_str)
+        
+    url = f"{MLB_API_BASE_URL}/schedule?sportId=1&date={game_date}"
+    try:
+        resp = requests.get(url, timeout=10)
+        if resp.status_code == 200:
+            data = resp.json()
+            for date_data in data.get("dates", []):
+                for game in date_data.get("games", []):
+                    g_home = game.get("teams", {}).get("home", {}).get("team", {}).get("name", "")
+                    g_away = game.get("teams", {}).get("away", {}).get("team", {}).get("name", "")
+                    
+                    def norm(name):
+                        return "".join(name.lower().split())
+                    
+                    if norm(g_home) == norm(home_team) and norm(g_away) == norm(away_team):
+                        logger.info(f"[Resolve] Match found for {away_team} @ {home_team} -> gamePk: {game['gamePk']}")
+                        return game["gamePk"]
+    except Exception as e:
+        logger.error(f"[Resolve Error] Gagal mencari gamePk untuk {game_id}: {e}")
+        
+    return None
+
 def process_yesterdays_results():
     """
     Fungsi utama yang mengambil skor untuk prediksi yang belum memiliki hasil (Final).
@@ -224,16 +254,13 @@ def process_yesterdays_results():
     conn = get_db_connection()
     cursor = conn.cursor()
     
-    # Ambil semua game_id dari predictions yang belum ada di results, 
-    # ATAU game-nya ada di results tapi belum Final (jika kita mau support re-check, meski saat ini hanya F yang masuk)
-    # Kita ambil prediksi masa lalu (sebelum hari ini)
     today = datetime.now().strftime("%Y-%m-%d")
     
     query = """
-        SELECT p.game_id, p.game_date 
+        SELECT p.game_id, p.game_date, p.home_team, p.away_team 
         FROM predictions p 
         LEFT JOIN results r ON p.game_id = r.game_id
-        WHERE r.id IS NULL AND p.game_date <= ? AND p.is_latest = 1
+        WHERE (r.id IS NULL OR r.actual_total_runs = 0) AND p.game_date <= ? AND p.is_latest = 1
     """
     
     try:
@@ -252,12 +279,16 @@ def process_yesterdays_results():
         for p in pending_games:
             g_id = p["game_id"]
             g_date = p["game_date"]
+            h_team = p["home_team"]
+            a_team = p["away_team"]
             
-            score_data = get_final_score(g_id)
-            if score_data:
-                if save_result(g_id, score_data):
-                    success_count += 1
-                    dates_to_update.add(g_date)
+            real_pk = resolve_game_pk(g_id, g_date, h_team, a_team)
+            if real_pk:
+                score_data = get_final_score(real_pk)
+                if score_data:
+                    if save_result(g_id, score_data):
+                        success_count += 1
+                        dates_to_update.add(g_date)
             
         # Update daily performance untuk setiap tanggal yang ada perubahan
         for d in dates_to_update:

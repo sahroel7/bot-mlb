@@ -9,30 +9,79 @@ from src.processors.environment_scorer import calculate_weather_score, calculate
 from src.processors.streak_detector import detect_offensive_streak, detect_pitcher_form, calculate_momentum_score
 from config.config_loader import get_setting
 
-def calculate_base_runs(home_team_stats, away_team_stats):
+def calculate_base_runs(home_team_stats, away_team_stats, home_pitcher_stats=None, away_pitcher_stats=None):
     """
-    Menghitung Base Run Projection berdasarkan rata-rata performa tim.
-    Rumus: (Offense Avg + Opponent Defense Avg) / 2
+    Menghitung Base Run Projection berdasarkan rata-rata offense tim dan defense starter pitcher.
+    Rumus: (Offense Avg + Opponent Starter Pitcher ERA/FIP) / 2
     
     Args:
         home_team_stats (dict): Statistik tim home.
         away_team_stats (dict): Statistik tim away.
+        home_pitcher_stats (dict): Statistik starting pitcher home.
+        away_pitcher_stats (dict): Statistik starting pitcher away.
         
     Returns:
         float: Proyeksi total run dasar.
     """
-    # Jika data runs_allowed tidak tersedia, gunakan baseline liga (sekitar 4.5)
+    # Rata-rata runs per game offense
     home_offense = home_team_stats.get('runs_per_game', 4.5)
     away_offense = away_team_stats.get('runs_per_game', 4.5)
     
-    # Gunakan ERA tim sebagai proksi untuk runs allowed jika tidak ada data spesifik
-    home_defense = home_team_stats.get('team_era', 4.5) 
-    away_defense = away_team_stats.get('team_era', 4.5)
+    try:
+        home_offense = float(home_offense)
+    except (ValueError, TypeError):
+        home_offense = 4.5
+        
+    try:
+        away_offense = float(away_offense)
+    except (ValueError, TypeError):
+        away_offense = 4.5
+    
+    def get_stabilized_pitcher_val(pitcher_stats, team_fallback_era):
+        if not pitcher_stats:
+            return team_fallback_era
+        val = pitcher_stats.get('fip') or pitcher_stats.get('era')
+        if not val or val == '.---':
+            return team_fallback_era
+        try:
+            val = float(val)
+        except:
+            return team_fallback_era
+        
+        # Parse innings pitched
+        ip_str = pitcher_stats.get('innings_pitched', '0')
+        try:
+            if '.' in str(ip_str):
+                parts = str(ip_str).split('.')
+                ip = float(parts[0]) + (float(parts[1]) / 3.0)
+            else:
+                ip = float(ip_str)
+        except:
+            ip = 0.0
+            
+        # Blending logic: jika IP < 15, stabilkan ke team_era
+        if ip < 15.0:
+            weight = ip / 15.0
+            return round((val * weight) + (team_fallback_era * (1.0 - weight)), 2)
+        return val
 
-    # Proyeksi Run untuk Away Team
-    away_proj = (away_offense + home_defense) / 2
-    # Proyeksi Run untuk Home Team
-    home_proj = (home_offense + away_defense) / 2
+    try:
+        home_team_era = float(home_team_stats.get('team_era', 4.5))
+    except:
+        home_team_era = 4.5
+        
+    try:
+        away_team_era = float(away_team_stats.get('team_era', 4.5))
+    except:
+        away_team_era = 4.5
+
+    home_defense_val = get_stabilized_pitcher_val(home_pitcher_stats, home_team_era)
+    away_defense_val = get_stabilized_pitcher_val(away_pitcher_stats, away_team_era)
+
+    # Proyeksi Run untuk Away Team (Away Offense vs Home Starter Pitching)
+    away_proj = (away_offense + home_defense_val) / 2
+    # Proyeksi Run untuk Home Team (Home Offense vs Away Starter Pitching)
+    home_proj = (home_offense + away_defense_val) / 2
     
     return round(away_proj + home_proj, 2)
 
@@ -61,8 +110,13 @@ def calculate_expected_total_runs(game_data):
     all_reasons = []
     total_modifier = 0.0
     
-    # 1. Base Runs
-    base_runs = calculate_base_runs(game_data['home_team_stats'], game_data['away_team_stats'])
+    # 1. Base Runs (Menggunakan starter stats secara langsung untuk akurasi)
+    base_runs = calculate_base_runs(
+        game_data['home_team_stats'], 
+        game_data['away_team_stats'],
+        game_data.get('home_pitcher_stats'),
+        game_data.get('away_pitcher_stats')
+    )
     
     # 2. Pitcher Modifiers (Starter & Bullpen)
     hp_mod, hp_reasons = calculate_pitcher_score(game_data['home_pitcher_stats'])
@@ -136,9 +190,9 @@ def make_recommendation(expected_runs, polymarket_line):
     gap = expected_runs - polymarket_line
     min_gap = get_setting("min_recommendation_gap", 0.5)
     
-    if gap > min_gap:
+    if gap >= min_gap:
         return "OVER ✅"
-    elif gap < -min_gap:
+    elif gap <= -min_gap:
         return "UNDER ✅"
     else:
         return "NO BET / SKIP ⚠️"

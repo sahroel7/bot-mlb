@@ -95,13 +95,22 @@ def schedule_revision_analysis():
             # Parsing waktu ET dan konversi kasar ke WIB (+11 jam dari ET)
             # Lalu kurangi 3 jam untuk revisi (Net: +8 jam dari ET)
             try:
-                et_time = datetime.strptime(f"{g['game_date']} {g['game_time_et']}", "%Y-%m-%d %H:%M:%S")
-                # Konversi ET ke WIB (Estimasi +11 jam)
-                wib_time = et_time + timedelta(hours=11)
-                # T-3 jam sebelum game
-                revision_time = wib_time - timedelta(hours=3)
+                # Bersihkan " ET" jika ada
+                clean_time = g['game_time_et'].replace(" ET", "").strip()
+                game_dt_str = f"{g['game_date']} {clean_time}"
                 
-                # Jika waktu revisi sudah lewat, abaikan (atau jalankan segera jika mau)
+                # Coba parse format 12 jam (AM/PM) dulu, lalu 24 jam
+                try:
+                    et_time = datetime.strptime(game_dt_str, "%Y-%m-%d %I:%M %p")
+                except ValueError:
+                    et_time = datetime.strptime(game_dt_str, "%Y-%m-%d %H:%M:%S")
+                    
+                # Konversi ET ke WIB (Estimasi +11 jam di musim panas Juni)
+                wib_time = et_time + timedelta(hours=11)
+                # T-2 jam sebelum game
+                revision_time = wib_time - timedelta(hours=2)
+                
+                # Jika waktu revisi sudah lewat, abaikan
                 if revision_time < datetime.now():
                     logger.info(f"Revision time for {game_id} already passed. Skipping.")
                     continue
@@ -275,6 +284,16 @@ def run_results_check():
     if processed > 0:
         logger.info(f"{processed} hasil pertandingan baru berhasil diupdate.")
 
+def run_results_check_silent():
+    """Mengambil hasil game secara senyap di background tanpa mengirim laporan ke Telegram."""
+    logger.info("=== MENJALANKAN SILENT RESULTS CHECK ===")
+    try:
+        processed = process_yesterdays_results()
+        if processed > 0:
+            logger.info(f"[Silent Results Check] {processed} hasil pertandingan berhasil diupdate.")
+    except Exception as e:
+        logger.error(f"[Silent Results Check] Gagal: {e}")
+
 def job_line_movement_check():
     """Job 4: Cek pergerakan odds setiap 30 menit (Placeholder)."""
     logger.info("=== CHECKING POLYMARKET LINE MOVEMENT ===")
@@ -336,11 +355,11 @@ def run_auto_scheduler():
     """Fungsi utama scheduler."""
     logger.info("Menginisialisasi Dynamic Auto Runner (Phase 4.1)...")
     
-    # 1. Jadwal Results Check (Jam 08:00) - Tetap aktif untuk sinkronisasi hasil & akurasi
+    # 1. Jadwal Results Check secara senyap setiap 7 jam (database sync otomatis)
     scheduler.add_job(
-        run_results_check,
-        CronTrigger(hour=8, minute=0),
-        id='daily_results'
+        run_results_check_silent,
+        IntervalTrigger(hours=7),
+        id='silent_results'
     )
 
     # Note: Automated alert schedulers (Early Alert, Final Alert, Line Movement, and Waiting Markets) 
