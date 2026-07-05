@@ -1,5 +1,6 @@
 import requests
 from datetime import datetime
+from src.utils.network import get_request
 
 MLB_API_BASE_URL = "https://statsapi.mlb.com/api/v1"
 
@@ -17,7 +18,7 @@ def get_starting_pitchers(game_id):
     url = f"{MLB_API_BASE_URL}/schedule?gamePk={game_id}&hydrate=probablePitcher"
     
     try:
-        response = requests.get(url, timeout=10)
+        response = get_request(url, timeout=10)
         response.raise_for_status()
         data = response.json()
         
@@ -56,7 +57,7 @@ def get_pitcher_season_stats(pitcher_id):
     url = f"{MLB_API_BASE_URL}/people/{pitcher_id}/stats?stats=statsSingleSeason&group=pitching"
     
     try:
-        response = requests.get(url, timeout=10)
+        response = get_request(url, timeout=10)
         response.raise_for_status()
         data = response.json()
         
@@ -68,9 +69,9 @@ def get_pitcher_season_stats(pitcher_id):
             stats = {
                 "era": season_stats.get("era"),
                 "whip": season_stats.get("whip"),
-                "k9": season_stats.get("strikeOutsPer9Inn"),
+                "k9": season_stats.get("strikeoutsPer9Inn"),
                 "bb9": season_stats.get("walksPer9Inn"),
-                "hr9": season_stats.get("homeRunsPer9Inn"),
+                "hr9": season_stats.get("homeRunsPer9"),
                 "games_started": season_stats.get("gamesStarted"),
                 "innings_pitched": season_stats.get("inningsPitched"),
             }
@@ -103,7 +104,7 @@ def get_pitcher_last_3_starts(pitcher_id):
     url = f"{MLB_API_BASE_URL}/people/{pitcher_id}/stats?stats=gameLog&group=pitching"
     
     try:
-        response = requests.get(url, timeout=10)
+        response = get_request(url, timeout=10)
         response.raise_for_status()
         data = response.json()
         
@@ -143,7 +144,7 @@ def get_bullpen_era(team_id):
     url = f"{MLB_API_BASE_URL}/teams/{team_id}/stats?stats=season&group=pitching&pitchingRole=RP"
     
     try:
-        response = requests.get(url, timeout=10)
+        response = get_request(url, timeout=10)
         response.raise_for_status()
         data = response.json()
         

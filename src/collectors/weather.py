@@ -1,6 +1,7 @@
 import requests
 from datetime import datetime
 import math
+from src.utils.network import get_request
 
 # Koordinat Lat/Lon untuk semua 30 Stadion MLB beserta Karakteristik Atap/Kubah
 STADIUM_COORDINATES = {
@@ -33,7 +34,9 @@ STADIUM_COORDINATES = {
     "Tropicana Field": {"lat": 27.7682, "lon": -82.6534, "orientation": 0, "roof": "dome"},
     "Globe Life Field": {"lat": 32.7473, "lon": -97.0811, "orientation": 0, "roof": "retractable"},
     "Rogers Centre": {"lat": 43.6414, "lon": -79.3894, "orientation": 0, "roof": "retractable"},
-    "Nationals Park": {"lat": 38.873, "lon": -77.0074, "orientation": 45, "roof": "open"}
+    "Nationals Park": {"lat": 38.873, "lon": -77.0074, "orientation": 45, "roof": "open"},
+    "Daikin Park": {"lat": 29.7573, "lon": -95.3555, "orientation": 0, "roof": "retractable"},
+    "Sutter Health Park": {"lat": 38.5804, "lon": -121.5147, "orientation": 45, "roof": "open"}
 }
 
 def get_game_weather(venue_name, game_datetime_str):
@@ -48,10 +51,10 @@ def get_game_weather(venue_name, game_datetime_str):
     Returns:
         dict: Data cuaca (temp, wind, humidity, precipitation).
     """
-    # Mencari venue yang cocok (bisa parsial/nama kota untuk robustnes)
+    # Mencari venue yang cocok (bisa parsial/nama kota untuk robustnes secara bi-directional)
     matched_venue = None
     for v_name, details in STADIUM_COORDINATES.items():
-        if venue_name.lower() in v_name.lower():
+        if venue_name.lower() in v_name.lower() or v_name.lower() in venue_name.lower():
             matched_venue = v_name
             break
             
@@ -66,18 +69,23 @@ def get_game_weather(venue_name, game_datetime_str):
     url = f"https://api.open-meteo.com/v1/forecast?latitude={lat}&longitude={lon}&hourly=temperature_2m,relative_humidity_2m,precipitation_probability,wind_speed_10m,wind_direction_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&timezone=auto"
     
     try:
-        response = requests.get(url, timeout=10)
+        response = get_request(url, timeout=10)
         response.raise_for_status()
         data = response.json()
         
-        # Konversi game_datetime yang lebih robust
+        # Konversi game_datetime yang lebih robust (dari UTC ke lokal menggunakan offset API)
         clean_dt_str = game_datetime_str.split('Z')[0].replace(' ', 'T')
         # Jika panjang string kurang dari detik, tambahkan detik
         if len(clean_dt_str) == 16: # format 'YYYY-MM-DDTHH:MM'
             clean_dt_str += ':00'
             
-        game_dt = datetime.strptime(clean_dt_str, '%Y-%m-%dT%H:%M:%S')
-        game_hour_str = game_dt.strftime('%Y-%m-%dT%H:00')
+        game_dt_utc = datetime.strptime(clean_dt_str, '%Y-%m-%dT%H:%M:%S')
+        
+        # Konversi UTC ke Waktu Lokal menggunakan utc_offset_seconds dari response Open-Meteo
+        utc_offset = data.get("utc_offset_seconds", 0)
+        from datetime import timedelta
+        game_dt_local = game_dt_utc + timedelta(seconds=utc_offset)
+        game_hour_str = game_dt_local.strftime('%Y-%m-%dT%H:00')
         
         # Cari index yang paling mendekati jam pertandingan
         hourly = data.get("hourly", {})

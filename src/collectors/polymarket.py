@@ -1,6 +1,7 @@
 import requests
 from datetime import datetime
 import time
+from src.utils.network import get_request
 import os
 import pytz
 from dotenv import load_dotenv
@@ -89,7 +90,7 @@ def get_mlb_ou_markets():
     url = f"{GAMMA_API_URL}/markets?active=true&limit=100&search=MLB"
     
     try:
-        response = requests.get(url, timeout=15)
+        response = get_request(url, timeout=15)
         response.raise_for_status()
         markets = response.json()
         
@@ -125,7 +126,7 @@ def get_fallback_odds_api_line(home_team, away_team):
     if _ODDS_API_CACHE is None:
         url = f"https://api.the-odds-api.com/v4/sports/baseball_mlb/odds/?apiKey={ODDS_API_KEY}&regions=us&markets=totals"
         try:
-            resp = requests.get(url, timeout=10)
+            resp = get_request(url, timeout=10)
             if resp.status_code == 200:
                 data = resp.json()
                 if isinstance(data, list):
@@ -174,7 +175,6 @@ def get_ou_line(home_team, away_team, game_date_et=None):
     Prioritas: Bullpen CLI -> The Odds API (Fallback)
     """
     # 1. Prioritas Utama: Bullpen CLI
-    from src.collectors.bullpen_collector import get_ou_line as get_bullpen_line
     bullpen_data = get_bullpen_line(away_team, home_team, game_date_et)
     if bullpen_data:
         bullpen_data['source'] = 'Bullpen CLI'

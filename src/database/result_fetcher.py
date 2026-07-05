@@ -7,6 +7,7 @@ import requests
 from datetime import datetime, timedelta
 from src.database.db_setup import get_db_connection
 from src.utils.logger import logger
+from src.utils.network import get_request
 
 MLB_API_BASE_URL = "https://statsapi.mlb.com/api/v1"
 
@@ -23,7 +24,7 @@ def get_final_score(game_id):
     url = f"{MLB_API_BASE_URL}/schedule?gamePk={game_id}"
     
     try:
-        resp = requests.get(url, timeout=10)
+        resp = get_request(url, timeout=10)
         resp.raise_for_status()
         data = resp.json()
         
@@ -34,8 +35,9 @@ def get_final_score(game_id):
         status_code = game.get("status", {}).get("statusCode", "")
         status_abstract = game.get("status", {}).get("abstractGameState", "")
         
-        # 'F' = Final, 'O' = Game Over, 'C' = Canceled, 'P' = Postponed
-        if status_code in ["F", "O", "C", "P"] or status_abstract == "Final":
+        # 'F' = Final, 'O' = Game Over, 'C' = Canceled, 'T' = Postponed (di MLB API, 'T' atau abstract state Canceled/Postponed)
+        # Kita keluarkan 'P' (Preview) agar tidak dianggap sebagai game selesai/ditunda.
+        if status_code in ["F", "O", "C", "T"] or status_abstract in ["Final", "Postponed", "Canceled"]:
             home_runs = game.get("teams", {}).get("home", {}).get("score", 0)
             away_runs = game.get("teams", {}).get("away", {}).get("score", 0)
             innings = game.get("linescore", {}).get("currentInning", 9)
@@ -45,6 +47,7 @@ def get_final_score(game_id):
                 "away_runs": away_runs,
                 "total_runs": home_runs + away_runs,
                 "game_status": status_code,
+                "game_status_abstract": status_abstract,
                 "innings_played": innings
             }
         else:
@@ -79,18 +82,21 @@ def save_result(game_id, final_score_data):
         
         # 2. Cek apakah game batal/ditunda
         status = final_score_data["game_status"]
+        status_abstract = final_score_data.get("game_status_abstract", "")
         total_runs = final_score_data["total_runs"]
         
         # Validasi skor (Fix 6)
-        if status not in ["F", "O", "C", "P"]:
+        if status not in ["F", "O", "C", "T"] and status_abstract not in ["Final", "Postponed", "Canceled"]:
             logger.info(f"[INFO] Game {game_id} belum Final. Status: {status}")
             return False
             
-        if status not in ["C", "P"] and (total_runs == 0 or total_runs is None):
+        is_void = (status in ["C", "T"]) or (status_abstract in ["Postponed", "Canceled"])
+        
+        if not is_void and (total_runs == 0 or total_runs is None):
             logger.info(f"[INFO] Game {game_id} Final tapi skor 0-0 (belum valid). Menunggu update API.")
             return False
             
-        if status in ["C", "P"]:
+        if is_void:
             # Void: Tidak dihitung benar maupun salah
             is_correct = None
             went_over = None
@@ -228,7 +234,7 @@ def resolve_game_pk(game_id, game_date, home_team, away_team):
         
     url = f"{MLB_API_BASE_URL}/schedule?sportId=1&date={game_date}"
     try:
-        resp = requests.get(url, timeout=10)
+        resp = get_request(url, timeout=10)
         if resp.status_code == 200:
             data = resp.json()
             for date_data in data.get("dates", []):

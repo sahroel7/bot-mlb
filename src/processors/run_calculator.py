@@ -9,16 +9,18 @@ from src.processors.environment_scorer import calculate_weather_score, calculate
 from src.processors.streak_detector import detect_offensive_streak, detect_pitcher_form, calculate_momentum_score
 from config.config_loader import get_setting
 
-def calculate_base_runs(home_team_stats, away_team_stats, home_pitcher_stats=None, away_pitcher_stats=None):
+def calculate_base_runs(home_team_stats, away_team_stats, home_pitcher_stats=None, away_pitcher_stats=None, home_bullpen_era=None, away_bullpen_era=None):
     """
-    Menghitung Base Run Projection berdasarkan rata-rata offense tim dan defense starter pitcher.
-    Rumus: (Offense Avg + Opponent Starter Pitcher ERA/FIP) / 2
+    Menghitung Base Run Projection berdasarkan rata-rata offense tim dan rata-rata tertimbang pertahanan (Starter + Bullpen).
+    Rumus: (Offense Avg + Opponent Weighted Defense ERA) / 2
     
     Args:
         home_team_stats (dict): Statistik tim home.
         away_team_stats (dict): Statistik tim away.
         home_pitcher_stats (dict): Statistik starting pitcher home.
         away_pitcher_stats (dict): Statistik starting pitcher away.
+        home_bullpen_era (float/str): ERA bullpen tim home.
+        away_bullpen_era (float/str): ERA bullpen tim away.
         
     Returns:
         float: Proyeksi total run dasar.
@@ -59,11 +61,41 @@ def calculate_base_runs(home_team_stats, away_team_stats, home_pitcher_stats=Non
         except:
             ip = 0.0
             
-        # Blending logic: jika IP < 15, stabilkan ke team_era
-        if ip < 15.0:
-            weight = ip / 15.0
+        # Blending logic: jika IP < 40, stabilkan ke team_fallback_era
+        if ip < 40.0:
+            weight = ip / 40.0
             return round((val * weight) + (team_fallback_era * (1.0 - weight)), 2)
         return val
+
+    def get_weighted_defense_val(pitcher_stats, team_fallback_era, bullpen_era):
+        blended_starter = get_stabilized_pitcher_val(pitcher_stats, team_fallback_era)
+        if not pitcher_stats:
+            return blended_starter
+            
+        # Rata-rata IP per start
+        ip_per_start = pitcher_stats.get('ip_per_start')
+        try:
+            ip_per_start = float(ip_per_start) if ip_per_start is not None else 5.0
+        except:
+            ip_per_start = 5.0
+            
+        # Clamp IP per start ke batas realistis starting pitcher (4.0 - 7.0 inning)
+        if ip_per_start <= 0.0:
+            ip_per_start = 5.0
+        elif ip_per_start < 4.0:
+            ip_per_start = 4.0
+        elif ip_per_start > 7.0:
+            ip_per_start = 7.0
+            
+        # Ambil ERA bullpen
+        try:
+            b_era = float(bullpen_era) if bullpen_era is not None else team_fallback_era
+        except:
+            b_era = team_fallback_era
+            
+        # Hitung weighted defense: (Starter ERA * IP/9) + (Bullpen ERA * (9-IP)/9)
+        weighted_val = (blended_starter * (ip_per_start / 9.0)) + (b_era * ((9.0 - ip_per_start) / 9.0))
+        return round(weighted_val, 2)
 
     try:
         home_team_era = float(home_team_stats.get('team_era', 4.5))
@@ -75,12 +107,12 @@ def calculate_base_runs(home_team_stats, away_team_stats, home_pitcher_stats=Non
     except:
         away_team_era = 4.5
 
-    home_defense_val = get_stabilized_pitcher_val(home_pitcher_stats, home_team_era)
-    away_defense_val = get_stabilized_pitcher_val(away_pitcher_stats, away_team_era)
+    home_defense_val = get_weighted_defense_val(home_pitcher_stats, home_team_era, home_bullpen_era)
+    away_defense_val = get_weighted_defense_val(away_pitcher_stats, away_team_era, away_bullpen_era)
 
-    # Proyeksi Run untuk Away Team (Away Offense vs Home Starter Pitching)
+    # Proyeksi Run untuk Away Team (Away Offense vs Home Defense)
     away_proj = (away_offense + home_defense_val) / 2
-    # Proyeksi Run untuk Home Team (Home Offense vs Away Starter Pitching)
+    # Proyeksi Run untuk Home Team (Home Offense vs Away Defense)
     home_proj = (home_offense + away_defense_val) / 2
     
     return round(away_proj + home_proj, 2)
@@ -109,21 +141,28 @@ def calculate_expected_total_runs(game_data):
     """
     all_reasons = []
     total_modifier = 0.0
+
+    # Hapus modifikasi manual +15% di Coors Field untuk menghindari double counting dengan Park Factor
+    # (Coors Field sudah diakomodasi oleh Park Factor +1.3 run)
+    home_pitcher_stats = game_data.get('home_pitcher_stats', {}).copy() if game_data.get('home_pitcher_stats') else {}
+    away_pitcher_stats = game_data.get('away_pitcher_stats', {}).copy() if game_data.get('away_pitcher_stats') else {}
     
-    # 1. Base Runs (Menggunakan starter stats secara langsung untuk akurasi)
+    # 1. Base Runs (Menggunakan starter + bullpen stats secara langsung untuk akurasi)
     base_runs = calculate_base_runs(
         game_data['home_team_stats'], 
         game_data['away_team_stats'],
-        game_data.get('home_pitcher_stats'),
-        game_data.get('away_pitcher_stats')
+        home_pitcher_stats,
+        away_pitcher_stats,
+        game_data.get('home_bullpen_era'),
+        game_data.get('away_bullpen_era')
     )
     
     # 2. Pitcher Modifiers (Starter & Bullpen)
-    hp_mod, hp_reasons = calculate_pitcher_score(game_data['home_pitcher_stats'])
+    hp_mod, hp_reasons = calculate_pitcher_score(home_pitcher_stats)
     hf_mod, hf_reasons = calculate_fatigue_penalty(game_data['home_pitcher_last_3'])
     hb_mod, hb_reasons = calculate_bullpen_risk(game_data['home_bullpen_era'])
     
-    ap_mod, ap_reasons = calculate_pitcher_score(game_data['away_pitcher_stats'])
+    ap_mod, ap_reasons = calculate_pitcher_score(away_pitcher_stats)
     af_mod, af_reasons = calculate_fatigue_penalty(game_data['away_pitcher_last_3'])
     ab_mod, ab_reasons = calculate_bullpen_risk(game_data['away_bullpen_era'])
     
@@ -132,8 +171,8 @@ def calculate_expected_total_runs(game_data):
     all_reasons.extend(hp_reasons + hf_reasons + hb_reasons + ap_reasons + af_reasons + ab_reasons)
     
     # 3. Offense Modifiers
-    ho_mod, ho_reasons = calculate_offense_score(game_data['home_team_stats'], game_data['away_pitcher_stats'])
-    ao_mod, ao_reasons = calculate_offense_score(game_data['away_team_stats'], game_data['home_pitcher_stats'])
+    ho_mod, ho_reasons = calculate_offense_score(game_data['home_team_stats'], away_pitcher_stats)
+    ao_mod, ao_reasons = calculate_offense_score(game_data['away_team_stats'], home_pitcher_stats)
     
     hr_mod, hr_reasons = calculate_risp_modifier(game_data['home_team_stats'].get('risp_avg'))
     ar_mod, ar_reasons = calculate_risp_modifier(game_data['away_team_stats'].get('risp_avg'))
@@ -141,10 +180,30 @@ def calculate_expected_total_runs(game_data):
     o_mod = ho_mod + ao_mod + hr_mod + ar_mod
     total_modifier += o_mod
     all_reasons.extend(ho_reasons + ao_reasons + hr_reasons + ar_reasons)
+    
+    # 3.1 Lineup Strength Modifiers (Fase 2 Peningkatan - Lineup Aktif)
+    game_id = game_data.get('game_id')
+    if game_id:
+        from src.collectors.team_offense import analyze_lineup_strength
+        # Home team lineup
+        home_lineup_analysis = analyze_lineup_strength(game_id, game_data.get('home_team_id'), game_data.get('home_last_10_raw', []))
+        if home_lineup_analysis.get('active'):
+            home_absents = home_lineup_analysis.get('absent_players', [])
+            if home_absents:
+                total_modifier += home_lineup_analysis['modifier']
+                all_reasons.append(f"[Lineup] Hitter kunci Home absen ({', '.join(home_absents)}): {home_lineup_analysis['modifier']:>+0.2f} run")
+                
+        # Away team lineup
+        away_lineup_analysis = analyze_lineup_strength(game_id, game_data.get('away_team_id'), game_data.get('away_last_10_raw', []))
+        if away_lineup_analysis.get('active'):
+            away_absents = away_lineup_analysis.get('absent_players', [])
+            if away_absents:
+                total_modifier += away_lineup_analysis['modifier']
+                all_reasons.append(f"[Lineup] Hitter kunci Away absen ({', '.join(away_absents)}): {away_lineup_analysis['modifier']:>+0.2f} run")
 
     # 4. Advanced Momentum & Streak (Phase 2 Enhancement)
     home_off_streak = detect_offensive_streak(game_data.get('home_team_last_10', []))
-    home_pit_form = detect_pitcher_form(game_data['home_pitcher_stats'], game_data['home_pitcher_last_3'])
+    home_pit_form = detect_pitcher_form(home_pitcher_stats, game_data['home_pitcher_last_3'])
     home_momentum_mod = calculate_momentum_score(home_off_streak, home_pit_form)
     
     if home_momentum_mod != 0:
@@ -152,7 +211,7 @@ def calculate_expected_total_runs(game_data):
         all_reasons.append(f"Home Momentum ({home_off_streak['type']} Offense, {home_pit_form['form']} Pitcher): {home_momentum_mod:>+0.2f} run")
 
     away_off_streak = detect_offensive_streak(game_data.get('away_team_last_10', []))
-    away_pit_form = detect_pitcher_form(game_data['away_pitcher_stats'], game_data['away_pitcher_last_3'])
+    away_pit_form = detect_pitcher_form(away_pitcher_stats, game_data['away_pitcher_last_3'])
     away_momentum_mod = calculate_momentum_score(away_off_streak, away_pit_form)
     
     if away_momentum_mod != 0:

@@ -2,6 +2,7 @@ import pytest
 from unittest.mock import patch, MagicMock
 import sys
 import os
+from datetime import datetime
 
 # Menambahkan direktori root proyek ke sys.path agar 'src' bisa diimport
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
@@ -41,27 +42,24 @@ def dummy_game_data():
 
 def test_mlb_schedule():
     """Validasi format output jadwal MLB."""
-    with patch('requests.get') as mock_get:
-        mock_get.return_value.json.return_value = {
-            "dates": [{
-                "games": [{
-                    "gamePk": 123,
-                    "teams": {
-                        "home": {"team": {"name": "Yankees"}},
-                        "away": {"team": {"name": "Red Sox"}}
-                    },
-                    "gameDate": "2026-06-13T19:10:00Z",
-                    "venue": {"name": "Yankee Stadium"}
-                }]
-            }]
-        }
-        mock_get.return_value.status_code = 200
+    import pytz
+    et_tz = pytz.timezone('America/New_York')
+    target_date = datetime.now(et_tz).strftime('%Y-%m-%d')
+    
+    with patch('src.collectors.mlb_schedule.get_upcoming_games') as mock_upcoming:
+        mock_upcoming.return_value = [{
+            "game_id": 123,
+            "away_team": "Red Sox",
+            "home_team": "Yankees",
+            "game_date_et": target_date,
+            "venue_name": "Yankee Stadium"
+        }]
         
         games = get_todays_games()
         assert len(games) > 0
         assert games[0]['game_id'] == 123
-        assert "home_team" in games[0]
-        assert "venue_name" in games[0]
+        assert games[0]['home_team'] == 'Yankees'
+        assert games[0]['venue_name'] == 'Yankee Stadium'
 
 def test_pitcher_scorer():
     """Validasi scoring pitcher (ERA elit vs buruk)."""
@@ -111,7 +109,7 @@ def test_park_scorer():
     # Test Coors Field (ID 115)
     score_coors, reasons = calculate_park_score(113, team_id=115)
     assert score_coors >= 1.0
-    assert any("Coors Field" in r for r in reasons)
+    assert any("Hitter's Park" in r for r in reasons)
 
 def test_run_calculator(dummy_game_data):
     """Validasi alur kalkulasi akhir & rekomendasi."""
@@ -132,7 +130,7 @@ def test_run_calculator(dummy_game_data):
 
 def test_polymarket_parsing():
     """Validasi prioritas data line dari Bullpen CLI."""
-    with patch('src.collectors.bullpen_collector.get_ou_line') as mock_bullpen:
+    with patch('src.collectors.polymarket.get_bullpen_line') as mock_bullpen:
         mock_bullpen.return_value = {
             'line': 8.5,
             'over_price': 55.0,

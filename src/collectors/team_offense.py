@@ -1,5 +1,6 @@
 import requests
 from datetime import datetime
+from src.utils.network import get_request
 
 MLB_API_BASE_URL = "https://statsapi.mlb.com/api/v1"
 
@@ -22,7 +23,7 @@ def get_team_season_offense(team_id):
     stats = {}
     try:
         # Request hitting stats
-        resp_h = requests.get(url_hitting, timeout=10)
+        resp_h = get_request(url_hitting, timeout=10)
         resp_h.raise_for_status()
         data_h = resp_h.json()
         
@@ -40,7 +41,7 @@ def get_team_season_offense(team_id):
             }
             
         # Request RISP stats
-        resp_r = requests.get(url_risp, timeout=10)
+        resp_r = get_request(url_risp, timeout=10)
         if resp_r.status_code == 200:
             data_r = resp_r.json()
             if "stats" in data_r and data_r["stats"]:
@@ -69,7 +70,7 @@ def get_team_last_10_games(team_id):
     url = f"{MLB_API_BASE_URL}/teams/{team_id}/stats?stats=gameLog&group=hitting"
     
     try:
-        response = requests.get(url, timeout=10)
+        response = get_request(url, timeout=10)
         response.raise_for_status()
         data = response.json()
         
@@ -122,9 +123,11 @@ def calculate_streak(last_10_games_data):
     else:
         return "NEUTRAL"
 
+_BOXSCORE_CACHE = {}
+
 def get_todays_lineup(game_id, team_id):
     """
-    Mengambil lineup pemain untuk pertandingan hari ini.
+    Mengambil lineup pemain untuk pertandingan hari ini (dengan cache).
     
     Args:
         game_id (int): ID pertandingan.
@@ -133,10 +136,15 @@ def get_todays_lineup(game_id, team_id):
     Returns:
         list: List nama pemain dalam urutan batting order.
     """
+    global _BOXSCORE_CACHE
+    cache_key = f"{game_id}_{team_id}"
+    if cache_key in _BOXSCORE_CACHE:
+        return _BOXSCORE_CACHE[cache_key]
+        
     url = f"{MLB_API_BASE_URL}/game/{game_id}/boxscore"
     
     try:
-        response = requests.get(url, timeout=10)
+        response = get_request(url, timeout=10)
         response.raise_for_status()
         data = response.json()
         
@@ -150,10 +158,75 @@ def get_todays_lineup(game_id, team_id):
             if p_key in all_players:
                 lineup.append(all_players[p_key]["person"]["fullName"])
                 
+        if len(lineup) >= 9:
+            _BOXSCORE_CACHE[cache_key] = lineup
+            
         return lineup
     except Exception as e:
         print(f"Error get_todays_lineup: {e}")
         return []
+
+def analyze_lineup_strength(game_id, team_id, last_10_games_data):
+    """
+    Menganalisis apakah starting lineup hari ini melemah dibandingkan game sebelumnya.
+    Mendeteksi jika ada hitter kunci (posisi 3, 4, 5) yang absen.
+    
+    Args:
+        game_id (int): ID pertandingan hari ini.
+        team_id (int): ID tim.
+        last_10_games_data (list): Data gameLog dari API.
+        
+    Returns:
+        dict: Hasil analisis kekuatan lineup (active, absent_players, modifier).
+    """
+    # 1. Dapatkan lineup hari ini
+    today_lineup = get_todays_lineup(game_id, team_id)
+    if not today_lineup or len(today_lineup) < 9:
+        return {"active": False, "absent_players": [], "modifier": 0.0}
+        
+    # 2. Ambil 3 game sebelumnya yang sudah final
+    completed_game_ids = []
+    for split in last_10_games_data:
+        g = split.get("game", {})
+        g_pk = g.get("gamePk")
+        if g_pk and str(g_pk) != str(game_id):
+            completed_game_ids.append(g_pk)
+            if len(completed_game_ids) >= 3:
+                break
+                
+    if len(completed_game_ids) < 2:
+        return {"active": True, "absent_players": [], "modifier": 0.0}
+        
+    # 3. Cari siapa yang sering batting di posisi 3, 4, 5 (index 2, 3, 4)
+    key_positions = [2, 3, 4]
+    frequent_hitters = {}
+    
+    for prev_game_id in completed_game_ids:
+        prev_lineup = get_todays_lineup(prev_game_id, team_id)
+        if len(prev_lineup) >= 9:
+            for idx in key_positions:
+                hitter = prev_lineup[idx]
+                frequent_hitters[hitter] = frequent_hitters.get(hitter, 0) + 1
+                
+    # Hitter kunci adalah mereka yang muncul >= 2 kali di urutan 3-4-5 pada 3 game terakhir
+    expected_key_hitters = [hitter for hitter, count in frequent_hitters.items() if count >= 2]
+    if not expected_key_hitters:
+        expected_key_hitters = [hitter for hitter, count in frequent_hitters.items() if count >= 1]
+        
+    # 4. Cek siapa yang absen hari ini
+    absent_players = []
+    for key_hitter in expected_key_hitters:
+        if key_hitter not in today_lineup:
+            absent_players.append(key_hitter)
+            
+    # Penalti -0.25 run per pemain kunci yang absen (maks -0.75)
+    modifier = round(max(-0.25 * len(absent_players), -0.75), 2)
+    
+    return {
+        "active": True,
+        "absent_players": absent_players,
+        "modifier": modifier
+    }
 
 if __name__ == "__main__":
     # Test dengan NY Yankees (ID: 147)

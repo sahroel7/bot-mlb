@@ -183,8 +183,13 @@ def run_analysis(args):
             
             # c. Collect Semua Statistik (Pitcher, Offense, Weather)
             # Mengumpulkan ke dalam satu objek besar untuk processor
+            home_last_10 = get_team_last_10_games(game.get('home_id'))
+            away_last_10 = get_team_last_10_games(game.get('away_id'))
+            
             game_full_data = {
+                "game_id": mlb_api_game_id,
                 "home_team_id": game.get('home_id'),
+                "away_team_id": game.get('away_id'),
                 "home_team_stats": get_team_season_offense(game.get('home_id')),
                 "away_team_stats": get_team_season_offense(game.get('away_id')),
                 "home_pitcher_stats": get_pitcher_season_stats(home_pitcher_id),
@@ -193,8 +198,10 @@ def run_analysis(args):
                 "away_pitcher_last_3": get_pitcher_last_3_starts(away_pitcher_id),
                 "home_bullpen_era": get_bullpen_era(game.get('home_id')),
                 "away_bullpen_era": get_bullpen_era(game.get('away_id')),
-                "home_streak": calculate_streak(get_team_last_10_games(game.get('home_id'))),
-                "away_streak": calculate_streak(get_team_last_10_games(game.get('away_id'))),
+                "home_streak": calculate_streak(home_last_10),
+                "away_streak": calculate_streak(away_last_10),
+                "home_last_10_raw": home_last_10,
+                "away_last_10_raw": away_last_10,
                 "weather": get_game_weather(game['venue_name'], game['game_time']),
                 "park_factor": get_park_factor(game.get('home_id'))
             }
@@ -217,6 +224,8 @@ def run_analysis(args):
             game_info['game_time_et'] = market_info.get('game_time_et', 'N/A')
             game_info['game_date_et'] = market_info.get('game_date_et')
             game_info['line_range'] = market_info.get('line_range', '-')
+            game_info['home_pitcher'] = pitchers['home']['name'] if (pitchers.get('home') and isinstance(pitchers['home'], dict) and pitchers['home'].get('name')) else 'Unknown'
+            game_info['away_pitcher'] = pitchers['away']['name'] if (pitchers.get('away') and isinstance(pitchers['away'], dict) and pitchers['away'].get('name')) else 'Unknown'
 
             # Fallback jika ET date tidak ada
             if not game_info['game_date_et']:

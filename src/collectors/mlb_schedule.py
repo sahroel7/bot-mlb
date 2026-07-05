@@ -1,6 +1,7 @@
 import requests
 from datetime import datetime, timedelta
 import pytz
+from src.utils.network import get_request
 
 # URL API MLB Stats (Sport ID 1 adalah MLB)
 MLB_API_BASE_URL = "https://statsapi.mlb.com/api/v1"
@@ -22,7 +23,7 @@ def get_todays_games(days_ahead=0):
     url = f"{MLB_API_BASE_URL}/schedule?sportId=1&date={target_date}"
     
     try:
-        response = requests.get(url, timeout=10)
+        response = get_request(url, timeout=10)
         response.raise_for_status()
         data = response.json()
         
@@ -67,7 +68,7 @@ def get_games_by_et_date(target_date):
     url = f"{MLB_API_BASE_URL}/schedule?sportId=1&date={target_date}"
     
     try:
-        response = requests.get(url, timeout=10)
+        response = get_request(url, timeout=10)
         response.raise_for_status()
         data = response.json()
         
