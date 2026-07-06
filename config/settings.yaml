@@ -30,6 +30,7 @@ pitcher_thresholds:
   k9_high: 9.5
   bb9_high: 3.5
   hr9_high: 1.3
+  ip_stabilization_threshold: 40.0
   
 bullpen_thresholds:
   era_weak: 4.5
@@ -42,6 +43,10 @@ weather_thresholds:
   temp_cold_f: 50
   humidity_high: 80
   precip_high: 50
+  wind_outward_base: 0.3
+  wind_coefficient_per_mph: 0.04
+  wind_outward_cap: 0.8
+  wind_inward_cap: -0.8
 
 park_thresholds:
   hitters_park_min: 105

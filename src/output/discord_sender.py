@@ -45,6 +45,10 @@ def format_discord_reasons(reasons):
 
 def send_with_retry(payload, retries=3):
     """Mengirim payload ke Discord dengan penanganan rate limit (429)."""
+    if os.environ.get("BOT_DRY_RUN", "false").lower() == "true":
+        print(f"[DRY RUN] Pesan tidak dikirim: {payload}")
+        return True
+
     if not DISCORD_WEBHOOK_URL:
         logger.warning("[Discord] Webhook URL belum disetel di .env. Skip pengiriman.")
         return False

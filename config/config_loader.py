@@ -30,10 +30,17 @@ def load_config():
         
     return _CONFIG_CACHE
 
-def get_setting(key_path, default_value=None):
+def get_setting(key_path, default_value=None, params_override=None):
     """
     Mengambil nilai setting berdasarkan key path (misal: 'confidence_thresholds.high_gap').
     """
+    if params_override is not None:
+        if key_path in params_override:
+            return params_override[key_path]
+        leaf = key_path.split('.')[-1]
+        if leaf in params_override:
+            return params_override[leaf]
+
     config = load_config()
     keys = key_path.split('.')
     

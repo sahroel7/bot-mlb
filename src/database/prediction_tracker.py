@@ -6,6 +6,7 @@ real-time dari database SQLite.
 
 import sqlite3
 import json
+import os
 from datetime import datetime
 from src.database.db_setup import get_db_connection
 
@@ -22,6 +23,15 @@ def save_prediction(game_info, analysis_result, revision_reason=None):
     Returns:
         bool: True jika berhasil, False jika gagal.
     """
+    if os.environ.get("BOT_DRY_RUN", "false").lower() == "true":
+        print(f"[DRY RUN] [DB] save_prediction dipanggil untuk game {game_info.get('game_id')}. Data yang akan disimpan:")
+        print(f"  Game: {game_info.get('away_team')} @ {game_info.get('home_team')} ({game_info.get('game_date_et') or game_info.get('game_date')})")
+        print(f"  Polymarket Line: {game_info.get('polymarket_line')}")
+        print(f"  Expected Runs: {analysis_result.get('final_expected_runs')}")
+        print(f"  Recommendation: {analysis_result.get('recommendation')}")
+        print(f"  Confidence: {analysis_result.get('confidence')}")
+        return True
+
     conn = get_db_connection()
     cursor = conn.cursor()
     
@@ -268,5 +278,54 @@ def get_prediction_history(days=30):
     except Exception as e:
         print(f"[DB Error] Gagal mengambil histori prediksi: {e}")
         return []
+    finally:
+        conn.close()
+
+def log_experiment_prediction(game_id, params_version, expected_runs, recommendation, confidence, key_factors):
+    """
+    Menyimpan prediksi eksperimen ke tabel experiment_predictions.
+    
+    Args:
+        game_id (str): ID game MLB.
+        params_version (str): Versi/nama eksperimen parameter (misal: 'v2.1_higher_gap').
+        expected_runs (float): Prediksi expected total runs.
+        recommendation (str): Hasil rekomendasi (OVER/UNDER/SKIP).
+        confidence (str): Tingkat kepercayaan (HIGH/MEDIUM/LOW).
+        key_factors (list/str): Faktor kunci/reasons.
+        
+    Returns:
+        bool: True jika berhasil, False jika gagal.
+    """
+    logged_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    
+    # Handle list key_factors
+    if isinstance(key_factors, list):
+        key_factors_json = json.dumps(key_factors)
+    else:
+        key_factors_json = str(key_factors)
+
+    if os.environ.get("BOT_DRY_RUN", "false").lower() == "true":
+        print(f"[DRY RUN] [DB] log_experiment_prediction dipanggil untuk game {game_id} (versi: {params_version}). Data:")
+        print(f"  Expected Runs: {expected_runs}")
+        print(f"  Recommendation: {recommendation}")
+        print(f"  Confidence: {confidence}")
+        return True
+
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    try:
+        cursor.execute("""
+            INSERT INTO experiment_predictions (
+                game_id, params_version, expected_runs, recommendation, confidence, key_factors, logged_at
+            ) VALUES (?, ?, ?, ?, ?, ?, ?)
+        """, (
+            str(game_id) if game_id is not None else None, params_version, expected_runs, recommendation, confidence, key_factors_json, logged_at
+        ))
+        conn.commit()
+        return True
+    except Exception as e:
+        print(f"[DB Error] Gagal menyimpan prediksi eksperimen: {e}")
+        conn.rollback()
+        return False
     finally:
         conn.close()

@@ -36,7 +36,8 @@ from src.data.park_factors import get_park_factor
 from src.processors.run_calculator import (
     calculate_expected_total_runs, make_recommendation, calculate_confidence
 )
-from src.database.prediction_tracker import save_prediction, get_latest_prediction
+from src.database.prediction_tracker import save_prediction, get_latest_prediction, log_experiment_prediction
+from src.experiments.versions import PRODUCTION_VERSION, EXPERIMENT_VERSIONS
 
 # Load env
 load_dotenv()
@@ -808,6 +809,37 @@ async def prediksi_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 game_info['raw_stats'] = game_full_data
 
                 save_prediction(game_info, analysis)
+
+                # --- SHADOW TESTING / EXPERIMENTS ---
+                for version_name, overrides in EXPERIMENT_VERSIONS.items():
+                    if version_name == PRODUCTION_VERSION:
+                        exp_runs = analysis["final_expected_runs"]
+                        exp_rec = analysis["recommendation"]
+                        exp_conf = analysis["confidence"]
+                        exp_reasons = analysis["reasons"]
+                    else:
+                        try:
+                            exp_analysis = calculate_expected_total_runs(game_full_data, params_override=overrides)
+                            exp_runs = exp_analysis["final_expected_runs"]
+                            exp_rec = make_recommendation(exp_runs, market_info['line'], params_override=overrides)
+                            exp_conf = calculate_confidence(exp_runs, market_info['line'], params_override=overrides)
+                            exp_reasons = exp_analysis["reasons"]
+                        except Exception as calc_err:
+                            logger.error(f"⚠️ Gagal menghitung ulang eksperimen {version_name} di /prediksi: {calc_err}")
+                            continue
+                    
+                    try:
+                        log_experiment_prediction(
+                            game_id=game_id,
+                            params_version=version_name,
+                            expected_runs=exp_runs,
+                            recommendation=exp_rec,
+                            confidence=exp_conf,
+                            key_factors=exp_reasons
+                        )
+                        logger.info(f"🧪 Shadow testing logged for version {version_name} via /prediksi")
+                    except Exception as db_err:
+                        logger.warning(f"⚠️ Gagal menyimpan log eksperimen {version_name} via /prediksi: {db_err}")
                 
                 latest = get_latest_prediction(game_id)
                 if latest:

@@ -211,9 +211,38 @@ def migrate_add_revision_columns():
         
     conn.close()
 
+def create_experiment_predictions_table():
+    """
+    Membuat tabel experiment_predictions untuk keperluan shadow testing / eksperimen parameter baru.
+    Tabel ini melacak prediksi berdasarkan parameter versi eksperimen secara terpisah.
+    """
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    try:
+        cursor.execute("""
+            CREATE TABLE IF NOT EXISTS experiment_predictions (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                game_id TEXT,
+                params_version TEXT,
+                expected_runs REAL,
+                recommendation TEXT,
+                confidence TEXT,
+                key_factors TEXT,
+                logged_at TEXT
+            )
+        """)
+        conn.commit()
+        print("[DB] Tabel experiment_predictions siap digunakan.")
+    except Exception as e:
+        print(f"[DB Error] Gagal membuat tabel experiment_predictions: {e}")
+        conn.rollback()
+    finally:
+        conn.close()
+
 # Panggil fungsi inisialisasi secara otomatis saat modul ini di-import
 initialize_database()
 migrate_add_revision_columns()
+create_experiment_predictions_table()
 
 if __name__ == "__main__":
     print(f"✅ Setup database berhasil dijalankan.")

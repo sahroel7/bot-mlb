@@ -20,6 +20,10 @@ TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 
 async def send_async_message(text, reply_markup=None):
     """Fungsi helper asinkron untuk mengirim pesan dengan retry logic."""
+    if os.environ.get("BOT_DRY_RUN", "false").lower() == "true":
+        print(f"[DRY RUN] Pesan tidak dikirim: {text}")
+        return True
+
     if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
         logger.warning("[Telegram] Token atau Chat ID belum disetel di .env. Skip pengiriman.")
         return False

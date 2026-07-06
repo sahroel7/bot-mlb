@@ -34,8 +34,9 @@ from src.scheduler.alert_system import send_high_confidence_alert
 
 # Import DB
 from src.database.db_setup import initialize_database, get_db_connection
-from src.database.prediction_tracker import save_prediction
+from src.database.prediction_tracker import save_prediction, log_experiment_prediction
 from src.database.result_fetcher import process_yesterdays_results
+from src.experiments.versions import PRODUCTION_VERSION, EXPERIMENT_VERSIONS
 
 # Inisialisasi Colorama
 init(autoreset=True)
@@ -257,6 +258,41 @@ def run_analysis(args):
 
             # g. Kirim Alert via Telegram (Jika memenuhi syarat dan belum pernah dikirim)
             send_high_confidence_alert(game_info, analysis)
+
+            # --- SHADOW TESTING / EXPERIMENTS ---
+            for version_name, overrides in EXPERIMENT_VERSIONS.items():
+                if version_name == PRODUCTION_VERSION:
+                    # Versi produksi cukup logging ulang hasil dari baris 210 tanpa hitung ulang
+                    exp_runs = analysis["final_expected_runs"]
+                    exp_rec = analysis["recommendation"]
+                    exp_conf = analysis["confidence"]
+                    exp_reasons = analysis["reasons"]
+                else:
+                    # Hitung ulang untuk versi eksperimen menggunakan params_override
+                    try:
+                        exp_analysis = calculate_expected_total_runs(game_full_data, params_override=overrides)
+                        exp_runs = exp_analysis["final_expected_runs"]
+                        exp_rec = make_recommendation(exp_runs, market_info['line'], params_override=overrides)
+                        exp_conf = calculate_confidence(exp_runs, market_info['line'], params_override=overrides)
+                        exp_reasons = exp_analysis["reasons"]
+                    except Exception as calc_err:
+                        logger.error(f"⚠️ Gagal menghitung ulang eksperimen {version_name}: {calc_err}")
+                        continue
+                
+                # Simpan ke tabel experiment_predictions
+                try:
+                    # Gunakan game_info['game_id'] untuk menghubungkan ke game asli
+                    log_experiment_prediction(
+                        game_id=game_info.get('game_id'),
+                        params_version=version_name,
+                        expected_runs=exp_runs,
+                        recommendation=exp_rec,
+                        confidence=exp_conf,
+                        key_factors=exp_reasons
+                    )
+                    logger.info(f"🧪 Shadow testing logged for version {version_name}")
+                except Exception as db_err:
+                    logger.warning(f"⚠️ Gagal menyimpan log eksperimen {version_name}: {db_err}")
 
             # Simpan untuk Summary Akhir
             all_analyses.append({

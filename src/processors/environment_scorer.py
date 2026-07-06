@@ -3,12 +3,15 @@ Modul untuk menghitung skor/bobot berdasarkan kondisi lingkungan (cuaca dan stad
 Skor ini akan menjadi modifier terhadap proyeksi run dasar.
 """
 
-def calculate_weather_score(weather_data):
+from config.config_loader import get_setting
+
+def calculate_weather_score(weather_data, params_override: dict = None):
     """
     Menghitung skor modifier berdasarkan kondisi cuaca.
     
     Args:
         weather_data (dict): Data dari get_game_weather.
+        params_override (dict, optional): Dictionary berisi override parameter.
         
     Returns:
         tuple: (score_modifier, reasons)
@@ -34,15 +37,20 @@ def calculate_weather_score(weather_data):
     from src.collectors.weather import interpret_wind_direction
     wind_type = interpret_wind_direction(wind_dir, stadium_orient)
     
+    wind_outward_base = get_setting("weather_thresholds.wind_outward_base", 0.3, params_override)
+    wind_coefficient_per_mph = get_setting("weather_thresholds.wind_coefficient_per_mph", 0.04, params_override)
+    wind_outward_cap = get_setting("weather_thresholds.wind_outward_cap", 0.8, params_override)
+    wind_inward_cap = get_setting("weather_thresholds.wind_inward_cap", -0.8, params_override)
+
     if wind_speed > 10:
         if wind_type == "OUTWARD":
             # Angin kencang keluar meningkatkan peluang Home Run (Seimbang, maks +0.8)
-            mod = round(min(0.3 + (wind_speed - 10) * 0.04, 0.8), 2)
+            mod = round(min(wind_outward_base + (wind_speed - 10) * wind_coefficient_per_mph, wind_outward_cap), 2)
             score += mod
             reasons.append(f"Angin OUTWARD kencang ({wind_speed} mph): +{mod} run")
         elif wind_type == "INWARD":
             # Angin kencang ke dalam menahan bola (Seimbang, maks -0.8)
-            mod = round(max(-0.3 - (wind_speed - 10) * 0.04, -0.8), 2)
+            mod = round(max(-wind_outward_base - (wind_speed - 10) * wind_coefficient_per_mph, wind_inward_cap), 2)
             score += mod
             reasons.append(f"Angin INWARD kencang ({wind_speed} mph): {mod} run")
 
@@ -67,17 +75,25 @@ def calculate_weather_score(weather_data):
 
     return round(score, 2), reasons
 
-def calculate_park_score(park_factor, team_id=None):
+def calculate_park_score(park_factor, team_id=None, override_pf=None, params_override: dict = None):
     """
     Menghitung skor modifier berdasarkan karakteristik stadion (Park Factor).
     
     Args:
         park_factor (int): Nilai park factor dari src/data/park_factors.py.
         team_id (int): ID tim untuk cek kondisi khusus seperti Coors Field.
+        override_pf (int, optional): Nilai override park factor.
+        params_override (dict, optional): Dictionary berisi override parameter.
         
     Returns:
         tuple: (score_modifier, reasons)
     """
+    if override_pf is None and params_override is not None:
+        override_pf = params_override.get("override_pf")
+
+    if team_id == 115 and override_pf is not None:
+        park_factor = override_pf
+
     score = 0.0
     reasons = []
     
