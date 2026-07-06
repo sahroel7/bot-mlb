@@ -173,7 +173,12 @@ def calculate_expected_total_runs(game_data, params_override: dict = None):
     # hb_mod/ab_mod sengaja tidak ditambahkan -- bullpen ERA sudah terhitung di base_runs (weighted defense), lihat get_weighted_defense_val().
     p_mod = hp_mod + hf_mod + ap_mod + af_mod
     total_modifier += p_mod
-    all_reasons.extend(hp_reasons + hf_reasons + hb_reasons + ap_reasons + af_reasons + ab_reasons)
+    all_reasons.extend(hp_reasons + hf_reasons + ap_reasons + af_reasons)
+
+    if hb_reasons:
+        all_reasons.append("[Info] Bullpen Home tercermin di base_runs (weighted defense), bukan modifier tambahan.")
+    if ab_reasons:
+        all_reasons.append("[Info] Bullpen Away tercermin di base_runs (weighted defense), bukan modifier tambahan.")
     
     # 3. Offense Modifiers
     ho_mod, ho_reasons = calculate_offense_score(game_data['home_team_stats'], away_pitcher_stats)

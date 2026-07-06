@@ -56,14 +56,19 @@ def calculate_weather_score(weather_data, params_override: dict = None):
 
     # 2. Suhu Udara (Udara panas = bola lebih terbang, udara dingin = bola berat)
     temp = weather_data.get("temperature_fahrenheit", 70)
-    if temp > 85:
-        mod = 0.3
-        score += mod
-        reasons.append(f"Suhu panas ({temp}°F): +{mod} run (udara tipis)")
-    elif temp < 52:
-        mod = -0.3
-        score += mod
-        reasons.append(f"Suhu dingin ({temp}°F): {mod} run (bola kurang elastis)")
+    temp_hot_threshold = get_setting("weather_thresholds.temp_hot_threshold", 85.0, params_override)
+    temp_hot_bonus = get_setting("weather_thresholds.temp_hot_bonus", 0.3, params_override)
+    temp_cold_threshold = get_setting("weather_thresholds.temp_cold_threshold", 52.0, params_override)
+    temp_cold_penalty = get_setting("weather_thresholds.temp_cold_penalty", -0.3, params_override)
+
+    if temp > temp_hot_threshold:
+        if temp_hot_bonus != 0.0:
+            score += temp_hot_bonus
+            reasons.append(f"Suhu panas ({temp}°F): +{temp_hot_bonus} run (udara tipis)")
+    elif temp < temp_cold_threshold:
+        if temp_cold_penalty != 0.0:
+            score += temp_cold_penalty
+            reasons.append(f"Suhu dingin ({temp}°F): {temp_cold_penalty} run (bola kurang elastis)")
 
     # 3. Kelembaban & Presipitasi (Memperkecil bias positif)
     humidity = weather_data.get("humidity_percent", 50)

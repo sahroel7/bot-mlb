@@ -47,6 +47,10 @@ weather_thresholds:
   wind_coefficient_per_mph: 0.04
   wind_outward_cap: 0.8
   wind_inward_cap: -0.8
+  temp_hot_threshold: 85.0
+  temp_hot_bonus: 0.3
+  temp_cold_threshold: 52.0
+  temp_cold_penalty: -0.3
 
 park_thresholds:
   hitters_park_min: 105
