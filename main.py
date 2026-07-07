@@ -284,6 +284,7 @@ def run_analysis(args):
                     exp_rec = analysis["recommendation"]
                     exp_conf = analysis["confidence"]
                     exp_reasons = analysis["reasons"]
+                    exp_volatility = analysis["volatility_score"]
                 else:
                     # Hitung ulang untuk versi eksperimen menggunakan params_override
                     try:
@@ -292,6 +293,7 @@ def run_analysis(args):
                         exp_rec = make_recommendation(exp_runs, market_info['line'], params_override=overrides, volatility_score=exp_analysis['volatility_score'])
                         exp_conf = calculate_confidence(exp_runs, market_info['line'], params_override=overrides)
                         exp_reasons = exp_analysis["reasons"]
+                        exp_volatility = exp_analysis["volatility_score"]
                     except Exception as calc_err:
                         logger.error(f"⚠️ Gagal menghitung ulang eksperimen {version_name}: {calc_err}")
                         continue
@@ -305,7 +307,8 @@ def run_analysis(args):
                         expected_runs=exp_runs,
                         recommendation=exp_rec,
                         confidence=exp_conf,
-                        key_factors=exp_reasons
+                        key_factors=exp_reasons,
+                        volatility_score=exp_volatility
                     )
                     logger.info(f"🧪 Shadow testing logged for version {version_name}")
                 except Exception as db_err:

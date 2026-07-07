@@ -264,10 +264,33 @@ def create_umpire_log_table():
     finally:
         conn.close()
 
+def migrate_add_volatility_score_column():
+    """
+    Migrasi tabel experiment_predictions untuk menambahkan kolom
+    volatility_score (untuk memantau kapan v3.1_dynamic_variance_gap aktif).
+    """
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    try:
+        cursor.execute("PRAGMA table_info(experiment_predictions)")
+        columns = [col['name'] for col in cursor.fetchall()]
+        if 'volatility_score' not in columns:
+            cursor.execute("ALTER TABLE experiment_predictions ADD COLUMN volatility_score INTEGER DEFAULT 0")
+            conn.commit()
+            print("[DB Migration] Kolom volatility_score ditambahkan ke experiment_predictions.")
+        else:
+            print("[DB Migration] Kolom volatility_score sudah ada. Skip migrasi.")
+    except Exception as e:
+        print(f"[DB Error] Gagal migrasi volatility_score: {e}")
+        conn.rollback()
+    finally:
+        conn.close()
+
 # Panggil fungsi inisialisasi secara otomatis saat modul ini di-import
 initialize_database()
 migrate_add_revision_columns()
 create_experiment_predictions_table()
+migrate_add_volatility_score_column()
 create_umpire_log_table()
 
 if __name__ == "__main__":

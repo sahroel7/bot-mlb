@@ -1020,3 +1020,620 @@ Kansas City Royals @ New  | 8.5    | 8.39   | NO BET / SKIP ⚠️ | LOW ⚠️
 [2026-07-07 15:20:55] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 822881 (Los Angeles Angels @ Texas Rangers) pada 2026-07-08 05:05:00
 [2026-07-07 15:20:55] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 823280 (Arizona Diamondbacks @ San Diego Padres) pada 2026-07-08 06:40:00
 [2026-07-07 15:20:55] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 823203 (Toronto Blue Jays @ San Francisco Giants) pada 2026-07-08 06:45:00
+[2026-07-07 15:20:55] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 823929 (Colorado Rockies @ Los Angeles Dodgers) pada 2026-07-08 07:10:00
+[2026-07-07 15:42:21] [INFO] [auto_runner] Bot berhasil dimatikan.
+[2026-07-07 15:42:41] [INFO] [auto_runner] Menginisialisasi Dynamic Auto Runner (Phase 4.1)...
+[2026-07-07 15:42:41] [INFO] [auto_runner] Scheduler aktif (Background).
+[2026-07-07 15:42:44] [INFO] [telegram_bot] Menjalankan bot listener Telegram...
+[2026-07-07 15:42:44] [INFO] [main] [34m[0/4] Memproses hasil pertandingan kemarin...
+[2026-07-07 15:42:44] [INFO] [result_fetcher] [INFO] Menemukan 19 game tertunda. Mengambil skor...
+[2026-07-07 15:42:45] [INFO] [result_fetcher] [INFO] Game 824424 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-07 15:42:46] [INFO] [result_fetcher] [INFO] Game 824911 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-07 15:42:46] [INFO] [result_fetcher] [INFO] Game 824664 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-07 15:42:46] [INFO] [result_fetcher] [INFO] Game 823613 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-07 15:42:47] [INFO] [result_fetcher] [INFO] Game 823042 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-07 15:42:52] [INFO] [main] [36m  📊 Hasil kemarin: 3/5 prediksi benar (60.0%)
+
+[2026-07-07 15:42:52] [INFO] [main] [34m[1/4] Mengambil jadwal pertandingan MLB...
+[2026-07-07 15:42:52] [INFO] [main] [32mDitemukan 14 pertandingan.
+
+[2026-07-07 15:42:52] [INFO] [main] [34m[2/4] Menganalisis pasar Polymarket & Statistik...
+[2026-07-07 15:42:52] [INFO] [main] [33m  (1/14) Menganalisis: Houston Astros @ Washington Nationals...
+[2026-07-07 15:43:02] [INFO] [main] 
+[33m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+[33m┃  Houston Astros @ Washington Nationals | 2026-07-07  ┃
+[33m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 📊 Bullpen.fi O/U Line  : [36m9.5
+┃ 🎯 Bot Expected Runs    : [35m9.68
+┃ 📈 Recommendation       : [33mNO BET / SKIP ⚠️
+┃ 🔥 Confidence           : [37mLOW ⚠️
+┃ 📡 Sumber odds          : [37mBullpen CLI
+[33m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ [1m📋 KEY FACTORS:[0m
+┃  ⚾ K/9 tinggi (10.45): -0.4 run
+┃  • Supresi Home Run elit (HR/9 0.44): -0.4 run
+┃  • Inning pendek (rata-rata 4.1 IP): +0.2 run (
+┃  • WHIP tinggi (1.47): +0.3 run
+┃  ⚾ K/9 tinggi (11.17): -0.4 run
+┃  • Kontrol buruk (BB/9 5.59): +0.3 run
+┃  • Rawan Home Run (HR/9 1.49): +0.5 run
+┃  • Inning pendek (rata-rata 4.4 IP): +0.2 run (
+┃  • [Info] Bullpen Home tercermin di base_runs (
+┃  • [Info] Bullpen Away tercermin di base_runs (
+┃
+┃  ⚖️ Faktor saling menyeimbangkan.
+┃     Tidak ada edge yang cukup kuat.
+[33m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[2026-07-07 15:43:03] [INFO] [main] 💾 Prediksi disimpan
+[2026-07-07 15:43:03] [INFO] [main] 🧪 Shadow testing logged for version v2.0_baseline
+[2026-07-07 15:43:03] [INFO] [main] 🧪 Shadow testing logged for version v2.1_higher_gap
+[2026-07-07 15:43:04] [INFO] [main] 🧪 Shadow testing logged for version v2.2_no_temp_bonus
+[2026-07-07 15:43:05] [INFO] [main] 🧪 Shadow testing logged for version v2.3_coors_boost
+[2026-07-07 15:43:06] [INFO] [main] 🧪 Shadow testing logged for version v2.4_wind_boost
+[2026-07-07 15:43:06] [INFO] [main] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue
+[2026-07-07 15:43:07] [INFO] [main] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap
+[2026-07-07 15:43:07] [INFO] [main] [33m  (2/14) Menganalisis: New York Yankees @ Tampa Bay Rays...
+[2026-07-07 15:43:16] [INFO] [main] 
+[36m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+[36m┃  New York Yankees @ Tampa Bay Rays | 2026-07-07  ┃
+[36m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 📊 Bullpen.fi O/U Line  : [36m8.5
+┃ 🎯 Bot Expected Runs    : [35m7.53
+┃ 📈 Recommendation       : [36mUNDER ✅
+┃ 🔥 Confidence           : [33m[1mMEDIUM ⚡
+┃ 📡 Sumber odds          : [37mBullpen CLI
+[36m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ [1m📋 KEY FACTORS:[0m
+┃  • WHIP rendah (1.09): -0.3 run
+┃  ⚾ K/9 tinggi (9.64): -0.4 run
+┃  ⚾ Matchup buruk: Tim K% tinggi (23.92) vs Pitc
+┃  • Disiplin tinggi (BB% 10.43): +0.2 run (ekspo
+┃  • Atap stadion DITUTUP (dome) — Kondisi udara 
+[36m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[2026-07-07 15:43:17] [INFO] [main] 💾 Prediksi disimpan
+[2026-07-07 15:43:17] [INFO] [main] 🧪 Shadow testing logged for version v2.0_baseline
+[2026-07-07 15:43:18] [INFO] [main] 🧪 Shadow testing logged for version v2.1_higher_gap
+[2026-07-07 15:43:18] [INFO] [main] 🧪 Shadow testing logged for version v2.2_no_temp_bonus
+[2026-07-07 15:43:19] [INFO] [main] 🧪 Shadow testing logged for version v2.3_coors_boost
+[2026-07-07 15:43:19] [INFO] [main] 🧪 Shadow testing logged for version v2.4_wind_boost
+[2026-07-07 15:43:20] [INFO] [main] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue
+[2026-07-07 15:43:21] [INFO] [main] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap
+[2026-07-07 15:43:21] [INFO] [main] [33m  (3/14) Menganalisis: Seattle Mariners @ Miami Marlins...
+[2026-07-07 15:43:29] [INFO] [main] 
+[36m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+[36m┃  Seattle Mariners @ Miami Marlins | 2026-07-07  ┃
+[36m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 📊 Bullpen.fi O/U Line  : [36m8.5
+┃ 🎯 Bot Expected Runs    : [35m7.04
+┃ 📈 Recommendation       : [36mUNDER ✅
+┃ 🔥 Confidence           : [33m[1mMEDIUM ⚡
+┃ 📡 Sumber odds          : [37mBullpen CLI
+[36m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ [1m📋 KEY FACTORS:[0m
+┃  ⚾ K/9 tinggi (9.79): -0.4 run
+┃  • Data pitcher tidak tersedia, menggunakan bas
+┃  💪 Offense lemah (OPS 0.694): -0.3 run
+┃  ⚾ Matchup buruk: Tim K% tinggi (23.27) vs Pitc
+┃  • Atap stadion DITUTUP (retractable) — Kondisi
+[36m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[2026-07-07 15:43:29] [INFO] [main] 💾 Prediksi disimpan
+[2026-07-07 15:43:30] [INFO] [main] 🧪 Shadow testing logged for version v2.0_baseline
+[2026-07-07 15:43:30] [INFO] [main] 🧪 Shadow testing logged for version v2.1_higher_gap
+[2026-07-07 15:43:31] [INFO] [main] 🧪 Shadow testing logged for version v2.2_no_temp_bonus
+[2026-07-07 15:43:32] [INFO] [main] 🧪 Shadow testing logged for version v2.3_coors_boost
+[2026-07-07 15:43:32] [INFO] [main] 🧪 Shadow testing logged for version v2.4_wind_boost
+[2026-07-07 15:43:33] [INFO] [main] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue
+[2026-07-07 15:43:34] [INFO] [main] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap
+[2026-07-07 15:43:34] [INFO] [main] [33m  (4/14) Menganalisis: Philadelphia Phillies @ Cincinnati Reds...
+[2026-07-07 15:43:42] [INFO] [main] 
+[32m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+[32m┃  Philadelphia Phillies @ Cincinnati Reds | 2026-07-07  ┃
+[32m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 📊 Bullpen.fi O/U Line  : [36m8.5
+┃ 🎯 Bot Expected Runs    : [35m11.14
+┃ 📈 Recommendation       : [32mOVER ✅
+┃ 🔥 Confidence           : [31m[1mHIGH 🔥
+┃ 📡 Sumber odds          : [37mBullpen CLI
+[32m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ [1m📋 KEY FACTORS:[0m
+┃  • WHIP tinggi (1.44): +0.3 run
+┃  • Kontrol buruk (BB/9 4.26): +0.3 run
+┃  • Rawan Home Run (HR/9 1.42): +0.5 run
+┃  • Data pitcher tidak tersedia, menggunakan bas
+┃  • [Info] Bullpen Home tercermin di base_runs (
+┃  💪 Offense lemah (OPS 0.697): -0.3 run
+┃  ⚾ Home Momentum (NEUTRAL Offense, STRUGGLING P
+┃  🌡️ Suhu panas (88.0°F): +0.3 run (udara tipis)
+┃  🏟️ Hitter's Park (PF 111): +1.1 run
+[32m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[2026-07-07 15:43:42] [INFO] [main] 💾 Prediksi disimpan
+[2026-07-07 15:43:43] [INFO] [main] 🧪 Shadow testing logged for version v2.0_baseline
+[2026-07-07 15:43:43] [INFO] [main] 🧪 Shadow testing logged for version v2.1_higher_gap
+[2026-07-07 15:43:44] [INFO] [main] 🧪 Shadow testing logged for version v2.2_no_temp_bonus
+[2026-07-07 15:43:45] [INFO] [main] 🧪 Shadow testing logged for version v2.3_coors_boost
+[2026-07-07 15:43:45] [INFO] [main] 🧪 Shadow testing logged for version v2.4_wind_boost
+[2026-07-07 15:43:46] [INFO] [main] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue
+[2026-07-07 15:43:47] [INFO] [main] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap
+[2026-07-07 15:43:47] [INFO] [main] [33m  (5/14) Menganalisis: Colorado Rockies @ Los Angeles Dodgers...
+[2026-07-07 15:43:56] [INFO] [main] 
+[32m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+[32m┃  Colorado Rockies @ Los Angeles Dodgers | 2026-07-08  ┃
+[32m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 📊 Bullpen.fi O/U Line  : [36m9.5
+┃ 🎯 Bot Expected Runs    : [35m10.44
+┃ 📈 Recommendation       : [32mOVER ✅
+┃ 🔥 Confidence           : [33m[1mMEDIUM ⚡
+┃ 📡 Sumber odds          : [37mBullpen CLI
+[32m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ [1m📋 KEY FACTORS:[0m
+┃  • WHIP rendah (1.01): -0.3 run
+┃  ⚾ K/9 rendah (6.17): +0.3 run
+┃  • Kontrol elit (BB/9 1.74): -0.3 run
+┃  • Inning panjang (rata-rata 6.7 IP): -0.2 run 
+┃  • WHIP tinggi (1.81): +0.3 run
+┃  • Rawan Home Run (HR/9 1.36): +0.5 run
+┃  • Inning pendek (rata-rata 4.8 IP): +0.2 run (
+┃  • [Info] Bullpen Away tercermin di base_runs (
+┃  • Disiplin tinggi (BB% 10.58): +0.2 run (ekspo
+┃  ⚾ Home Momentum (NEUTRAL Offense, PEAK Pitcher
+┃  ⚾ Away Momentum (NEUTRAL Offense, STRUGGLING P
+[32m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[2026-07-07 15:43:56] [INFO] [main] 💾 Prediksi disimpan
+[2026-07-07 15:43:56] [INFO] [main] 🧪 Shadow testing logged for version v2.0_baseline
+[2026-07-07 15:43:57] [INFO] [main] 🧪 Shadow testing logged for version v2.1_higher_gap
+[2026-07-07 15:43:58] [INFO] [main] 🧪 Shadow testing logged for version v2.2_no_temp_bonus
+[2026-07-07 15:43:58] [INFO] [main] 🧪 Shadow testing logged for version v2.3_coors_boost
+[2026-07-07 15:43:59] [INFO] [main] 🧪 Shadow testing logged for version v2.4_wind_boost
+[2026-07-07 15:44:00] [INFO] [main] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue
+[2026-07-07 15:44:00] [INFO] [main] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap
+[2026-07-07 15:44:01] [INFO] [main] [33m  (6/14) Menganalisis: Cleveland Guardians @ Minnesota Twins...
+[2026-07-07 15:44:09] [INFO] [main] 
+[33m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+[33m┃  Cleveland Guardians @ Minnesota Twins | 2026-07-07  ┃
+[33m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 📊 Bullpen.fi O/U Line  : [36m8.5
+┃ 🎯 Bot Expected Runs    : [35m8.27
+┃ 📈 Recommendation       : [33mNO BET / SKIP ⚠️
+┃ 🔥 Confidence           : [37mLOW ⚠️
+┃ 📡 Sumber odds          : [37mBullpen CLI
+[33m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ [1m📋 KEY FACTORS:[0m
+┃  ⚾ K/9 tinggi (10.35): -0.4 run
+┃  • Kontrol buruk (BB/9 3.86): +0.3 run
+┃  • Kontrol buruk (BB/9 4.35): +0.3 run
+┃  • Inning panjang (rata-rata 6.3 IP): -0.2 run 
+┃  • [Info] Bullpen Home tercermin di base_runs (
+┃  💪 Offense lemah (OPS 0.68): -0.3 run
+┃  ⚾ Matchup buruk: Tim K% tinggi (22.04) vs Pitc
+┃  💪 Efisien RISP (0.284): +0.2 run
+┃  🌡️ Suhu panas (86.3°F): +0.3 run (udara tipis)
+┃
+┃  ⚖️ Faktor saling menyeimbangkan.
+┃     Tidak ada edge yang cukup kuat.
+[33m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[2026-07-07 15:44:09] [INFO] [main] 💾 Prediksi disimpan
+[2026-07-07 15:44:10] [INFO] [main] 🧪 Shadow testing logged for version v2.0_baseline
+[2026-07-07 15:44:10] [INFO] [main] 🧪 Shadow testing logged for version v2.1_higher_gap
+[2026-07-07 15:44:11] [INFO] [main] 🧪 Shadow testing logged for version v2.2_no_temp_bonus
+[2026-07-07 15:44:12] [INFO] [main] 🧪 Shadow testing logged for version v2.3_coors_boost
+[2026-07-07 15:44:13] [INFO] [main] 🧪 Shadow testing logged for version v2.4_wind_boost
+[2026-07-07 15:44:13] [INFO] [main] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue
+[2026-07-07 15:44:14] [INFO] [main] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap
+[2026-07-07 15:44:14] [INFO] [main] [33m  (7/14) Menganalisis: Toronto Blue Jays @ San Francisco Giants...
+[2026-07-07 15:44:22] [INFO] [main] 
+[33m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+[33m┃  Toronto Blue Jays @ San Francisco Giants | 2026-07-08  ┃
+[33m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 📊 Bullpen.fi O/U Line  : [36m8.5
+┃ 🎯 Bot Expected Runs    : [35m8.17
+┃ 📈 Recommendation       : [33mNO BET / SKIP ⚠️
+┃ 🔥 Confidence           : [37mLOW ⚠️
+┃ 📡 Sumber odds          : [37mBullpen CLI
+[33m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ [1m📋 KEY FACTORS:[0m
+┃  • Inning pendek (rata-rata 4.7 IP): +0.2 run (
+┃  • Data pitcher tidak tersedia, menggunakan bas
+┃  • Disiplin rendah (BB% 6.48): -0.2 run
+┃  💪 Offense lemah (OPS 0.685): -0.3 run
+┃  🌡️ Angin OUTWARD kencang (19.0 mph): +0.66 run
+┃  ⚾ Pitcher's Park (PF 93): -0.7 run
+┃
+┃  ⚖️ Faktor saling menyeimbangkan.
+┃     Tidak ada edge yang cukup kuat.
+[33m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[2026-07-07 15:44:23] [INFO] [main] 💾 Prediksi disimpan
+[2026-07-07 15:44:23] [INFO] [main] 🧪 Shadow testing logged for version v2.0_baseline
+[2026-07-07 15:44:24] [INFO] [main] 🧪 Shadow testing logged for version v2.1_higher_gap
+[2026-07-07 15:44:24] [INFO] [main] 🧪 Shadow testing logged for version v2.2_no_temp_bonus
+[2026-07-07 15:44:25] [INFO] [main] 🧪 Shadow testing logged for version v2.3_coors_boost
+[2026-07-07 15:44:26] [INFO] [main] 🧪 Shadow testing logged for version v2.4_wind_boost
+[2026-07-07 15:44:27] [INFO] [main] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue
+[2026-07-07 15:44:27] [INFO] [main] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap
+[2026-07-07 15:44:27] [INFO] [main] [33m  (8/14) Menganalisis: Athletics @ Detroit Tigers...
+[2026-07-07 15:44:36] [INFO] [main] 
+[36m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+[36m┃    Athletics @ Detroit Tigers | 2026-07-07     ┃
+[36m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 📊 Bullpen.fi O/U Line  : [36m8.5
+┃ 🎯 Bot Expected Runs    : [35m7.17
+┃ 📈 Recommendation       : [36mUNDER ✅
+┃ 🔥 Confidence           : [33m[1mMEDIUM ⚡
+┃ 📡 Sumber odds          : [37mBullpen CLI
+[36m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ [1m📋 KEY FACTORS:[0m
+┃  • WHIP rendah (0.91): -0.3 run
+┃  ⚾ K/9 tinggi (10.28): -0.4 run
+┃  • Kontrol elit (BB/9 1.1): -0.3 run
+┃  • Kontrol buruk (BB/9 3.9): +0.3 run
+┃  • [Info] Bullpen Away tercermin di base_runs (
+┃  ⚾ Matchup buruk: Tim K% tinggi (22.54) vs Pitc
+┃  🌡️ Suhu panas (85.4°F): +0.3 run (udara tipis)
+[36m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[2026-07-07 15:44:36] [INFO] [main] 💾 Prediksi disimpan
+[2026-07-07 15:44:37] [INFO] [main] 🧪 Shadow testing logged for version v2.0_baseline
+[2026-07-07 15:44:37] [INFO] [main] 🧪 Shadow testing logged for version v2.1_higher_gap
+[2026-07-07 15:44:38] [INFO] [main] 🧪 Shadow testing logged for version v2.2_no_temp_bonus
+[2026-07-07 15:44:39] [INFO] [main] 🧪 Shadow testing logged for version v2.3_coors_boost
+[2026-07-07 15:44:40] [INFO] [main] 🧪 Shadow testing logged for version v2.4_wind_boost
+[2026-07-07 15:44:40] [INFO] [main] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue
+[2026-07-07 15:44:41] [INFO] [main] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap
+[2026-07-07 15:44:41] [INFO] [main] [33m  (9/14) Menganalisis: Arizona Diamondbacks @ San Diego Padres...
+[2026-07-07 15:44:50] [INFO] [main] 
+[32m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+[32m┃  Arizona Diamondbacks @ San Diego Padres | 2026-07-08  ┃
+[32m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 📊 Bullpen.fi O/U Line  : [36m8.5
+┃ 🎯 Bot Expected Runs    : [35m10.81
+┃ 📈 Recommendation       : [32mOVER ✅
+┃ 🔥 Confidence           : [31m[1mHIGH 🔥
+┃ 📡 Sumber odds          : [37mBullpen CLI
+[32m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ [1m📋 KEY FACTORS:[0m
+┃  • WHIP tinggi (1.47): +0.3 run
+┃  ⚾ K/9 rendah (5.51): +0.3 run
+┃  • Kontrol buruk (BB/9 4.13): +0.3 run
+┃  • Rawan Home Run (HR/9 2.2): +0.5 run
+┃  • Inning pendek (rata-rata 4.7 IP): +0.2 run (
+┃  • WHIP tinggi (1.57): +0.3 run
+┃  ⚾ K/9 rendah (5.48): +0.3 run
+┃  • Rawan Home Run (HR/9 1.66): +0.5 run
+┃  💪 Offense lemah (OPS 0.671): -0.3 run
+┃  💪 Offense lemah (OPS 0.692): -0.3 run
+┃  ⚾ Pitcher's Park (PF 94): -0.6 run
+[32m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[2026-07-07 15:44:51] [INFO] [main] 💾 Prediksi disimpan
+[2026-07-07 15:44:51] [INFO] [main] 🧪 Shadow testing logged for version v2.0_baseline
+[2026-07-07 15:44:52] [INFO] [main] 🧪 Shadow testing logged for version v2.1_higher_gap
+[2026-07-07 15:44:53] [INFO] [main] 🧪 Shadow testing logged for version v2.2_no_temp_bonus
+[2026-07-07 15:44:54] [INFO] [main] 🧪 Shadow testing logged for version v2.3_coors_boost
+[2026-07-07 15:44:54] [INFO] [main] 🧪 Shadow testing logged for version v2.4_wind_boost
+[2026-07-07 15:44:55] [INFO] [main] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue
+[2026-07-07 15:44:56] [INFO] [main] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap
+[2026-07-07 15:44:56] [INFO] [main] [33m  (10/14) Menganalisis: Los Angeles Angels @ Texas Rangers...
+[2026-07-07 15:45:05] [INFO] [main] 
+[36m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+[36m┃  Los Angeles Angels @ Texas Rangers | 2026-07-08  ┃
+[36m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 📊 Bullpen.fi O/U Line  : [36m7.5
+┃ 🎯 Bot Expected Runs    : [35m6.91
+┃ 📈 Recommendation       : [36mUNDER ✅
+┃ 🔥 Confidence           : [33m[1mMEDIUM ⚡
+┃ 📡 Sumber odds          : [37mBullpen CLI
+[36m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ [1m📋 KEY FACTORS:[0m
+┃  • WHIP rendah (0.99): -0.3 run
+┃  ⚾ K/9 tinggi (10.82): -0.4 run
+┃  • Kontrol elit (BB/9 1.88): -0.3 run
+┃  • Rawan Home Run (HR/9 1.51): +0.5 run
+┃  • Inning panjang (rata-rata 6.3 IP): -0.2 run 
+┃  ⚾ K/9 tinggi (9.99): -0.4 run
+┃  • Kontrol buruk (BB/9 4.41): +0.3 run
+┃  • Inning pendek (rata-rata 4.3 IP): +0.2 run (
+┃  • [Info] Bullpen Away tercermin di base_runs (
+┃  ⚾ Matchup buruk: Tim K% tinggi (22.12) vs Pitc
+┃  ⚾ Matchup buruk: Tim K% tinggi (25.01) vs Pitc
+┃  ⚾ Away Momentum (NEUTRAL Offense, STRUGGLING P
+┃  • Atap stadion DITUTUP (retractable) — Kondisi
+[36m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[2026-07-07 15:45:05] [INFO] [main] 💾 Prediksi disimpan
+[2026-07-07 15:45:05] [INFO] [main] 🧪 Shadow testing logged for version v2.0_baseline
+[2026-07-07 15:45:06] [INFO] [main] 🧪 Shadow testing logged for version v2.1_higher_gap
+[2026-07-07 15:45:07] [INFO] [main] 🧪 Shadow testing logged for version v2.2_no_temp_bonus
+[2026-07-07 15:45:08] [INFO] [main] 🧪 Shadow testing logged for version v2.3_coors_boost
+[2026-07-07 15:45:08] [INFO] [main] 🧪 Shadow testing logged for version v2.4_wind_boost
+[2026-07-07 15:45:09] [INFO] [main] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue
+[2026-07-07 15:45:10] [INFO] [main] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap
+[2026-07-07 15:45:10] [INFO] [main] [33m  (11/14) Menganalisis: Chicago Cubs @ Baltimore Orioles...
+[2026-07-07 15:45:19] [INFO] [main] 
+[36m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+[36m┃  Chicago Cubs @ Baltimore Orioles | 2026-07-07  ┃
+[36m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 📊 Bullpen.fi O/U Line  : [36m9.5
+┃ 🎯 Bot Expected Runs    : [35m8.68
+┃ 📈 Recommendation       : [36mUNDER ✅
+┃ 🔥 Confidence           : [33m[1mMEDIUM ⚡
+┃ 📡 Sumber odds          : [37mBullpen CLI
+[36m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ [1m📋 KEY FACTORS:[0m
+┃  • Inning panjang (rata-rata 6.3 IP): -0.2 run 
+┃  ⚾ K/9 tinggi (9.89): -0.4 run
+┃  ⚾ Matchup buruk: Tim K% tinggi (24.15) vs Pitc
+┃  • Disiplin tinggi (BB% 10.16): +0.2 run (ekspo
+┃  • Disiplin tinggi (BB% 11.17): +0.2 run (ekspo
+[36m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[2026-07-07 15:45:19] [INFO] [main] 💾 Prediksi disimpan
+[2026-07-07 15:45:19] [INFO] [main] 🧪 Shadow testing logged for version v2.0_baseline
+[2026-07-07 15:45:20] [INFO] [main] 🧪 Shadow testing logged for version v2.1_higher_gap
+[2026-07-07 15:45:21] [INFO] [main] 🧪 Shadow testing logged for version v2.2_no_temp_bonus
+[2026-07-07 15:45:21] [INFO] [main] 🧪 Shadow testing logged for version v2.3_coors_boost
+[2026-07-07 15:45:22] [INFO] [main] 🧪 Shadow testing logged for version v2.4_wind_boost
+[2026-07-07 15:45:23] [INFO] [main] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue
+[2026-07-07 15:45:24] [INFO] [main] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap
+[2026-07-07 15:45:24] [INFO] [main] [33m  (12/14) Menganalisis: Atlanta Braves @ Pittsburgh Pirates...
+[2026-07-07 15:45:33] [INFO] [main] 
+[32m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+[32m┃  Atlanta Braves @ Pittsburgh Pirates | 2026-07-07  ┃
+[32m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 📊 Bullpen.fi O/U Line  : [36m8.5
+┃ 🎯 Bot Expected Runs    : [35m9.19
+┃ 📈 Recommendation       : [32mOVER ✅
+┃ 🔥 Confidence           : [33m[1mMEDIUM ⚡
+┃ 📡 Sumber odds          : [37mBullpen CLI
+[32m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ [1m📋 KEY FACTORS:[0m
+┃  • WHIP rendah (1.01): -0.3 run
+┃  ⚾ K/9 tinggi (11.04): -0.4 run
+┃  • WHIP tinggi (1.64): +0.3 run
+┃  • Kontrol buruk (BB/9 6.14): +0.3 run
+┃  • Inning pendek (rata-rata 3.5 IP): +0.2 run (
+[32m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[2026-07-07 15:45:33] [INFO] [main] 💾 Prediksi disimpan
+[2026-07-07 15:45:33] [INFO] [main] 🧪 Shadow testing logged for version v2.0_baseline
+[2026-07-07 15:45:34] [INFO] [main] 🧪 Shadow testing logged for version v2.1_higher_gap
+[2026-07-07 15:45:35] [INFO] [main] 🧪 Shadow testing logged for version v2.2_no_temp_bonus
+[2026-07-07 15:45:36] [INFO] [main] 🧪 Shadow testing logged for version v2.3_coors_boost
+[2026-07-07 15:45:37] [INFO] [main] 🧪 Shadow testing logged for version v2.4_wind_boost
+[2026-07-07 15:45:37] [INFO] [main] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue
+[2026-07-07 15:45:38] [INFO] [main] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap
+[2026-07-07 15:45:38] [INFO] [main] [33m  (13/14) Menganalisis: Boston Red Sox @ Chicago White Sox...
+[2026-07-07 15:45:47] [INFO] [main] 
+[33m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+[33m┃  Boston Red Sox @ Chicago White Sox | 2026-07-07  ┃
+[33m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 📊 Bullpen.fi O/U Line  : [36m8.5
+┃ 🎯 Bot Expected Runs    : [35m8.94
+┃ 📈 Recommendation       : [33mNO BET / SKIP ⚠️
+┃ 🔥 Confidence           : [37mLOW ⚠️
+┃ 📡 Sumber odds          : [37mBullpen CLI
+[33m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ [1m📋 KEY FACTORS:[0m
+┃  • Kontrol buruk (BB/9 5.44): +0.3 run
+┃  • Inning pendek (rata-rata 4.4 IP): +0.2 run (
+┃  💪 Offense lemah (OPS 0.698): -0.3 run
+┃
+┃  ⚖️ Faktor saling menyeimbangkan.
+┃     Tidak ada edge yang cukup kuat.
+[33m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[2026-07-07 15:45:48] [INFO] [main] 💾 Prediksi disimpan
+[2026-07-07 15:45:48] [INFO] [main] 🧪 Shadow testing logged for version v2.0_baseline
+[2026-07-07 15:45:49] [INFO] [main] 🧪 Shadow testing logged for version v2.1_higher_gap
+[2026-07-07 15:45:49] [INFO] [main] 🧪 Shadow testing logged for version v2.2_no_temp_bonus
+[2026-07-07 15:45:50] [INFO] [main] 🧪 Shadow testing logged for version v2.3_coors_boost
+[2026-07-07 15:45:51] [INFO] [main] 🧪 Shadow testing logged for version v2.4_wind_boost
+[2026-07-07 15:45:51] [INFO] [main] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue
+[2026-07-07 15:45:52] [INFO] [main] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap
+[2026-07-07 15:45:52] [INFO] [main] [33m  (14/14) Menganalisis: Kansas City Royals @ New York Mets...
+[2026-07-07 15:46:00] [INFO] [main] 
+[33m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+[33m┃  Kansas City Royals @ New York Mets | 2026-07-07  ┃
+[33m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 📊 Bullpen.fi O/U Line  : [36m8.5
+┃ 🎯 Bot Expected Runs    : [35m8.29
+┃ 📈 Recommendation       : [33mNO BET / SKIP ⚠️
+┃ 🔥 Confidence           : [37mLOW ⚠️
+┃ 📡 Sumber odds          : [37mBullpen CLI
+[33m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ [1m📋 KEY FACTORS:[0m
+┃  • Data pitcher tidak tersedia, menggunakan bas
+┃  • [Info] Bullpen Away tercermin di base_runs (
+┃  💪 Offense lemah (OPS 0.68): -0.3 run
+┃
+┃  ⚖️ Faktor saling menyeimbangkan.
+┃     Tidak ada edge yang cukup kuat.
+[33m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[2026-07-07 15:46:01] [INFO] [main] 💾 Prediksi disimpan
+[2026-07-07 15:46:01] [INFO] [main] 🧪 Shadow testing logged for version v2.0_baseline
+[2026-07-07 15:46:02] [INFO] [main] 🧪 Shadow testing logged for version v2.1_higher_gap
+[2026-07-07 15:46:03] [INFO] [main] 🧪 Shadow testing logged for version v2.2_no_temp_bonus
+[2026-07-07 15:46:04] [INFO] [main] 🧪 Shadow testing logged for version v2.3_coors_boost
+[2026-07-07 15:46:04] [INFO] [main] 🧪 Shadow testing logged for version v2.4_wind_boost
+[2026-07-07 15:46:05] [INFO] [main] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue
+[2026-07-07 15:46:06] [INFO] [main] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap
+[2026-07-07 15:46:06] [INFO] [main] [3/4] Menghasilkan Daily Summary...
+[2026-07-07 15:46:06] [INFO] [main] ============================================================
+[2026-07-07 15:46:06] [INFO] [main] 
+GAME                      | LINE   | PROJ   | REC        | CONF
+---------------------------------------------------------------
+Houston Astros @ Washingt | 9.5    | 9.68   | NO BET / SKIP ⚠️ | LOW ⚠️
+New York Yankees @ Tampa  | 8.5    | 7.53   | UNDER ✅    | MEDIUM ⚡
+Seattle Mariners @ Miami  | 8.5    | 7.04   | UNDER ✅    | MEDIUM ⚡
+[31m[1mPhiladelphia Phillies @ C | 8.5    | 11.14  | OVER ✅     | HIGH 🔥
+Colorado Rockies @ Los An | 9.5    | 10.44  | OVER ✅     | MEDIUM ⚡
+Cleveland Guardians @ Min | 8.5    | 8.27   | NO BET / SKIP ⚠️ | LOW ⚠️
+Toronto Blue Jays @ San F | 8.5    | 8.17   | NO BET / SKIP ⚠️ | LOW ⚠️
+Athletics @ Detroit Tiger | 8.5    | 7.17   | UNDER ✅    | MEDIUM ⚡
+[31m[1mArizona Diamondbacks @ Sa | 8.5    | 10.81  | OVER ✅     | HIGH 🔥
+Los Angeles Angels @ Texa | 7.5    | 6.91   | UNDER ✅    | MEDIUM ⚡
+Chicago Cubs @ Baltimore  | 9.5    | 8.68   | UNDER ✅    | MEDIUM ⚡
+Atlanta Braves @ Pittsbur | 8.5    | 9.19   | OVER ✅     | MEDIUM ⚡
+Boston Red Sox @ Chicago  | 8.5    | 8.94   | NO BET / SKIP ⚠️ | LOW ⚠️
+Kansas City Royals @ New  | 8.5    | 8.29   | NO BET / SKIP ⚠️ | LOW ⚠️
+[2026-07-07 15:46:06] [INFO] [main] ============================================================
+[2026-07-07 15:46:09] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
+[2026-07-07 15:46:12] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
+[2026-07-07 15:46:15] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
+[2026-07-07 15:46:18] [WARNING] [telegram_sender] [Telegram Warning] Percobaan 1 gagal: Can't parse entities: can't find end of the entity starting at byte offset 590. Mengulang dalam 5 detik...
+[2026-07-07 15:46:24] [WARNING] [telegram_sender] [Telegram Warning] Percobaan 2 gagal: Can't parse entities: can't find end of the entity starting at byte offset 590. Mengulang dalam 5 detik...
+[2026-07-07 15:46:30] [ERROR] [telegram_sender] [Telegram Error] Gagal mengirim pesan setelah 3 percobaan: Can't parse entities: can't find end of the entity starting at byte offset 590
+[2026-07-07 15:46:33] [WARNING] [telegram_sender] [Telegram Warning] Percobaan 1 gagal: Can't parse entities: can't find end of the entity starting at byte offset 746. Mengulang dalam 5 detik...
+[2026-07-07 15:46:39] [WARNING] [telegram_sender] [Telegram Warning] Percobaan 2 gagal: Can't parse entities: can't find end of the entity starting at byte offset 746. Mengulang dalam 5 detik...
+[2026-07-07 15:46:45] [ERROR] [telegram_sender] [Telegram Error] Gagal mengirim pesan setelah 3 percobaan: Can't parse entities: can't find end of the entity starting at byte offset 746
+[2026-07-07 15:46:48] [WARNING] [telegram_sender] [Telegram Warning] Percobaan 1 gagal: Can't parse entities: can't find end of the entity starting at byte offset 552. Mengulang dalam 5 detik...
+[2026-07-07 15:46:54] [WARNING] [telegram_sender] [Telegram Warning] Percobaan 2 gagal: Can't parse entities: can't find end of the entity starting at byte offset 552. Mengulang dalam 5 detik...
+[2026-07-07 15:47:00] [ERROR] [telegram_sender] [Telegram Error] Gagal mengirim pesan setelah 3 percobaan: Can't parse entities: can't find end of the entity starting at byte offset 552
+[2026-07-07 15:47:03] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
+[2026-07-07 15:47:05] [WARNING] [telegram_sender] [Telegram Warning] Percobaan 1 gagal: Can't parse entities: can't find end of the entity starting at byte offset 784. Mengulang dalam 5 detik...
+[2026-07-07 15:47:11] [WARNING] [telegram_sender] [Telegram Warning] Percobaan 2 gagal: Can't parse entities: can't find end of the entity starting at byte offset 784. Mengulang dalam 5 detik...
+[2026-07-07 15:47:17] [ERROR] [telegram_sender] [Telegram Error] Gagal mengirim pesan setelah 3 percobaan: Can't parse entities: can't find end of the entity starting at byte offset 784
+[2026-07-07 15:47:21] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
+[2026-07-07 15:47:24] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
+[2026-07-07 15:47:27] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
+[2026-07-07 15:47:27] [INFO] [main] [4/4] Analisis Selesai! Gunakan data ini dengan bijak.
+[2026-07-07 15:48:34] [INFO] [auto_runner] Bot berhasil dimatikan.
+[2026-07-07 15:48:46] [INFO] [auto_runner] Menginisialisasi Dynamic Auto Runner (Phase 4.1)...
+[2026-07-07 15:48:46] [INFO] [auto_runner] Scheduler aktif (Background).
+[2026-07-07 15:48:47] [INFO] [telegram_bot] Menjalankan bot listener Telegram...
+[2026-07-07 15:51:46] [INFO] [telegram_bot] [Histori] Menemukan 14 game tertunda. Menjalankan penarikan skor on-demand...
+[2026-07-07 15:51:46] [INFO] [result_fetcher] [INFO] Menemukan 19 game tertunda. Mengambil skor...
+[2026-07-07 15:51:48] [INFO] [result_fetcher] [INFO] Game 824424 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-07 15:51:48] [INFO] [result_fetcher] [INFO] Game 824911 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-07 15:51:48] [INFO] [result_fetcher] [INFO] Game 824664 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-07 15:51:49] [INFO] [result_fetcher] [INFO] Game 823613 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-07 15:51:49] [INFO] [result_fetcher] [INFO] Game 823042 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-07 15:51:49] [INFO] [result_fetcher] [Resolve] Match found for Houston Astros @ Washington Nationals -> gamePk: 822713
+[2026-07-07 15:51:50] [INFO] [result_fetcher] [Resolve] Match found for New York Yankees @ Tampa Bay Rays -> gamePk: 822956
+[2026-07-07 15:51:51] [INFO] [result_fetcher] [Resolve] Match found for Seattle Mariners @ Miami Marlins -> gamePk: 823847
+[2026-07-07 15:51:51] [INFO] [result_fetcher] [Resolve] Match found for Philadelphia Phillies @ Cincinnati Reds -> gamePk: 824495
+[2026-07-07 15:51:52] [INFO] [result_fetcher] [Resolve] Match found for Colorado Rockies @ Los Angeles Dodgers -> gamePk: 823929
+[2026-07-07 15:51:52] [INFO] [result_fetcher] [Resolve] Match found for Cleveland Guardians @ Minnesota Twins -> gamePk: 823687
+[2026-07-07 15:51:53] [INFO] [result_fetcher] [Resolve] Match found for Toronto Blue Jays @ San Francisco Giants -> gamePk: 823203
+[2026-07-07 15:51:54] [INFO] [result_fetcher] [Resolve] Match found for Athletics @ Detroit Tigers -> gamePk: 824254
+[2026-07-07 15:51:54] [INFO] [result_fetcher] [Resolve] Match found for Arizona Diamondbacks @ San Diego Padres -> gamePk: 823280
+[2026-07-07 15:51:55] [INFO] [result_fetcher] [Resolve] Match found for Los Angeles Angels @ Texas Rangers -> gamePk: 822881
+[2026-07-07 15:51:55] [INFO] [result_fetcher] [Resolve] Match found for Chicago Cubs @ Baltimore Orioles -> gamePk: 824820
+[2026-07-07 15:51:56] [INFO] [result_fetcher] [Resolve] Match found for Atlanta Braves @ Pittsburgh Pirates -> gamePk: 823361
+[2026-07-07 15:51:57] [INFO] [result_fetcher] [Resolve] Match found for Boston Red Sox @ Chicago White Sox -> gamePk: 824579
+[2026-07-07 15:51:57] [INFO] [result_fetcher] [Resolve] Match found for Kansas City Royals @ New York Mets -> gamePk: 823607
+[2026-07-07 15:53:22] [INFO] [bullpen_collector] [Bullpen] Mengambil data market harian dari Bullpen CLI...
+[2026-07-07 15:53:25] [INFO] [bullpen_collector] [SKIP] Milwaukee Brewers @ St. Louis Cardinals sudah dimulai atau dalam 10 menit (7:45 PM ET)
+[2026-07-07 15:53:25] [INFO] [bullpen_collector] [SKIP] Atlanta Braves @ Chicago White Sox sudah dimulai atau dalam 10 menit (7:40 PM ET)
+[2026-07-07 15:53:25] [INFO] [bullpen_collector] [SKIP] Arizona Diamondbacks @ St. Louis Cardinals sudah dimulai atau dalam 10 menit (7:45 PM ET)
+[2026-07-07 15:53:25] [INFO] [bullpen_collector] [SKIP] Tampa Bay Rays @ Boston Red Sox sudah dimulai atau dalam 10 menit (4:10 PM ET)
+[2026-07-07 15:53:25] [INFO] [bullpen_collector] [SKIP] Tampa Bay Rays @ New York Yankees sudah dimulai atau dalam 10 menit (1:35 PM ET)
+[2026-07-07 15:53:25] [INFO] [bullpen_collector] [SKIP] Boston Red Sox @ New York Yankees sudah dimulai atau dalam 10 menit (7:35 PM ET)
+[2026-07-07 15:53:25] [INFO] [bullpen_collector] [SKIP] St. Louis Cardinals @ Cincinnati Reds sudah dimulai atau dalam 10 menit (1:40 PM ET)
+[2026-07-07 15:53:25] [INFO] [bullpen_collector] [SKIP] Detroit Tigers @ Cleveland Guardians sudah dimulai atau dalam 10 menit (1:40 PM ET)
+[2026-07-07 15:53:25] [INFO] [bullpen_collector] [SKIP] San Francisco Giants @ Atlanta Braves sudah dimulai atau dalam 10 menit (7:15 PM ET)
+[2026-07-07 15:53:25] [INFO] [bullpen_collector] [SKIP] Toronto Blue Jays @ Chicago Cubs sudah dimulai atau dalam 10 menit (2:20 PM ET)
+[2026-07-07 15:53:34] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-07 15:53:34] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-07 15:53:34] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-07 15:53:34] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-07 15:53:34] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-07 15:53:35] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-07 15:53:35] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-07 15:53:46] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-07 15:53:46] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-07 15:53:46] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-07 15:53:46] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-07 15:53:47] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-07 15:53:47] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-07 15:53:47] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-07 15:53:56] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-07 15:53:57] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-07 15:53:57] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-07 15:53:57] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-07 15:53:57] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-07 15:53:57] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-07 15:53:58] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-07 15:54:08] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-07 15:54:08] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-07 15:54:08] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-07 15:54:08] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-07 15:54:08] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-07 15:54:09] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-07 15:54:09] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-07 15:54:19] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-07 15:54:20] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-07 15:54:20] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-07 15:54:20] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-07 15:54:20] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-07 15:54:20] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-07 15:54:21] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-07 15:54:31] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-07 15:54:31] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-07 15:54:31] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-07 15:54:32] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-07 15:54:32] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-07 15:54:32] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-07 15:54:32] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-07 15:54:42] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-07 15:54:42] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-07 15:54:43] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-07 15:54:43] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-07 15:54:43] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-07 15:54:43] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-07 15:54:43] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-07 15:54:53] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-07 15:54:53] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-07 15:54:53] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-07 15:54:54] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-07 15:54:54] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-07 15:54:54] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-07 15:54:54] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-07 15:55:04] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-07 15:55:05] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-07 15:55:05] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-07 15:55:05] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-07 15:55:05] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-07 15:55:05] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-07 15:55:06] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-07 15:55:16] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-07 15:55:17] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-07 15:55:17] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-07 15:55:17] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-07 15:55:17] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-07 15:55:18] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-07 15:55:18] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-07 15:55:28] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-07 15:55:28] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-07 15:55:28] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-07 15:55:29] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-07 15:55:29] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-07 15:55:29] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-07 15:55:29] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-07 15:55:40] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-07 15:55:40] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-07 15:55:40] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-07 15:55:40] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-07 15:55:41] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-07 15:55:41] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-07 15:55:41] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-07 15:55:51] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-07 15:55:51] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-07 15:55:52] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-07 15:55:52] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-07 15:55:52] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-07 15:55:52] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-07 15:55:52] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-07 15:56:03] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-07 15:56:03] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-07 15:56:04] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-07 15:56:04] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-07 15:56:04] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-07 15:56:04] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-07 15:56:04] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-07 15:56:07] [INFO] [auto_runner] === SCHEDULING DYNAMIC REVISIONS ===
+[2026-07-07 15:56:07] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 824820 (Chicago Cubs @ Baltimore Orioles) pada 2026-07-08 03:35:00
+[2026-07-07 15:56:07] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 822956 (New York Yankees @ Tampa Bay Rays) pada 2026-07-08 03:40:00
+[2026-07-07 15:56:07] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 823847 (Seattle Mariners @ Miami Marlins) pada 2026-07-08 03:40:00
+[2026-07-07 15:56:07] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 824254 (Athletics @ Detroit Tigers) pada 2026-07-08 03:40:00
+[2026-07-07 15:56:07] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 823361 (Atlanta Braves @ Pittsburgh Pirates) pada 2026-07-08 03:40:00
+[2026-07-07 15:56:07] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 822713 (Houston Astros @ Washington Nationals) pada 2026-07-08 03:45:00
+[2026-07-07 15:56:07] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 824495 (Philadelphia Phillies @ Cincinnati Reds) pada 2026-07-08 04:10:00
+[2026-07-07 15:56:07] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 823607 (Kansas City Royals @ New York Mets) pada 2026-07-08 04:10:00
+[2026-07-07 15:56:07] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 823687 (Cleveland Guardians @ Minnesota Twins) pada 2026-07-08 04:40:00
+[2026-07-07 15:56:07] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 824579 (Boston Red Sox @ Chicago White Sox) pada 2026-07-08 04:40:00
+[2026-07-07 15:56:07] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 822881 (Los Angeles Angels @ Texas Rangers) pada 2026-07-08 05:05:00
+[2026-07-07 15:56:07] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 823280 (Arizona Diamondbacks @ San Diego Padres) pada 2026-07-08 06:40:00
+[2026-07-07 15:56:07] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 823203 (Toronto Blue Jays @ San Francisco Giants) pada 2026-07-08 06:45:00

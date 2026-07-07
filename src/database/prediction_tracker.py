@@ -281,7 +281,7 @@ def get_prediction_history(days=30):
     finally:
         conn.close()
 
-def log_experiment_prediction(game_id, params_version, expected_runs, recommendation, confidence, key_factors):
+def log_experiment_prediction(game_id, params_version, expected_runs, recommendation, confidence, key_factors, volatility_score=0):
     """
     Menyimpan prediksi eksperimen ke tabel experiment_predictions.
     
@@ -292,6 +292,7 @@ def log_experiment_prediction(game_id, params_version, expected_runs, recommenda
         recommendation (str): Hasil rekomendasi (OVER/UNDER/SKIP).
         confidence (str): Tingkat kepercayaan (HIGH/MEDIUM/LOW).
         key_factors (list/str): Faktor kunci/reasons.
+        volatility_score (int): Skor volatilitas game.
         
     Returns:
         bool: True jika berhasil, False jika gagal.
@@ -316,10 +317,10 @@ def log_experiment_prediction(game_id, params_version, expected_runs, recommenda
     try:
         cursor.execute("""
             INSERT INTO experiment_predictions (
-                game_id, params_version, expected_runs, recommendation, confidence, key_factors, logged_at
-            ) VALUES (?, ?, ?, ?, ?, ?, ?)
+                game_id, params_version, expected_runs, recommendation, confidence, key_factors, logged_at, volatility_score
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
         """, (
-            str(game_id) if game_id is not None else None, params_version, expected_runs, recommendation, confidence, key_factors_json, logged_at
+            str(game_id) if game_id is not None else None, params_version, expected_runs, recommendation, confidence, key_factors_json, logged_at, volatility_score
         ))
         conn.commit()
         return True
