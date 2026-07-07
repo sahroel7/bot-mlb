@@ -180,6 +180,14 @@ def calculate_expected_total_runs(game_data, params_override: dict = None):
     if ab_reasons:
         all_reasons.append("[Info] Bullpen Away tercermin di base_runs (weighted defense), bukan modifier tambahan.")
     
+    enable_bullpen_fatigue = get_setting("enable_bullpen_fatigue", False, params_override)
+    if enable_bullpen_fatigue:
+        from src.processors.bullpen_workload_scorer import calculate_bullpen_fatigue_score
+        hbf_mod, hbf_reasons = calculate_bullpen_fatigue_score(game_data.get('home_bullpen_workload_3d'))
+        abf_mod, abf_reasons = calculate_bullpen_fatigue_score(game_data.get('away_bullpen_workload_3d'))
+        total_modifier += (hbf_mod + abf_mod)
+        all_reasons.extend(hbf_reasons + abf_reasons)
+    
     # 3. Offense Modifiers
     ho_mod, ho_reasons = calculate_offense_score(game_data['home_team_stats'], away_pitcher_stats)
     ao_mod, ao_reasons = calculate_offense_score(game_data['away_team_stats'], home_pitcher_stats)
@@ -242,6 +250,14 @@ def calculate_expected_total_runs(game_data, params_override: dict = None):
     if was_clamped:
         all_reasons.append("⚠️ Nilai di-normalisasi ke batas realistis MLB")
     
+    volatility_score = 0
+    if abs(w_mod) >= 0.6:  # cuaca ekstrem
+        volatility_score += 1
+    if park_mod >= 1.5 or park_mod <= -1.0:  # park factor ekstrem
+        volatility_score += 1
+    if not home_pitcher_stats or not away_pitcher_stats:
+        volatility_score += 1
+
     return {
         "base_runs": base_runs,
         "mod_pitcher": round(p_mod, 2),
@@ -249,16 +265,22 @@ def calculate_expected_total_runs(game_data, params_override: dict = None):
         "mod_env": round(w_mod + park_mod, 2),
         "total_modifier": round(total_modifier, 2),
         "final_expected_runs": final_expected_runs,
-        "reasons": all_reasons
+        "reasons": all_reasons,
+        "volatility_score": volatility_score
     }
 
-def make_recommendation(expected_runs, polymarket_line, params_override: dict = None):
+def make_recommendation(expected_runs, polymarket_line, params_override: dict = None, volatility_score=0):
     """
     Menentukan rekomendasi taruhan berdasarkan gap antara prediksi dan market.
     """
     gap = expected_runs - polymarket_line
+    enable_dynamic_gap = get_setting("enable_dynamic_gap", False, params_override)
     min_gap = get_setting("min_recommendation_gap", 0.5, params_override)
     
+    if enable_dynamic_gap and volatility_score > 0:
+        # Setiap 1 poin volatilitas menambah 0.25 run ke syarat gap minimum
+        min_gap = min_gap + (volatility_score * 0.25)
+        
     if gap >= min_gap:
         return "OVER ✅"
     elif gap <= -min_gap:

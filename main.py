@@ -20,6 +20,7 @@ from src.collectors.team_offense import (
     get_team_season_offense, get_team_last_10_games, calculate_streak
 )
 from src.collectors.weather import get_game_weather
+from src.collectors.bullpen_workload_collector import get_bullpen_workload_last_3_days
 
 # Import Data & Processors
 from src.data.park_factors import get_park_factor
@@ -187,6 +188,20 @@ def run_analysis(args):
             home_last_10 = get_team_last_10_games(game.get('home_id'))
             away_last_10 = get_team_last_10_games(game.get('away_id'))
             
+            game_date = game.get('game_date_et') or market_info.get('game_date_et') or (game['game_time'][:10] if game.get('game_time') else datetime.now().strftime('%Y-%m-%d'))
+            
+            home_workload = None
+            away_workload = None
+            try:
+                home_workload = get_bullpen_workload_last_3_days(game.get('home_id'), game_date)
+            except Exception as e:
+                logger.warning(f"  ⚠️ Gagal mengambil workload bullpen home: {e}")
+                
+            try:
+                away_workload = get_bullpen_workload_last_3_days(game.get('away_id'), game_date)
+            except Exception as e:
+                logger.warning(f"  ⚠️ Gagal mengambil workload bullpen away: {e}")
+            
             game_full_data = {
                 "game_id": mlb_api_game_id,
                 "home_team_id": game.get('home_id'),
@@ -204,14 +219,16 @@ def run_analysis(args):
                 "home_last_10_raw": home_last_10,
                 "away_last_10_raw": away_last_10,
                 "weather": get_game_weather(game['venue_name'], game['game_time']),
-                "park_factor": get_park_factor(game.get('home_id'))
+                "park_factor": get_park_factor(game.get('home_id')),
+                "home_bullpen_workload_3d": home_workload,
+                "away_bullpen_workload_3d": away_workload
             }
             
             # d. Kalkulasi Expected Runs
             analysis = calculate_expected_total_runs(game_full_data)
             
             # e. Tambahkan Hasil Rekomendasi
-            analysis["recommendation"] = make_recommendation(analysis["final_expected_runs"], market_info['line'])
+            analysis["recommendation"] = make_recommendation(analysis["final_expected_runs"], market_info['line'], volatility_score=analysis['volatility_score'])
             analysis["confidence"] = calculate_confidence(analysis["final_expected_runs"], market_info['line'])
             
             # Pass layer type if exists
@@ -272,7 +289,7 @@ def run_analysis(args):
                     try:
                         exp_analysis = calculate_expected_total_runs(game_full_data, params_override=overrides)
                         exp_runs = exp_analysis["final_expected_runs"]
-                        exp_rec = make_recommendation(exp_runs, market_info['line'], params_override=overrides)
+                        exp_rec = make_recommendation(exp_runs, market_info['line'], params_override=overrides, volatility_score=exp_analysis['volatility_score'])
                         exp_conf = calculate_confidence(exp_runs, market_info['line'], params_override=overrides)
                         exp_reasons = exp_analysis["reasons"]
                     except Exception as calc_err:
@@ -293,6 +310,23 @@ def run_analysis(args):
                     logger.info(f"🧪 Shadow testing logged for version {version_name}")
                 except Exception as db_err:
                     logger.warning(f"⚠️ Gagal menyimpan log eksperimen {version_name}: {db_err}")
+
+            # Umpire Logging
+            try:
+                from src.collectors.umpire_collector import get_home_plate_umpire
+                umpire = get_home_plate_umpire(mlb_api_game_id)
+                if umpire:
+                    conn = get_db_connection()
+                    now_str = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                    conn.execute("""
+                        INSERT INTO umpire_log (game_id, umpire_name, predicted_runs, polymarket_line, logged_at)
+                        VALUES (?, ?, ?, ?, ?)
+                    """, (str(game_info.get('game_id')), umpire, analysis.get('final_expected_runs'), market_info.get('line'), now_str))
+                    conn.commit()
+                    conn.close()
+                    logger.info(f"⚾ Umpire logged: {umpire}")
+            except Exception as ump_err:
+                logger.warning(f"⚠️ Gagal mencatat umpire: {ump_err}")
 
             # Simpan untuk Summary Akhir
             all_analyses.append({

@@ -45,4 +45,12 @@ EXPERIMENT_VERSIONS = {
     # underestimate run aktual (dari analisis historis, deviasi rata-rata -4.91
     # run pada game angin outward kencang). Menguji cap dan koefisien lebih
     # tinggi. Diuji mulai 06 Juli 2026.
+
+    "v3.0_bullpen_fatigue": {
+        "enable_bullpen_fatigue": True
+    },
+
+    "v3.1_dynamic_variance_gap": {
+        "enable_dynamic_gap": True
+    },
 }

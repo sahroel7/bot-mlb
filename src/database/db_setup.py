@@ -239,10 +239,36 @@ def create_experiment_predictions_table():
     finally:
         conn.close()
 
+def create_umpire_log_table():
+    """
+    Membuat tabel umpire_log untuk mencatat nama home plate umpire per game.
+    """
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    try:
+        cursor.execute("""
+            CREATE TABLE IF NOT EXISTS umpire_log (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                game_id TEXT,
+                umpire_name TEXT,
+                predicted_runs REAL,
+                polymarket_line REAL,
+                logged_at TEXT
+            )
+        """)
+        conn.commit()
+        print("[DB] Tabel umpire_log siap digunakan.")
+    except Exception as e:
+        print(f"[DB Error] Gagal membuat tabel umpire_log: {e}")
+        conn.rollback()
+    finally:
+        conn.close()
+
 # Panggil fungsi inisialisasi secara otomatis saat modul ini di-import
 initialize_database()
 migrate_add_revision_columns()
 create_experiment_predictions_table()
+create_umpire_log_table()
 
 if __name__ == "__main__":
     print(f"✅ Setup database berhasil dijalankan.")
