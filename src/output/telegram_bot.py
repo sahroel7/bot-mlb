@@ -129,6 +129,14 @@ def get_predictions_by_date(target_date, checked_status=None):
             
     return result
 
+def escape_markdown_legacy(text: str) -> str:
+    """Escape karakter spesial Telegram legacy Markdown: _ * ` ["""
+    if not isinstance(text, str):
+        return str(text)
+    for ch in ['_', '*', '`', '[']:
+        text = text.replace(ch, '\\' + ch)
+    return text
+
 def format_telegram_reasons(reasons_str):
     """Memformat list reasons menjadi string dengan emoji."""
     if not reasons_str:
@@ -149,7 +157,8 @@ def format_telegram_reasons(reasons_str):
             emoji = "🏟️"
         elif any(x in reason for x in ["Offense", "Streak", "RISP", "Momentum"]):
             emoji = "💪"
-        formatted.append(f"  {emoji} {reason}")
+        escaped_reason = escape_markdown_legacy(reason)
+        formatted.append(f"  {emoji} {escaped_reason}")
     return "\n".join(formatted)
 
 def format_prediction_detail(pred, show_revision_label=True):
@@ -157,8 +166,8 @@ def format_prediction_detail(pred, show_revision_label=True):
     # Handle revisi
     rev_str = "🔄 REVISI — " if show_revision_label and pred.get('version', 1) > 1 else ""
     
-    away = pred.get('away_team', 'Unknown')
-    home = pred.get('home_team', 'Unknown')
+    away = escape_markdown_legacy(pred.get('away_team', 'Unknown'))
+    home = escape_markdown_legacy(pred.get('home_team', 'Unknown'))
     
     from src.utils.date_formatter import format_game_display
     try:
@@ -169,7 +178,7 @@ def format_prediction_detail(pred, show_revision_label=True):
         et_time = pred.get('game_time_et', 'N/A')
         date_time_str = f"📅 {raw_date} | ⏰ {et_time}"
     
-    line_range = pred.get('line_range', pred.get('polymarket_line', '-'))
+    line_range = escape_markdown_legacy(pred.get('line_range', pred.get('polymarket_line', '-')))
     
     msg = f"{rev_str}🏟️ {away} @ {home}\n"
     msg += f"{date_time_str}\n"
@@ -958,6 +967,7 @@ async def prediksi_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
             if not market_info: continue
 
             try:
+                msg = None
                 pitchers = get_starting_pitchers(game_id)
                 home_p_id = pitchers['home']['id'] if pitchers['home'] else None
                 away_p_id = pitchers['away']['id'] if pitchers['away'] else None
@@ -1035,6 +1045,7 @@ async def prediksi_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 await asyncio.sleep(1.5)
 
             except Exception as e:
+                logger.error(f"[DEBUG MSG FAIL] game_id={game_id} | RAW MSG:\n{msg}")
                 logger.error(f"Error menganalisis game {game_id}: {e}")
                 continue
 

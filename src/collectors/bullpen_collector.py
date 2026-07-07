@@ -184,17 +184,17 @@ def get_mlb_ou_markets():
             if not date_et:
                 continue
                 
-            # Filter Waktu: Skip jika game sudah mulai atau dalam 30 menit (Fix 1)
+            # Filter Waktu: Skip jika game sudah mulai atau dalam 10 menit (Fix 1)
             try:
                 # game_time_et format: "9:40 PM ET" -> "9:40 PM"
                 clean_time = time_et.replace(" ET", "").strip()
                 game_dt_str = f"{date_et} {clean_time}"
                 game_dt = et_tz.localize(datetime.strptime(game_dt_str, "%Y-%m-%d %I:%M %p"))
                 
-                cutoff_et = datetime.now(et_tz) + timedelta(minutes=30)
+                cutoff_et = datetime.now(et_tz) + timedelta(minutes=10)
                 
                 if game_dt <= cutoff_et:
-                    logger.info(f"[SKIP] {away_team} @ {home_team} sudah dimulai atau dalam 30 menit ({time_et})")
+                    logger.info(f"[SKIP] {away_team} @ {home_team} sudah dimulai atau dalam 10 menit ({time_et})")
                     continue
             except Exception as e:
                 logger.warning(f"[Bullpen Filter] Gagal parse waktu untuk filter: {e}")
