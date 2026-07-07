@@ -1,6 +1,7 @@
 import requests
 from datetime import datetime, timedelta
 from src.utils.network import get_request
+from src.utils.logger import logger
 
 def parse_ip_to_outs(ip_str: str) -> int:
     """Mengonversi string innings pitched (seperti '1.1', '2.0', '0.2') menjadi total outs."""
@@ -93,5 +94,7 @@ def get_bullpen_workload_last_3_days(team_id, game_date_et):
         return total_outs / 3.0
         
     except Exception as e:
-        # WAJIB bungkus semua request dengan try/except; jika gagal return None
+        import traceback
+        logger.error(f"[DEBUG BULLPEN WORKLOAD] team_id={team_id} date={game_date_et} | ERROR: {type(e).__name__}: {e}")
+        logger.error(f"[DEBUG BULLPEN WORKLOAD] Traceback:\n{traceback.format_exc()}")
         return None

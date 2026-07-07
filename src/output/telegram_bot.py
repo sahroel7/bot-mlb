@@ -30,6 +30,7 @@ from src.collectors.team_offense import (
     get_team_season_offense, get_team_last_10_games, calculate_streak
 )
 from src.collectors.weather import get_game_weather
+from src.collectors.bullpen_workload_collector import get_bullpen_workload_last_3_days
 from src.data.park_factors import get_park_factor
 from src.processors.run_calculator import (
     calculate_expected_total_runs, make_recommendation, calculate_confidence
@@ -972,6 +973,18 @@ async def prediksi_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 home_p_id = pitchers['home']['id'] if pitchers['home'] else None
                 away_p_id = pitchers['away']['id'] if pitchers['away'] else None
                 
+                game_date_for_workload = game.get('game_date_et') or market_info.get('game_date_et')
+                home_workload = None
+                away_workload = None
+                try:
+                    home_workload = get_bullpen_workload_last_3_days(game.get('home_id'), game_date_for_workload)
+                except Exception as e:
+                    logger.warning(f"⚠️ Gagal mengambil workload bullpen home (manual): {e}")
+                try:
+                    away_workload = get_bullpen_workload_last_3_days(game.get('away_id'), game_date_for_workload)
+                except Exception as e:
+                    logger.warning(f"⚠️ Gagal mengambil workload bullpen away (manual): {e}")
+                
                 game_full_data = {
                     "home_team_id": game.get('home_id'),
                     "home_team_stats": get_team_season_offense(game.get('home_id')),
@@ -985,11 +998,13 @@ async def prediksi_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
                     "home_streak": calculate_streak(get_team_last_10_games(game.get('home_id'))),
                     "away_streak": calculate_streak(get_team_last_10_games(game.get('away_id'))),
                     "weather": get_game_weather(game['venue_name'], game['game_time']),
-                    "park_factor": get_park_factor(game.get('home_id'))
+                    "park_factor": get_park_factor(game.get('home_id')),
+                    "home_bullpen_workload_3d": home_workload,
+                    "away_bullpen_workload_3d": away_workload
                 }
                 
                 analysis = calculate_expected_total_runs(game_full_data)
-                analysis["recommendation"] = make_recommendation(analysis["final_expected_runs"], market_info['line'])
+                analysis["recommendation"] = make_recommendation(analysis["final_expected_runs"], market_info['line'], volatility_score=analysis['volatility_score'])
                 analysis["confidence"] = calculate_confidence(analysis["final_expected_runs"], market_info['line'])
                 analysis['layer_type'] = 'manual'
 
@@ -1015,7 +1030,7 @@ async def prediksi_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
                         try:
                             exp_analysis = calculate_expected_total_runs(game_full_data, params_override=overrides)
                             exp_runs = exp_analysis["final_expected_runs"]
-                            exp_rec = make_recommendation(exp_runs, market_info['line'], params_override=overrides)
+                            exp_rec = make_recommendation(exp_runs, market_info['line'], params_override=overrides, volatility_score=exp_analysis['volatility_score'])
                             exp_conf = calculate_confidence(exp_runs, market_info['line'], params_override=overrides)
                             exp_reasons = exp_analysis["reasons"]
                         except Exception as calc_err:
