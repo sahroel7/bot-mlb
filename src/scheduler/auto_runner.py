@@ -45,6 +45,7 @@ class DummyArgs:
         self.game = None
         self.verbose = False
         self.days = None
+        self.silent_send = False
 
 def run_early_alert():
     """Jadwal 09:00 WIB: EARLY ALERT untuk game besok (V1)."""
@@ -211,6 +212,7 @@ def check_for_changes(game_id):
         from main import run_analysis
         args = DummyArgs()
         args.game = str(game_id)
+        args.silent_send = True
         
         # Override modul get_latest_prediction sementara bisa dilakukan dengan state passing,
         # tapi karena main memanggil save_prediction, kita harus passing revision_reason ke run_calculator

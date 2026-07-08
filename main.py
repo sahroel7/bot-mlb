@@ -274,7 +274,8 @@ def run_analysis(args):
                 logger.warning(f"⚠️ Gagal menyimpan prediksi: {db_err}")
 
             # g. Kirim Alert via Telegram (Jika memenuhi syarat dan belum pernah dikirim)
-            send_high_confidence_alert(game_info, analysis)
+            if not getattr(args, 'silent_send', False):
+                send_high_confidence_alert(game_info, analysis)
 
             # --- SHADOW TESTING / EXPERIMENTS ---
             for version_name, overrides in EXPERIMENT_VERSIONS.items():
@@ -349,7 +350,8 @@ def run_analysis(args):
     logger.info("=" * 60)
 
     # Kirim Daily Summary via Telegram
-    send_daily_summary(all_analyses, waiting_games)
+    if not getattr(args, 'silent_send', False):
+        send_daily_summary(all_analyses, waiting_games)
 
     logger.info("[4/4] Analisis Selesai! Gunakan data ini dengan bijak.")
 
