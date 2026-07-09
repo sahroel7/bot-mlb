@@ -1,417 +1,285 @@
-[2026-07-08 03:35:00] [INFO] [auto_runner] === CHECKING FOR CHANGES: GAME 824820 ===
-[2026-07-08 03:35:02] [INFO] [bullpen_collector] [Bullpen] Mengambil data market harian dari Bullpen CLI...
-[2026-07-08 03:35:08] [INFO] [bullpen_collector] [SKIP] Milwaukee Brewers @ St. Louis Cardinals sudah dimulai atau dalam 10 menit (7:45 PM ET)
-[2026-07-08 03:35:08] [INFO] [bullpen_collector] [SKIP] Atlanta Braves @ Chicago White Sox sudah dimulai atau dalam 10 menit (7:40 PM ET)
-[2026-07-08 03:35:08] [INFO] [bullpen_collector] [SKIP] Arizona Diamondbacks @ St. Louis Cardinals sudah dimulai atau dalam 10 menit (7:45 PM ET)
-[2026-07-08 03:35:08] [INFO] [bullpen_collector] [SKIP] Boston Red Sox @ New York Yankees sudah dimulai atau dalam 10 menit (7:35 PM ET)
-[2026-07-08 03:35:08] [INFO] [bullpen_collector] [SKIP] Tampa Bay Rays @ Boston Red Sox sudah dimulai atau dalam 10 menit (4:10 PM ET)
-[2026-07-08 03:35:08] [INFO] [bullpen_collector] [SKIP] Tampa Bay Rays @ New York Yankees sudah dimulai atau dalam 10 menit (1:35 PM ET)
-[2026-07-08 03:35:08] [INFO] [bullpen_collector] [SKIP] Detroit Tigers @ Cleveland Guardians sudah dimulai atau dalam 10 menit (1:40 PM ET)
-[2026-07-08 03:35:08] [INFO] [bullpen_collector] [SKIP] St. Louis Cardinals @ Cincinnati Reds sudah dimulai atau dalam 10 menit (1:40 PM ET)
-[2026-07-08 03:35:08] [INFO] [bullpen_collector] [SKIP] Toronto Blue Jays @ Chicago Cubs sudah dimulai atau dalam 10 menit (2:20 PM ET)
-[2026-07-08 03:35:08] [INFO] [bullpen_collector] [SKIP] San Francisco Giants @ Atlanta Braves sudah dimulai atau dalam 10 menit (7:15 PM ET)
-[2026-07-08 03:35:09] [INFO] [auto_runner] No changes detected for 824820, skipping revision.
-[2026-07-08 03:40:00] [INFO] [auto_runner] === CHECKING FOR CHANGES: GAME 822956 ===
-[2026-07-08 03:40:00] [INFO] [auto_runner] === CHECKING FOR CHANGES: GAME 823361 ===
-[2026-07-08 03:40:00] [INFO] [auto_runner] === CHECKING FOR CHANGES: GAME 823847 ===
-[2026-07-08 03:40:00] [INFO] [auto_runner] === CHECKING FOR CHANGES: GAME 824254 ===
-[2026-07-08 03:40:02] [INFO] [auto_runner] No changes detected for 824254, skipping revision.
-[2026-07-08 03:40:02] [INFO] [auto_runner] Perubahan terdeteksi: Starting pitcher diganti. Menjalankan re-analisis.
-[2026-07-08 03:40:02] [INFO] [auto_runner] No changes detected for 823361, skipping revision.
-[2026-07-08 03:40:02] [INFO] [auto_runner] Perubahan terdeteksi: Line Bullpen bergerak (8.5 -> 7.5). Menjalankan re-analisis.
-[2026-07-08 03:40:06] [INFO] [main] [34m[0/4] Memproses hasil pertandingan kemarin...
-[2026-07-08 03:40:06] [INFO] [main] [34m[0/4] Memproses hasil pertandingan kemarin...
-[2026-07-08 03:40:07] [INFO] [result_fetcher] [INFO] Menemukan 19 game tertunda. Mengambil skor...
-[2026-07-08 03:40:07] [INFO] [result_fetcher] [INFO] Menemukan 19 game tertunda. Mengambil skor...
-[2026-07-08 03:40:07] [INFO] [result_fetcher] [INFO] Game 824424 Final tapi skor 0-0 (belum valid). Menunggu update API.
-[2026-07-08 03:40:07] [INFO] [result_fetcher] [INFO] Game 824424 Final tapi skor 0-0 (belum valid). Menunggu update API.
-[2026-07-08 03:40:07] [INFO] [result_fetcher] [INFO] Game 824911 Final tapi skor 0-0 (belum valid). Menunggu update API.
-[2026-07-08 03:40:07] [INFO] [result_fetcher] [INFO] Game 824911 Final tapi skor 0-0 (belum valid). Menunggu update API.
-[2026-07-08 03:40:08] [INFO] [result_fetcher] [INFO] Game 824664 Final tapi skor 0-0 (belum valid). Menunggu update API.
-[2026-07-08 03:40:08] [INFO] [result_fetcher] [INFO] Game 824664 Final tapi skor 0-0 (belum valid). Menunggu update API.
-[2026-07-08 03:40:08] [INFO] [result_fetcher] [INFO] Game 823613 Final tapi skor 0-0 (belum valid). Menunggu update API.
-[2026-07-08 03:40:08] [INFO] [result_fetcher] [INFO] Game 823613 Final tapi skor 0-0 (belum valid). Menunggu update API.
-[2026-07-08 03:40:08] [INFO] [result_fetcher] [INFO] Game 823042 Final tapi skor 0-0 (belum valid). Menunggu update API.
-[2026-07-08 03:40:09] [INFO] [result_fetcher] [INFO] Game 823042 Final tapi skor 0-0 (belum valid). Menunggu update API.
-[2026-07-08 03:40:13] [INFO] [main] [36m  📊 Tidak ada prediksi kemarin untuk diupdate
+[2026-07-09 00:45:00] [INFO] [auto_runner] === CHECKING FOR CHANGES: GAME 823202 ===
+[2026-07-09 00:45:01] [INFO] [bullpen_collector] [Bullpen] Mengambil data market harian dari Bullpen CLI...
+[2026-07-09 00:45:07] [INFO] [bullpen_collector] [SKIP] Milwaukee Brewers @ St. Louis Cardinals sudah dimulai atau dalam 10 menit (7:45 PM ET)
+[2026-07-09 00:45:07] [INFO] [bullpen_collector] [SKIP] Atlanta Braves @ Chicago White Sox sudah dimulai atau dalam 10 menit (7:40 PM ET)
+[2026-07-09 00:45:07] [INFO] [bullpen_collector] [SKIP] Boston Red Sox @ New York Yankees sudah dimulai atau dalam 10 menit (7:35 PM ET)
+[2026-07-09 00:45:07] [INFO] [bullpen_collector] [SKIP] St. Louis Cardinals @ Cincinnati Reds sudah dimulai atau dalam 10 menit (1:40 PM ET)
+[2026-07-09 00:45:07] [INFO] [bullpen_collector] [SKIP] Arizona Diamondbacks @ St. Louis Cardinals sudah dimulai atau dalam 10 menit (7:45 PM ET)
+[2026-07-09 00:45:07] [INFO] [bullpen_collector] [SKIP] Tampa Bay Rays @ New York Yankees sudah dimulai atau dalam 10 menit (1:35 PM ET)
+[2026-07-09 00:45:07] [INFO] [bullpen_collector] [SKIP] Tampa Bay Rays @ Boston Red Sox sudah dimulai atau dalam 10 menit (4:10 PM ET)
+[2026-07-09 00:45:07] [INFO] [bullpen_collector] [SKIP] Detroit Tigers @ Cleveland Guardians sudah dimulai atau dalam 10 menit (1:40 PM ET)
+[2026-07-09 00:45:07] [INFO] [bullpen_collector] [SKIP] San Francisco Giants @ Atlanta Braves sudah dimulai atau dalam 10 menit (7:15 PM ET)
+[2026-07-09 00:45:07] [INFO] [bullpen_collector] [SKIP] Toronto Blue Jays @ Chicago Cubs sudah dimulai atau dalam 10 menit (2:20 PM ET)
+[2026-07-09 00:45:08] [INFO] [auto_runner] No changes detected for 823202, skipping revision.
+[2026-07-09 01:52:13] [INFO] [auto_runner] === MENJALANKAN SILENT RESULTS CHECK ===
+[2026-07-09 01:52:16] [INFO] [result_fetcher] [INFO] Menemukan 20 game tertunda. Mengambil skor...
+[2026-07-09 01:52:18] [INFO] [result_fetcher] [INFO] Game 824424 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-09 01:52:18] [INFO] [result_fetcher] [INFO] Game 824911 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-09 01:52:19] [INFO] [result_fetcher] [INFO] Game 824664 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-09 01:52:19] [INFO] [result_fetcher] [INFO] Game 823613 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-09 01:52:19] [INFO] [result_fetcher] [INFO] Game 823042 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-09 03:35:00] [INFO] [auto_runner] === CHECKING FOR CHANGES: GAME 824815 ===
+[2026-07-09 03:35:02] [INFO] [bullpen_collector] [Bullpen] Mengambil data market harian dari Bullpen CLI...
+[2026-07-09 03:35:06] [INFO] [bullpen_collector] [SKIP] Milwaukee Brewers @ St. Louis Cardinals sudah dimulai atau dalam 10 menit (7:45 PM ET)
+[2026-07-09 03:35:06] [INFO] [bullpen_collector] [SKIP] Toronto Blue Jays @ San Francisco Giants sudah dimulai atau dalam 10 menit (3:45 PM ET)
+[2026-07-09 03:35:06] [INFO] [bullpen_collector] [SKIP] Atlanta Braves @ Chicago White Sox sudah dimulai atau dalam 10 menit (7:40 PM ET)
+[2026-07-09 03:35:06] [INFO] [bullpen_collector] [SKIP] Boston Red Sox @ New York Yankees sudah dimulai atau dalam 10 menit (7:35 PM ET)
+[2026-07-09 03:35:06] [INFO] [bullpen_collector] [SKIP] Arizona Diamondbacks @ St. Louis Cardinals sudah dimulai atau dalam 10 menit (7:45 PM ET)
+[2026-07-09 03:35:06] [INFO] [bullpen_collector] [SKIP] St. Louis Cardinals @ Cincinnati Reds sudah dimulai atau dalam 10 menit (1:40 PM ET)
+[2026-07-09 03:35:06] [INFO] [bullpen_collector] [SKIP] Tampa Bay Rays @ New York Yankees sudah dimulai atau dalam 10 menit (1:35 PM ET)
+[2026-07-09 03:35:06] [INFO] [bullpen_collector] [SKIP] Tampa Bay Rays @ Boston Red Sox sudah dimulai atau dalam 10 menit (4:10 PM ET)
+[2026-07-09 03:35:06] [INFO] [bullpen_collector] [SKIP] Detroit Tigers @ Cleveland Guardians sudah dimulai atau dalam 10 menit (1:40 PM ET)
+[2026-07-09 03:35:06] [INFO] [bullpen_collector] [SKIP] San Francisco Giants @ Atlanta Braves sudah dimulai atau dalam 10 menit (7:15 PM ET)
+[2026-07-09 03:35:07] [INFO] [auto_runner] No changes detected for 824815, skipping revision.
+[2026-07-09 03:40:00] [INFO] [auto_runner] === CHECKING FOR CHANGES: GAME 822957 ===
+[2026-07-09 03:40:00] [INFO] [auto_runner] === CHECKING FOR CHANGES: GAME 823848 ===
+[2026-07-09 03:40:00] [INFO] [auto_runner] === CHECKING FOR CHANGES: GAME 823360 ===
+[2026-07-09 03:40:00] [INFO] [auto_runner] === CHECKING FOR CHANGES: GAME 824253 ===
+[2026-07-09 03:40:02] [INFO] [auto_runner] Perubahan terdeteksi: Line Bullpen bergerak (8.5 -> 9.5). Menjalankan re-analisis.
+[2026-07-09 03:40:02] [INFO] [auto_runner] No changes detected for 824253, skipping revision.
+[2026-07-09 03:40:02] [INFO] [auto_runner] No changes detected for 823848, skipping revision.
+[2026-07-09 03:40:03] [INFO] [auto_runner] No changes detected for 822957, skipping revision.
+[2026-07-09 03:40:06] [INFO] [main] [34m[0/4] Memproses hasil pertandingan kemarin...
+[2026-07-09 03:40:07] [INFO] [result_fetcher] [INFO] Menemukan 20 game tertunda. Mengambil skor...
+[2026-07-09 03:40:08] [INFO] [result_fetcher] [INFO] Game 824424 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-09 03:40:08] [INFO] [result_fetcher] [INFO] Game 824911 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-09 03:40:08] [INFO] [result_fetcher] [INFO] Game 824664 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-09 03:40:09] [INFO] [result_fetcher] [INFO] Game 823613 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-09 03:40:09] [INFO] [result_fetcher] [INFO] Game 823042 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-09 03:40:14] [INFO] [main] [36m  📊 Tidak ada prediksi kemarin untuk diupdate
 
-[2026-07-08 03:40:13] [INFO] [main] [34m[1/4] Mengambil jadwal pertandingan MLB...
-[2026-07-08 03:40:13] [INFO] [main] [36m  📊 Tidak ada prediksi kemarin untuk diupdate
+[2026-07-09 03:40:14] [INFO] [main] [34m[1/4] Mengambil jadwal pertandingan MLB...
+[2026-07-09 03:40:14] [INFO] [main] [32mDitemukan 1 pertandingan.
 
-[2026-07-08 03:40:13] [INFO] [main] [34m[1/4] Mengambil jadwal pertandingan MLB...
-[2026-07-08 03:40:13] [INFO] [main] [32mDitemukan 1 pertandingan.
+[2026-07-09 03:40:14] [INFO] [main] [34m[2/4] Menganalisis pasar Polymarket & Statistik...
+[2026-07-09 03:40:14] [INFO] [main] [33m  (1/1) Menganalisis: Atlanta Braves @ Pittsburgh Pirates...
+[2026-07-09 03:40:25] [INFO] [main] 
+[32m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+[32m┃  Atlanta Braves @ Pittsburgh Pirates | 2026-07-08  ┃
+[32m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 📊 Bullpen.fi O/U Line  : [36m8.5
+┃ 🎯 Bot Expected Runs    : [35m10.89
+┃ 📈 Recommendation       : [32mOVER ✅
+┃ 🔥 Confidence           : [31m[1mHIGH 🔥
+┃ 📡 Sumber odds          : [37mBullpen CLI
+[32m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ [1m📋 KEY FACTORS:[0m
+┃  ⚾ K/9 tinggi (9.62): -0.4 run
+┃  • Rawan Home Run (HR/9 1.55): +0.5 run
+┃  • Inning pendek (rata-rata 3.7 IP): +0.2 run (
+┃  • Kontrol buruk (BB/9 4.15): +0.3 run
+┃  • Rawan Home Run (HR/9 1.64): +0.5 run
+┃  • Inning pendek (rata-rata 4.4 IP): +0.2 run (
+┃  🌡️ Suhu panas (86.5°F): +0.3 run (udara tipis)
+[32m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[2026-07-09 03:40:26] [INFO] [main] 💾 Prediksi disimpan
+[2026-07-09 03:40:26] [INFO] [main] 🧪 Shadow testing logged for version v2.0_baseline
+[2026-07-09 03:40:27] [INFO] [main] 🧪 Shadow testing logged for version v2.1_higher_gap
+[2026-07-09 03:40:27] [INFO] [main] 🧪 Shadow testing logged for version v2.2_no_temp_bonus
+[2026-07-09 03:40:27] [INFO] [main] 🧪 Shadow testing logged for version v2.3_coors_boost
+[2026-07-09 03:40:27] [INFO] [main] 🧪 Shadow testing logged for version v2.4_wind_boost
+[2026-07-09 03:40:27] [INFO] [main] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue
+[2026-07-09 03:40:28] [INFO] [main] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap
+[2026-07-09 03:40:28] [INFO] [main] ⚾ Umpire logged: Edwin Moscoso
+[2026-07-09 03:40:28] [INFO] [main] [3/4] Menghasilkan Daily Summary...
+[2026-07-09 03:40:28] [INFO] [main] ============================================================
+[2026-07-09 03:40:28] [INFO] [main] 
+GAME                      | LINE   | PROJ   | REC        | CONF
+---------------------------------------------------------------
+[31m[1mAtlanta Braves @ Pittsbur | 8.5    | 10.89  | OVER ✅     | HIGH 🔥
+[2026-07-09 03:40:28] [INFO] [main] ============================================================
+[2026-07-09 03:40:28] [INFO] [main] [4/4] Analisis Selesai! Gunakan data ini dengan bijak.
+[2026-07-09 03:45:00] [INFO] [auto_runner] === CHECKING FOR CHANGES: GAME 822710 ===
+[2026-07-09 03:45:01] [INFO] [auto_runner] No changes detected for 822710, skipping revision.
+[2026-07-09 04:10:00] [INFO] [auto_runner] === CHECKING FOR CHANGES: GAME 823605 ===
+[2026-07-09 04:10:00] [INFO] [auto_runner] === CHECKING FOR CHANGES: GAME 824496 ===
+[2026-07-09 04:10:00] [INFO] [bullpen_collector] [Bullpen] Mengambil data market harian dari Bullpen CLI...
+[2026-07-09 04:10:00] [INFO] [bullpen_collector] [Bullpen] Mengambil data market harian dari Bullpen CLI...
+[2026-07-09 04:10:05] [INFO] [bullpen_collector] [SKIP] Milwaukee Brewers @ St. Louis Cardinals sudah dimulai atau dalam 10 menit (7:45 PM ET)
+[2026-07-09 04:10:05] [INFO] [bullpen_collector] [SKIP] Toronto Blue Jays @ San Francisco Giants sudah dimulai atau dalam 10 menit (3:45 PM ET)
+[2026-07-09 04:10:05] [INFO] [bullpen_collector] [SKIP] Milwaukee Brewers @ St. Louis Cardinals sudah dimulai atau dalam 10 menit (7:45 PM ET)
+[2026-07-09 04:10:06] [INFO] [bullpen_collector] [SKIP] Atlanta Braves @ Chicago White Sox sudah dimulai atau dalam 10 menit (7:40 PM ET)
+[2026-07-09 04:10:06] [INFO] [bullpen_collector] [SKIP] Toronto Blue Jays @ San Francisco Giants sudah dimulai atau dalam 10 menit (3:45 PM ET)
+[2026-07-09 04:10:06] [INFO] [bullpen_collector] [SKIP] Boston Red Sox @ New York Yankees sudah dimulai atau dalam 10 menit (7:35 PM ET)
+[2026-07-09 04:10:06] [INFO] [bullpen_collector] [SKIP] Atlanta Braves @ Chicago White Sox sudah dimulai atau dalam 10 menit (7:40 PM ET)
+[2026-07-09 04:10:06] [INFO] [bullpen_collector] [SKIP] Arizona Diamondbacks @ St. Louis Cardinals sudah dimulai atau dalam 10 menit (7:45 PM ET)
+[2026-07-09 04:10:06] [INFO] [bullpen_collector] [SKIP] Boston Red Sox @ New York Yankees sudah dimulai atau dalam 10 menit (7:35 PM ET)
+[2026-07-09 04:10:06] [INFO] [bullpen_collector] [SKIP] St. Louis Cardinals @ Cincinnati Reds sudah dimulai atau dalam 10 menit (1:40 PM ET)
+[2026-07-09 04:10:06] [INFO] [bullpen_collector] [SKIP] Arizona Diamondbacks @ St. Louis Cardinals sudah dimulai atau dalam 10 menit (7:45 PM ET)
+[2026-07-09 04:10:06] [INFO] [bullpen_collector] [SKIP] Tampa Bay Rays @ New York Yankees sudah dimulai atau dalam 10 menit (1:35 PM ET)
+[2026-07-09 04:10:06] [INFO] [bullpen_collector] [SKIP] St. Louis Cardinals @ Cincinnati Reds sudah dimulai atau dalam 10 menit (1:40 PM ET)
+[2026-07-09 04:10:06] [INFO] [bullpen_collector] [SKIP] Tampa Bay Rays @ Boston Red Sox sudah dimulai atau dalam 10 menit (4:10 PM ET)
+[2026-07-09 04:10:06] [INFO] [bullpen_collector] [SKIP] Tampa Bay Rays @ New York Yankees sudah dimulai atau dalam 10 menit (1:35 PM ET)
+[2026-07-09 04:10:06] [INFO] [bullpen_collector] [SKIP] Detroit Tigers @ Cleveland Guardians sudah dimulai atau dalam 10 menit (1:40 PM ET)
+[2026-07-09 04:10:06] [INFO] [bullpen_collector] [SKIP] Tampa Bay Rays @ Boston Red Sox sudah dimulai atau dalam 10 menit (4:10 PM ET)
+[2026-07-09 04:10:06] [INFO] [bullpen_collector] [SKIP] San Francisco Giants @ Atlanta Braves sudah dimulai atau dalam 10 menit (7:15 PM ET)
+[2026-07-09 04:10:06] [INFO] [bullpen_collector] [SKIP] Detroit Tigers @ Cleveland Guardians sudah dimulai atau dalam 10 menit (1:40 PM ET)
+[2026-07-09 04:10:06] [INFO] [bullpen_collector] [SKIP] San Francisco Giants @ Atlanta Braves sudah dimulai atau dalam 10 menit (7:15 PM ET)
+[2026-07-09 04:10:07] [INFO] [auto_runner] Perubahan terdeteksi: Starting pitcher diganti. Menjalankan re-analisis.
+[2026-07-09 04:10:07] [INFO] [auto_runner] No changes detected for 823605, skipping revision.
+[2026-07-09 04:10:11] [INFO] [main] [34m[0/4] Memproses hasil pertandingan kemarin...
+[2026-07-09 04:10:12] [INFO] [result_fetcher] [INFO] Menemukan 20 game tertunda. Mengambil skor...
+[2026-07-09 04:10:12] [INFO] [result_fetcher] [INFO] Game 824424 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-09 04:10:12] [INFO] [result_fetcher] [INFO] Game 824911 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-09 04:10:13] [INFO] [result_fetcher] [INFO] Game 824664 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-09 04:10:13] [INFO] [result_fetcher] [INFO] Game 823613 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-09 04:10:13] [INFO] [result_fetcher] [INFO] Game 823042 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-09 04:10:18] [INFO] [result_fetcher] [Resolve] Match found for Atlanta Braves @ Pittsburgh Pirates -> gamePk: 823360
+[2026-07-09 04:10:18] [INFO] [main] [36m  📊 Tidak ada prediksi kemarin untuk diupdate
 
-[2026-07-08 03:40:13] [INFO] [main] [34m[2/4] Menganalisis pasar Polymarket & Statistik...
-[2026-07-08 03:40:13] [INFO] [main] [33m  (1/1) Menganalisis: Seattle Mariners @ Miami Marlins...
-[2026-07-08 03:40:13] [INFO] [main] [32mDitemukan 1 pertandingan.
+[2026-07-09 04:10:18] [INFO] [main] [34m[1/4] Mengambil jadwal pertandingan MLB...
+[2026-07-09 04:10:19] [INFO] [main] [32mDitemukan 1 pertandingan.
 
-[2026-07-08 03:40:13] [INFO] [main] [34m[2/4] Menganalisis pasar Polymarket & Statistik...
-[2026-07-08 03:40:13] [INFO] [main] [33m  (1/1) Menganalisis: New York Yankees @ Tampa Bay Rays...
-[2026-07-08 03:40:24] [INFO] [main] 
+[2026-07-09 04:10:19] [INFO] [main] [34m[2/4] Menganalisis pasar Polymarket & Statistik...
+[2026-07-09 04:10:19] [INFO] [main] [33m  (1/1) Menganalisis: Philadelphia Phillies @ Cincinnati Reds...
+[2026-07-09 04:10:30] [INFO] [main] 
 [36m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-[36m┃  Seattle Mariners @ Miami Marlins | 2026-07-07  ┃
+[36m┃  Philadelphia Phillies @ Cincinnati Reds | 2026-07-08  ┃
 [36m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
 ┃ 📊 Bullpen.fi O/U Line  : [36m8.5
-┃ 🎯 Bot Expected Runs    : [35m5.66
+┃ 🎯 Bot Expected Runs    : [35m6.92
 ┃ 📈 Recommendation       : [36mUNDER ✅
 ┃ 🔥 Confidence           : [31m[1mHIGH 🔥
 ┃ 📡 Sumber odds          : [37mBullpen CLI
 [36m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
 ┃ [1m📋 KEY FACTORS:[0m
-┃  ⚾ K/9 tinggi (9.79): -0.4 run
-┃  • WHIP rendah (1.03): -0.3 run
-┃  • Kontrol elit (BB/9 1.72): -0.3 run
-┃  💪 Offense lemah (OPS 0.694): -0.3 run
-┃  ⚾ Matchup buruk: Tim K% tinggi (23.27) vs Pitc
-┃  • [Lineup] Hitter kunci Home absen (Connor Nor
-┃  • [Lineup] Hitter kunci Away absen (Julio Rodr
-┃  • Atap stadion DITUTUP (retractable) — Kondisi
-[36m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
-[2026-07-08 03:40:25] [INFO] [main] 
-[36m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-[36m┃  New York Yankees @ Tampa Bay Rays | 2026-07-07  ┃
-[36m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
-┃ 📊 Bullpen.fi O/U Line  : [36m8.5
-┃ 🎯 Bot Expected Runs    : [35m7.28
-┃ 📈 Recommendation       : [36mUNDER ✅
-┃ 🔥 Confidence           : [33m[1mMEDIUM ⚡
-┃ 📡 Sumber odds          : [37mBullpen CLI
-[36m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
-┃ [1m📋 KEY FACTORS:[0m
-┃  • WHIP rendah (1.09): -0.3 run
-┃  ⚾ K/9 tinggi (9.64): -0.4 run
-┃  ⚾ Matchup buruk: Tim K% tinggi (23.92) vs Pitc
-┃  • Disiplin tinggi (BB% 10.43): +0.2 run (ekspo
-┃  • [Lineup] Hitter kunci Away absen (Giancarlo 
-┃  • Atap stadion DITUTUP (dome) — Kondisi udara 
-[36m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
-[2026-07-08 03:40:25] [INFO] [main] 💾 Prediksi disimpan
-[2026-07-08 03:40:25] [INFO] [alert_system] [Alert System] Mengirim HIGH confidence alert untuk game MAR_MAR_2026-07-07_640PM...
-[2026-07-08 03:40:25] [INFO] [main] 💾 Prediksi disimpan
-[2026-07-08 03:40:26] [INFO] [main] 🧪 Shadow testing logged for version v2.0_baseline
-[2026-07-08 03:40:26] [INFO] [main] 🧪 Shadow testing logged for version v2.1_higher_gap
-[2026-07-08 03:40:26] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
-[2026-07-08 03:40:26] [WARNING] [discord_sender] [Discord] Webhook URL belum disetel di .env. Skip pengiriman.
-[2026-07-08 03:40:26] [INFO] [main] 🧪 Shadow testing logged for version v2.2_no_temp_bonus
-[2026-07-08 03:40:26] [INFO] [alert_system] [Alert System] Berhasil mengirim alert.
-[2026-07-08 03:40:26] [INFO] [main] 🧪 Shadow testing logged for version v2.0_baseline
-[2026-07-08 03:40:26] [INFO] [main] 🧪 Shadow testing logged for version v2.1_higher_gap
-[2026-07-08 03:40:27] [INFO] [main] 🧪 Shadow testing logged for version v2.2_no_temp_bonus
-[2026-07-08 03:40:27] [INFO] [main] 🧪 Shadow testing logged for version v2.3_coors_boost
-[2026-07-08 03:40:27] [INFO] [main] 🧪 Shadow testing logged for version v2.4_wind_boost
-[2026-07-08 03:40:27] [INFO] [main] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue
-[2026-07-08 03:40:27] [INFO] [main] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap
-[2026-07-08 03:40:28] [INFO] [main] 🧪 Shadow testing logged for version v2.3_coors_boost
-[2026-07-08 03:40:28] [INFO] [main] 🧪 Shadow testing logged for version v2.4_wind_boost
-[2026-07-08 03:40:28] [INFO] [main] ⚾ Umpire logged: Chris Segal
-[2026-07-08 03:40:28] [INFO] [main] [3/4] Menghasilkan Daily Summary...
-[2026-07-08 03:40:28] [INFO] [main] ============================================================
-[2026-07-08 03:40:28] [INFO] [main] 
-GAME                      | LINE   | PROJ   | REC        | CONF
----------------------------------------------------------------
-[31m[1mSeattle Mariners @ Miami  | 8.5    | 5.66   | UNDER ✅    | HIGH 🔥
-[2026-07-08 03:40:28] [INFO] [main] ============================================================
-[2026-07-08 03:40:28] [INFO] [main] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue
-[2026-07-08 03:40:28] [INFO] [main] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap
-[2026-07-08 03:40:29] [INFO] [main] ⚾ Umpire logged: Gabe Morales
-[2026-07-08 03:40:29] [INFO] [main] [3/4] Menghasilkan Daily Summary...
-[2026-07-08 03:40:29] [INFO] [main] ============================================================
-[2026-07-08 03:40:29] [INFO] [main] 
-GAME                      | LINE   | PROJ   | REC        | CONF
----------------------------------------------------------------
-New York Yankees @ Tampa  | 8.5    | 7.28   | UNDER ✅    | MEDIUM ⚡
-[2026-07-08 03:40:29] [INFO] [main] ============================================================
-[2026-07-08 03:40:29] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
-[2026-07-08 03:40:30] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
-[2026-07-08 03:40:32] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
-[2026-07-08 03:40:33] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
-[2026-07-08 03:40:35] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
-[2026-07-08 03:40:35] [INFO] [main] [4/4] Analisis Selesai! Gunakan data ini dengan bijak.
-[2026-07-08 03:40:36] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
-[2026-07-08 03:40:36] [INFO] [main] [4/4] Analisis Selesai! Gunakan data ini dengan bijak.
-[2026-07-08 03:45:00] [INFO] [auto_runner] === CHECKING FOR CHANGES: GAME 822713 ===
-[2026-07-08 03:45:01] [INFO] [auto_runner] No changes detected for 822713, skipping revision.
-[2026-07-08 04:10:00] [INFO] [auto_runner] === CHECKING FOR CHANGES: GAME 823607 ===
-[2026-07-08 04:10:00] [INFO] [auto_runner] === CHECKING FOR CHANGES: GAME 824495 ===
-[2026-07-08 04:10:00] [INFO] [bullpen_collector] [Bullpen] Mengambil data market harian dari Bullpen CLI...
-[2026-07-08 04:10:00] [INFO] [bullpen_collector] [Bullpen] Mengambil data market harian dari Bullpen CLI...
-[2026-07-08 04:10:10] [INFO] [bullpen_collector] [SKIP] Milwaukee Brewers @ St. Louis Cardinals sudah dimulai atau dalam 10 menit (7:45 PM ET)
-[2026-07-08 04:10:10] [INFO] [bullpen_collector] [SKIP] Atlanta Braves @ Chicago White Sox sudah dimulai atau dalam 10 menit (7:40 PM ET)
-[2026-07-08 04:10:10] [INFO] [bullpen_collector] [SKIP] Arizona Diamondbacks @ St. Louis Cardinals sudah dimulai atau dalam 10 menit (7:45 PM ET)
-[2026-07-08 04:10:10] [INFO] [bullpen_collector] [SKIP] Boston Red Sox @ New York Yankees sudah dimulai atau dalam 10 menit (7:35 PM ET)
-[2026-07-08 04:10:10] [INFO] [bullpen_collector] [SKIP] Tampa Bay Rays @ Boston Red Sox sudah dimulai atau dalam 10 menit (4:10 PM ET)
-[2026-07-08 04:10:10] [INFO] [bullpen_collector] [SKIP] Tampa Bay Rays @ New York Yankees sudah dimulai atau dalam 10 menit (1:35 PM ET)
-[2026-07-08 04:10:10] [INFO] [bullpen_collector] [SKIP] Detroit Tigers @ Cleveland Guardians sudah dimulai atau dalam 10 menit (1:40 PM ET)
-[2026-07-08 04:10:10] [INFO] [bullpen_collector] [SKIP] St. Louis Cardinals @ Cincinnati Reds sudah dimulai atau dalam 10 menit (1:40 PM ET)
-[2026-07-08 04:10:10] [INFO] [bullpen_collector] [SKIP] Toronto Blue Jays @ Chicago Cubs sudah dimulai atau dalam 10 menit (2:20 PM ET)
-[2026-07-08 04:10:10] [INFO] [bullpen_collector] [SKIP] San Francisco Giants @ Atlanta Braves sudah dimulai atau dalam 10 menit (7:15 PM ET)
-[2026-07-08 04:10:11] [INFO] [bullpen_collector] [SKIP] Milwaukee Brewers @ St. Louis Cardinals sudah dimulai atau dalam 10 menit (7:45 PM ET)
-[2026-07-08 04:10:11] [INFO] [bullpen_collector] [SKIP] Atlanta Braves @ Chicago White Sox sudah dimulai atau dalam 10 menit (7:40 PM ET)
-[2026-07-08 04:10:11] [INFO] [bullpen_collector] [SKIP] Arizona Diamondbacks @ St. Louis Cardinals sudah dimulai atau dalam 10 menit (7:45 PM ET)
-[2026-07-08 04:10:11] [INFO] [bullpen_collector] [SKIP] Boston Red Sox @ New York Yankees sudah dimulai atau dalam 10 menit (7:35 PM ET)
-[2026-07-08 04:10:11] [INFO] [bullpen_collector] [SKIP] Tampa Bay Rays @ Boston Red Sox sudah dimulai atau dalam 10 menit (4:10 PM ET)
-[2026-07-08 04:10:11] [INFO] [bullpen_collector] [SKIP] Tampa Bay Rays @ New York Yankees sudah dimulai atau dalam 10 menit (1:35 PM ET)
-[2026-07-08 04:10:11] [INFO] [bullpen_collector] [SKIP] Detroit Tigers @ Cleveland Guardians sudah dimulai atau dalam 10 menit (1:40 PM ET)
-[2026-07-08 04:10:11] [INFO] [bullpen_collector] [SKIP] St. Louis Cardinals @ Cincinnati Reds sudah dimulai atau dalam 10 menit (1:40 PM ET)
-[2026-07-08 04:10:11] [INFO] [bullpen_collector] [SKIP] Toronto Blue Jays @ Chicago Cubs sudah dimulai atau dalam 10 menit (2:20 PM ET)
-[2026-07-08 04:10:11] [INFO] [bullpen_collector] [SKIP] San Francisco Giants @ Atlanta Braves sudah dimulai atau dalam 10 menit (7:15 PM ET)
-[2026-07-08 04:10:12] [INFO] [auto_runner] Perubahan terdeteksi: Starting pitcher diganti. Menjalankan re-analisis.
-[2026-07-08 04:10:12] [INFO] [auto_runner] Perubahan terdeteksi: Starting pitcher diganti. Menjalankan re-analisis.
-[2026-07-08 04:10:16] [INFO] [main] [34m[0/4] Memproses hasil pertandingan kemarin...
-[2026-07-08 04:10:16] [INFO] [main] [34m[0/4] Memproses hasil pertandingan kemarin...
-[2026-07-08 04:10:16] [INFO] [result_fetcher] [INFO] Menemukan 19 game tertunda. Mengambil skor...
-[2026-07-08 04:10:16] [INFO] [result_fetcher] [INFO] Menemukan 19 game tertunda. Mengambil skor...
-[2026-07-08 04:10:16] [INFO] [result_fetcher] [INFO] Game 824424 Final tapi skor 0-0 (belum valid). Menunggu update API.
-[2026-07-08 04:10:17] [INFO] [result_fetcher] [INFO] Game 824911 Final tapi skor 0-0 (belum valid). Menunggu update API.
-[2026-07-08 04:10:17] [INFO] [result_fetcher] [INFO] Game 824664 Final tapi skor 0-0 (belum valid). Menunggu update API.
-[2026-07-08 04:10:17] [INFO] [result_fetcher] [INFO] Game 824424 Final tapi skor 0-0 (belum valid). Menunggu update API.
-[2026-07-08 04:10:18] [INFO] [result_fetcher] [INFO] Game 824911 Final tapi skor 0-0 (belum valid). Menunggu update API.
-[2026-07-08 04:10:18] [INFO] [result_fetcher] [INFO] Game 823613 Final tapi skor 0-0 (belum valid). Menunggu update API.
-[2026-07-08 04:10:18] [INFO] [result_fetcher] [INFO] Game 824664 Final tapi skor 0-0 (belum valid). Menunggu update API.
-[2026-07-08 04:10:18] [INFO] [result_fetcher] [INFO] Game 823042 Final tapi skor 0-0 (belum valid). Menunggu update API.
-[2026-07-08 04:10:18] [INFO] [result_fetcher] [INFO] Game 823613 Final tapi skor 0-0 (belum valid). Menunggu update API.
-[2026-07-08 04:10:18] [INFO] [result_fetcher] [INFO] Game 823042 Final tapi skor 0-0 (belum valid). Menunggu update API.
-[2026-07-08 04:10:22] [INFO] [result_fetcher] [Resolve] Match found for Seattle Mariners @ Miami Marlins -> gamePk: 823847
-[2026-07-08 04:10:22] [INFO] [result_fetcher] [Resolve] Match found for Seattle Mariners @ Miami Marlins -> gamePk: 823847
-[2026-07-08 04:10:22] [INFO] [result_fetcher] [Resolve] Match found for New York Yankees @ Tampa Bay Rays -> gamePk: 822956
-[2026-07-08 04:10:22] [INFO] [result_fetcher] [Resolve] Match found for New York Yankees @ Tampa Bay Rays -> gamePk: 822956
-[2026-07-08 04:10:23] [INFO] [main] [36m  📊 Tidak ada prediksi kemarin untuk diupdate
-
-[2026-07-08 04:10:23] [INFO] [main] [34m[1/4] Mengambil jadwal pertandingan MLB...
-[2026-07-08 04:10:23] [INFO] [main] [36m  📊 Tidak ada prediksi kemarin untuk diupdate
-
-[2026-07-08 04:10:23] [INFO] [main] [34m[1/4] Mengambil jadwal pertandingan MLB...
-[2026-07-08 04:10:23] [INFO] [main] [32mDitemukan 1 pertandingan.
-
-[2026-07-08 04:10:23] [INFO] [main] [34m[2/4] Menganalisis pasar Polymarket & Statistik...
-[2026-07-08 04:10:23] [INFO] [main] [33m  (1/1) Menganalisis: Kansas City Royals @ New York Mets...
-[2026-07-08 04:10:23] [INFO] [main] [32mDitemukan 1 pertandingan.
-
-[2026-07-08 04:10:23] [INFO] [main] [34m[2/4] Menganalisis pasar Polymarket & Statistik...
-[2026-07-08 04:10:23] [INFO] [main] [33m  (1/1) Menganalisis: Philadelphia Phillies @ Cincinnati Reds...
-[2026-07-08 04:10:34] [INFO] [main] 
-[32m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-[32m┃  Philadelphia Phillies @ Cincinnati Reds | 2026-07-07  ┃
-[32m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
-┃ 📊 Bullpen.fi O/U Line  : [36m8.5
-┃ 🎯 Bot Expected Runs    : [35m9.37
-┃ 📈 Recommendation       : [32mOVER ✅
-┃ 🔥 Confidence           : [33m[1mMEDIUM ⚡
-┃ 📡 Sumber odds          : [37mBullpen CLI
-[32m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
-┃ [1m📋 KEY FACTORS:[0m
-┃  • WHIP tinggi (1.44): +0.3 run
-┃  • Kontrol buruk (BB/9 4.26): +0.3 run
-┃  • Rawan Home Run (HR/9 1.42): +0.5 run
-┃  • WHIP rendah (0.94): -0.3 run
+┃  • WHIP rendah (1.08): -0.3 run
+┃  ⚾ K/9 tinggi (10.69): -0.4 run
+┃  ⚾ K/9 tinggi (9.56): -0.4 run
+┃  • Supresi Home Run elit (HR/9 0.56): -0.4 run
+┃  • Inning pendek (rata-rata 4.3 IP): +0.2 run (
 ┃  • [Info] Bullpen Home tercermin di base_runs (
-┃  💪 Offense lemah (OPS 0.697): -0.3 run
-┃  ⚾ Matchup buruk: Tim K% tinggi (24.73) vs Pitc
-┃  ⚾ Home Momentum (NEUTRAL Offense, STRUGGLING P
+┃  💪 Offense lemah (OPS 0.694): -0.3 run
+┃  ⚾ Matchup buruk: Tim K% tinggi (25.01) vs Pitc
+┃  ⚾ Matchup buruk: Tim K% tinggi (23.52) vs Pitc
+┃  🌡️ Suhu panas (88.8°F): +0.3 run (udara tipis)
 ┃  🏟️ Hitter's Park (PF 111): +1.1 run
-[32m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
-[2026-07-08 04:10:34] [INFO] [main] 
-[32m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-[32m┃  Kansas City Royals @ New York Mets | 2026-07-07  ┃
-[32m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
-┃ 📊 Bullpen.fi O/U Line  : [36m8.5
-┃ 🎯 Bot Expected Runs    : [35m9.2
-┃ 📈 Recommendation       : [32mOVER ✅
-┃ 🔥 Confidence           : [33m[1mMEDIUM ⚡
-┃ 📡 Sumber odds          : [37mBullpen CLI
-[32m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
-┃ [1m📋 KEY FACTORS:[0m
-┃  • WHIP tinggi (1.43): +0.3 run
-┃  • Rawan Home Run (HR/9 1.57): +0.5 run
-┃  • Inning pendek (rata-rata 1.1 IP): +0.2 run (
-┃  • [Info] Bullpen Away tercermin di base_runs (
-┃  💪 Offense lemah (OPS 0.68): -0.3 run
-┃  • [Lineup] Hitter kunci Home absen (Luis Rober
-┃  • [Lineup] Hitter kunci Away absen (Vinnie Pas
-┃  • Kelembaban/Hujan (89% / 1%): +0.1 run (grip 
-[32m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
-[2026-07-08 04:10:34] [INFO] [main] 💾 Prediksi disimpan
-[2026-07-08 04:10:34] [INFO] [main] 🧪 Shadow testing logged for version v2.0_baseline
-[2026-07-08 04:10:35] [INFO] [main] 🧪 Shadow testing logged for version v2.1_higher_gap
-[2026-07-08 04:10:35] [INFO] [main] 🧪 Shadow testing logged for version v2.2_no_temp_bonus
-[2026-07-08 04:10:35] [INFO] [main] 🧪 Shadow testing logged for version v2.3_coors_boost
-[2026-07-08 04:10:35] [INFO] [main] 🧪 Shadow testing logged for version v2.4_wind_boost
-[2026-07-08 04:10:35] [INFO] [main] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue
-[2026-07-08 04:10:36] [INFO] [main] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap
-[2026-07-08 04:10:36] [INFO] [main] 💾 Prediksi disimpan
-[2026-07-08 04:10:36] [INFO] [main] 🧪 Shadow testing logged for version v2.0_baseline
-[2026-07-08 04:10:37] [INFO] [main] 🧪 Shadow testing logged for version v2.1_higher_gap
-[2026-07-08 04:10:37] [INFO] [main] 🧪 Shadow testing logged for version v2.2_no_temp_bonus
-[2026-07-08 04:10:37] [INFO] [main] 🧪 Shadow testing logged for version v2.3_coors_boost
-[2026-07-08 04:10:37] [INFO] [main] 🧪 Shadow testing logged for version v2.4_wind_boost
-[2026-07-08 04:10:37] [INFO] [main] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue
-[2026-07-08 04:10:38] [INFO] [main] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap
-[2026-07-08 04:10:38] [INFO] [main] ⚾ Umpire logged: Malachi Moore
-[2026-07-08 04:10:38] [INFO] [main] [3/4] Menghasilkan Daily Summary...
-[2026-07-08 04:10:38] [INFO] [main] ============================================================
-[2026-07-08 04:10:38] [INFO] [main] 
-GAME                      | LINE   | PROJ   | REC        | CONF
----------------------------------------------------------------
-Philadelphia Phillies @ C | 8.5    | 9.37   | OVER ✅     | MEDIUM ⚡
-[2026-07-08 04:10:38] [INFO] [main] ============================================================
-[2026-07-08 04:10:38] [INFO] [main] ⚾ Umpire logged: Ron Kulpa
-[2026-07-08 04:10:38] [INFO] [main] [3/4] Menghasilkan Daily Summary...
-[2026-07-08 04:10:38] [INFO] [main] ============================================================
-[2026-07-08 04:10:38] [INFO] [main] 
-GAME                      | LINE   | PROJ   | REC        | CONF
----------------------------------------------------------------
-Kansas City Royals @ New  | 8.5    | 9.2    | OVER ✅     | MEDIUM ⚡
-[2026-07-08 04:10:38] [INFO] [main] ============================================================
-[2026-07-08 04:10:39] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
-[2026-07-08 04:10:39] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
-[2026-07-08 04:10:42] [WARNING] [telegram_sender] [Telegram Warning] Percobaan 1 gagal: Can't parse entities: can't find end of the entity starting at byte offset 574. Mengulang dalam 5 detik...
-[2026-07-08 04:10:42] [WARNING] [telegram_sender] [Telegram Warning] Percobaan 1 gagal: Can't parse entities: can't find end of the entity starting at byte offset 553. Mengulang dalam 5 detik...
-[2026-07-08 04:10:47] [WARNING] [telegram_sender] [Telegram Warning] Percobaan 2 gagal: Can't parse entities: can't find end of the entity starting at byte offset 574. Mengulang dalam 5 detik...
-[2026-07-08 04:10:48] [WARNING] [telegram_sender] [Telegram Warning] Percobaan 2 gagal: Can't parse entities: can't find end of the entity starting at byte offset 553. Mengulang dalam 5 detik...
-[2026-07-08 04:10:53] [ERROR] [telegram_sender] [Telegram Error] Gagal mengirim pesan setelah 3 percobaan: Can't parse entities: can't find end of the entity starting at byte offset 574
-[2026-07-08 04:10:54] [ERROR] [telegram_sender] [Telegram Error] Gagal mengirim pesan setelah 3 percobaan: Can't parse entities: can't find end of the entity starting at byte offset 553
-[2026-07-08 04:10:56] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
-[2026-07-08 04:10:56] [INFO] [main] [4/4] Analisis Selesai! Gunakan data ini dengan bijak.
-[2026-07-08 04:10:57] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
-[2026-07-08 04:10:57] [INFO] [main] [4/4] Analisis Selesai! Gunakan data ini dengan bijak.
-[2026-07-08 04:40:00] [INFO] [auto_runner] === CHECKING FOR CHANGES: GAME 823687 ===
-[2026-07-08 04:40:00] [INFO] [auto_runner] === CHECKING FOR CHANGES: GAME 824579 ===
-[2026-07-08 04:40:01] [INFO] [auto_runner] No changes detected for 824579, skipping revision.
-[2026-07-08 04:40:01] [INFO] [auto_runner] No changes detected for 823687, skipping revision.
-[2026-07-08 05:05:00] [INFO] [auto_runner] === CHECKING FOR CHANGES: GAME 822881 ===
-[2026-07-08 05:05:00] [INFO] [bullpen_collector] [Bullpen] Mengambil data market harian dari Bullpen CLI...
-[2026-07-08 05:05:09] [INFO] [bullpen_collector] [SKIP] Milwaukee Brewers @ St. Louis Cardinals sudah dimulai atau dalam 10 menit (7:45 PM ET)
-[2026-07-08 05:05:09] [INFO] [bullpen_collector] [SKIP] Atlanta Braves @ Chicago White Sox sudah dimulai atau dalam 10 menit (7:40 PM ET)
-[2026-07-08 05:05:09] [INFO] [bullpen_collector] [SKIP] Arizona Diamondbacks @ St. Louis Cardinals sudah dimulai atau dalam 10 menit (7:45 PM ET)
-[2026-07-08 05:05:09] [INFO] [bullpen_collector] [SKIP] Boston Red Sox @ New York Yankees sudah dimulai atau dalam 10 menit (7:35 PM ET)
-[2026-07-08 05:05:09] [INFO] [bullpen_collector] [SKIP] Tampa Bay Rays @ Boston Red Sox sudah dimulai atau dalam 10 menit (4:10 PM ET)
-[2026-07-08 05:05:09] [INFO] [bullpen_collector] [SKIP] Tampa Bay Rays @ New York Yankees sudah dimulai atau dalam 10 menit (1:35 PM ET)
-[2026-07-08 05:05:09] [INFO] [bullpen_collector] [SKIP] Detroit Tigers @ Cleveland Guardians sudah dimulai atau dalam 10 menit (1:40 PM ET)
-[2026-07-08 05:05:09] [INFO] [bullpen_collector] [SKIP] St. Louis Cardinals @ Cincinnati Reds sudah dimulai atau dalam 10 menit (1:40 PM ET)
-[2026-07-08 05:05:09] [INFO] [bullpen_collector] [SKIP] Toronto Blue Jays @ Chicago Cubs sudah dimulai atau dalam 10 menit (2:20 PM ET)
-[2026-07-08 05:05:09] [INFO] [bullpen_collector] [SKIP] San Francisco Giants @ Atlanta Braves sudah dimulai atau dalam 10 menit (7:15 PM ET)
-[2026-07-08 05:05:10] [INFO] [auto_runner] No changes detected for 822881, skipping revision.
-[2026-07-08 05:48:46] [INFO] [auto_runner] === MENJALANKAN SILENT RESULTS CHECK ===
-[2026-07-08 05:48:49] [INFO] [result_fetcher] [INFO] Menemukan 19 game tertunda. Mengambil skor...
-[2026-07-08 05:48:50] [INFO] [result_fetcher] [INFO] Game 824424 Final tapi skor 0-0 (belum valid). Menunggu update API.
-[2026-07-08 05:48:50] [INFO] [result_fetcher] [INFO] Game 824911 Final tapi skor 0-0 (belum valid). Menunggu update API.
-[2026-07-08 05:48:51] [INFO] [result_fetcher] [INFO] Game 824664 Final tapi skor 0-0 (belum valid). Menunggu update API.
-[2026-07-08 05:48:51] [INFO] [result_fetcher] [INFO] Game 823613 Final tapi skor 0-0 (belum valid). Menunggu update API.
-[2026-07-08 05:48:51] [INFO] [result_fetcher] [INFO] Game 823042 Final tapi skor 0-0 (belum valid). Menunggu update API.
-[2026-07-08 05:48:54] [INFO] [result_fetcher] [Resolve] Match found for Seattle Mariners @ Miami Marlins -> gamePk: 823847
-[2026-07-08 05:48:55] [INFO] [result_fetcher] [Resolve] Match found for New York Yankees @ Tampa Bay Rays -> gamePk: 822956
-[2026-07-08 05:48:55] [INFO] [result_fetcher] [Resolve] Match found for Philadelphia Phillies @ Cincinnati Reds -> gamePk: 824495
-[2026-07-08 05:48:56] [INFO] [result_fetcher] [Resolve] Match found for Kansas City Royals @ New York Mets -> gamePk: 823607
-[2026-07-08 06:40:00] [INFO] [auto_runner] === CHECKING FOR CHANGES: GAME 823280 ===
-[2026-07-08 06:40:01] [INFO] [bullpen_collector] [Bullpen] Mengambil data market harian dari Bullpen CLI...
-[2026-07-08 06:40:08] [INFO] [bullpen_collector] [SKIP] Atlanta Braves @ Pittsburgh Pirates sudah dimulai atau dalam 10 menit (6:40 PM ET)
-[2026-07-08 06:40:08] [INFO] [bullpen_collector] [SKIP] Milwaukee Brewers @ St. Louis Cardinals sudah dimulai atau dalam 10 menit (7:45 PM ET)
-[2026-07-08 06:40:08] [INFO] [bullpen_collector] [SKIP] Philadelphia Phillies @ Cincinnati Reds sudah dimulai atau dalam 10 menit (7:10 PM ET)
-[2026-07-08 06:40:08] [INFO] [bullpen_collector] [SKIP] Seattle Mariners @ Miami Marlins sudah dimulai atau dalam 10 menit (6:40 PM ET)
-[2026-07-08 06:40:08] [INFO] [bullpen_collector] [SKIP] Houston Astros @ Washington Nationals sudah dimulai atau dalam 10 menit (6:45 PM ET)
-[2026-07-08 06:40:08] [INFO] [bullpen_collector] [SKIP] Kansas City Royals @ New York Mets sudah dimulai atau dalam 10 menit (7:10 PM ET)
-[2026-07-08 06:40:08] [INFO] [bullpen_collector] [SKIP] New York Yankees @ Tampa Bay Rays sudah dimulai atau dalam 10 menit (6:40 PM ET)
-[2026-07-08 06:40:08] [INFO] [bullpen_collector] [SKIP] Oakland Athletics @ Detroit Tigers sudah dimulai atau dalam 10 menit (6:40 PM ET)
-[2026-07-08 06:40:08] [INFO] [bullpen_collector] [SKIP] Chicago Cubs @ Baltimore Orioles sudah dimulai atau dalam 10 menit (6:35 PM ET)
-[2026-07-08 06:40:08] [INFO] [bullpen_collector] [SKIP] Cleveland Guardians @ Minnesota Twins sudah dimulai atau dalam 10 menit (7:40 PM ET)
-[2026-07-08 06:40:08] [INFO] [bullpen_collector] [SKIP] Boston Red Sox @ Chicago White Sox sudah dimulai atau dalam 10 menit (7:40 PM ET)
-[2026-07-08 06:40:08] [INFO] [bullpen_collector] [SKIP] Atlanta Braves @ Chicago White Sox sudah dimulai atau dalam 10 menit (7:40 PM ET)
-[2026-07-08 06:40:08] [INFO] [bullpen_collector] [SKIP] Arizona Diamondbacks @ St. Louis Cardinals sudah dimulai atau dalam 10 menit (7:45 PM ET)
-[2026-07-08 06:40:08] [INFO] [bullpen_collector] [SKIP] Boston Red Sox @ New York Yankees sudah dimulai atau dalam 10 menit (7:35 PM ET)
-[2026-07-08 06:40:08] [INFO] [bullpen_collector] [SKIP] Tampa Bay Rays @ Boston Red Sox sudah dimulai atau dalam 10 menit (4:10 PM ET)
-[2026-07-08 06:40:08] [INFO] [bullpen_collector] [SKIP] Detroit Tigers @ Cleveland Guardians sudah dimulai atau dalam 10 menit (1:40 PM ET)
-[2026-07-08 06:40:08] [INFO] [bullpen_collector] [SKIP] Tampa Bay Rays @ New York Yankees sudah dimulai atau dalam 10 menit (1:35 PM ET)
-[2026-07-08 06:40:08] [INFO] [bullpen_collector] [SKIP] St. Louis Cardinals @ Cincinnati Reds sudah dimulai atau dalam 10 menit (1:40 PM ET)
-[2026-07-08 06:40:10] [INFO] [auto_runner] No changes detected for 823280, skipping revision.
-[2026-07-08 06:45:00] [INFO] [auto_runner] === CHECKING FOR CHANGES: GAME 823203 ===
-[2026-07-08 06:45:03] [INFO] [auto_runner] Perubahan terdeteksi: Starting pitcher diganti. Menjalankan re-analisis.
-[2026-07-08 06:45:06] [INFO] [main] [34m[0/4] Memproses hasil pertandingan kemarin...
-[2026-07-08 06:45:07] [INFO] [result_fetcher] [INFO] Menemukan 19 game tertunda. Mengambil skor...
-[2026-07-08 06:45:07] [INFO] [result_fetcher] [INFO] Game 824424 Final tapi skor 0-0 (belum valid). Menunggu update API.
-[2026-07-08 06:45:08] [INFO] [result_fetcher] [INFO] Game 824911 Final tapi skor 0-0 (belum valid). Menunggu update API.
-[2026-07-08 06:45:08] [INFO] [result_fetcher] [INFO] Game 824664 Final tapi skor 0-0 (belum valid). Menunggu update API.
-[2026-07-08 06:45:08] [INFO] [result_fetcher] [INFO] Game 823613 Final tapi skor 0-0 (belum valid). Menunggu update API.
-[2026-07-08 06:45:09] [INFO] [result_fetcher] [INFO] Game 823042 Final tapi skor 0-0 (belum valid). Menunggu update API.
-[2026-07-08 06:45:12] [INFO] [result_fetcher] [Resolve] Match found for Seattle Mariners @ Miami Marlins -> gamePk: 823847
-[2026-07-08 06:45:12] [INFO] [result_fetcher] [Resolve] Match found for New York Yankees @ Tampa Bay Rays -> gamePk: 822956
-[2026-07-08 06:45:13] [INFO] [result_fetcher] [Resolve] Match found for Philadelphia Phillies @ Cincinnati Reds -> gamePk: 824495
-[2026-07-08 06:45:14] [INFO] [result_fetcher] [Resolve] Match found for Kansas City Royals @ New York Mets -> gamePk: 823607
-[2026-07-08 06:45:14] [INFO] [main] [36m  📊 Tidak ada prediksi kemarin untuk diupdate
-
-[2026-07-08 06:45:14] [INFO] [main] [34m[1/4] Mengambil jadwal pertandingan MLB...
-[2026-07-08 06:45:14] [INFO] [main] [32mDitemukan 1 pertandingan.
-
-[2026-07-08 06:45:14] [INFO] [main] [34m[2/4] Menganalisis pasar Polymarket & Statistik...
-[2026-07-08 06:45:14] [INFO] [main] [33m  (1/1) Menganalisis: Toronto Blue Jays @ San Francisco Giants...
-[2026-07-08 06:45:25] [INFO] [main] 
-[36m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-[36m┃  Toronto Blue Jays @ San Francisco Giants | 2026-07-08  ┃
-[36m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
-┃ 📊 Bullpen.fi O/U Line  : [36m8.5
-┃ 🎯 Bot Expected Runs    : [35m7.1
-┃ 📈 Recommendation       : [36mUNDER ✅
-┃ 🔥 Confidence           : [33m[1mMEDIUM ⚡
-┃ 📡 Sumber odds          : [37mBullpen CLI
-[36m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
-┃ [1m📋 KEY FACTORS:[0m
-┃  • Inning pendek (rata-rata 4.7 IP): +0.2 run (
-┃  • WHIP rendah (1.04): -0.3 run
-┃  • Inning pendek (rata-rata 2.1 IP): +0.2 run (
-┃  • Disiplin rendah (BB% 6.48): -0.2 run
-┃  💪 Offense lemah (OPS 0.685): -0.3 run
-┃  • [Lineup] Hitter kunci Away absen (Alejandro 
-┃  🌡️ Angin OUTWARD kencang (15.7 mph): +0.53 run
-┃  • Kelembaban/Hujan (87% / 0%): +0.1 run (grip 
-┃  ⚾ Pitcher's Park (PF 93): -0.7 run
 [36m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
-[2026-07-08 06:45:26] [INFO] [main] 💾 Prediksi disimpan
-[2026-07-08 06:45:26] [INFO] [main] 🧪 Shadow testing logged for version v2.0_baseline
-[2026-07-08 06:45:26] [INFO] [main] 🧪 Shadow testing logged for version v2.1_higher_gap
-[2026-07-08 06:45:26] [INFO] [main] 🧪 Shadow testing logged for version v2.2_no_temp_bonus
-[2026-07-08 06:45:26] [INFO] [main] 🧪 Shadow testing logged for version v2.3_coors_boost
-[2026-07-08 06:45:27] [INFO] [main] 🧪 Shadow testing logged for version v2.4_wind_boost
-[2026-07-08 06:45:27] [INFO] [main] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue
-[2026-07-08 06:45:27] [INFO] [main] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap
-[2026-07-08 06:45:27] [INFO] [main] ⚾ Umpire logged: Rob Drake
-[2026-07-08 06:45:27] [INFO] [main] [3/4] Menghasilkan Daily Summary...
-[2026-07-08 06:45:27] [INFO] [main] ============================================================
-[2026-07-08 06:45:27] [INFO] [main] 
+[2026-07-09 04:10:31] [INFO] [main] 💾 Prediksi disimpan
+[2026-07-09 04:10:31] [INFO] [main] 🧪 Shadow testing logged for version v2.0_baseline
+[2026-07-09 04:10:31] [INFO] [main] 🧪 Shadow testing logged for version v2.1_higher_gap
+[2026-07-09 04:10:32] [INFO] [main] 🧪 Shadow testing logged for version v2.2_no_temp_bonus
+[2026-07-09 04:10:32] [INFO] [main] 🧪 Shadow testing logged for version v2.3_coors_boost
+[2026-07-09 04:10:32] [INFO] [main] 🧪 Shadow testing logged for version v2.4_wind_boost
+[2026-07-09 04:10:32] [INFO] [main] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue
+[2026-07-09 04:10:32] [INFO] [main] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap
+[2026-07-09 04:10:33] [INFO] [main] ⚾ Umpire logged: Alfonso Márquez
+[2026-07-09 04:10:33] [INFO] [main] [3/4] Menghasilkan Daily Summary...
+[2026-07-09 04:10:33] [INFO] [main] ============================================================
+[2026-07-09 04:10:33] [INFO] [main] 
 GAME                      | LINE   | PROJ   | REC        | CONF
 ---------------------------------------------------------------
-Toronto Blue Jays @ San F | 8.5    | 7.1    | UNDER ✅    | MEDIUM ⚡
-[2026-07-08 06:45:27] [INFO] [main] ============================================================
-[2026-07-08 06:45:28] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
-[2026-07-08 06:45:32] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
-[2026-07-08 06:45:35] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
-[2026-07-08 06:45:35] [INFO] [main] [4/4] Analisis Selesai! Gunakan data ini dengan bijak.
-[2026-07-08 07:10:00] [INFO] [auto_runner] === CHECKING FOR CHANGES: GAME 823929 ===
-[2026-07-08 07:10:01] [INFO] [auto_runner] No changes detected for 823929, skipping revision.
-[2026-07-08 10:31:46] [INFO] [telegram_bot] [Histori] Menemukan 14 game tertunda. Menjalankan penarikan skor on-demand...
-[2026-07-08 10:31:47] [INFO] [result_fetcher] [INFO] Menemukan 19 game tertunda. Mengambil skor...
-[2026-07-08 10:31:48] [INFO] [result_fetcher] [INFO] Game 824424 Final tapi skor 0-0 (belum valid). Menunggu update API.
-[2026-07-08 10:31:49] [INFO] [result_fetcher] [INFO] Game 824911 Final tapi skor 0-0 (belum valid). Menunggu update API.
-[2026-07-08 10:31:49] [INFO] [result_fetcher] [INFO] Game 824664 Final tapi skor 0-0 (belum valid). Menunggu update API.
-[2026-07-08 10:31:49] [INFO] [result_fetcher] [INFO] Game 823613 Final tapi skor 0-0 (belum valid). Menunggu update API.
-[2026-07-08 10:31:50] [INFO] [result_fetcher] [INFO] Game 823042 Final tapi skor 0-0 (belum valid). Menunggu update API.
-[2026-07-08 10:31:55] [INFO] [result_fetcher] [Resolve] Match found for Seattle Mariners @ Miami Marlins -> gamePk: 823847
-[2026-07-08 10:31:56] [INFO] [result_fetcher] [Resolve] Match found for New York Yankees @ Tampa Bay Rays -> gamePk: 822956
-[2026-07-08 10:31:56] [INFO] [result_fetcher] [Resolve] Match found for Philadelphia Phillies @ Cincinnati Reds -> gamePk: 824495
-[2026-07-08 10:31:57] [INFO] [result_fetcher] [Resolve] Match found for Kansas City Royals @ New York Mets -> gamePk: 823607
-[2026-07-08 10:31:58] [INFO] [result_fetcher] [Resolve] Match found for Toronto Blue Jays @ San Francisco Giants -> gamePk: 823203
-[2026-07-08 10:31:59] [INFO] [result_fetcher] [DB] Performa harian 2026-07-07 diupdate: 55.6% WR (5W - 4L)
-[2026-07-08 11:51:40] [INFO] [telegram_bot] [Histori] Menemukan 3 game tertunda. Menjalankan penarikan skor on-demand...
-[2026-07-08 11:51:41] [INFO] [result_fetcher] [INFO] Menemukan 8 game tertunda. Mengambil skor...
-[2026-07-08 11:51:42] [INFO] [result_fetcher] [INFO] Game 824424 Final tapi skor 0-0 (belum valid). Menunggu update API.
-[2026-07-08 11:51:42] [INFO] [result_fetcher] [INFO] Game 824911 Final tapi skor 0-0 (belum valid). Menunggu update API.
-[2026-07-08 11:51:43] [INFO] [result_fetcher] [INFO] Game 824664 Final tapi skor 0-0 (belum valid). Menunggu update API.
-[2026-07-08 11:51:43] [INFO] [result_fetcher] [INFO] Game 823613 Final tapi skor 0-0 (belum valid). Menunggu update API.
-[2026-07-08 11:51:43] [INFO] [result_fetcher] [INFO] Game 823042 Final tapi skor 0-0 (belum valid). Menunggu update API.
-[2026-07-08 11:51:45] [INFO] [result_fetcher] [Resolve] Match found for Toronto Blue Jays @ San Francisco Giants -> gamePk: 823203
-[2026-07-08 11:51:46] [INFO] [result_fetcher] [DB] Performa harian 2026-07-07 diupdate: 41.7% WR (5W - 7L)
-[2026-07-08 12:48:46] [INFO] [auto_runner] === MENJALANKAN SILENT RESULTS CHECK ===
-[2026-07-08 12:48:52] [INFO] [result_fetcher] [INFO] Menemukan 5 game tertunda. Mengambil skor...
-[2026-07-08 12:48:54] [INFO] [result_fetcher] [INFO] Game 824424 Final tapi skor 0-0 (belum valid). Menunggu update API.
-[2026-07-08 12:48:54] [INFO] [result_fetcher] [INFO] Game 824911 Final tapi skor 0-0 (belum valid). Menunggu update API.
-[2026-07-08 12:48:54] [INFO] [result_fetcher] [INFO] Game 824664 Final tapi skor 0-0 (belum valid). Menunggu update API.
-[2026-07-08 12:48:55] [INFO] [result_fetcher] [INFO] Game 823613 Final tapi skor 0-0 (belum valid). Menunggu update API.
-[2026-07-08 12:48:55] [INFO] [result_fetcher] [INFO] Game 823042 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[31m[1mPhiladelphia Phillies @ C | 8.5    | 6.92   | UNDER ✅    | HIGH 🔥
+[2026-07-09 04:10:33] [INFO] [main] ============================================================
+[2026-07-09 04:10:33] [INFO] [main] [4/4] Analisis Selesai! Gunakan data ini dengan bijak.
+[2026-07-09 04:40:00] [INFO] [auto_runner] === CHECKING FOR CHANGES: GAME 823684 ===
+[2026-07-09 04:40:00] [INFO] [auto_runner] === CHECKING FOR CHANGES: GAME 824578 ===
+[2026-07-09 04:40:01] [INFO] [auto_runner] No changes detected for 824578, skipping revision.
+[2026-07-09 04:40:01] [INFO] [auto_runner] No changes detected for 823684, skipping revision.
+[2026-07-09 04:45:00] [INFO] [auto_runner] === CHECKING FOR CHANGES: GAME 823032 ===
+[2026-07-09 04:45:00] [INFO] [bullpen_collector] [Bullpen] Mengambil data market harian dari Bullpen CLI...
+[2026-07-09 04:45:04] [INFO] [bullpen_collector] [SKIP] Milwaukee Brewers @ St. Louis Cardinals sudah dimulai atau dalam 10 menit (7:45 PM ET)
+[2026-07-09 04:45:04] [INFO] [bullpen_collector] [SKIP] Toronto Blue Jays @ San Francisco Giants sudah dimulai atau dalam 10 menit (3:45 PM ET)
+[2026-07-09 04:45:04] [INFO] [bullpen_collector] [SKIP] Atlanta Braves @ Chicago White Sox sudah dimulai atau dalam 10 menit (7:40 PM ET)
+[2026-07-09 04:45:04] [INFO] [bullpen_collector] [SKIP] Boston Red Sox @ New York Yankees sudah dimulai atau dalam 10 menit (7:35 PM ET)
+[2026-07-09 04:45:04] [INFO] [bullpen_collector] [SKIP] St. Louis Cardinals @ Cincinnati Reds sudah dimulai atau dalam 10 menit (1:40 PM ET)
+[2026-07-09 04:45:04] [INFO] [bullpen_collector] [SKIP] Tampa Bay Rays @ New York Yankees sudah dimulai atau dalam 10 menit (1:35 PM ET)
+[2026-07-09 04:45:04] [INFO] [bullpen_collector] [SKIP] Arizona Diamondbacks @ St. Louis Cardinals sudah dimulai atau dalam 10 menit (7:45 PM ET)
+[2026-07-09 04:45:04] [INFO] [bullpen_collector] [SKIP] Tampa Bay Rays @ Boston Red Sox sudah dimulai atau dalam 10 menit (4:10 PM ET)
+[2026-07-09 04:45:04] [INFO] [bullpen_collector] [SKIP] Detroit Tigers @ Cleveland Guardians sudah dimulai atau dalam 10 menit (1:40 PM ET)
+[2026-07-09 04:45:04] [INFO] [bullpen_collector] [SKIP] San Francisco Giants @ Atlanta Braves sudah dimulai atau dalam 10 menit (7:15 PM ET)
+[2026-07-09 04:45:06] [INFO] [auto_runner] No changes detected for 823032, skipping revision.
+[2026-07-09 05:05:00] [INFO] [auto_runner] === CHECKING FOR CHANGES: GAME 822880 ===
+[2026-07-09 05:05:02] [INFO] [auto_runner] No changes detected for 822880, skipping revision.
+[2026-07-09 05:31:36] [INFO] [telegram_bot] [Histori] Menemukan 15 game tertunda. Menjalankan penarikan skor on-demand...
+[2026-07-09 05:31:36] [INFO] [result_fetcher] [INFO] Menemukan 20 game tertunda. Mengambil skor...
+[2026-07-09 05:31:38] [INFO] [result_fetcher] [INFO] Game 824424 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-09 05:31:38] [INFO] [result_fetcher] [INFO] Game 824911 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-09 05:31:39] [INFO] [result_fetcher] [INFO] Game 824664 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-09 05:31:39] [INFO] [result_fetcher] [INFO] Game 823613 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-09 05:31:39] [INFO] [result_fetcher] [INFO] Game 823042 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-09 05:31:44] [INFO] [result_fetcher] [Resolve] Match found for Atlanta Braves @ Pittsburgh Pirates -> gamePk: 823360
+[2026-07-09 05:31:44] [INFO] [result_fetcher] [Resolve] Match found for Philadelphia Phillies @ Cincinnati Reds -> gamePk: 824496
+[2026-07-09 05:31:45] [INFO] [result_fetcher] [DB] Performa harian 2026-07-08 diupdate: 0.0% WR (0W - 1L)
+[2026-07-09 07:10:00] [INFO] [auto_runner] === CHECKING FOR CHANGES: GAME 823279 ===
+[2026-07-09 07:10:00] [INFO] [auto_runner] === CHECKING FOR CHANGES: GAME 823928 ===
+[2026-07-09 07:10:00] [INFO] [bullpen_collector] [Bullpen] Mengambil data market harian dari Bullpen CLI...
+[2026-07-09 07:10:00] [INFO] [bullpen_collector] [Bullpen] Mengambil data market harian dari Bullpen CLI...
+[2026-07-09 07:10:08] [INFO] [bullpen_collector] [SKIP] Houston Astros @ Washington Nationals sudah dimulai atau dalam 10 menit (6:45 PM ET)
+[2026-07-09 07:10:08] [INFO] [bullpen_collector] [SKIP] Milwaukee Brewers @ St. Louis Cardinals sudah dimulai atau dalam 10 menit (7:45 PM ET)
+[2026-07-09 07:10:08] [INFO] [bullpen_collector] [SKIP] Oakland Athletics @ Detroit Tigers sudah dimulai atau dalam 10 menit (6:40 PM ET)
+[2026-07-09 07:10:08] [INFO] [bullpen_collector] [SKIP] Philadelphia Phillies @ Cincinnati Reds sudah dimulai atau dalam 10 menit (7:10 PM ET)
+[2026-07-09 07:10:08] [INFO] [bullpen_collector] [SKIP] New York Yankees @ Tampa Bay Rays sudah dimulai atau dalam 10 menit (6:40 PM ET)
+[2026-07-09 07:10:08] [INFO] [bullpen_collector] [SKIP] Chicago Cubs @ Baltimore Orioles sudah dimulai atau dalam 10 menit (6:35 PM ET)
+[2026-07-09 07:10:08] [INFO] [bullpen_collector] [SKIP] Milwaukee Brewers @ St. Louis Cardinals sudah dimulai atau dalam 10 menit (7:45 PM ET)
+[2026-07-09 07:10:08] [INFO] [bullpen_collector] [SKIP] Boston Red Sox @ Chicago White Sox sudah dimulai atau dalam 10 menit (7:40 PM ET)
+[2026-07-09 07:10:08] [INFO] [bullpen_collector] [SKIP] Atlanta Braves @ Pittsburgh Pirates sudah dimulai atau dalam 10 menit (6:40 PM ET)
+[2026-07-09 07:10:08] [INFO] [bullpen_collector] [SKIP] Kansas City Royals @ New York Mets sudah dimulai atau dalam 10 menit (7:10 PM ET)
+[2026-07-09 07:10:08] [INFO] [bullpen_collector] [SKIP] Seattle Mariners @ Miami Marlins sudah dimulai atau dalam 10 menit (6:40 PM ET)
+[2026-07-09 07:10:08] [INFO] [bullpen_collector] [SKIP] Cleveland Guardians @ Minnesota Twins sudah dimulai atau dalam 10 menit (7:40 PM ET)
+[2026-07-09 07:10:08] [INFO] [bullpen_collector] [SKIP] Los Angeles Angels @ Texas Rangers sudah dimulai atau dalam 10 menit (8:05 PM ET)
+[2026-07-09 07:10:08] [INFO] [bullpen_collector] [SKIP] Atlanta Braves @ Chicago White Sox sudah dimulai atau dalam 10 menit (7:40 PM ET)
+[2026-07-09 07:10:08] [INFO] [bullpen_collector] [SKIP] Boston Red Sox @ New York Yankees sudah dimulai atau dalam 10 menit (7:35 PM ET)
+[2026-07-09 07:10:08] [INFO] [bullpen_collector] [SKIP] St. Louis Cardinals @ Cincinnati Reds sudah dimulai atau dalam 10 menit (1:40 PM ET)
+[2026-07-09 07:10:08] [INFO] [bullpen_collector] [SKIP] Tampa Bay Rays @ New York Yankees sudah dimulai atau dalam 10 menit (1:35 PM ET)
+[2026-07-09 07:10:08] [INFO] [bullpen_collector] [SKIP] Arizona Diamondbacks @ St. Louis Cardinals sudah dimulai atau dalam 10 menit (7:45 PM ET)
+[2026-07-09 07:10:08] [INFO] [bullpen_collector] [SKIP] Tampa Bay Rays @ Boston Red Sox sudah dimulai atau dalam 10 menit (4:10 PM ET)
+[2026-07-09 07:10:08] [INFO] [bullpen_collector] [SKIP] Detroit Tigers @ Cleveland Guardians sudah dimulai atau dalam 10 menit (1:40 PM ET)
+[2026-07-09 07:10:09] [INFO] [bullpen_collector] [SKIP] Houston Astros @ Washington Nationals sudah dimulai atau dalam 10 menit (6:45 PM ET)
+[2026-07-09 07:10:09] [INFO] [bullpen_collector] [SKIP] Milwaukee Brewers @ St. Louis Cardinals sudah dimulai atau dalam 10 menit (7:45 PM ET)
+[2026-07-09 07:10:09] [INFO] [bullpen_collector] [SKIP] Oakland Athletics @ Detroit Tigers sudah dimulai atau dalam 10 menit (6:40 PM ET)
+[2026-07-09 07:10:09] [INFO] [bullpen_collector] [SKIP] Philadelphia Phillies @ Cincinnati Reds sudah dimulai atau dalam 10 menit (7:10 PM ET)
+[2026-07-09 07:10:09] [INFO] [bullpen_collector] [SKIP] New York Yankees @ Tampa Bay Rays sudah dimulai atau dalam 10 menit (6:40 PM ET)
+[2026-07-09 07:10:09] [INFO] [bullpen_collector] [SKIP] Chicago Cubs @ Baltimore Orioles sudah dimulai atau dalam 10 menit (6:35 PM ET)
+[2026-07-09 07:10:09] [INFO] [bullpen_collector] [SKIP] Milwaukee Brewers @ St. Louis Cardinals sudah dimulai atau dalam 10 menit (7:45 PM ET)
+[2026-07-09 07:10:09] [INFO] [bullpen_collector] [SKIP] Boston Red Sox @ Chicago White Sox sudah dimulai atau dalam 10 menit (7:40 PM ET)
+[2026-07-09 07:10:09] [INFO] [bullpen_collector] [SKIP] Atlanta Braves @ Pittsburgh Pirates sudah dimulai atau dalam 10 menit (6:40 PM ET)
+[2026-07-09 07:10:09] [INFO] [bullpen_collector] [SKIP] Kansas City Royals @ New York Mets sudah dimulai atau dalam 10 menit (7:10 PM ET)
+[2026-07-09 07:10:09] [INFO] [bullpen_collector] [SKIP] Seattle Mariners @ Miami Marlins sudah dimulai atau dalam 10 menit (6:40 PM ET)
+[2026-07-09 07:10:09] [INFO] [bullpen_collector] [SKIP] Cleveland Guardians @ Minnesota Twins sudah dimulai atau dalam 10 menit (7:40 PM ET)
+[2026-07-09 07:10:09] [INFO] [bullpen_collector] [SKIP] Los Angeles Angels @ Texas Rangers sudah dimulai atau dalam 10 menit (8:05 PM ET)
+[2026-07-09 07:10:09] [INFO] [bullpen_collector] [SKIP] Atlanta Braves @ Chicago White Sox sudah dimulai atau dalam 10 menit (7:40 PM ET)
+[2026-07-09 07:10:09] [INFO] [bullpen_collector] [SKIP] Boston Red Sox @ New York Yankees sudah dimulai atau dalam 10 menit (7:35 PM ET)
+[2026-07-09 07:10:09] [INFO] [bullpen_collector] [SKIP] St. Louis Cardinals @ Cincinnati Reds sudah dimulai atau dalam 10 menit (1:40 PM ET)
+[2026-07-09 07:10:09] [INFO] [bullpen_collector] [SKIP] Tampa Bay Rays @ New York Yankees sudah dimulai atau dalam 10 menit (1:35 PM ET)
+[2026-07-09 07:10:09] [INFO] [bullpen_collector] [SKIP] Arizona Diamondbacks @ St. Louis Cardinals sudah dimulai atau dalam 10 menit (7:45 PM ET)
+[2026-07-09 07:10:09] [INFO] [bullpen_collector] [SKIP] Tampa Bay Rays @ Boston Red Sox sudah dimulai atau dalam 10 menit (4:10 PM ET)
+[2026-07-09 07:10:09] [INFO] [bullpen_collector] [SKIP] Detroit Tigers @ Cleveland Guardians sudah dimulai atau dalam 10 menit (1:40 PM ET)
+[2026-07-09 07:10:09] [INFO] [auto_runner] No changes detected for 823279, skipping revision.
+[2026-07-09 07:10:10] [INFO] [auto_runner] No changes detected for 823928, skipping revision.
+[2026-07-09 08:52:13] [INFO] [auto_runner] === MENJALANKAN SILENT RESULTS CHECK ===
+[2026-07-09 08:52:16] [INFO] [result_fetcher] [INFO] Menemukan 19 game tertunda. Mengambil skor...
+[2026-07-09 08:52:17] [INFO] [result_fetcher] [INFO] Game 824424 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-09 08:52:18] [INFO] [result_fetcher] [INFO] Game 824911 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-09 08:52:18] [INFO] [result_fetcher] [INFO] Game 824664 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-09 08:52:18] [INFO] [result_fetcher] [INFO] Game 823613 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-09 08:52:19] [INFO] [result_fetcher] [INFO] Game 823042 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-09 08:52:23] [INFO] [result_fetcher] [Resolve] Match found for Atlanta Braves @ Pittsburgh Pirates -> gamePk: 823360
+[2026-07-09 08:52:24] [INFO] [result_fetcher] [Resolve] Match found for Philadelphia Phillies @ Cincinnati Reds -> gamePk: 824496
+[2026-07-09 08:52:24] [INFO] [result_fetcher] [DB] Performa harian 2026-07-08 diupdate: 20.0% WR (1W - 4L)
+[2026-07-09 08:52:24] [INFO] [auto_runner] [Silent Results Check] 6 hasil pertandingan berhasil diupdate.
+[2026-07-09 08:54:11] [INFO] [telegram_bot] [Histori] Menemukan 8 game tertunda. Menjalankan penarikan skor on-demand...
+[2026-07-09 08:54:11] [INFO] [result_fetcher] [INFO] Menemukan 13 game tertunda. Mengambil skor...
+[2026-07-09 08:54:11] [INFO] [result_fetcher] [INFO] Game 824424 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-09 08:54:12] [INFO] [result_fetcher] [INFO] Game 824911 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-09 08:54:12] [INFO] [result_fetcher] [INFO] Game 824664 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-09 08:54:12] [INFO] [result_fetcher] [INFO] Game 823613 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-09 08:54:13] [INFO] [result_fetcher] [INFO] Game 823042 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-09 08:54:15] [INFO] [result_fetcher] [Resolve] Match found for Philadelphia Phillies @ Cincinnati Reds -> gamePk: 824496
+[2026-07-09 10:26:47] [INFO] [telegram_bot] [Histori] Menemukan 8 game tertunda. Menjalankan penarikan skor on-demand...
+[2026-07-09 10:26:48] [INFO] [result_fetcher] [INFO] Menemukan 13 game tertunda. Mengambil skor...
+[2026-07-09 10:26:49] [INFO] [result_fetcher] [INFO] Game 824424 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-09 10:26:49] [INFO] [result_fetcher] [INFO] Game 824911 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-09 10:26:50] [INFO] [result_fetcher] [INFO] Game 824664 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-09 10:26:50] [INFO] [result_fetcher] [INFO] Game 823613 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-09 10:26:51] [INFO] [result_fetcher] [INFO] Game 823042 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-09 10:26:55] [INFO] [result_fetcher] [Resolve] Match found for Philadelphia Phillies @ Cincinnati Reds -> gamePk: 824496
+[2026-07-09 10:26:56] [INFO] [result_fetcher] [DB] Performa harian 2026-07-08 diupdate: 33.3% WR (3W - 6L)
+[2026-07-09 12:38:28] [INFO] [telegram_bot] [Histori] Menemukan 2 game tertunda. Menjalankan penarikan skor on-demand...
+[2026-07-09 12:38:28] [INFO] [result_fetcher] [INFO] Menemukan 7 game tertunda. Mengambil skor...
+[2026-07-09 12:38:29] [INFO] [result_fetcher] [INFO] Game 824424 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-09 12:38:30] [INFO] [result_fetcher] [INFO] Game 824911 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-09 12:38:30] [INFO] [result_fetcher] [INFO] Game 824664 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-09 12:38:31] [INFO] [result_fetcher] [INFO] Game 823613 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-09 12:38:31] [INFO] [result_fetcher] [INFO] Game 823042 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-09 12:38:33] [INFO] [result_fetcher] [DB] Performa harian 2026-07-08 diupdate: 30.0% WR (3W - 7L)
