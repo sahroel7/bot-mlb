@@ -162,11 +162,11 @@ def calculate_expected_total_runs(game_data, params_override: dict = None):
     )
     
     # 2. Pitcher Modifiers (Starter & Bullpen)
-    hp_mod, hp_reasons = calculate_pitcher_score(home_pitcher_stats)
+    hp_mod, hp_reasons = calculate_pitcher_score(home_pitcher_stats, params_override=params_override)
     hf_mod, hf_reasons = calculate_fatigue_penalty(game_data['home_pitcher_last_3'])
     hb_mod, hb_reasons = calculate_bullpen_risk(game_data['home_bullpen_era'])
     
-    ap_mod, ap_reasons = calculate_pitcher_score(away_pitcher_stats)
+    ap_mod, ap_reasons = calculate_pitcher_score(away_pitcher_stats, params_override=params_override)
     af_mod, af_reasons = calculate_fatigue_penalty(game_data['away_pitcher_last_3'])
     ab_mod, ab_reasons = calculate_bullpen_risk(game_data['away_bullpen_era'])
     

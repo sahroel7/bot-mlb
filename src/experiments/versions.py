@@ -53,4 +53,27 @@ EXPERIMENT_VERSIONS = {
     "v3.1_dynamic_variance_gap": {
         "enable_dynamic_gap": True
     },
+
+    "v3.2_reduced_hr_risk": {
+        "hr9_risk_modifier": 0.25
+    },
+    # Hipotesis: dari analisis 169 prediksi OVER historis, modifier "Rawan
+    # Home Run" (+0.5 run) muncul jauh lebih sering di prediksi yang SALAH
+    # (20.5%) dibanding yang BENAR (7.0%) -- indikasi HR/9 rentan noise
+    # sample kecil dan mungkin overweighted. Menguji bobot setengahnya
+    # (0.25). Diuji mulai 09 Juli 2026.
+
+    "v3.3_reduced_weather": {
+        "weather_thresholds.wind_coefficient_per_mph": 0.02,
+        "weather_thresholds.wind_outward_cap": 0.4,
+        "weather_thresholds.wind_inward_cap": -0.4,
+        "weather_thresholds.temp_hot_bonus": 0.15,
+        "weather_thresholds.temp_cold_penalty": -0.15,
+    },
+    # Hipotesis: dari analisis 169 prediksi OVER historis, game dengan data
+    # cuaca TIDAK TERSEDIA justru punya win rate lebih tinggi (20.9% dari
+    # yang BENAR) dibanding saat cuaca tersedia dan dipakai (7.2% dari yang
+    # SALAH) -- indikasi modifier cuaca saat ini mungkin menambah noise,
+    # bukan sinyal. Menguji separuh bobot semua threshold cuaca. Diuji
+    # mulai 09 Juli 2026.
 }

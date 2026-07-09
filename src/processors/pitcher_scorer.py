@@ -2,8 +2,9 @@
 Modul untuk menghitung skor/bobot kualitas pitcher.
 Skor ini akan menjadi modifier terhadap proyeksi run dasar.
 """
+from config.config_loader import get_setting
 
-def calculate_pitcher_score(pitcher_stats):
+def calculate_pitcher_score(pitcher_stats, params_override: dict = None):
     """
     Menghitung skor modifier berdasarkan statistik performa pitcher.
     (ERA/FIP sekarang dihitung langsung pada Base Runs untuk menghindari double counting.
@@ -75,7 +76,7 @@ def calculate_pitcher_score(pitcher_stats):
         try:
             hr9 = float(hr9)
             if hr9 > 1.3:
-                mod = 0.5
+                mod = get_setting("hr9_risk_modifier", 0.5, params_override)
                 score += mod
                 reasons.append(f"Rawan Home Run (HR/9 {hr9}): +{mod} run")
             elif hr9 < 0.6:
