@@ -76,4 +76,24 @@ EXPERIMENT_VERSIONS = {
     # SALAH) -- indikasi modifier cuaca saat ini mungkin menambah noise,
     # bukan sinyal. Menguji separuh bobot semua threshold cuaca. Diuji
     # mulai 09 Juli 2026.
+
+    "v4.0_recalibrated_baseline": {
+        "hr9_risk_modifier": 0.25,
+        "whip_high_modifier": 0.15,
+        "k9_low_modifier": 0.15,
+        "control_elite_modifier": -0.15,
+        "short_innings_run_modifier": 0.0,
+        "enable_dynamic_gap": True,
+    },
+    # RECALIBRATION MENYELURUH berdasarkan analisis residual |prediksi-aktual|
+    # dari 51 game baseline (09 Juli 2026): WHIP tinggi, K/9 rendah, Kontrol
+    # elit, dan Rawan Home Run terbukti berkorelasi dengan error LEBIH BESAR
+    # dari rata-rata saat aktif -- bobotnya diturunkan proporsional (dibulatkan
+    # setengahnya). "Inning pendek" (bullpen exposure, n=33, sample besar)
+    # dialihkan dari modifier run pasti menjadi pemicu volatility_score
+    # (perlu enable_dynamic_gap=True supaya efeknya berlaku ke keputusan).
+    # Modifier yang terbukti RELIABLE (Kontrol buruk, Pitcher's Park, Supresi
+    # Home Run elit, Home/Away Momentum, Inning panjang) SENGAJA TIDAK diubah.
+    # Diuji mulai 10 Juli 2026 -- kandidat baseline baru, BELUM untuk
+    # menggantikan produksi sampai terbukti lebih baik dengan sample memadai.
 }

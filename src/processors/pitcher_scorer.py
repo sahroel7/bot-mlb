@@ -28,7 +28,7 @@ def calculate_pitcher_score(pitcher_stats, params_override: dict = None):
         try:
             whip = float(whip)
             if whip > 1.4:
-                mod = 0.3
+                mod = get_setting("whip_high_modifier", 0.3, params_override)
                 score += mod
                 reasons.append(f"WHIP tinggi ({whip}): +{mod} run")
             elif whip < 1.1:
@@ -48,7 +48,7 @@ def calculate_pitcher_score(pitcher_stats, params_override: dict = None):
                 score += mod
                 reasons.append(f"K/9 tinggi ({k9}): {mod} run")
             elif k9 < 6.5:
-                mod = 0.3
+                mod = get_setting("k9_low_modifier", 0.3, params_override)
                 score += mod
                 reasons.append(f"K/9 rendah ({k9}): +{mod} run")
         except (ValueError, TypeError):
@@ -64,7 +64,7 @@ def calculate_pitcher_score(pitcher_stats, params_override: dict = None):
                 score += mod
                 reasons.append(f"Kontrol buruk (BB/9 {bb9}): +{mod} run")
             elif bb9 < 2.0:
-                mod = -0.3
+                mod = get_setting("control_elite_modifier", -0.3, params_override)
                 score += mod
                 reasons.append(f"Kontrol elit (BB/9 {bb9}): {mod} run")
         except (ValueError, TypeError):
@@ -90,12 +90,13 @@ def calculate_pitcher_score(pitcher_stats, params_override: dict = None):
     score = max(min(score, 2.0), -2.0)
     return round(score, 2), reasons
 
-def calculate_fatigue_penalty(last_3_starts):
+def calculate_fatigue_penalty(last_3_starts, params_override: dict = None):
     """
     Menghitung penalti kelelahan atau bonus efisiensi berdasarkan start terakhir.
     
     Args:
         last_3_starts (list): Data dari get_pitcher_last_3_starts.
+        params_override (dict, optional): Parameter override.
         
     Returns:
         tuple: (fatigue_modifier, reasons)
@@ -125,7 +126,7 @@ def calculate_fatigue_penalty(last_3_starts):
     if ips:
         avg_ip = sum(ips) / len(ips)
         if avg_ip < 5.0:
-            mod = 0.2
+            mod = get_setting("short_innings_run_modifier", 0.2, params_override)
             penalty += mod
             reasons.append(f"Inning pendek (rata-rata {round(avg_ip,1)} IP): +{mod} run (eksposur bullpen)")
         elif avg_ip > 6.2:

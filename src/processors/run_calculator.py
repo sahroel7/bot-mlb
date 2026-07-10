@@ -163,11 +163,11 @@ def calculate_expected_total_runs(game_data, params_override: dict = None):
     
     # 2. Pitcher Modifiers (Starter & Bullpen)
     hp_mod, hp_reasons = calculate_pitcher_score(home_pitcher_stats, params_override=params_override)
-    hf_mod, hf_reasons = calculate_fatigue_penalty(game_data['home_pitcher_last_3'])
+    hf_mod, hf_reasons = calculate_fatigue_penalty(game_data['home_pitcher_last_3'], params_override=params_override)
     hb_mod, hb_reasons = calculate_bullpen_risk(game_data['home_bullpen_era'])
     
     ap_mod, ap_reasons = calculate_pitcher_score(away_pitcher_stats, params_override=params_override)
-    af_mod, af_reasons = calculate_fatigue_penalty(game_data['away_pitcher_last_3'])
+    af_mod, af_reasons = calculate_fatigue_penalty(game_data['away_pitcher_last_3'], params_override=params_override)
     ab_mod, ab_reasons = calculate_bullpen_risk(game_data['away_bullpen_era'])
     
     # hb_mod/ab_mod sengaja tidak ditambahkan -- bullpen ERA sudah terhitung di base_runs (weighted defense), lihat get_weighted_defense_val().
@@ -256,6 +256,10 @@ def calculate_expected_total_runs(game_data, params_override: dict = None):
     if park_mod >= 1.5 or park_mod <= -1.0:  # park factor ekstrem
         volatility_score += 1
     if not home_pitcher_stats or not away_pitcher_stats:
+        volatility_score += 1
+
+    # Inning pendek pemicu volatility_score jika ada di hf_reasons atau af_reasons
+    if any("Inning pendek" in r for r in hf_reasons) or any("Inning pendek" in r for r in af_reasons):
         volatility_score += 1
 
     return {

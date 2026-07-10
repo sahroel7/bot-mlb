@@ -361,6 +361,7 @@ if __name__ == "__main__":
     parser.add_argument("--days", type=int, default=None, help="Jumlah hari ke depan untuk dianalisis (0=hari ini, 1=besok)")
     parser.add_argument("--verbose", action="store_true", help="Tampilkan detail skip dan log")
     parser.add_argument("--layer", type=str, choices=['early', 'final', 'revision'], help="Layer analisis")
+    parser.add_argument("--silent-send", dest="silent_send", action="store_true", help="Jalan tanpa mengirim notifikasi Telegram/Discord")
     
     args = parser.parse_args()
     run_analysis(args)
