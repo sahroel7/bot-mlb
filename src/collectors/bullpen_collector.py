@@ -226,7 +226,9 @@ def get_mlb_ou_markets():
                             'line': ou_line,
                             'over_price': over_price,
                             'under_price': under_price,
-                            'market_id': m.get("id")
+                            'market_id': m.get("id"),
+                            'liquidity': m.get("liquidity", 0) or 0,
+                            'volume': m.get("volume", 0) or 0
                         })
             
             if game_markets:
@@ -236,9 +238,28 @@ def get_mlb_ou_markets():
                 max_line = max(lines)
                 line_range = f"{min_line} - {max_line}" if min_line != max_line else f"{min_line}"
                 
-                # Pilih line utama (paling dekat ke 8.5)
-                game_markets.sort(key=lambda x: abs(x['line'] - 8.5))
+                # Pilih line utama berdasarkan LIKUIDITAS TERTINGGI (market
+                # paling aktif/dipercaya pasar), bukan lagi jarak ke angka 8.5.
+                # Fallback ke "terdekat ke 8.5" HANYA jika semua market punya
+                # liquidity 0/tidak diketahui (data tidak tersedia).
+                total_liquidity = sum(m.get('liquidity', 0) for m in game_markets)
+                if total_liquidity > 0:
+                    game_markets.sort(key=lambda x: x.get('liquidity', 0), reverse=True)
+                else:
+                    game_markets.sort(key=lambda x: abs(x['line'] - 8.5))
                 best = game_markets[0]
+
+                # Logging perbandingan: catat kalau pilihan liquidity-based
+                # berbeda dari pilihan lama (terdekat ke 8.5), untuk transparansi
+                if len(game_markets) > 1 and total_liquidity > 0:
+                    old_pick = min(game_markets, key=lambda x: abs(x['line'] - 8.5))
+                    if old_pick['line'] != best['line']:
+                        logger.info(
+                            f"[Bullpen Line Selection] {away_team} @ {home_team}: "
+                            f"line berubah dari {old_pick['line']} (heuristik lama) "
+                            f"menjadi {best['line']} (liquidity ${best['liquidity']:.2f} "
+                            f"vs ${old_pick['liquidity']:.2f})"
+                        )
                 
                 results.append({
                     'away_team': away_team,
@@ -250,7 +271,8 @@ def get_mlb_ou_markets():
                     'game_date_et': date_et,
                     'line_range': line_range,
                     'market_id': best['market_id'],
-                    'source': 'Bullpen CLI'
+                    'source': 'Bullpen CLI',
+                    'liquidity': best.get('liquidity', 0)
                 })
         
         if results:
