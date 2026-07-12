@@ -214,6 +214,32 @@ def get_latest_prediction(game_id):
     finally:
         conn.close()
 
+def get_latest_prediction_resilient(game_id, home_team=None, away_team=None, game_date=None):
+    """
+    Sama seperti get_latest_prediction, tapi kalau game_id tidak ditemukan,
+    coba cari berdasarkan kombinasi tim+tanggal (mengantisipasi game_id yang
+    berubah representasi antar pemanggilan save_prediction()).
+    """
+    result = get_latest_prediction(game_id)
+    if result:
+        return result
+    if home_team and away_team and game_date:
+        conn = get_db_connection()
+        try:
+            cursor = conn.execute(
+                "SELECT * FROM predictions WHERE home_team = ? AND away_team = ? "
+                "AND game_date = ? AND is_latest = 1",
+                (home_team, away_team, game_date)
+            )
+            row = cursor.fetchone()
+            return dict(row) if row else None
+        except Exception as e:
+            print(f"[DB Error] Gagal mencari prediksi terbaru (fallback tim+tanggal): {e}")
+            return None
+        finally:
+            conn.close()
+    return None
+
 def get_todays_predictions():
     """
     Mengambil semua prediksi terbaru yang dibuat hari ini.
