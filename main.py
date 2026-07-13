@@ -256,9 +256,7 @@ def run_analysis(args):
                 except:
                     game_info['game_date_et'] = game['game_time'][:10]
             
-            # Ganti game_id menggunakan generator baru
-            new_game_id = generate_game_id(away_team, home_team, game_info['game_date_et'], game_info['game_time_et'])
-            game_info['game_id'] = new_game_id
+            
             
             # Fix 3: Tambahkan game_datetime_et ke game_info
             game_info['game_datetime_et'] = f"{game_info['game_date_et']} {game_info['game_time_et']}"

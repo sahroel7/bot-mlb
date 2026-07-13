@@ -9,6 +9,7 @@ import json
 import os
 from datetime import datetime
 from src.database.db_setup import get_db_connection
+from src.utils.logger import logger
 
 def save_prediction(game_info, analysis_result, revision_reason=None):
     """
@@ -224,6 +225,7 @@ def get_latest_prediction_resilient(game_id, home_team=None, away_team=None, gam
     if result:
         return result
     if home_team and away_team and game_date:
+        logger.info(f"[DEBUG RESILIENT] game_id={game_id} tidak ditemukan langsung, mencoba fallback dengan home='{home_team}' away='{away_team}' date='{game_date}'")
         conn = get_db_connection()
         try:
             cursor = conn.execute(
@@ -232,6 +234,10 @@ def get_latest_prediction_resilient(game_id, home_team=None, away_team=None, gam
                 (home_team, away_team, game_date)
             )
             row = cursor.fetchone()
+            if row:
+                logger.info(f"[DEBUG RESILIENT] Fallback BERHASIL menemukan game_id={row['game_id']} versi={row['version']}")
+            else:
+                logger.info(f"[DEBUG RESILIENT] Fallback GAGAL -- tidak ada baris yang cocok dengan home='{home_team}' away='{away_team}' date='{game_date}' AND is_latest=1")
             return dict(row) if row else None
         except Exception as e:
             print(f"[DB Error] Gagal mencari prediksi terbaru (fallback tim+tanggal): {e}")

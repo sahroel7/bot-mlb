@@ -219,6 +219,7 @@ def check_for_changes(game_id):
         # Sebagai workaround MVP, setelah run_analysis selesai, kita update DB record terbaru dengan revision_reason
         run_analysis(args) 
         
+        logger.info(f"[DEBUG RESILIENT] Memanggil fallback untuk game_id={game_id} | home_team='{v1_data.get('home_team')}' | away_team='{v1_data.get('away_team')}' | game_date='{v1_data.get('game_date')}' | v1_version={v1_data.get('version')}")
         from src.database.prediction_tracker import get_latest_prediction_resilient
         v2_data = get_latest_prediction_resilient(
             game_id,
