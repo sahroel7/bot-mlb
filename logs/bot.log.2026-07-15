@@ -1,0 +1,92 @@
+[2026-07-15 05:16:43] [INFO] [bullpen_collector] [Bullpen] Mengambil data market harian dari Bullpen CLI...
+[2026-07-15 05:16:47] [INFO] [bullpen_collector] [SKIP] Tampa Bay Rays @ Boston Red Sox sudah dimulai atau dalam 10 menit (4:10 PM ET)
+[2026-07-15 05:16:47] [INFO] [bullpen_collector] [SKIP] Atlanta Braves @ Chicago White Sox sudah dimulai atau dalam 10 menit (7:40 PM ET)
+[2026-07-15 05:16:47] [INFO] [bullpen_collector] [SKIP] Arizona Diamondbacks @ St. Louis Cardinals sudah dimulai atau dalam 10 menit (7:45 PM ET)
+[2026-07-15 05:16:47] [INFO] [bullpen_collector] [SKIP] Toronto Blue Jays @ Chicago Cubs sudah dimulai atau dalam 10 menit (2:20 PM ET)
+[2026-07-15 05:16:47] [INFO] [bullpen_collector] [SKIP] Boston Red Sox @ New York Yankees sudah dimulai atau dalam 10 menit (7:35 PM ET)
+[2026-07-15 05:16:47] [INFO] [bullpen_collector] [SKIP] Tampa Bay Rays @ New York Yankees sudah dimulai atau dalam 10 menit (1:35 PM ET)
+[2026-07-15 05:16:47] [INFO] [bullpen_collector] [SKIP] Detroit Tigers @ Cleveland Guardians sudah dimulai atau dalam 10 menit (1:40 PM ET)
+[2026-07-15 05:16:47] [INFO] [bullpen_collector] [SKIP] St. Louis Cardinals @ Cincinnati Reds sudah dimulai atau dalam 10 menit (1:40 PM ET)
+[2026-07-15 05:16:47] [INFO] [bullpen_collector] [SKIP] San Francisco Giants @ Atlanta Braves sudah dimulai atau dalam 10 menit (7:15 PM ET)
+[2026-07-15 05:16:56] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-15 05:16:56] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-15 05:16:56] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-15 05:16:56] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-15 05:16:57] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-15 05:16:57] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-15 05:16:57] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-15 05:16:57] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-15 05:16:57] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-15 05:16:57] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-15 05:17:00] [INFO] [auto_runner] === SCHEDULING DYNAMIC REVISIONS ===
+[2026-07-15 05:17:00] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 823440 (New York Mets @ Philadelphia Phillies) pada 2026-07-17 04:10:00
+[2026-07-15 09:54:34] [INFO] [auto_runner] Menginisialisasi Dynamic Auto Runner (Phase 4.1)...
+[2026-07-15 09:54:34] [INFO] [auto_runner] Scheduler aktif (Background).
+[2026-07-15 09:54:37] [INFO] [telegram_bot] Menjalankan bot listener Telegram...
+[2026-07-15 10:02:57] [INFO] [bullpen_collector] [Bullpen] Mengambil data market harian dari Bullpen CLI...
+[2026-07-15 10:03:22] [INFO] [bullpen_collector] [SKIP] Tampa Bay Rays @ Boston Red Sox sudah dimulai atau dalam 10 menit (4:10 PM ET)
+[2026-07-15 10:03:22] [INFO] [bullpen_collector] [SKIP] St. Louis Cardinals @ Cincinnati Reds sudah dimulai atau dalam 10 menit (1:40 PM ET)
+[2026-07-15 10:03:22] [INFO] [bullpen_collector] [SKIP] Atlanta Braves @ Chicago White Sox sudah dimulai atau dalam 10 menit (7:40 PM ET)
+[2026-07-15 10:03:22] [INFO] [bullpen_collector] [SKIP] Arizona Diamondbacks @ St. Louis Cardinals sudah dimulai atau dalam 10 menit (7:45 PM ET)
+[2026-07-15 10:03:22] [INFO] [bullpen_collector] [SKIP] Boston Red Sox @ New York Yankees sudah dimulai atau dalam 10 menit (7:35 PM ET)
+[2026-07-15 10:03:22] [INFO] [bullpen_collector] [SKIP] Tampa Bay Rays @ New York Yankees sudah dimulai atau dalam 10 menit (1:35 PM ET)
+[2026-07-15 10:03:22] [INFO] [bullpen_collector] [SKIP] Detroit Tigers @ Cleveland Guardians sudah dimulai atau dalam 10 menit (1:40 PM ET)
+[2026-07-15 10:03:22] [INFO] [bullpen_collector] [SKIP] San Francisco Giants @ Atlanta Braves sudah dimulai atau dalam 10 menit (7:15 PM ET)
+[2026-07-15 10:03:22] [INFO] [bullpen_collector] [SKIP] Toronto Blue Jays @ Chicago Cubs sudah dimulai atau dalam 10 menit (2:20 PM ET)
+[2026-07-15 10:03:38] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-15 10:03:38] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-15 10:03:38] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-15 10:03:39] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-15 10:03:39] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-15 10:03:39] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-15 10:03:39] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-15 10:03:39] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-15 10:03:39] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-15 10:03:40] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-15 10:03:42] [INFO] [auto_runner] === SCHEDULING DYNAMIC REVISIONS ===
+[2026-07-15 10:03:43] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 823440 (New York Mets @ Philadelphia Phillies) pada 2026-07-17 04:10:00
+[2026-07-15 12:15:11] [INFO] [telegram_bot] [Histori] Menemukan 1 game tertunda. Menjalankan penarikan skor on-demand...
+[2026-07-15 12:15:12] [INFO] [result_fetcher] [INFO] Menemukan 6 game tertunda. Mengambil skor...
+[2026-07-15 12:15:15] [INFO] [result_fetcher] [INFO] Game 824424 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-15 12:15:15] [INFO] [result_fetcher] [INFO] Game 824911 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-15 12:15:16] [INFO] [result_fetcher] [INFO] Game 824664 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-15 12:15:17] [INFO] [result_fetcher] [INFO] Game 823613 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-15 12:15:18] [INFO] [result_fetcher] [INFO] Game 823042 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-15 12:15:19] [INFO] [result_fetcher] [Resolve] Match found for Milwaukee Brewers @ Pittsburgh Pirates -> gamePk: 823357
+[2026-07-15 12:15:19] [INFO] [result_fetcher] [INFO] Game BRE_PIR_2026-07-11_405PM Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-15 12:15:29] [INFO] [bullpen_collector] [Bullpen] Mengambil data market harian dari Bullpen CLI...
+[2026-07-15 12:16:01] [ERROR] [bullpen_collector] [Bullpen CLI Error] 
+[2026-07-15 12:17:53] [INFO] [auto_runner] Bot berhasil dimatikan.
+[2026-07-15 12:18:13] [INFO] [auto_runner] Menginisialisasi Dynamic Auto Runner (Phase 4.1)...
+[2026-07-15 12:18:13] [INFO] [auto_runner] Scheduler aktif (Background).
+[2026-07-15 12:18:15] [INFO] [telegram_bot] Menjalankan bot listener Telegram...
+[2026-07-15 19:02:43] [INFO] [bullpen_collector] [Bullpen] Mengambil data market harian dari Bullpen CLI...
+[2026-07-15 19:02:52] [INFO] [bullpen_collector] [SKIP] St. Louis Cardinals @ Cincinnati Reds sudah dimulai atau dalam 10 menit (1:40 PM ET)
+[2026-07-15 19:02:52] [INFO] [bullpen_collector] [SKIP] Tampa Bay Rays @ Boston Red Sox sudah dimulai atau dalam 10 menit (4:10 PM ET)
+[2026-07-15 19:02:52] [INFO] [bullpen_collector] [SKIP] Arizona Diamondbacks @ St. Louis Cardinals sudah dimulai atau dalam 10 menit (7:45 PM ET)
+[2026-07-15 19:02:52] [INFO] [bullpen_collector] [SKIP] Atlanta Braves @ Chicago White Sox sudah dimulai atau dalam 10 menit (7:40 PM ET)
+[2026-07-15 19:02:52] [INFO] [bullpen_collector] [SKIP] Tampa Bay Rays @ New York Yankees sudah dimulai atau dalam 10 menit (1:35 PM ET)
+[2026-07-15 19:02:52] [INFO] [bullpen_collector] [SKIP] Boston Red Sox @ New York Yankees sudah dimulai atau dalam 10 menit (7:35 PM ET)
+[2026-07-15 19:02:52] [INFO] [bullpen_collector] [SKIP] Detroit Tigers @ Cleveland Guardians sudah dimulai atau dalam 10 menit (1:40 PM ET)
+[2026-07-15 19:02:52] [INFO] [bullpen_collector] [SKIP] San Francisco Giants @ Atlanta Braves sudah dimulai atau dalam 10 menit (7:15 PM ET)
+[2026-07-15 19:03:04] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-15 19:03:04] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-15 19:03:05] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-15 19:03:05] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-15 19:03:05] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-15 19:03:05] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-15 19:03:05] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-15 19:03:05] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-15 19:03:06] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-15 19:03:06] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-15 19:03:09] [INFO] [auto_runner] === SCHEDULING DYNAMIC REVISIONS ===
+[2026-07-15 19:03:09] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 823440 (New York Mets @ Philadelphia Phillies) pada 2026-07-17 04:10:00
+[2026-07-15 19:18:13] [INFO] [auto_runner] === MENJALANKAN SILENT RESULTS CHECK ===
+[2026-07-15 19:18:15] [INFO] [result_fetcher] [INFO] Menemukan 6 game tertunda. Mengambil skor...
+[2026-07-15 19:18:17] [INFO] [result_fetcher] [INFO] Game 824424 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-15 19:18:18] [INFO] [result_fetcher] [INFO] Game 824911 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-15 19:18:19] [INFO] [result_fetcher] [INFO] Game 824664 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-15 19:18:20] [INFO] [result_fetcher] [INFO] Game 823613 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-15 19:18:21] [INFO] [result_fetcher] [INFO] Game 823042 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-15 19:18:22] [INFO] [result_fetcher] [Resolve] Match found for Milwaukee Brewers @ Pittsburgh Pirates -> gamePk: 823357
+[2026-07-15 19:18:22] [INFO] [result_fetcher] [INFO] Game BRE_PIR_2026-07-11_405PM Final tapi skor 0-0 (belum valid). Menunggu update API.

@@ -1,0 +1,1049 @@
+[2026-07-18 03:18:13] [INFO] [auto_runner] === MENJALANKAN SILENT RESULTS CHECK ===
+[2026-07-18 03:18:16] [INFO] [result_fetcher] [INFO] Menemukan 20 game tertunda. Mengambil skor...
+[2026-07-18 03:18:17] [INFO] [result_fetcher] [INFO] Game 824424 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 03:18:17] [INFO] [result_fetcher] [INFO] Game 824911 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 03:18:18] [INFO] [result_fetcher] [INFO] Game 824664 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 03:18:18] [INFO] [result_fetcher] [INFO] Game 823613 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 03:18:19] [INFO] [result_fetcher] [INFO] Game 823042 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 03:18:19] [INFO] [result_fetcher] [Resolve] Match found for Milwaukee Brewers @ Pittsburgh Pirates -> gamePk: 823357
+[2026-07-18 03:18:19] [INFO] [result_fetcher] [INFO] Game BRE_PIR_2026-07-11_405PM Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 03:18:20] [INFO] [result_fetcher] [INFO] Game 824766 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 04:05:00] [INFO] [auto_runner] === CHECKING FOR CHANGES: GAME 823524 ===
+[2026-07-18 04:05:00] [INFO] [bullpen_collector] [Bullpen] Mengambil data market harian dari Bullpen CLI...
+[2026-07-18 04:05:03] [INFO] [bullpen_collector] [SKIP] Tampa Bay Rays @ Boston Red Sox sudah dimulai atau dalam 10 menit (4:10 PM ET)
+[2026-07-18 04:05:03] [INFO] [bullpen_collector] [Bullpen Line Selection] Tampa Bay Rays @ Boston Red Sox: line berubah dari 8.5 (heuristik lama) menjadi 9.5 (liquidity $96534.92 vs $85762.67)
+[2026-07-18 04:05:03] [INFO] [bullpen_collector] [Bullpen Line Selection] Minnesota Twins @ Chicago Cubs: line berubah dari 10.5 (heuristik lama) menjadi 11.5 (liquidity $133982.49 vs $120226.31)
+[2026-07-18 04:05:03] [INFO] [bullpen_collector] [SKIP] San Francisco Giants @ Atlanta Braves sudah dimulai atau dalam 10 menit (7:15 PM ET)
+[2026-07-18 04:05:03] [INFO] [bullpen_collector] [SKIP] St. Louis Cardinals @ Cincinnati Reds sudah dimulai atau dalam 10 menit (1:40 PM ET)
+[2026-07-18 04:05:03] [INFO] [bullpen_collector] [SKIP] Arizona Diamondbacks @ St. Louis Cardinals sudah dimulai atau dalam 10 menit (7:45 PM ET)
+[2026-07-18 04:05:03] [INFO] [bullpen_collector] [SKIP] Toronto Blue Jays @ Chicago Cubs sudah dimulai atau dalam 10 menit (2:20 PM ET)
+[2026-07-18 04:05:03] [INFO] [bullpen_collector] [SKIP] Boston Red Sox @ New York Yankees sudah dimulai atau dalam 10 menit (7:35 PM ET)
+[2026-07-18 04:05:03] [INFO] [bullpen_collector] [SKIP] Atlanta Braves @ Chicago White Sox sudah dimulai atau dalam 10 menit (7:40 PM ET)
+[2026-07-18 04:05:03] [INFO] [bullpen_collector] [SKIP] Tampa Bay Rays @ New York Yankees sudah dimulai atau dalam 10 menit (1:35 PM ET)
+[2026-07-18 04:05:04] [INFO] [auto_runner] No changes detected for 823524, skipping revision.
+[2026-07-18 04:10:00] [INFO] [auto_runner] === CHECKING FOR CHANGES: GAME 824414 ===
+[2026-07-18 04:10:00] [INFO] [auto_runner] === CHECKING FOR CHANGES: GAME 824766 ===
+[2026-07-18 04:10:01] [INFO] [auto_runner] No changes detected for 824414, skipping revision.
+[2026-07-18 04:10:02] [INFO] [auto_runner] No changes detected for 824766, skipping revision.
+[2026-07-18 04:15:00] [INFO] [auto_runner] === CHECKING FOR CHANGES: GAME 822789 ===
+[2026-07-18 04:15:00] [INFO] [auto_runner] === CHECKING FOR CHANGES: GAME 824901 ===
+[2026-07-18 04:15:01] [INFO] [auto_runner] Perubahan terdeteksi: Line Bullpen bergerak (8.5 -> 9.5). Menjalankan re-analisis.
+[2026-07-18 04:15:02] [INFO] [auto_runner] No changes detected for 822789, skipping revision.
+[2026-07-18 04:15:05] [INFO] [main] [34m[0/4] Memproses hasil pertandingan kemarin...
+[2026-07-18 04:15:05] [INFO] [result_fetcher] [INFO] Menemukan 20 game tertunda. Mengambil skor...
+[2026-07-18 04:15:06] [INFO] [result_fetcher] [INFO] Game 824424 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 04:15:06] [INFO] [result_fetcher] [INFO] Game 824911 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 04:15:06] [INFO] [result_fetcher] [INFO] Game 824664 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 04:15:07] [INFO] [result_fetcher] [INFO] Game 823613 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 04:15:07] [INFO] [result_fetcher] [INFO] Game 823042 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 04:15:07] [INFO] [result_fetcher] [Resolve] Match found for Milwaukee Brewers @ Pittsburgh Pirates -> gamePk: 823357
+[2026-07-18 04:15:08] [INFO] [result_fetcher] [INFO] Game BRE_PIR_2026-07-11_405PM Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 04:15:08] [INFO] [result_fetcher] [INFO] Game 824766 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 04:15:09] [INFO] [result_fetcher] [INFO] Game 824414 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 04:15:14] [INFO] [main] [36m  📊 Tidak ada prediksi kemarin untuk diupdate
+
+[2026-07-18 04:15:14] [INFO] [main] [34m[1/4] Mengambil jadwal pertandingan MLB...
+[2026-07-18 04:15:14] [INFO] [main] [32mDitemukan 1 pertandingan.
+
+[2026-07-18 04:15:14] [INFO] [main] [34m[2/4] Menganalisis pasar Polymarket & Statistik...
+[2026-07-18 04:15:14] [INFO] [main] [33m  (1/1) Menganalisis: Texas Rangers @ Atlanta Braves...
+[2026-07-18 04:15:24] [INFO] [main] 
+[36m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+[36m┃  Texas Rangers @ Atlanta Braves | 2026-07-17   ┃
+[36m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 📊 Bullpen.fi O/U Line  : [36m8.5
+┃ 🎯 Bot Expected Runs    : [35m6.42
+┃ 📈 Recommendation       : [36mUNDER ✅
+┃ 🔥 Confidence           : [31m[1mHIGH 🔥
+┃ 📡 Sumber odds          : [37mBullpen CLI
+[36m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ [1m📋 KEY FACTORS:[0m
+┃  ⚾ K/9 tinggi (10.74): -0.4 run
+┃  • Inning pendek (rata-rata 4.7 IP): +0.2 run (
+┃  ⚾ K/9 rendah (5.44): +0.3 run
+┃  ⚾ Matchup buruk: Tim K% tinggi (22.37) vs Pitc
+┃  • [Lineup] Hitter kunci Away absen (Corey Seag
+┃  ⚾ Away Momentum (NEUTRAL Offense, PEAK Pitcher
+[36m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[2026-07-18 04:15:24] [INFO] [main] 💾 Prediksi disimpan
+[2026-07-18 04:15:25] [INFO] [main] 🧪 Shadow testing logged for version v2.0_baseline
+[2026-07-18 04:15:25] [INFO] [main] 🧪 Shadow testing logged for version v2.1_higher_gap
+[2026-07-18 04:15:25] [INFO] [main] 🧪 Shadow testing logged for version v2.2_no_temp_bonus
+[2026-07-18 04:15:25] [INFO] [main] 🧪 Shadow testing logged for version v2.3_coors_boost
+[2026-07-18 04:15:25] [INFO] [main] 🧪 Shadow testing logged for version v2.4_wind_boost
+[2026-07-18 04:15:26] [INFO] [main] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue
+[2026-07-18 04:15:26] [INFO] [main] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap
+[2026-07-18 04:15:26] [INFO] [main] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk
+[2026-07-18 04:15:26] [INFO] [main] 🧪 Shadow testing logged for version v3.3_reduced_weather
+[2026-07-18 04:15:26] [INFO] [main] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline
+[2026-07-18 04:15:27] [INFO] [main] ⚾ Umpire logged: Chris Conroy
+[2026-07-18 04:15:27] [INFO] [main] [3/4] Menghasilkan Daily Summary...
+[2026-07-18 04:15:27] [INFO] [main] ============================================================
+[2026-07-18 04:15:27] [INFO] [main] 
+GAME                      | LINE   | PROJ   | REC        | CONF
+---------------------------------------------------------------
+[31m[1mTexas Rangers @ Atlanta B | 8.5    | 6.42   | UNDER ✅    | HIGH 🔥
+[2026-07-18 04:15:27] [INFO] [main] ============================================================
+[2026-07-18 04:15:27] [INFO] [main] [4/4] Analisis Selesai! Gunakan data ini dengan bijak.
+[2026-07-18 04:15:27] [INFO] [auto_runner] [DEBUG RESILIENT] Memanggil fallback untuk game_id=824901 | home_team='Atlanta Braves' | away_team='Texas Rangers' | game_date='2026-07-17' | v1_version=3
+[2026-07-18 04:40:00] [INFO] [auto_runner] === CHECKING FOR CHANGES: GAME 823766 ===
+[2026-07-18 04:40:00] [INFO] [bullpen_collector] [Bullpen] Mengambil data market harian dari Bullpen CLI...
+[2026-07-18 04:40:03] [INFO] [bullpen_collector] [SKIP] Tampa Bay Rays @ Boston Red Sox sudah dimulai atau dalam 10 menit (4:10 PM ET)
+[2026-07-18 04:40:03] [INFO] [bullpen_collector] [Bullpen Line Selection] Minnesota Twins @ Chicago Cubs: line berubah dari 10.5 (heuristik lama) menjadi 11.5 (liquidity $276478.82 vs $162607.76)
+[2026-07-18 04:40:03] [INFO] [bullpen_collector] [SKIP] San Francisco Giants @ Atlanta Braves sudah dimulai atau dalam 10 menit (7:15 PM ET)
+[2026-07-18 04:40:03] [INFO] [bullpen_collector] [SKIP] St. Louis Cardinals @ Cincinnati Reds sudah dimulai atau dalam 10 menit (1:40 PM ET)
+[2026-07-18 04:40:03] [INFO] [bullpen_collector] [SKIP] Arizona Diamondbacks @ St. Louis Cardinals sudah dimulai atau dalam 10 menit (7:45 PM ET)
+[2026-07-18 04:40:03] [INFO] [bullpen_collector] [SKIP] Toronto Blue Jays @ Chicago Cubs sudah dimulai atau dalam 10 menit (2:20 PM ET)
+[2026-07-18 04:40:03] [INFO] [bullpen_collector] [SKIP] Boston Red Sox @ New York Yankees sudah dimulai atau dalam 10 menit (7:35 PM ET)
+[2026-07-18 04:40:03] [INFO] [bullpen_collector] [SKIP] Atlanta Braves @ Chicago White Sox sudah dimulai atau dalam 10 menit (7:40 PM ET)
+[2026-07-18 04:40:03] [INFO] [bullpen_collector] [SKIP] Tampa Bay Rays @ New York Yankees sudah dimulai atau dalam 10 menit (1:35 PM ET)
+[2026-07-18 04:40:04] [INFO] [auto_runner] No changes detected for 823766, skipping revision.
+[2026-07-18 05:05:00] [INFO] [auto_runner] === CHECKING FOR CHANGES: GAME 824655 ===
+[2026-07-18 05:05:01] [INFO] [auto_runner] Perubahan terdeteksi: Line Bullpen bergerak (10.5 -> 9.5). Menjalankan re-analisis.
+[2026-07-18 05:05:04] [INFO] [main] [34m[0/4] Memproses hasil pertandingan kemarin...
+[2026-07-18 05:05:04] [INFO] [result_fetcher] [INFO] Menemukan 20 game tertunda. Mengambil skor...
+[2026-07-18 05:05:05] [INFO] [result_fetcher] [INFO] Game 824424 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 05:05:05] [INFO] [result_fetcher] [INFO] Game 824911 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 05:05:06] [INFO] [result_fetcher] [INFO] Game 824664 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 05:05:06] [INFO] [result_fetcher] [INFO] Game 823613 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 05:05:06] [INFO] [result_fetcher] [INFO] Game 823042 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 05:05:07] [INFO] [result_fetcher] [Resolve] Match found for Milwaukee Brewers @ Pittsburgh Pirates -> gamePk: 823357
+[2026-07-18 05:05:07] [INFO] [result_fetcher] [INFO] Game BRE_PIR_2026-07-11_405PM Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 05:05:07] [INFO] [result_fetcher] [INFO] Game 824766 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 05:05:08] [INFO] [result_fetcher] [INFO] Game 824414 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 05:05:12] [INFO] [main] [36m  📊 Tidak ada prediksi kemarin untuk diupdate
+
+[2026-07-18 05:05:12] [INFO] [main] [34m[1/4] Mengambil jadwal pertandingan MLB...
+[2026-07-18 05:05:13] [INFO] [main] [32mDitemukan 1 pertandingan.
+
+[2026-07-18 05:05:13] [INFO] [main] [34m[2/4] Menganalisis pasar Polymarket & Statistik...
+[2026-07-18 05:05:13] [INFO] [main] [33m  (1/1) Menganalisis: Minnesota Twins @ Chicago Cubs...
+[2026-07-18 05:05:23] [INFO] [main] 
+[33m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+[33m┃  Minnesota Twins @ Chicago Cubs | 2026-07-18   ┃
+[33m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ 📊 Bullpen.fi O/U Line  : [36m11.5
+┃ 🎯 Bot Expected Runs    : [35m11.46
+┃ 📈 Recommendation       : [33mNO BET / SKIP ⚠️
+┃ 🔥 Confidence           : [37mLOW ⚠️
+┃ 📡 Sumber odds          : [37mBullpen CLI
+[33m┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃ [1m📋 KEY FACTORS:[0m
+┃  • WHIP tinggi (1.45): +0.3 run
+┃  • Rawan Home Run (HR/9 1.33): +0.5 run
+┃  ⚾ K/9 rendah (6.4): +0.3 run
+┃  • Rawan Home Run (HR/9 1.63): +0.5 run
+┃  • Inning pendek (rata-rata 4.7 IP): +0.2 run (
+┃  • [Info] Bullpen Away tercermin di base_runs (
+┃  • Disiplin tinggi (BB% 11.03): +0.2 run (ekspo
+┃  💪 Efisien RISP (0.286): +0.2 run
+┃  • [Lineup] Hitter kunci Away absen (Matt Walln
+┃
+┃  ⚖️ Faktor saling menyeimbangkan.
+┃     Tidak ada edge yang cukup kuat.
+[33m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+[2026-07-18 05:05:23] [INFO] [main] 💾 Prediksi disimpan
+[2026-07-18 05:05:24] [INFO] [main] 🧪 Shadow testing logged for version v2.0_baseline
+[2026-07-18 05:05:24] [INFO] [main] 🧪 Shadow testing logged for version v2.1_higher_gap
+[2026-07-18 05:05:24] [INFO] [main] 🧪 Shadow testing logged for version v2.2_no_temp_bonus
+[2026-07-18 05:05:24] [INFO] [main] 🧪 Shadow testing logged for version v2.3_coors_boost
+[2026-07-18 05:05:24] [INFO] [main] 🧪 Shadow testing logged for version v2.4_wind_boost
+[2026-07-18 05:05:24] [INFO] [main] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue
+[2026-07-18 05:05:25] [INFO] [main] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap
+[2026-07-18 05:05:25] [INFO] [main] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk
+[2026-07-18 05:05:25] [INFO] [main] 🧪 Shadow testing logged for version v3.3_reduced_weather
+[2026-07-18 05:05:25] [INFO] [main] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline
+[2026-07-18 05:05:25] [INFO] [main] ⚾ Umpire logged: Bruce Dreckman
+[2026-07-18 05:05:25] [INFO] [main] [3/4] Menghasilkan Daily Summary...
+[2026-07-18 05:05:25] [INFO] [main] ============================================================
+[2026-07-18 05:05:25] [INFO] [main] 
+GAME                      | LINE   | PROJ   | REC        | CONF
+---------------------------------------------------------------
+Minnesota Twins @ Chicago | 11.5   | 11.46  | NO BET / SKIP ⚠️ | LOW ⚠️
+[2026-07-18 05:05:25] [INFO] [main] ============================================================
+[2026-07-18 05:05:26] [INFO] [main] [4/4] Analisis Selesai! Gunakan data ini dengan bijak.
+[2026-07-18 05:05:26] [INFO] [auto_runner] [DEBUG RESILIENT] Memanggil fallback untuk game_id=824655 | home_team='Chicago Cubs' | away_team='Minnesota Twins' | game_date='2026-07-17' | v1_version=3
+[2026-07-18 05:05:27] [INFO] [telegram_sender] [Telegram] Pesan berhasil dikirim ke 6862116565
+[2026-07-18 05:10:00] [INFO] [auto_runner] === CHECKING FOR CHANGES: GAME 824090 ===
+[2026-07-18 05:10:00] [INFO] [auto_runner] === CHECKING FOR CHANGES: GAME 824170 ===
+[2026-07-18 05:10:02] [INFO] [auto_runner] No changes detected for 824090, skipping revision.
+[2026-07-18 05:10:03] [INFO] [auto_runner] No changes detected for 824170, skipping revision.
+[2026-07-18 05:16:10] [INFO] [bullpen_collector] [Bullpen] Mengambil data market harian dari Bullpen CLI...
+[2026-07-18 05:16:13] [INFO] [bullpen_collector] [SKIP] Tampa Bay Rays @ Boston Red Sox sudah dimulai atau dalam 10 menit (4:10 PM ET)
+[2026-07-18 05:16:13] [INFO] [bullpen_collector] [Bullpen Line Selection] Minnesota Twins @ Chicago Cubs: line berubah dari 10.5 (heuristik lama) menjadi 11.5 (liquidity $268734.79 vs $179424.63)
+[2026-07-18 05:16:13] [INFO] [bullpen_collector] [SKIP] San Francisco Giants @ Atlanta Braves sudah dimulai atau dalam 10 menit (7:15 PM ET)
+[2026-07-18 05:16:13] [INFO] [bullpen_collector] [SKIP] St. Louis Cardinals @ Cincinnati Reds sudah dimulai atau dalam 10 menit (1:40 PM ET)
+[2026-07-18 05:16:13] [INFO] [bullpen_collector] [SKIP] Arizona Diamondbacks @ St. Louis Cardinals sudah dimulai atau dalam 10 menit (7:45 PM ET)
+[2026-07-18 05:16:13] [INFO] [bullpen_collector] [SKIP] Toronto Blue Jays @ Chicago Cubs sudah dimulai atau dalam 10 menit (2:20 PM ET)
+[2026-07-18 05:16:13] [INFO] [bullpen_collector] [SKIP] Boston Red Sox @ New York Yankees sudah dimulai atau dalam 10 menit (7:35 PM ET)
+[2026-07-18 05:16:13] [INFO] [bullpen_collector] [SKIP] Atlanta Braves @ Chicago White Sox sudah dimulai atau dalam 10 menit (7:40 PM ET)
+[2026-07-18 05:16:13] [INFO] [bullpen_collector] [SKIP] Tampa Bay Rays @ New York Yankees sudah dimulai atau dalam 10 menit (1:35 PM ET)
+[2026-07-18 05:16:22] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 05:16:22] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 05:16:22] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 05:16:23] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 05:16:23] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 05:16:23] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 05:16:23] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 05:16:23] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 05:16:23] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 05:16:24] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 05:16:33] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 05:16:33] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 05:16:34] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 05:16:34] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 05:16:34] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 05:16:34] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 05:16:34] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 05:16:34] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 05:16:34] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 05:16:35] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 05:16:43] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 05:16:44] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 05:16:44] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 05:16:44] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 05:16:44] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 05:16:44] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 05:16:44] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 05:16:44] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 05:16:45] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 05:16:45] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 05:16:55] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 05:16:55] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 05:16:55] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 05:16:55] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 05:16:55] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 05:16:55] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 05:16:55] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 05:16:56] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 05:16:56] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 05:16:56] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 05:17:06] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 05:17:06] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 05:17:06] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 05:17:06] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 05:17:06] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 05:17:07] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 05:17:07] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 05:17:07] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 05:17:07] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 05:17:07] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 05:17:17] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 05:17:17] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 05:17:17] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 05:17:17] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 05:17:17] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 05:17:18] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 05:17:18] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 05:17:18] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 05:17:18] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 05:17:18] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 05:17:27] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 05:17:28] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 05:17:28] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 05:17:28] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 05:17:28] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 05:17:28] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 05:17:28] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 05:17:29] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 05:17:29] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 05:17:29] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 05:17:38] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 05:17:38] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 05:17:38] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 05:17:38] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 05:17:38] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 05:17:39] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 05:17:39] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 05:17:39] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 05:17:39] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 05:17:39] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 05:17:48] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 05:17:49] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 05:17:49] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 05:17:49] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 05:17:49] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 05:17:49] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 05:17:49] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 05:17:49] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 05:17:50] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 05:17:50] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 05:17:59] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 05:17:59] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 05:17:59] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 05:17:59] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 05:18:00] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 05:18:00] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 05:18:00] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 05:18:00] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 05:18:00] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 05:18:00] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 05:18:09] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 05:18:10] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 05:18:10] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 05:18:10] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 05:18:10] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 05:18:10] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 05:18:10] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 05:18:11] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 05:18:11] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 05:18:11] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 05:18:20] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 05:18:21] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 05:18:21] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 05:18:21] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 05:18:21] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 05:18:21] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 05:18:21] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 05:18:21] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 05:18:22] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 05:18:22] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 05:18:31] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 05:18:31] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 05:18:31] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 05:18:31] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 05:18:32] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 05:18:32] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 05:18:32] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 05:18:32] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 05:18:32] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 05:18:32] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 05:18:42] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 05:18:43] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 05:18:43] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 05:18:43] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 05:18:43] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 05:18:43] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 05:18:43] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 05:18:44] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 05:18:44] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 05:18:44] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 05:18:53] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 05:18:53] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 05:18:54] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 05:18:54] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 05:18:54] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 05:18:54] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 05:18:54] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 05:18:54] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 05:18:54] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 05:18:55] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 05:19:04] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 05:19:04] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 05:19:04] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 05:19:04] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 05:19:05] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 05:19:05] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 05:19:05] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 05:19:05] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 05:19:05] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 05:19:05] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 05:19:16] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 05:19:16] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 05:19:16] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 05:19:16] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 05:19:16] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 05:19:16] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 05:19:17] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 05:19:17] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 05:19:17] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 05:19:17] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 05:19:27] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 05:19:27] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 05:19:27] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 05:19:27] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 05:19:27] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 05:19:27] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 05:19:28] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 05:19:28] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 05:19:28] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 05:19:28] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 05:19:37] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 05:19:38] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 05:19:38] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 05:19:38] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 05:19:38] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 05:19:38] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 05:19:38] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 05:19:38] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 05:19:39] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 05:19:39] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 05:19:49] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 05:19:49] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 05:19:49] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 05:19:49] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 05:19:50] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 05:19:50] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 05:19:50] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 05:19:50] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 05:19:50] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 05:19:50] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 05:20:01] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 05:20:01] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 05:20:01] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 05:20:01] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 05:20:01] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 05:20:01] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 05:20:01] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 05:20:02] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 05:20:02] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 05:20:02] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 05:20:11] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 05:20:12] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 05:20:12] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 05:20:12] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 05:20:12] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 05:20:12] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 05:20:12] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 05:20:12] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 05:20:13] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 05:20:13] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 05:20:23] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 05:20:23] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 05:20:23] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 05:20:23] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 05:20:23] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 05:20:23] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 05:20:23] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 05:20:24] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 05:20:24] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 05:20:24] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 05:20:34] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 05:20:34] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 05:20:34] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 05:20:34] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 05:20:34] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 05:20:35] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 05:20:35] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 05:20:35] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 05:20:35] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 05:20:35] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 05:20:48] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 05:20:48] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 05:20:48] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 05:20:48] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 05:20:49] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 05:20:49] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 05:20:49] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 05:20:49] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 05:20:49] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 05:20:49] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 05:20:59] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 05:20:59] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 05:21:00] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 05:21:00] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 05:21:00] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 05:21:00] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 05:21:00] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 05:21:00] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 05:21:01] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 05:21:01] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 05:21:03] [INFO] [auto_runner] === SCHEDULING DYNAMIC REVISIONS ===
+[2026-07-18 05:21:04] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 824414 (Pittsburgh Pirates @ Cleveland Guardians) pada 2026-07-19 01:10:00
+[2026-07-18 05:21:04] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 824657 (Minnesota Twins @ Chicago Cubs) pada 2026-07-18 23:20:00
+[2026-07-18 05:21:04] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 822790 (Chicago White Sox @ Toronto Blue Jays) pada 2026-07-19 00:07:00
+[2026-07-18 05:21:04] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 823441 (New York Mets @ Philadelphia Phillies) pada 2026-07-19 01:05:00
+[2026-07-18 05:21:04] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 824899 (Texas Rangers @ Atlanta Braves) pada 2026-07-19 01:10:00
+[2026-07-18 05:21:04] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 823763 (Miami Marlins @ Milwaukee Brewers) pada 2026-07-19 01:10:00
+[2026-07-18 05:21:04] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 824738 (Tampa Bay Rays @ Boston Red Sox) pada 2026-07-19 01:10:00
+[2026-07-18 05:21:04] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 824169 (Baltimore Orioles @ Houston Astros) pada 2026-07-19 01:10:00
+[2026-07-18 05:21:04] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 825059 (St. Louis Cardinals @ Arizona Diamondbacks) pada 2026-07-19 01:10:00
+[2026-07-18 05:21:04] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 823116 (San Francisco Giants @ Seattle Mariners) pada 2026-07-19 05:08:00
+[2026-07-18 05:21:04] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 823523 (Los Angeles Dodgers @ New York Yankees) pada 2026-07-19 05:08:00
+[2026-07-18 05:21:04] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 824979 (Washington Nationals @ Athletics) pada 2026-07-19 07:05:00
+[2026-07-18 05:21:04] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 824008 (Detroit Tigers @ Los Angeles Angels) pada 2026-07-19 07:07:00
+[2026-07-18 05:23:06] [INFO] [telegram_bot] [Histori] Menemukan 14 game tertunda. Menjalankan penarikan skor on-demand...
+[2026-07-18 05:23:06] [INFO] [result_fetcher] [INFO] Menemukan 32 game tertunda. Mengambil skor...
+[2026-07-18 05:23:07] [INFO] [result_fetcher] [INFO] Game 824424 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 05:23:07] [INFO] [result_fetcher] [INFO] Game 824911 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 05:23:08] [INFO] [result_fetcher] [INFO] Game 824664 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 05:23:08] [INFO] [result_fetcher] [INFO] Game 823613 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 05:23:09] [INFO] [result_fetcher] [INFO] Game 823042 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 05:23:09] [INFO] [result_fetcher] [Resolve] Match found for Milwaukee Brewers @ Pittsburgh Pirates -> gamePk: 823357
+[2026-07-18 05:23:09] [INFO] [result_fetcher] [INFO] Game BRE_PIR_2026-07-11_405PM Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 05:23:14] [INFO] [result_fetcher] [INFO] Game 824414 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 05:40:00] [INFO] [auto_runner] === CHECKING FOR CHANGES: GAME 824332 ===
+[2026-07-18 05:40:01] [INFO] [auto_runner] No changes detected for 824332, skipping revision.
+[2026-07-18 05:53:09] [INFO] [bullpen_collector] [Bullpen] Mengambil data market harian dari Bullpen CLI...
+[2026-07-18 05:53:20] [INFO] [bullpen_collector] [SKIP] Tampa Bay Rays @ Boston Red Sox sudah dimulai atau dalam 10 menit (4:10 PM ET)
+[2026-07-18 05:53:20] [INFO] [bullpen_collector] [Bullpen Line Selection] Minnesota Twins @ Chicago Cubs: line berubah dari 10.5 (heuristik lama) menjadi 11.5 (liquidity $274220.89 vs $185428.32)
+[2026-07-18 05:53:20] [INFO] [bullpen_collector] [SKIP] San Francisco Giants @ Atlanta Braves sudah dimulai atau dalam 10 menit (7:15 PM ET)
+[2026-07-18 05:53:20] [INFO] [bullpen_collector] [SKIP] St. Louis Cardinals @ Cincinnati Reds sudah dimulai atau dalam 10 menit (1:40 PM ET)
+[2026-07-18 05:53:20] [INFO] [bullpen_collector] [SKIP] Arizona Diamondbacks @ St. Louis Cardinals sudah dimulai atau dalam 10 menit (7:45 PM ET)
+[2026-07-18 05:53:20] [INFO] [bullpen_collector] [SKIP] Toronto Blue Jays @ Chicago Cubs sudah dimulai atau dalam 10 menit (2:20 PM ET)
+[2026-07-18 05:53:20] [INFO] [bullpen_collector] [SKIP] Boston Red Sox @ New York Yankees sudah dimulai atau dalam 10 menit (7:35 PM ET)
+[2026-07-18 05:53:20] [INFO] [bullpen_collector] [SKIP] Atlanta Braves @ Chicago White Sox sudah dimulai atau dalam 10 menit (7:40 PM ET)
+[2026-07-18 05:53:20] [INFO] [bullpen_collector] [SKIP] Tampa Bay Rays @ New York Yankees sudah dimulai atau dalam 10 menit (1:35 PM ET)
+[2026-07-18 05:53:31] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 05:53:31] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 05:53:31] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 05:53:31] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 05:53:31] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 05:53:31] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 05:53:32] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 05:53:32] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 05:53:32] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 05:53:32] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 05:53:41] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 05:53:41] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 05:53:41] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 05:53:42] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 05:53:42] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 05:53:42] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 05:53:42] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 05:53:42] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 05:53:43] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 05:53:43] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 05:53:52] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 05:53:52] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 05:53:52] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 05:53:52] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 05:53:53] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 05:53:53] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 05:53:53] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 05:53:53] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 05:53:53] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 05:53:54] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 05:54:04] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 05:54:04] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 05:54:04] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 05:54:04] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 05:54:04] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 05:54:05] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 05:54:05] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 05:54:05] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 05:54:05] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 05:54:05] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 05:54:15] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 05:54:15] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 05:54:15] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 05:54:15] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 05:54:15] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 05:54:16] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 05:54:16] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 05:54:16] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 05:54:17] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 05:54:17] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 05:54:27] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 05:54:27] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 05:54:27] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 05:54:27] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 05:54:28] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 05:54:28] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 05:54:28] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 05:54:28] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 05:54:28] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 05:54:28] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 05:54:38] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 05:54:39] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 05:54:39] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 05:54:39] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 05:54:39] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 05:54:40] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 05:54:40] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 05:54:40] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 05:54:40] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 05:54:40] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 05:54:50] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 05:54:50] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 05:54:51] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 05:54:51] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 05:54:51] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 05:54:51] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 05:54:51] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 05:54:52] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 05:54:52] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 05:54:52] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 05:55:06] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 05:55:07] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 05:55:07] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 05:55:07] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 05:55:07] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 05:55:07] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 05:55:08] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 05:55:08] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 05:55:08] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 05:55:08] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 05:55:20] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 05:55:20] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 05:55:20] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 05:55:21] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 05:55:21] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 05:55:21] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 05:55:21] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 05:55:21] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 05:55:22] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 05:55:22] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 05:55:32] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 05:55:32] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 05:55:33] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 05:55:33] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 05:55:33] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 05:55:33] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 05:55:33] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 05:55:34] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 05:55:34] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 05:55:34] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 05:55:45] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 05:55:46] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 05:55:46] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 05:55:46] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 05:55:46] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 05:55:46] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 05:55:47] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 05:55:47] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 05:55:47] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 05:55:47] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 05:55:59] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 05:56:00] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 05:56:00] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 05:56:00] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 05:56:00] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 05:56:00] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 05:56:01] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 05:56:01] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 05:56:01] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 05:56:01] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 05:56:16] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 05:56:16] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 05:56:16] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 05:56:16] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 05:56:17] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 05:56:17] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 05:56:17] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 05:56:17] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 05:56:17] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 05:56:18] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 05:56:31] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 05:56:32] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 05:56:32] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 05:56:32] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 05:56:32] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 05:56:32] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 05:56:33] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 05:56:33] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 05:56:33] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 05:56:33] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 05:56:45] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 05:56:45] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 05:56:46] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 05:56:46] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 05:56:46] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 05:56:47] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 05:56:47] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 05:56:47] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 05:56:48] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 05:56:48] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 05:57:01] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 05:57:02] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 05:57:02] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 05:57:03] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 05:57:03] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 05:57:04] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 05:57:04] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 05:57:04] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 05:57:05] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 05:57:05] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 05:57:18] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 05:57:18] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 05:57:19] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 05:57:20] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 05:57:20] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 05:57:20] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 05:57:21] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 05:57:22] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 05:57:22] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 05:57:23] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 05:57:37] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 05:57:37] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 05:57:37] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 05:57:38] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 05:57:38] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 05:57:39] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 05:57:39] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 05:57:40] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 05:57:41] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 05:57:41] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 05:57:55] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 05:57:55] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 05:57:56] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 05:57:56] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 05:57:57] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 05:57:57] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 05:57:58] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 05:57:59] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 05:57:59] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 05:58:00] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 05:58:11] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 05:58:12] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 05:58:12] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 05:58:12] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 05:58:13] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 05:58:13] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 05:58:14] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 05:58:15] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 05:58:15] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 05:58:16] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 05:58:28] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 05:58:29] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 05:58:30] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 05:58:30] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 05:58:32] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 05:58:32] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 05:58:32] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 05:58:32] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 05:58:33] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 05:58:34] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 05:58:44] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 05:58:45] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 05:58:45] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 05:58:45] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 05:58:45] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 05:58:46] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 05:58:46] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 05:58:46] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 05:58:46] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 05:58:46] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 05:58:57] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 05:58:58] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 05:58:58] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 05:58:59] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 05:58:59] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 05:58:59] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 05:58:59] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 05:59:00] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 05:59:01] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 05:59:01] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 05:59:12] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 05:59:12] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 05:59:12] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 05:59:13] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 05:59:13] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 05:59:13] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 05:59:13] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 05:59:14] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 05:59:14] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 05:59:15] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 05:59:26] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 05:59:26] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 05:59:26] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 05:59:26] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 05:59:27] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 05:59:27] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 05:59:27] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 05:59:27] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 05:59:27] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 05:59:28] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 05:59:30] [INFO] [auto_runner] === SCHEDULING DYNAMIC REVISIONS ===
+[2026-07-18 05:59:31] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 824414 (Pittsburgh Pirates @ Cleveland Guardians) pada 2026-07-19 01:10:00
+[2026-07-18 05:59:31] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 824657 (Minnesota Twins @ Chicago Cubs) pada 2026-07-18 23:20:00
+[2026-07-18 05:59:31] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 822790 (Chicago White Sox @ Toronto Blue Jays) pada 2026-07-19 00:07:00
+[2026-07-18 05:59:31] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 823441 (New York Mets @ Philadelphia Phillies) pada 2026-07-19 01:05:00
+[2026-07-18 05:59:31] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 824899 (Texas Rangers @ Atlanta Braves) pada 2026-07-19 01:10:00
+[2026-07-18 05:59:31] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 823763 (Miami Marlins @ Milwaukee Brewers) pada 2026-07-19 01:10:00
+[2026-07-18 05:59:31] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 824738 (Tampa Bay Rays @ Boston Red Sox) pada 2026-07-19 01:10:00
+[2026-07-18 05:59:31] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 824169 (Baltimore Orioles @ Houston Astros) pada 2026-07-19 01:10:00
+[2026-07-18 05:59:31] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 825059 (St. Louis Cardinals @ Arizona Diamondbacks) pada 2026-07-19 01:10:00
+[2026-07-18 05:59:31] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 823116 (San Francisco Giants @ Seattle Mariners) pada 2026-07-19 05:08:00
+[2026-07-18 05:59:31] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 823523 (Los Angeles Dodgers @ New York Yankees) pada 2026-07-19 05:08:00
+[2026-07-18 05:59:31] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 824979 (Washington Nationals @ Athletics) pada 2026-07-19 07:05:00
+[2026-07-18 05:59:31] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 824008 (Detroit Tigers @ Los Angeles Angels) pada 2026-07-19 07:07:00
+[2026-07-18 06:38:00] [INFO] [auto_runner] === CHECKING FOR CHANGES: GAME 824009 ===
+[2026-07-18 06:38:01] [INFO] [bullpen_collector] [Bullpen] Mengambil data market harian dari Bullpen CLI...
+[2026-07-18 06:38:11] [INFO] [bullpen_collector] [SKIP] Tampa Bay Rays @ Boston Red Sox sudah dimulai atau dalam 10 menit (4:10 PM ET)
+[2026-07-18 06:38:11] [INFO] [bullpen_collector] [SKIP] Los Angeles Dodgers @ New York Yankees sudah dimulai atau dalam 10 menit (7:05 PM ET)
+[2026-07-18 06:38:11] [INFO] [bullpen_collector] [SKIP] Tampa Bay Rays @ Boston Red Sox sudah dimulai atau dalam 10 menit (7:10 PM ET)
+[2026-07-18 06:38:11] [INFO] [bullpen_collector] [SKIP] Miami Marlins @ Milwaukee Brewers sudah dimulai atau dalam 10 menit (7:40 PM ET)
+[2026-07-18 06:38:11] [INFO] [bullpen_collector] [SKIP] Texas Rangers @ Atlanta Braves sudah dimulai atau dalam 10 menit (7:15 PM ET)
+[2026-07-18 06:38:11] [INFO] [bullpen_collector] [SKIP] Chicago White Sox @ Toronto Blue Jays sudah dimulai atau dalam 10 menit (7:15 PM ET)
+[2026-07-18 06:38:11] [INFO] [bullpen_collector] [Bullpen Line Selection] Minnesota Twins @ Chicago Cubs: line berubah dari 10.5 (heuristik lama) menjadi 11.5 (liquidity $200744.24 vs $169481.26)
+[2026-07-18 06:38:11] [INFO] [bullpen_collector] [SKIP] Pittsburgh Pirates @ Cleveland Guardians sudah dimulai atau dalam 10 menit (7:10 PM ET)
+[2026-07-18 06:38:11] [INFO] [bullpen_collector] [SKIP] San Francisco Giants @ Atlanta Braves sudah dimulai atau dalam 10 menit (7:15 PM ET)
+[2026-07-18 06:38:11] [INFO] [bullpen_collector] [Bullpen Line Selection] Miami Marlins @ Milwaukee Brewers: line berubah dari 8.5 (heuristik lama) menjadi 7.5 (liquidity $21178.50 vs $9225.75)
+[2026-07-18 06:38:11] [INFO] [bullpen_collector] [SKIP] St. Louis Cardinals @ Cincinnati Reds sudah dimulai atau dalam 10 menit (1:40 PM ET)
+[2026-07-18 06:38:11] [INFO] [bullpen_collector] [SKIP] Arizona Diamondbacks @ St. Louis Cardinals sudah dimulai atau dalam 10 menit (7:45 PM ET)
+[2026-07-18 06:38:11] [INFO] [bullpen_collector] [SKIP] Toronto Blue Jays @ Chicago Cubs sudah dimulai atau dalam 10 menit (2:20 PM ET)
+[2026-07-18 06:38:11] [INFO] [bullpen_collector] [Bullpen Line Selection] Los Angeles Dodgers @ New York Yankees: line berubah dari 8.5 (heuristik lama) menjadi 9.5 (liquidity $20867.03 vs $7182.73)
+[2026-07-18 06:38:11] [INFO] [bullpen_collector] [SKIP] Boston Red Sox @ New York Yankees sudah dimulai atau dalam 10 menit (7:35 PM ET)
+[2026-07-18 06:38:11] [INFO] [bullpen_collector] [SKIP] Atlanta Braves @ Chicago White Sox sudah dimulai atau dalam 10 menit (7:40 PM ET)
+[2026-07-18 06:38:11] [INFO] [bullpen_collector] [SKIP] Tampa Bay Rays @ New York Yankees sudah dimulai atau dalam 10 menit (1:35 PM ET)
+[2026-07-18 06:38:12] [INFO] [auto_runner] No changes detected for 824009, skipping revision.
+[2026-07-18 06:40:00] [INFO] [auto_runner] === CHECKING FOR CHANGES: GAME 825060 ===
+[2026-07-18 06:40:00] [INFO] [auto_runner] === CHECKING FOR CHANGES: GAME 824981 ===
+[2026-07-18 06:40:02] [INFO] [auto_runner] No changes detected for 825060, skipping revision.
+[2026-07-18 06:40:02] [INFO] [auto_runner] No changes detected for 824981, skipping revision.
+[2026-07-18 07:10:00] [INFO] [auto_runner] === CHECKING FOR CHANGES: GAME 823115 ===
+[2026-07-18 07:10:01] [INFO] [bullpen_collector] [Bullpen] Mengambil data market harian dari Bullpen CLI...
+[2026-07-18 07:10:05] [INFO] [bullpen_collector] [SKIP] Los Angeles Dodgers @ New York Yankees sudah dimulai atau dalam 10 menit (7:05 PM ET)
+[2026-07-18 07:10:05] [INFO] [bullpen_collector] [SKIP] Tampa Bay Rays @ Boston Red Sox sudah dimulai atau dalam 10 menit (4:10 PM ET)
+[2026-07-18 07:10:05] [INFO] [bullpen_collector] [SKIP] Tampa Bay Rays @ Boston Red Sox sudah dimulai atau dalam 10 menit (7:10 PM ET)
+[2026-07-18 07:10:05] [INFO] [bullpen_collector] [SKIP] Minnesota Twins @ Chicago Cubs sudah dimulai atau dalam 10 menit (8:05 PM ET)
+[2026-07-18 07:10:05] [INFO] [bullpen_collector] [SKIP] Miami Marlins @ Milwaukee Brewers sudah dimulai atau dalam 10 menit (7:40 PM ET)
+[2026-07-18 07:10:05] [INFO] [bullpen_collector] [SKIP] Texas Rangers @ Atlanta Braves sudah dimulai atau dalam 10 menit (7:15 PM ET)
+[2026-07-18 07:10:05] [INFO] [bullpen_collector] [SKIP] San Diego Padres @ Kansas City Royals sudah dimulai atau dalam 10 menit (8:10 PM ET)
+[2026-07-18 07:10:05] [INFO] [bullpen_collector] [SKIP] Chicago White Sox @ Toronto Blue Jays sudah dimulai atau dalam 10 menit (7:15 PM ET)
+[2026-07-18 07:10:05] [INFO] [bullpen_collector] [SKIP] Pittsburgh Pirates @ Cleveland Guardians sudah dimulai atau dalam 10 menit (7:10 PM ET)
+[2026-07-18 07:10:05] [INFO] [bullpen_collector] [SKIP] Baltimore Orioles @ Houston Astros sudah dimulai atau dalam 10 menit (8:10 PM ET)
+[2026-07-18 07:10:05] [INFO] [bullpen_collector] [SKIP] San Francisco Giants @ Atlanta Braves sudah dimulai atau dalam 10 menit (7:15 PM ET)
+[2026-07-18 07:10:05] [INFO] [bullpen_collector] [Bullpen Line Selection] Miami Marlins @ Milwaukee Brewers: line berubah dari 8.5 (heuristik lama) menjadi 7.5 (liquidity $31732.13 vs $13278.43)
+[2026-07-18 07:10:05] [INFO] [bullpen_collector] [SKIP] St. Louis Cardinals @ Cincinnati Reds sudah dimulai atau dalam 10 menit (1:40 PM ET)
+[2026-07-18 07:10:05] [INFO] [bullpen_collector] [SKIP] Arizona Diamondbacks @ St. Louis Cardinals sudah dimulai atau dalam 10 menit (7:45 PM ET)
+[2026-07-18 07:10:05] [INFO] [bullpen_collector] [SKIP] Toronto Blue Jays @ Chicago Cubs sudah dimulai atau dalam 10 menit (2:20 PM ET)
+[2026-07-18 07:10:05] [INFO] [bullpen_collector] [Bullpen Line Selection] Los Angeles Dodgers @ New York Yankees: line berubah dari 8.5 (heuristik lama) menjadi 9.5 (liquidity $33048.23 vs $16073.77)
+[2026-07-18 07:10:05] [INFO] [bullpen_collector] [SKIP] Boston Red Sox @ New York Yankees sudah dimulai atau dalam 10 menit (7:35 PM ET)
+[2026-07-18 07:10:05] [INFO] [bullpen_collector] [SKIP] Atlanta Braves @ Chicago White Sox sudah dimulai atau dalam 10 menit (7:40 PM ET)
+[2026-07-18 07:10:05] [INFO] [bullpen_collector] [SKIP] Tampa Bay Rays @ New York Yankees sudah dimulai atau dalam 10 menit (1:35 PM ET)
+[2026-07-18 07:10:07] [INFO] [auto_runner] No changes detected for 823115, skipping revision.
+[2026-07-18 07:52:02] [INFO] [telegram_bot] [Histori] Menemukan 14 game tertunda. Menjalankan penarikan skor on-demand...
+[2026-07-18 07:52:02] [INFO] [result_fetcher] [INFO] Menemukan 32 game tertunda. Mengambil skor...
+[2026-07-18 07:52:04] [INFO] [result_fetcher] [INFO] Game 824424 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 07:52:05] [INFO] [result_fetcher] [INFO] Game 824911 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 07:52:05] [INFO] [result_fetcher] [INFO] Game 824664 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 07:52:05] [INFO] [result_fetcher] [INFO] Game 823613 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 07:52:06] [INFO] [result_fetcher] [INFO] Game 823042 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 07:52:06] [INFO] [result_fetcher] [Resolve] Match found for Milwaukee Brewers @ Pittsburgh Pirates -> gamePk: 823357
+[2026-07-18 07:52:07] [INFO] [result_fetcher] [INFO] Game BRE_PIR_2026-07-11_405PM Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 07:52:12] [INFO] [result_fetcher] [INFO] Game 824414 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 10:18:13] [INFO] [auto_runner] === MENJALANKAN SILENT RESULTS CHECK ===
+[2026-07-18 10:18:16] [INFO] [result_fetcher] [INFO] Menemukan 32 game tertunda. Mengambil skor...
+[2026-07-18 10:18:19] [INFO] [result_fetcher] [INFO] Game 824424 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 10:18:20] [INFO] [result_fetcher] [INFO] Game 824911 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 10:18:20] [INFO] [result_fetcher] [INFO] Game 824664 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 10:18:21] [INFO] [result_fetcher] [INFO] Game 823613 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 10:18:22] [INFO] [result_fetcher] [INFO] Game 823042 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 10:18:22] [INFO] [result_fetcher] [Resolve] Match found for Milwaukee Brewers @ Pittsburgh Pirates -> gamePk: 823357
+[2026-07-18 10:18:23] [INFO] [result_fetcher] [INFO] Game BRE_PIR_2026-07-11_405PM Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 10:18:33] [INFO] [result_fetcher] [INFO] Game 824414 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 10:18:43] [INFO] [result_fetcher] [DB] Performa harian 2026-07-17 diupdate: 40.0% WR (2W - 3L)
+[2026-07-18 10:18:43] [INFO] [auto_runner] [Silent Results Check] 8 hasil pertandingan berhasil diupdate.
+[2026-07-18 10:19:54] [INFO] [telegram_bot] [Histori] Menemukan 6 game tertunda. Menjalankan penarikan skor on-demand...
+[2026-07-18 10:19:55] [INFO] [result_fetcher] [INFO] Menemukan 24 game tertunda. Mengambil skor...
+[2026-07-18 10:19:55] [INFO] [result_fetcher] [INFO] Game 824424 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 10:19:56] [INFO] [result_fetcher] [INFO] Game 824911 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 10:19:57] [INFO] [result_fetcher] [INFO] Game 824664 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 10:19:57] [INFO] [result_fetcher] [INFO] Game 823613 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 10:19:58] [INFO] [result_fetcher] [INFO] Game 823042 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 10:19:58] [INFO] [result_fetcher] [Resolve] Match found for Milwaukee Brewers @ Pittsburgh Pirates -> gamePk: 823357
+[2026-07-18 10:19:59] [INFO] [result_fetcher] [INFO] Game BRE_PIR_2026-07-11_405PM Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 10:20:03] [INFO] [result_fetcher] [INFO] Game 824414 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 11:59:03] [INFO] [telegram_bot] [Histori] Menemukan 19 game tertunda. Menjalankan penarikan skor on-demand...
+[2026-07-18 11:59:03] [INFO] [result_fetcher] [INFO] Menemukan 24 game tertunda. Mengambil skor...
+[2026-07-18 11:59:07] [INFO] [result_fetcher] [INFO] Game 824424 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 11:59:07] [INFO] [result_fetcher] [INFO] Game 824911 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 11:59:08] [INFO] [result_fetcher] [INFO] Game 824664 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 11:59:08] [INFO] [result_fetcher] [INFO] Game 823613 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 11:59:09] [INFO] [result_fetcher] [INFO] Game 823042 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 11:59:10] [INFO] [result_fetcher] [Resolve] Match found for Milwaukee Brewers @ Pittsburgh Pirates -> gamePk: 823357
+[2026-07-18 11:59:11] [INFO] [result_fetcher] [INFO] Game BRE_PIR_2026-07-11_405PM Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 11:59:17] [INFO] [result_fetcher] [INFO] Game 824414 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 11:59:27] [INFO] [result_fetcher] [DB] Performa harian 2026-07-17 diupdate: 44.4% WR (4W - 5L)
+[2026-07-18 17:18:13] [INFO] [auto_runner] === MENJALANKAN SILENT RESULTS CHECK ===
+[2026-07-18 17:18:16] [INFO] [result_fetcher] [INFO] Menemukan 19 game tertunda. Mengambil skor...
+[2026-07-18 17:18:19] [INFO] [result_fetcher] [INFO] Game 824424 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 17:18:20] [INFO] [result_fetcher] [INFO] Game 824911 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 17:18:20] [INFO] [result_fetcher] [INFO] Game 824664 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 17:18:21] [INFO] [result_fetcher] [INFO] Game 823613 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 17:18:22] [INFO] [result_fetcher] [INFO] Game 823042 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 17:18:23] [INFO] [result_fetcher] [Resolve] Match found for Milwaukee Brewers @ Pittsburgh Pirates -> gamePk: 823357
+[2026-07-18 17:18:24] [INFO] [result_fetcher] [INFO] Game BRE_PIR_2026-07-11_405PM Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 17:18:24] [INFO] [result_fetcher] [INFO] Game 824414 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 20:36:57] [INFO] [bullpen_collector] [Bullpen] Mengambil data market harian dari Bullpen CLI...
+[2026-07-18 20:37:30] [ERROR] [bullpen_collector] [Bullpen CLI Error] 
+[2026-07-18 20:47:37] [INFO] [bullpen_collector] [Bullpen] Mengambil data market harian dari Bullpen CLI...
+[2026-07-18 20:48:04] [INFO] [bullpen_collector] [SKIP] Tampa Bay Rays @ Boston Red Sox sudah dimulai atau dalam 10 menit (4:10 PM ET)
+[2026-07-18 20:48:04] [INFO] [bullpen_collector] [SKIP] Pittsburgh Pirates @ Cleveland Guardians sudah dimulai atau dalam 10 menit (7:10 PM ET)
+[2026-07-18 20:48:04] [INFO] [bullpen_collector] [Bullpen Line Selection] Pittsburgh Pirates @ Cleveland Guardians: line berubah dari 8.5 (heuristik lama) menjadi 7.5 (liquidity $87741.54 vs $36858.15)
+[2026-07-18 20:48:04] [INFO] [bullpen_collector] [SKIP] Arizona Diamondbacks @ St. Louis Cardinals sudah dimulai atau dalam 10 menit (7:45 PM ET)
+[2026-07-18 20:48:04] [INFO] [bullpen_collector] [SKIP] St. Louis Cardinals @ Cincinnati Reds sudah dimulai atau dalam 10 menit (1:40 PM ET)
+[2026-07-18 20:48:04] [INFO] [bullpen_collector] [SKIP] Atlanta Braves @ Chicago White Sox sudah dimulai atau dalam 10 menit (7:40 PM ET)
+[2026-07-18 20:48:04] [INFO] [bullpen_collector] [SKIP] Boston Red Sox @ New York Yankees sudah dimulai atau dalam 10 menit (7:35 PM ET)
+[2026-07-18 20:48:04] [INFO] [bullpen_collector] [SKIP] San Francisco Giants @ Atlanta Braves sudah dimulai atau dalam 10 menit (7:15 PM ET)
+[2026-07-18 20:48:04] [INFO] [bullpen_collector] [SKIP] Detroit Tigers @ Cleveland Guardians sudah dimulai atau dalam 10 menit (1:40 PM ET)
+[2026-07-18 20:48:26] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 20:48:26] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 20:48:26] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 20:48:26] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 20:48:26] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 20:48:27] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 20:48:27] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 20:48:27] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 20:48:27] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 20:48:27] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 20:48:53] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 20:48:53] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 20:48:53] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 20:48:53] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 20:48:54] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 20:48:54] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 20:48:54] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 20:48:54] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 20:48:54] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 20:48:54] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 20:49:25] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 20:49:25] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 20:49:26] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 20:49:26] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 20:49:26] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 20:49:26] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 20:49:26] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 20:49:27] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 20:49:27] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 20:49:27] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 20:50:15] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 20:50:15] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 20:50:16] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 20:50:16] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 20:50:16] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 20:50:16] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 20:50:16] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 20:50:16] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 20:50:17] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 20:50:17] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 20:50:50] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 20:50:50] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 20:50:50] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 20:50:50] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 20:50:50] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 20:50:51] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 20:50:51] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 20:50:51] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 20:50:51] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 20:50:51] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 20:51:22] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 20:51:22] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 20:51:23] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 20:51:23] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 20:51:23] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 20:51:23] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 20:51:23] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 20:51:24] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 20:51:24] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 20:51:24] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 20:51:53] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 20:51:53] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 20:51:53] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 20:51:53] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 20:51:53] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 20:51:54] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 20:51:54] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 20:51:54] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 20:51:54] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 20:51:54] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 20:52:19] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 20:52:19] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 20:52:20] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 20:52:20] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 20:52:20] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 20:52:20] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 20:52:20] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 20:52:21] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 20:52:21] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 20:52:21] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 20:52:45] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 20:52:45] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 20:52:45] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 20:52:46] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 20:52:46] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 20:52:46] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 20:52:46] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 20:52:46] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 20:52:47] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 20:52:47] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 20:53:10] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 20:53:10] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 20:53:11] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 20:53:11] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 20:53:11] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 20:53:11] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 20:53:11] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 20:53:12] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 20:53:12] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 20:53:12] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 20:53:35] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 20:53:35] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 20:53:35] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 20:53:36] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 20:53:36] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 20:53:36] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 20:53:36] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 20:53:36] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 20:53:37] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 20:53:37] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 20:54:01] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 20:54:01] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 20:54:01] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 20:54:01] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 20:54:01] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 20:54:02] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 20:54:02] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 20:54:02] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 20:54:02] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 20:54:02] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 20:54:26] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 20:54:27] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 20:54:27] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 20:54:27] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 20:54:27] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 20:54:27] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 20:54:27] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 20:54:28] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 20:54:28] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 20:54:28] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 20:54:54] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 20:54:54] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 20:54:54] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 20:54:54] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 20:54:55] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 20:54:55] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 20:54:55] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 20:54:55] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 20:54:55] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 20:54:56] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 20:55:18] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.0_baseline via /prediksi
+[2026-07-18 20:55:18] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.1_higher_gap via /prediksi
+[2026-07-18 20:55:18] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.2_no_temp_bonus via /prediksi
+[2026-07-18 20:55:19] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.3_coors_boost via /prediksi
+[2026-07-18 20:55:19] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v2.4_wind_boost via /prediksi
+[2026-07-18 20:55:19] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.0_bullpen_fatigue via /prediksi
+[2026-07-18 20:55:19] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.1_dynamic_variance_gap via /prediksi
+[2026-07-18 20:55:19] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.2_reduced_hr_risk via /prediksi
+[2026-07-18 20:55:20] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v3.3_reduced_weather via /prediksi
+[2026-07-18 20:55:20] [INFO] [telegram_bot] 🧪 Shadow testing logged for version v4.0_recalibrated_baseline via /prediksi
+[2026-07-18 20:55:24] [INFO] [auto_runner] === SCHEDULING DYNAMIC REVISIONS ===
+[2026-07-18 20:55:24] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 824414 (Pittsburgh Pirates @ Cleveland Guardians) pada 2026-07-19 01:10:00
+[2026-07-18 20:55:24] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 824657 (Minnesota Twins @ Chicago Cubs) pada 2026-07-18 23:20:00
+[2026-07-18 20:55:24] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 822790 (Chicago White Sox @ Toronto Blue Jays) pada 2026-07-19 00:07:00
+[2026-07-18 20:55:24] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 824331 (Cincinnati Reds @ Colorado Rockies) pada 2026-07-19 00:10:00
+[2026-07-18 20:55:24] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 823441 (New York Mets @ Philadelphia Phillies) pada 2026-07-19 01:05:00
+[2026-07-18 20:55:24] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 823763 (Miami Marlins @ Milwaukee Brewers) pada 2026-07-19 01:10:00
+[2026-07-18 20:55:24] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 824169 (Baltimore Orioles @ Houston Astros) pada 2026-07-19 01:10:00
+[2026-07-18 20:55:24] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 824738 (Tampa Bay Rays @ Boston Red Sox) pada 2026-07-19 01:10:00
+[2026-07-18 20:55:24] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 824088 (San Diego Padres @ Kansas City Royals) pada 2026-07-19 01:10:00
+[2026-07-18 20:55:24] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 824899 (Texas Rangers @ Atlanta Braves) pada 2026-07-19 01:10:00
+[2026-07-18 20:55:24] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 825059 (St. Louis Cardinals @ Arizona Diamondbacks) pada 2026-07-19 01:10:00
+[2026-07-18 20:55:24] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 823116 (San Francisco Giants @ Seattle Mariners) pada 2026-07-19 05:08:00
+[2026-07-18 20:55:24] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 823523 (Los Angeles Dodgers @ New York Yankees) pada 2026-07-19 05:08:00
+[2026-07-18 20:55:24] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 824979 (Washington Nationals @ Athletics) pada 2026-07-19 07:05:00
+[2026-07-18 20:55:24] [INFO] [auto_runner] Menjadwalkan cek revisi untuk game 824008 (Detroit Tigers @ Los Angeles Angels) pada 2026-07-19 07:07:00
+[2026-07-18 20:55:51] [INFO] [telegram_bot] [Histori] Menemukan 16 game tertunda. Menjalankan penarikan skor on-demand...
+[2026-07-18 20:55:51] [INFO] [result_fetcher] [INFO] Menemukan 21 game tertunda. Mengambil skor...
+[2026-07-18 20:55:52] [INFO] [result_fetcher] [INFO] Game 824424 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 20:55:53] [INFO] [result_fetcher] [INFO] Game 824911 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 20:55:54] [INFO] [result_fetcher] [INFO] Game 824664 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 20:55:55] [INFO] [result_fetcher] [INFO] Game 823613 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 20:55:56] [INFO] [result_fetcher] [INFO] Game 823042 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 20:55:57] [INFO] [result_fetcher] [Resolve] Match found for Milwaukee Brewers @ Pittsburgh Pirates -> gamePk: 823357
+[2026-07-18 20:55:58] [INFO] [result_fetcher] [INFO] Game BRE_PIR_2026-07-11_405PM Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 20:55:58] [INFO] [result_fetcher] [INFO] Game 824414 Final tapi skor 0-0 (belum valid). Menunggu update API.
+[2026-07-18 23:20:00] [INFO] [auto_runner] === CHECKING FOR CHANGES: GAME 824657 ===
+[2026-07-18 23:20:01] [INFO] [bullpen_collector] [Bullpen] Mengambil data market harian dari Bullpen CLI...
+[2026-07-18 23:20:08] [INFO] [bullpen_collector] [SKIP] Tampa Bay Rays @ Boston Red Sox sudah dimulai atau dalam 10 menit (4:10 PM ET)
+[2026-07-18 23:20:08] [INFO] [bullpen_collector] [Bullpen Line Selection] Washington Nationals @ Oakland Athletics: line berubah dari 10.5 (heuristik lama) menjadi 11.5 (liquidity $86750.62 vs $86173.73)
+[2026-07-18 23:20:08] [INFO] [bullpen_collector] [Bullpen Line Selection] Minnesota Twins @ Chicago Cubs: line berubah dari 8.5 (heuristik lama) menjadi 9.5 (liquidity $147608.33 vs $46074.25)
+[2026-07-18 23:20:08] [INFO] [bullpen_collector] [SKIP] Pittsburgh Pirates @ Cleveland Guardians sudah dimulai atau dalam 10 menit (7:10 PM ET)
+[2026-07-18 23:20:08] [INFO] [bullpen_collector] [SKIP] Arizona Diamondbacks @ St. Louis Cardinals sudah dimulai atau dalam 10 menit (7:45 PM ET)
+[2026-07-18 23:20:08] [INFO] [bullpen_collector] [SKIP] St. Louis Cardinals @ Cincinnati Reds sudah dimulai atau dalam 10 menit (1:40 PM ET)
+[2026-07-18 23:20:08] [INFO] [bullpen_collector] [SKIP] Atlanta Braves @ Chicago White Sox sudah dimulai atau dalam 10 menit (7:40 PM ET)
+[2026-07-18 23:20:08] [INFO] [bullpen_collector] [SKIP] Boston Red Sox @ New York Yankees sudah dimulai atau dalam 10 menit (7:35 PM ET)
+[2026-07-18 23:20:08] [INFO] [bullpen_collector] [SKIP] San Francisco Giants @ Atlanta Braves sudah dimulai atau dalam 10 menit (7:15 PM ET)
+[2026-07-18 23:20:10] [INFO] [auto_runner] No changes detected for 824657, skipping revision.
